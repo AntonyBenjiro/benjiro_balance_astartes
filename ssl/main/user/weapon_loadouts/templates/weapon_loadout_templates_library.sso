@@ -482,8 +482,8 @@ templates   =   {
          }
          Loadout3   =   {
             primarySkill   =   "none"
-            secondarySkill   =   "hgun_volkite_pistol"
-            meleeSkill   =   "melee_power_fist"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_chainsword"
             equipmentSkill   =   "equipment_shock_grenade"
             __type   =   "WeaponLoadoutTemplate"
          }

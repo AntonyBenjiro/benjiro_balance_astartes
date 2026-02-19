@@ -1,0 +1,2346 @@
+skills   =   {
+   Test2_Masteries   =   {
+      FastReload   =   {
+         perks   =   [
+            "ReloadSpeed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      GrenadeForKill   =   {
+         perks   =   [
+            "GrenadeForKill"
+         ]
+         __type   =   "MasterySkill"
+      }
+      ReloadAllWeaponsAtOnce   =   {
+         perks   =   [
+            "ReloadAllWeapons"
+         ]
+         __type   =   "MasterySkill"
+      }
+      BuffOnThrust   =   {
+         perks   =   [
+            "BuffOnThrust"
+         ]
+         __type   =   "MasterySkill"
+      }
+      ShockGrenade   =   {
+         perks   =   [
+            "SpawnWithShockGrenade"
+         ]
+         __type   =   "MasterySkill"
+      }
+      ReloadOnThrust   =   {
+         perks   =   [
+            "ReloadOnThrust"
+         ]
+         __type   =   "MasterySkill"
+      }
+      HookForKill   =   {
+         perks   =   [
+            "HookForKill"
+         ]
+         __type   =   "MasterySkill"
+      }
+      ReloadOnFinisher   =   {
+         perks   =   [
+            "ReloadOnFinisher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      BuffOnHookAttack   =   {
+         perks   =   [
+            "BuffOnHookAttack"
+         ]
+         __type   =   "MasterySkill"
+      }
+      HealOnBlock   =   {
+         perks   =   [
+            "HealOnBlock"
+         ]
+         __type   =   "MasterySkill"
+      }
+      TankBarrier   =   {
+         perks   =   [
+            "SpawnWithBarrier"
+         ]
+         __type   =   "MasterySkill"
+      }
+      FastArmorRegen   =   {
+         perks   =   [
+            "FastArmorRegen"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Camouflage   =   {
+         perks   =   [
+            "AbilityCamouflage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      GetBulletBackOnHeadshot   =   {
+         perks   =   [
+            "ReloadOnHeadshot"
+         ]
+         __type   =   "MasterySkill"
+      }
+      FullReloadOnExitZoom   =   {
+         perks   =   [
+            "ReloadOnZoom"
+         ]
+         __type   =   "MasterySkill"
+      }
+      BannerAbility   =   {
+         perks   =   [
+            "SpawnWithBunner"
+         ]
+         __type   =   "MasterySkill"
+      }
+      HPRegenInStand   =   {
+         perks   =   [
+            "HPRegenOnZoom"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+   Masteries   =   {
+      Soldier   =   {
+         perks   =   [
+            "SpawnWithJetpackAuspexScanAbility",
+            "PvPSoldierIncreaseRoutineAbilityMaxCharges"
+         ]
+         __type   =   "MasterySkill"
+      }
+      SoldierPVE   =   {
+         perks   =   [
+            "SpawnWithJetpackAuspexScanAbility",
+            "PveSoldierReloadHolsterWeapon",
+            "SpawnWithHealingInjector"
+         ]
+         __type   =   "MasterySkill"
+      }
+      SoldierPVP   =   {
+         perks   =   [
+            "SpawnWithJetpackAuspexScanAbility",
+            "PvPSoldierIncreaseRoutineAbilityMaxCharges"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Sniper   =   {
+         perks   =   [
+            "AbilityCamouflage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      SniperPVE   =   {
+         perks   =   [
+            "AbilityCamouflage",
+            "SpawnWithHealingInjector",
+            "PveSniperIncreaseHeadshotDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Support   =   {
+         perks   =   [
+            "SpawnWithBarrier",
+            "HACK_AmmoRegen",
+            "DodgePresetDefault"
+         ]
+         __type   =   "MasterySkill"
+      }
+      SupportPVE   =   {
+         perks   =   [
+            "SpawnWithBarrier",
+            "SpawnWithHealingInjector",
+            "PveSupportReduceDamageWhenIronHaloActiveForTeam",
+            "HACK_AmmoRegen"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Raider   =   {
+         perks   =   [
+            "PveRaiderRefundPercentChargeOnJetpackDodge"
+         ]
+         __type   =   "MasterySkill"
+      }
+      RaiderPVE   =   {
+         perks   =   [
+            "PveRaiderIncreasePerfectDodgeWindow",
+            "PveRaiderRefundPercentChargeOnJetpackDodge",
+            "SpawnWithHealingInjector"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Tank   =   {
+         perks   =   [
+            "SpawnWithCombatShield",
+            "SpawnWithBunner"
+         ]
+         __type   =   "MasterySkill"
+      }
+      TankPVE   =   {
+         perks   =   [
+            "PveTankAdditionalHP",
+            "SpawnWithBunner",
+            "SpawnWithHealingInjector"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Berserker   =   {
+         perks   =   [
+            "SpawnWithGrapplingHook"
+         ]
+         __type   =   "MasterySkill"
+      }
+      BerserkPVE   =   {
+         perks   =   [
+            "SpawnWithGrapplingHook",
+            "SpawnWithHealingInjector",
+            "PveBerserkIncreaseHealthTrailRestoring"
+         ]
+         __type   =   "MasterySkill"
+      }
+      CharacterMod1PVE   =   {
+         perks   =   [
+            "SpawnWithTerminatorTeleport",
+            "SpawnWithHealingInjector",
+            "PveTerminatorAbilityBoost"
+         ]
+         __type   =   "MasterySkill"
+      }
+      CharacterMod2PVE   =   {
+         perks   =   [
+            "PveChaplainGunStrikeEndurance",
+            "SpawnWithBattlecryAbility",
+            "SpawnWithHealingInjector",
+            "PveChaplainDOTWhenBattleCryActive"
+         ]
+         __type   =   "MasterySkill"
+      }
+      CharacterMod3PVE   =   {
+         perks   =   [
+            "SpawnWithNarthecium",
+            "PveApothecaryDamageBoostWithGeneSeed",
+            "PveApothecaryHealTeamOnMedkit",
+            "PveApothecaryHealNerf",
+            "SpawnWithHealingInjector"
+         ]
+         __type   =   "MasterySkill"
+      }
+      CharacterMod1   =   {
+         perks   =   [
+            "SpawnWithTerminatorTeleport",
+            "PveTerminatorAbilityBoost"
+         ]
+         __type   =   "MasterySkill"
+      }
+      CharacterMod2   =   {
+         perks   =   [
+            "PveChaplainGunStrikeEndurance",
+            "SpawnWithBattlecryAbility",
+            "PveChaplainDOTWhenBattleCryActive"
+         ]
+         __type   =   "MasterySkill"
+      }
+      CharacterMod3   =   {
+         perks   =   [
+            "SpawnWithNarthecium",
+            "SpawnWithHealingInjector"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Titus   =   {
+         perks   =   [
+            "SpawnWithRageAbility",
+            "SpawnWithHealingInjector",
+            "RestoreAbilityForKills",
+            "DamageFromNumberOfPlayers2",
+            "DamageFromNumberOfPlayers3",
+            "HeavyWeaponsCompensation",
+            "ReloadHolsteredWeaponStory"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Gadriel   =   {
+         perks   =   [
+            "SpawnWithHealingInjector",
+            "RestoreAbilityForKills",
+            "HeavyWeaponsCompensation",
+            "ReloadHolsteredWeaponStory"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Chairon   =   {
+         perks   =   [
+            "SpawnWithHealingInjector",
+            "RestoreAbilityForKills",
+            "HeavyWeaponsCompensation",
+            "ReloadHolsteredWeaponStory"
+         ]
+         __type   =   "MasterySkill"
+      }
+      EngineerPVE   =   {
+         perks   =   [
+            "SpawnWithShoulderGunBolter"
+         ]
+         __type   =   "MasterySkill"
+      }
+      SoldierHordemodeNpcBot   =   {
+         perks   =   [
+            "PveSoldierReloadHolsterWeapon",
+            "SpawnWithHealingInjector",
+            "DodgePresetDefault"
+         ]
+         __type   =   "MasterySkill"
+      }
+      SniperHordemodeNpcBot   =   {
+         perks   =   [
+            "SpawnWithHealingInjector",
+            "PveSniperIncreaseHeadshotDamage",
+            "DodgePresetDefault"
+         ]
+         __type   =   "MasterySkill"
+      }
+      SupportHordemodeNpcBot   =   {
+         perks   =   [
+            "SpawnWithHealingInjector",
+            "HACK_AmmoRegen",
+            "DodgePresetDefault"
+         ]
+         __type   =   "MasterySkill"
+      }
+      RaiderHordemodeNpcBot   =   {
+         perks   =   [
+            "PveRaiderIncreasePerfectDodgeWindow",
+            "SpawnWithHealingInjector"
+         ]
+         __type   =   "MasterySkill"
+      }
+      TankHordemodeNpcBot   =   {
+         perks   =   [
+            "SpawnWithCombatShield",
+            "PveTankAdditionalHP",
+            "SpawnWithHealingInjector"
+         ]
+         __type   =   "MasterySkill"
+      }
+      BerserkHordemodeNpcBot   =   {
+         perks   =   [
+            "SpawnWithHealingInjector",
+            "PveBerserkIncreaseHealthTrailRestoring"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Engineer   =   {
+         perks   =   [
+            "SpawnWithShoulderGunPlasma"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+   PVE_Sniper_Progression   =   {
+      Level2   =   {
+         perks   =   [
+            "PveSniperFirearmsPenetrateBlocks"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level3   =   {
+         perks   =   [
+            "PveSniperIncreaseMeleeDamageAgainstEliteAndHigher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level4   =   {
+         perks   =   [
+            "PveSniperReducedPrimaryWeaponSpread"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5   =   {
+         perks   =   [
+            "PveSniperIncreaseFirstFirearmAttackDamageFromCamouflage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5Team   =   {
+         perks   =   [
+            "PveSniperIncreaseHeadshotDamageForTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level6   =   {
+         perks   =   [
+            "PveSniperIncreaseFirstMeleeAttackDamageFromCamouflage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level7   =   {
+         perks   =   [
+            "PveSniperDeactivateCamouflageLaterAfterInterruptedByAttack"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level8   =   {
+         perks   =   [
+            "PveSniperIncreasedRevivingSpeed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level9   =   {
+         perks   =   [
+            "PveSniperIncreaseAbilityRegenerationSpeed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10   =   {
+         perks   =   [
+            "PveSniperInvulnerabilityWhenActivatingCamouflage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10Team   =   {
+         perks   =   [
+            "PveSniperReducedSpreadForTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level11   =   {
+         perks   =   [
+            "PveSniperIncreaseCarbinesReloadSpeed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level12   =   {
+         perks   =   [
+            "PveSniperReducedSniperRiflesRecoil"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level13   =   {
+         perks   =   [
+            "PveSniperRestoreAmmoForMultikillWithOneShot"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level14   =   {
+         perks   =   [
+            "PveSniperIncreaseMeleeDamageAfterReloadOnLowAmmo"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level15   =   {
+         perks   =   [
+            "PveSniperIncreasePrimaryWeaponDamageAfterNotMoving"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level16   =   {
+         perks   =   [
+            "PveSniperRecoverAbilityChargeForHeadshot"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level17   =   {
+         perks   =   [
+            "PveSniperRemoveNegativeStatusEffectsAndReloadFirearm"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level18   =   {
+         perks   =   [
+            "PveSniperIncreaseMaxAmmo"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level19   =   {
+         perks   =   [
+            "PveSniperReloadingFirearmForFinisher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20   =   {
+         perks   =   [
+            "PveSniperShareCamouflageWhenRiseUpAlly"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20Team   =   {
+         perks   =   [
+            "PveSniperRecoverAbilityChargeForHeadshotForTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level21   =   {
+         perks   =   [
+            "PveSniperReduceIncomingDamageAfterCamouflageDeactivate"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level22   =   {
+         perks   =   [
+            "PveSniperKnockbackEnemiesAfterCamouflageDeactivate"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level23   =   {
+         perks   =   [
+            "PveSniperActivateCamouflageAndInvulnerabilityOnLethalDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level24   =   {
+         perks   =   [
+            "PveSniperActivateCamouflageForPerfectDodge"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level25   =   {
+         perks   =   [
+            "PveSniperRestoreEquipmentForConsecutiveHeadshots"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige1   =   {
+         perks   =   [
+            "PveSniperInvulnerabilityWhenActivatingCamouflage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige2   =   {
+         perks   =   [
+            "PveSniperRestorePrimaryAmmoForSecondaryWeaponKill"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige3   =   {
+         perks   =   [
+            "PveSniperRangeIncrease"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige4   =   {
+         perks   =   [
+            "PveSniperBuffSecondaryDamageAfterSwitching"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige5   =   {
+         perks   =   [
+            "PveSniperUnstoppableWhileGunStrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige6   =   {
+         perks   =   [
+            "PveSniperReduceDamageOnArmorDestroyed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige7   =   {
+         perks   =   [
+            "PveSniperBuffRangeDamageAfterGunstrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+   PVE_Support_Progression   =   {
+      Level2   =   {
+         perks   =   [
+            "PveSupportReduceDamageAfterDeactivatingIronHalo"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level3   =   {
+         perks   =   [
+            "PveSupportRecoverAbilitiesFasterWhenIronHaloActiveForAllies"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level4   =   {
+         perks   =   [
+            "PveSupportReduceSpreadWhileNotMoving"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5   =   {
+         perks   =   [
+            "PveSupportRestoreArmorSegmentForRapidSuccession"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5Team   =   {
+         perks   =   [
+            "PveSupportReduceIncomingDamageForTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level6   =   {
+         perks   =   [
+            "PveSupportRestoreArmorSegmentWhenIronHaloSpendsAllEnergyForTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level7   =   {
+         perks   =   [
+            "PveSupportDecreaseIronHaloEnergyDrainSpeed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level8   =   {
+         perks   =   [
+            "PveSupportBuffDamageDependingOnHeatThreshold"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level9   =   {
+         perks   =   [
+            "PveSupportRestoreAmmoForMultikillWithOneShot"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10   =   {
+         perks   =   [
+            "PveSoldierReceiveAmmoClipForKillEliteOrHigher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10Team   =   {
+         perks   =   [
+            "PveSupportIncreaseAmmoCapacityToTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level11   =   {
+         perks   =   [
+            "PveSupportIncreaseIronHaloChargesDecreaseDurability"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level12   =   {
+         perks   =   [
+            "PveSupportRestoreFadeHPCantMoveInHeavyStance"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level13   =   {
+         perks   =   [
+            "PveSupportIncreaseIronHaloDurability"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level14   =   {
+         perks   =   [
+            "PveSupportUnstoppableInHeavyStance"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level15   =   {
+         perks   =   [
+            "PveSupportIncreaseRangeDamageWhenIronHaloActiveForTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level16   =   {
+         perks   =   [
+            "PveSupportBuffSecondaryDamageAfterSwitching"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level17   =   {
+         perks   =   [
+            "PveSupportAdditionalHP"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level18   =   {
+         perks   =   [
+            "PveSupportIncreaseRangeDamageWhenAbilityOnCooldown"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level19   =   {
+         perks   =   [
+            "PveSupportDealDamageWhenIronHaloSpendsAllEnergy"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20   =   {
+         perks   =   [
+            "PveSupportCantOverheatWhenTeamIsDowned"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20Team   =   {
+         perks   =   [
+            "PveSupportRestoreFullHealthWhenRevivedForTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level21   =   {
+         perks   =   [
+            "PveSupportRestoreAmmoWhenOutOfAmmoForRapidSuccession"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level22   =   {
+         perks   =   [
+            "PveSupportRestoreIronHaloChargeForRevivingTeammate"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level23   =   {
+         perks   =   [
+            "PveSupportReduceFriendlyFire"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level24   =   {
+         perks   =   [
+            "PveSupportDOTWhenIronHaloActive"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level25   =   {
+         perks   =   [
+            "PveSupportRestoreEquipmentForRapidSuccession"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige1   =   {
+         perks   =   [
+            "PveSupportIncreaseChargedMeleeDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige2   =   {
+         perks   =   [
+            "PveSupportRestorePrimaryAmmoForFinisherOfSpecial"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige3   =   {
+         perks   =   [
+            "PveSupportReduceDamageOnArmorDestroyed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige4   =   {
+         perks   =   [
+            "PveSupportIncreaseMeleeDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige5   =   {
+         perks   =   [
+            "PveSupportUnstoppableWhileGunStrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige6   =   {
+         perks   =   [
+            "PveSupporthipFireSpredDecrease"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige7   =   {
+         perks   =   [
+            "PveSupportIncreaseRiposteWindow"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+   PVE_Soldier_Progression   =   {
+      Level2   =   {
+         perks   =   [
+            "PveSoldierBuffPrimaryDamageDebuffSecondaryDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level3   =   {
+         perks   =   [
+            "PveSoldierBuffPlasmaDamageDependingOnHeatThreshold"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level4   =   {
+         perks   =   [
+            "PveSoldierBuffBolterPenetration"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5   =   {
+         perks   =   [
+            "PveSoldierAuspexBuffMarkDurationIgnoreCommonAndFodder"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5Team   =   {
+         perks   =   [
+            "PveSoldierRestoreEquipmentTeamPerk"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level6   =   {
+         perks   =   [
+            "PveSoldierReduceAuspexCooldownForTargetArchetype"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level7   =   {
+         perks   =   [
+            "PveSoldierAuspexBuffBonusDebuffRadius"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level8   =   {
+         perks   =   [
+            "PveSoldierIncreaseConsecutiveHeadshotDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level9   =   {
+         perks   =   [
+            "PveSoldierBuffRangeDamageAfterGunstrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10   =   {
+         perks   =   [
+            "PveSoldierBuffSecondaryDamageAfterSwitching"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10Team   =   {
+         perks   =   [
+            "PveSoldierIncreaseFirearmDamageForTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level11   =   {
+         perks   =   [
+            "PveSoldierRestoreChargeForAuspexTargetsQuantity",
+            "SpawnWithCombatShield"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level12   =   {
+         perks   =   [
+            "PveSoldierIncreaseAmmoCapacity"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level13   =   {
+         perks   =   [
+            "PveSoldierReceiveAmmoClipForKillEliteOrHigher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level14   =   {
+         perks   =   [
+            "PveSoldierUnstoppableAfterPerfectDodge"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level15   =   {
+         perks   =   [
+            "PveSoldierApplyAuspexMarkOnFoeAfterRiposte"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level16   =   {
+         perks   =   [
+            "PveSoldierIncreaseMeleeDamageAgainstThreatClassDependsOnAmmo"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level17   =   {
+         perks   =   [
+            "PveSoldierReduceRecoil"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level18   =   {
+         perks   =   [
+            "PveSoldierReloadAfterFinisherAndBuffPrimary"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level19   =   {
+         perks   =   [
+            "PveSoldierBuffRangeDamageAfterLowAmmoReload"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20   =   {
+         perks   =   [
+            "PveSoldierAuspexBuffDamageSensitivityFromEquipment"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20Team   =   {
+         perks   =   [
+            "PveSoldierAuraHeadshotDamageAbovePercentHealth"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level21   =   {
+         perks   =   [
+            "PveSoldierAuspexBuffBonusDebuffDuration"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level22   =   {
+         perks   =   [
+            "PveSoldierAuspexBuffBonusButRemoveEffectOnLeave"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level23   =   {
+         perks   =   [
+            "PveSoldierMuteEnemiesInsideAsupexZone"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level24   =   {
+         perks   =   [
+            "PveSoldierHeadshotImmediatelyKillScannedTarget"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level25   =   {
+         perks   =   [
+            "PveSoldierAoeDamageAfterFinisher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige1   =   {
+         perks   =   [
+            "PveSoldierIncreaseHeadshotDamageByHeadshot"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige2   =   {
+         perks   =   [
+            "PveSoldierIncreaseMaxAmmo"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige3   =   {
+         perks   =   [
+            "PveSoldierRestoreAbilityForZeroAuspexTarget"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige4   =   {
+         perks   =   [
+            "PveSoldierRestoreAbilityForUseLootable"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige5   =   {
+         perks   =   [
+            "PveSoldierIncreaseHealByInjector"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige6   =   {
+         perks   =   [
+            "PveSoldierAdditionalHP"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige7   =   {
+         perks   =   [
+            "PveSoldierIncreaseAbilityRegenWhenLowHP"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+   PVE_Tank_Progression   =   {
+      Level2   =   {
+         perks   =   [
+            "PveTankIncreaseMeleeDamageAfterShieldBash",
+            "SpawnWithCombatShield"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level3   =   {
+         perks   =   [
+            "PveTankIncreaseHealByInjector"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level4   =   {
+         perks   =   [
+            "PveTankReduceDamageOnArmorDestroyed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5   =   {
+         perks   =   [
+            "PveTankShieldBashDealSmallDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5Team   =   {
+         perks   =   [
+            "PveTankReducedArmorPassiveRegenerationDelayToTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level6   =   {
+         perks   =   [
+            "PveTankIncreaseArmorRestoringFromBannerDecreaseBannerTimer"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level7   =   {
+         perks   =   [
+            "PveTankInvulnerabilityForBanner"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level8   =   {
+         perks   =   [
+            "PveTankEnduranceAfterShieldBash"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level9   =   {
+         perks   =   [
+            "PveTankReducedDamageWhenLowHP"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10   =   {
+         perks   =   [
+            "PveTankShieldBashDealsAOEDamage",
+            "SpawnWithCombatShield"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10Team   =   {
+         perks   =   [
+            "PveTankReducedHealthTrailFadingSpeedToTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level11   =   {
+         perks   =   [
+            "PveTankRestoresHPWithFinishers"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level12   =   {
+         perks   =   [
+            "PveTankReducedIncomingDamageWhenSurrounded"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level13   =   {
+         perks   =   [
+            "PveTankAdditionalArmor"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level14   =   {
+         perks   =   [
+            "PveTankSpreadBlockedDamageOnEnemies"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level15   =   {
+         perks   =   [
+            "PveTankShockAreaAfterRiposte"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level16   =   {
+         perks   =   [
+            "PveTankDotAreaFromBanner"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level17   =   {
+         perks   =   [
+            "PveTankGunStrikeMarkerForShieldBash"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level18   =   {
+         perks   =   [
+            "PveTankGetArmorForAnyGunStrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level19   =   {
+         perks   =   [
+            "PveTankIncreaseDamageAgainstEnemiesInShockArea"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20   =   {
+         perks   =   [
+            "PveTankBannerRisesFromIncapacitation"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level21   =   {
+         perks   =   [
+            "PveTankBannerGivesArmor"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level22   =   {
+         perks   =   [
+            "PveTankBannerIncreasesDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level23   =   {
+         perks   =   [
+            "PveTankRiposteMakeEnemiesGoToIncapacitation"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level24   =   {
+         perks   =   [
+            "PveTankCreateShockAreaAfterLostArmor"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level25   =   {
+         perks   =   [
+            "PveTankPermanentEndurance"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20Team   =   {
+         perks   =   [
+            "PveTankReducedDamageFromBossesToTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige1   =   {
+         perks   =   [
+            "PveTankRestoreSecondaryAmmoForFinisherOfSpecial"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige2   =   {
+         perks   =   [
+            "PveTankIncreaseHealByInjector"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige3   =   {
+         perks   =   [
+            "PveTankIncreaseHoldAttackDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige4   =   {
+         perks   =   [
+            "PveTankIncreaseRangedAttackDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige5   =   {
+         perks   =   [
+            "PveTankRestoreAbilityForBlockDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige6   =   {
+         perks   =   [
+            "PveTankInvulnerabilityWhenActivatingBanner"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige7   =   {
+         perks   =   [
+            "PveTankOnBannerEndurance"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+   PVE_Berserk_Progression   =   {
+      Level2   =   {
+         perks   =   [
+            "PveBerserkReduceIncomingDamageByMeleeAttack"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level3   =   {
+         perks   =   [
+            "PveBerserkIncreaseMeleeDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level4   =   {
+         perks   =   [
+            "PveBerserkUnstoppableAfterRiposteAndPerfectDodge"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5   =   {
+         perks   =   [
+            "PveBerserkModifyIncomingMeleeAndFirearmDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5Team   =   {
+         perks   =   [
+            "PveBerserkIncreaseMeleeDamageToTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level6   =   {
+         perks   =   [
+            "PveBerserkIncreaseRiposteWindow"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level7   =   {
+         perks   =   [
+            "PveBerserkReduceDamageOnArmorDestroyed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level8   =   {
+         perks   =   [
+            "PveBerserkReduceDamageAfterHookAttack"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level9   =   {
+         perks   =   [
+            "PveBerserkIncreaseSplashDamageByHookHit"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10   =   {
+         perks   =   [
+            "PveBerserkDamageByFlyCollision"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10Team   =   {
+         perks   =   [
+            "PveBerserkRestoreHPbyFinisherTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level11   =   {
+         perks   =   [
+            "PveBerserkIncreaseAbilityDamageAfterKillMajoris"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level12   =   {
+         perks   =   [
+            "PveBerserkAoeDamageOnAutoFinisher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level13   =   {
+         perks   =   [
+            "PveBerserkGainHPForKill"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level14   =   {
+         perks   =   [
+            "PveBerserkIncreaseFirearmDamageIfTargetCloser8Meters"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level15   =   {
+         perks   =   [
+            "PveBerserkGetArmorForAnyGunStrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level16   =   {
+         perks   =   [
+            "PveBerserkIncreaseFirearmSensivityForHookTarget"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level17   =   {
+         perks   =   [
+            "PveBerserkResetHookCooldownForFinisher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level18   =   {
+         perks   =   [
+            "PveBerserkRestoreAblilityByKillOnDistance"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level19   =   {
+         perks   =   [
+            "PveBerserkIncreaseAbilityRegenSpeed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20   =   {
+         perks   =   [
+            "PveBerserkIncreaseMeleeDamageWhenClipOut"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20Team   =   {
+         perks   =   [
+            "PveBerserkAttachToPlayersRestoreAbilityByFinisher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level21   =   {
+         perks   =   [
+            "PveBerserkRestoreArmorOnLethalDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level22   =   {
+         perks   =   [
+            "PveBerserkIncreasePerfectDodgeWindowOnLowHealth"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level23   =   {
+         perks   =   [
+            "PveBerserkDecreaseDamageSensitivityAfterRiposteAndPerfectDodge"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level24   =   {
+         perks   =   [
+            "PveBerserkRestoreEquipmentChargeByKillstreak"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level25   =   {
+         perks   =   [
+            "PveBerserkIncreaseDamageAndAbilityRestoreWhenLowHp"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige1   =   {
+         perks   =   [
+            "PveBerserkIncreaseFirearmDamageIfTargetCloser8Meters"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige2   =   {
+         perks   =   [
+            "PveBerserkIncreaseDamageAndAbilityRestoreWhenLowHp"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige3   =   {
+         perks   =   [
+            "PveBerserkUnstoppableWhileGunStrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige4   =   {
+         perks   =   [
+            "PveBerserkAdditionalHP"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige5   =   {
+         perks   =   [
+            "PveBerserkRestoreArmorSegmentForAbilityUse"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige6   =   {
+         perks   =   [
+            "PveBerserkRestoreArmorSegmentForRapidSuccession"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige7   =   {
+         perks   =   [
+            "PveBerserkIncreaseEquipmentDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+   PVE_Raider_Progression   =   {
+      Level2   =   {
+         perks   =   [
+            "PveRaiderIncreaseHoldAttackDamage",
+            "SpawnWithJetpackPveAbility"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level3   =   {
+         perks   =   [
+            "PveRaiderIncreaseDashAttackDamage",
+            "SpawnWithJetpackPveAbility"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level4   =   {
+         perks   =   [
+            "PveRaiderIncreaseGroundpoundAttack"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5   =   {
+         perks   =   [
+            "PveRaiderIncreaseSecondaryWeaponDamage",
+            "SpawnWithJetpackAbility"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5Team   =   {
+         perks   =   [
+            "PveRaiderFinisherRestoresAdditionalArmorToAllTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level6   =   {
+         perks   =   [
+            "PveRaiderEnduranceAfterGroundpound"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level7   =   {
+         perks   =   [
+            "PveRaiderIncreaseGroundpoundDamageReduceGroundpoundRange"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level8   =   {
+         perks   =   [
+            "PveRaiderGroundpoundKillRestoresAbilityCharge"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level9   =   {
+         perks   =   [
+            "PveRaiderIncreaseAbilityRegenSpeed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10   =   {
+         perks   =   [
+            "PveRaiderRestoreEquipmentChargeByKillstreak"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10Team   =   {
+         perks   =   [
+            "PveRaiderIncreaseMeleeDamageAgianstBossesToTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level11   =   {
+         perks   =   [
+            "PveRaiderJumpPackDashDamagesEnemies"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level12   =   {
+         perks   =   [
+            "PveRaiderIFadeHPDownLow"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level13   =   {
+         perks   =   [
+            "PveRaiderGetArmorForAnyGunStrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level14   =   {
+         perks   =   [
+            "PveRaiderEnduranceWhileDoingHoldMeleeAttack"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level15   =   {
+         perks   =   [
+            "PveRaiderIncreaseChargeTimeAndMaxChargedGroundPoundDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level16   =   {
+         perks   =   [
+            "PveRaiderAdditionalHP"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level17   =   {
+         perks   =   [
+            "PveRaiderReducedArmorPassiveRegenerationDelay"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level18   =   {
+         perks   =   [
+            "PveRaiderIncreaseMeleeAgainstEliteAndSpecial"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level19   =   {
+         perks   =   [
+            "PveRaiderJumpPackUsageReloadsFirearms"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20   =   {
+         perks   =   [
+            "PveRaiderIncreaseGroundpoundDamageAfterFinisher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level21   =   {
+         perks   =   [
+            "PveRaiderFinisherReloadsFirearm"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level22   =   {
+         perks   =   [
+            "PveRaiderIncreaseDamageAfterPerfectJumpPackDodge"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level23   =   {
+         perks   =   [
+            "PveRaiderDebuffEnemyOnHit"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level24   =   {
+         perks   =   [
+            "PveRaiderDealDamageOnStartinJumpPackJump"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level25   =   {
+         perks   =   [
+            "PveRaiderRestoreChargeOnPerfectJetpackDash"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20Team   =   {
+         perks   =   [
+            "PveRaiderIncreaseGunStrikeDamageForTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige1   =   {
+         perks   =   [
+            "PveRaiderInvulnerableOnAbility"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige2   =   {
+         perks   =   [
+            "PveRaiderUnstoppableAfterRiposteAndPerfectDodge"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige3   =   {
+         perks   =   [
+            "PveRaiderIncreaseRiposteWindow"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige4   =   {
+         perks   =   [
+            "PveRaiderAdditionalHP"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige5   =   {
+         perks   =   [
+            "PveRaiderReducedIncomingDamageWhenSurrounded"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige6   =   {
+         perks   =   [
+            "PveRaiderIncreaseRangedAttackDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige7   =   {
+         perks   =   [
+            "PveRaiderRestoreJumpPackChargeForRevivingTeammate"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+   PVE_Engineer_Progression   =   {
+      Level2   =   {
+         perks   =   [
+            "PveEngineerRangedBoostAfterEquipmentUse"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level3   =   {
+         perks   =   [
+            "PveEngineerChargedMeleeDamageIncrease"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level4   =   {
+         perks   =   [
+            "PveEngineerEquipmentDamageBoost"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5Team   =   {
+         __type   =   "MasterySkill"
+      }
+      Level6   =   {
+         perks   =   [
+            "PveEngineerShoulderGunExposeOnHit"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level7   =   {
+         perks   =   [
+            "PveEngineerShoulderGunFasterRecharge"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level8   =   {
+         perks   =   [
+            "PveEngineerMeleeBoostAfterShoulderGun"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level9   =   {
+         perks   =   [
+            "PveEngineerShoulderGunMajorisKillRestoreUltimate"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10   =   {
+         perks   =   [
+            "PveEngineerSpawnWithShoulderGunSniper"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level11   =   {
+         perks   =   [
+            "PveEngineerEquipmentExposeOnHit"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level12   =   {
+         perks   =   [
+            "PveEngineerMeleeAfterFinisher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level13Team   =   {
+         perks   =   [
+            "PveEngineerArmorAndSegmentOnInjectorTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level14   =   {
+         perks   =   [
+            "PveEngineerShoulderGunStabilityWhileActive"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level15   =   {
+         __type   =   "MasterySkill"
+      }
+      Level16   =   {
+         perks   =   [
+            "PveEngineerShoulderGunArmorOnKill"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level17   =   {
+         __type   =   "MasterySkill"
+      }
+      Level18   =   {
+         perks   =   [
+            "PveEngineerSpawnWithShoulderGunPlasma"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level19   =   {
+         perks   =   [
+            "PveEngineerRangedDamageAfterPerfectDefense"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20   =   {
+         perks   =   [
+            "PveEngineerFarRangedDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level21Team   =   {
+         perks   =   [
+            "PveEngineerTeamExtraEquipment"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level22   =   {
+         __type   =   "MasterySkill"
+      }
+      Level23   =   {
+         perks   =   [
+            "PveEngineerShoulderGunKillRestoresEquipment"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level24   =   {
+         perks   =   [
+            "PveEngineerShoulderGunMajorisOnlyFarBonus"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level25   =   {
+         perks   =   [
+            "PveEngineerShoulderGunIgniteOnHit"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+   PVE_Character_Mod_1_Progression   =   {
+      Level2   =   {
+         perks   =   [
+            "PveTerminatorReduceDamageAfterDeepStrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level3   =   {
+         perks   =   [
+            "PveSoldierReduceRecoil"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level4   =   {
+         perks   =   [
+            "PveTankIncreaseHealByInjector"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5   =   {
+         perks   =   [
+            "PveSupportIncreaseIronHaloDurability"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5Team   =   {
+         perks   =   [
+            "PveTankReducedArmorPassiveRegenerationDelayToTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level6   =   {
+         perks   =   [
+            "PveSupportRestoreArmorSegmentForRapidSuccession"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level7   =   {
+         perks   =   [
+            "PveSupportAdditionalHP"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level8   =   {
+         perks   =   [
+            "PveTerminatorRestoreDeepStrikeChargeForRevivingTeammate"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level9   =   {
+         perks   =   [
+            "PveBerserkRestoreArmorOnLethalDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10   =   {
+         perks   =   [
+            "PveSupportIncreaseHoldAttacksDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10Team   =   {
+         perks   =   [
+            "PveTankReducedHealthTrailFadingSpeedToTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level11   =   {
+         perks   =   [
+            "PveSupportRestoreAmmoWhenOutOfAmmoForRapidSuccession"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level12   =   {
+         perks   =   [
+            "PveTankReducedDamageWhenLowHP"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level13   =   {
+         perks   =   [
+            "PveTankAdditionalArmor"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level14   =   {
+         perks   =   [
+            "PveTerminatorDeepStrikeArmourSegmentForTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level15   =   {
+         perks   =   [
+            "PveTerminatorPermanentEndurance",
+            "SpawnWithCombatShield"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level16   =   {
+         perks   =   [
+            "PveTerminatorInvulnerableOnArmorDepleted"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level17   =   {
+         perks   =   [
+            "PveTankRestoresHPWithFinishers"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level18   =   {
+         perks   =   [
+            "PveTerminatorDeepStrikeIncreasedFireRateAndReloadSpeed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level19   =   {
+         perks   =   [
+            "PveTankReducedIncomingDamageWhenSurrounded"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20   =   {
+         perks   =   [
+            "PveTankGetArmorForAnyGunStrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20Team   =   {
+         perks   =   [
+            "PveSoldierRestoreEquipmentTeamPerk"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level21   =   {
+         perks   =   [
+            "PveSupportIncreaseRangeDamageWhenIronHaloActiveForTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level22   =   {
+         perks   =   [
+            "PveTerminatorDeepStrikeIncreasedRangedDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level23   =   {
+         perks   =   [
+            "PveTerminatorIncreaseAbilityRegenSpeed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level24   =   {
+         perks   =   [
+            "PveTerminatorIncreaseDeepStrikeDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level25   =   {
+         perks   =   [
+            "PveCaptainSummonGuardsmen"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige1   =   {
+         perks   =   [
+            "PveTankIncreaseHoldAttackDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige2   =   {
+         perks   =   [
+            "PveBerserkIncreaseFirearmDamageIfTargetCloser8Meters"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige3   =   {
+         perks   =   [
+            "PveSupporthipFireSpredDecrease"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige4   =   {
+         perks   =   [
+            "PveTerminatorRestoreSecondaryAmmoForFinisherOfSpecial"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige5   =   {
+         perks   =   [
+            "PveSupportUnstoppableWhileGunStrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige6   =   {
+         perks   =   [
+            "PveTerminatorInvulnerabilityWhenActivatingDeepStrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige7   =   {
+         perks   =   [
+            "PveTerminatorArmorBoost"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+   PVE_Character_Mod_2_Progression   =   {
+      Level2   =   {
+         perks   =   [
+            "PveChaplainFinisherRestoresArmorSegment"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level3   =   {
+         perks   =   [
+            "PveChaplainIncreaseMeleeDamageWhenArmorLeft"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level4   =   {
+         perks   =   [
+            "PveChaplainReducedIncomingMeleeDamageWhenSurrounded"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5   =   {
+         perks   =   [
+            "PveChaplainReducedIncomingMeleeDamageWhenSurrounded"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5Team   =   {
+         perks   =   [
+            "PveChaplainReducedArmorPassiveRegenerationDelayToTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level6   =   {
+         perks   =   [
+            "PveChaplainRestoreArmorSegmentOnShoutForTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level7   =   {
+         perks   =   [
+            "PveChaplainDamageEnemiesOnAbility"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level8   =   {
+         perks   =   [
+            "PveChaplainRestoreHealthOnArmorDestroyed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level9   =   {
+         perks   =   [
+            "PveChaplainMeleePowerIncreaseForEachMeleeKill"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10   =   {
+         perks   =   [
+            "PveChaplainPermanentEndurance"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10Team   =   {
+         perks   =   [
+            "PveChaplainTeamAbilityRechargeForMeleeKill"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level11   =   {
+         perks   =   [
+            "PveChaplainReduceIncomingDamageByMeleeAttack"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level12   =   {
+         perks   =   [
+            "PveChaplainModifyIncomingFirearmDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level13   =   {
+         perks   =   [
+            "PveChaplainTeamAbilityRechargeForMeleeKill"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level14   =   {
+         perks   =   [
+            "PveChaplainTeamDMGReductionAndMoveSpeedOnUltimate"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level15   =   {
+         perks   =   [
+            "PveChaplainIncreasedFireAndReloadRateOnUltimate"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level16   =   {
+         perks   =   [
+            "PveChaplainMeleePowerIncreaseForEachFinisher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level17   =   {
+         perks   =   [
+            "PveChaplainFireRateIncreaseForEachRangedKill"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level18   =   {
+         perks   =   [
+            "PveChaplainDecreaseRangedDamageSensitivityAfterRiposteAndPerfectDodge"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level19   =   {
+         perks   =   [
+            "PveChaplainEnduranceWhileDoingHeavyMeleeAttack"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20   =   {
+         perks   =   [
+            "PveChaplainIncreasePerfectDodgeWindowWhenArmorDestroyed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20Team   =   {
+         perks   =   [
+            "PveChaplainTeamBoostArmor"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level21   =   {
+         perks   =   [
+            "PveChaplainIncreasePerfectDodgeWindowWhenArmorDestroyed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level22   =   {
+         perks   =   [
+            "PveChaplainTeamDMGMeleeBoostOnUltimate"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level23   =   {
+         perks   =   [
+            "PveChaplainIncreaseMeleeDamageWhenAbilityOnCooldown"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level24   =   {
+         perks   =   [
+            "PveChaplainMoveSpeedOnExecution"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level25   =   {
+         perks   =   [
+            "PveChaplainDamageReductionForEachKill"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige1   =   {
+         perks   =   [
+            "PveTankIncreaseHoldAttackDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige2   =   {
+         perks   =   [
+            "PveRaiderUnstoppableAfterRiposteAndPerfectDodge"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige3   =   {
+         perks   =   [
+            "PveRaiderIncreaseRiposteWindow"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige4   =   {
+         perks   =   [
+            "PveBerserkRestoreArmorSegmentForRapidSuccession"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige5   =   {
+         perks   =   [
+            "PveSniperBuffRangeDamageAfterGunstrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige6   =   {
+         perks   =   [
+            "PveChaplainInvulnerabilityWhenActivatingThreateningBattleCry"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige7   =   {
+         perks   =   [
+            "PveBerserkIncreaseEquipmentDamage"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+   PVE_Character_Mod_3_Progression   =   {
+      Level2   =   {
+         perks   =   [
+            "PveApothecaryRechargeAbilityOnRiposteAndPerfectDodge"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level3   =   {
+         perks   =   [
+            "PveApothecaryRestoreHPOnHeldMelee"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level4   =   {
+         perks   =   [
+            "PveApothecaryRestoreMedkitOnReviveTeammate"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5   =   {
+         perks   =   [
+            "PveApothecaryRestoreMedkitOnUltimate"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level5Team   =   {
+         perks   =   [
+            "PveApothecaryTeamBoostHP"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level6   =   {
+         perks   =   [
+            "PveApothecaryIncreasedMedkits"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level7   =   {
+         perks   =   [
+            "PveApothecaryRestoreMedkitOnUltimate"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level8   =   {
+         perks   =   [
+            "PveApothecaryRestoreArmourOnMedkit"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level9   =   {
+         perks   =   [
+            "PveApothecaryTeamDMGBoostOnUltimate"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10   =   {
+         perks   =   [
+            "PveApothecaryRestoreUltimateOnKillStreak"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level10Team   =   {
+         perks   =   [
+            "PveApothecaryGrantTeamPassiveHealthRegen"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level11   =   {
+         perks   =   [
+            "PveApothecaryRestoreHPOnLightMelee"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level12   =   {
+         perks   =   [
+            "PveApothecaryIncreasedReviveSpeedAndRestoreArmourAndHPOnRevive"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level13   =   {
+         perks   =   [
+            "PveApothecaryRestoreArmourOnMedkit"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level14   =   {
+         perks   =   [
+            "PveApothecarySpawnWithReviveToken"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level15   =   {
+         perks   =   [
+            "PveApothecaryRestoreMedkitOnFinisher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level16   =   {
+         perks   =   [
+            "PveApothecaryGrenadeOnMedkit"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level17   =   {
+         perks   =   [
+            "PveApothecaryTeamDMGReductionOnUltimate"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level18   =   {
+         perks   =   [
+            "PveApothecaryRecoverAbilityOnMeleeFinisher"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level19   =   {
+         perks   =   [
+            "PveApothecaryGainHPForPerfectParryOrDodge"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20   =   {
+         perks   =   [
+            "PveApothecaryLastManStandingReducedDMG"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level20Team   =   {
+         perks   =   [
+            "PveApothecaryTeamGainHPForExecution"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level21   =   {
+         perks   =   [
+            "PveApothecaryRecoverAbilityChargeForHeadshot"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level22   =   {
+         perks   =   [
+            "PveApothecaryIncreasedGrenades"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level23   =   {
+         perks   =   [
+            "PveApothecaryRestoreMedkitOnFinisherSpecial"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level24   =   {
+         perks   =   [
+            "PveApothecaryDamageBoostAfterMedkit"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Level25   =   {
+         perks   =   [
+            "PveApothecaryRageOnAllyDown"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige1   =   {
+         perks   =   [
+            "PveTankIncreaseHealByInjector"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige2   =   {
+         perks   =   [
+            "PveSoldierIncreaseMaxAmmo"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige3   =   {
+         perks   =   [
+            "PveSniperRangeIncrease"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige4   =   {
+         perks   =   [
+            "PveSoldierAdditionalHP"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige5   =   {
+         perks   =   [
+            "PveSniperBuffRangeDamageAfterGunstrike"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige6   =   {
+         perks   =   [
+            "PveSniperReduceDamageOnArmorDestroyed"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige7   =   {
+         perks   =   [
+            "PveApothecaryRestoreRighteousFuryForRevivingTeammate"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+   Helbrute   =   {
+      HelbrutePVP   =   {
+         perks   =   [
+            "SpawnWithPcHelbruteHealingAbility",
+            "PvPHellbruteAbilityRestore"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+}
+__type   =   "object"

@@ -1,0 +1,2379 @@
+abilities   =   {
+   equipment_frag_grenade   =   {
+      slot   =   "ROUTINE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            maxCharges   =   3
+            startingCharges   =   3
+            regenerationRules   =   {
+               CraftPointsSimpleRegen   =   {
+                  __type   =   "EnergyCraftPointsSimpleRegen"
+               }
+            }
+            modifiersHolder   =   {
+               allowedModifiers   =   [
+                  "ENERGY_MAX_CHARGES",
+                  "ENERGY_STARTING_CHARGES"
+               ]
+               __type   =   "AttributeModifiersHolder"
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         gearActor   =   "Grenade"
+         __type   =   "AbilityControllerDescAimedThrow"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   equipment_shock_grenade   =   {
+      slot   =   "ROUTINE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            startingCharges   =   2
+            regenerationRules   =   {
+               CraftPointsSimpleRegen   =   {
+                  __type   =   "EnergyCraftPointsSimpleRegen"
+               }
+            }
+            modifiersHolder   =   {
+               allowedModifiers   =   [
+                  "ENERGY_MAX_CHARGES",
+                  "ENERGY_STARTING_CHARGES"
+               ]
+               __type   =   "AttributeModifiersHolder"
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         gearActor   =   "GrenadeShock"
+         __type   =   "AbilityControllerDescAimedThrow"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   equipment_krak_grenade   =   {
+      slot   =   "ROUTINE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            startingCharges   =   2
+            regenerationRules   =   {
+               CraftPointsSimpleRegen   =   {
+                  __type   =   "EnergyCraftPointsSimpleRegen"
+               }
+            }
+            modifiersHolder   =   {
+               allowedModifiers   =   [
+                  "ENERGY_MAX_CHARGES",
+                  "ENERGY_STARTING_CHARGES"
+               ]
+               __type   =   "AttributeModifiersHolder"
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         type   =   {
+            blueprint   =   {
+               nodes   =   {
+                  AbilityTaskAimingForThrow   =   {
+                     shouldCalculateSpeedRef   =   {
+                        def   =   False
+                        __type   =   "BoolRefParam"
+                     }
+                     speedRef   =   {
+                        def   =   25
+                        __type   =   "FloatRefParam"
+                     }
+                     __type   =   "BlueprintNodeAbilityTaskAimingThrowableParams"
+                  }
+               }
+               __type   =   "BlueprintAbility"
+            }
+            __type   =   "AbilityControllerAimedThrow"
+         }
+         gearActor   =   "GrenadeKrak"
+         __type   =   "AbilityControllerDescAimedThrow"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   equipment_buff_crate   =   {
+      slot   =   "ROUTINE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            maxCharges   =   1
+            startingCharges   =   1
+            regenerationRules   =   {
+               CraftPointsSimpleRegen   =   {
+                  __type   =   "EnergyCraftPointsSimpleRegen"
+               }
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         type   =   {
+            blueprint   =   {
+               nodes   =   {
+                  AbilityTaskOnCastStarted   =   {
+                     OnCastStarted   =   [
+                        "AbilityTaskAdditiveAnimation/Execute"
+                     ]
+                     __type   =   "BlueprintNodeAbilityTaskSubscribeOnCastStarted"
+                  }
+                  AbilityTaskAdditiveAnimation   =   {
+                     viewData   =   {
+                        x   =   6550
+                        y   =   6300
+                     }
+                     OnSuccess   =   [
+                        "AbilityTaskCompleteCast/CompleteCast"
+                     ]
+                     OnFail   =   [
+                        "AbilityTaskDeactivateAbility/Deactivate"
+                     ]
+                     OnAnimEvent   =   [
+                        "AbilityTaskAimingForThrow/Update"
+                     ]
+                     animEvents   =   [
+                        "AbilityEffect"
+                     ]
+                     animLinks   =   {
+                        Primaris   =   {
+                           firstAnimLink   =   {
+                              link   =   "Primaris.Ability.ThrowGrenade"
+                              __type   =   "AnimTableLink"
+                           }
+                           secondAnimLink   =   {
+                              link   =   "Primaris.Ability.AbortThrowGrenade"
+                              __type   =   "AnimTableLink"
+                           }
+                           __type   =   "AnimTablePairLink"
+                        }
+                     }
+                     GetAbilityAnimLink   =   [
+                        "AbilityTaskAimingForThrow/animLinkRef/cb"
+                     ]
+                     __type   =   "BlueprintNodeAbilityTaskAdditiveAnimation"
+                  }
+                  AbilityTaskCompleteCast   =   {
+                     viewData   =   {
+                        x   =   7250
+                        y   =   6300
+                     }
+                     OnExit   =   [
+                        "AbilityTaskDeactivateAbility/Deactivate"
+                     ]
+                     __type   =   "BlueprintNodeAbilityTaskCompleteCast"
+                  }
+                  AbilityTaskDeactivateAbility   =   {
+                     viewData   =   {
+                        x   =   7500
+                        y   =   6400
+                     }
+                     __type   =   "BlueprintNodeAbilityTaskDeactivate"
+                  }
+                  AbilityTaskTriggerUseEvent   =   {
+                     viewData   =   {
+                        x   =   7000
+                        y   =   6500
+                     }
+                     __type   =   "BlueprintNodeAbilityTaskTriggerAbilityEffect"
+                  }
+                  AbilityTaskAimingForThrow   =   {
+                     viewData   =   {
+                        x   =   6550
+                        y   =   6500
+                     }
+                     OnUpdated   =   [
+                        "AbilityTaskTriggerUseEvent/TriggerAbilityEffect"
+                     ]
+                     maxDistanceRef   =   {
+                        def   =   1
+                        __type   =   "FloatRefParam"
+                     }
+                     angularImpulseRef   =   {
+                        def   =   {
+                           x   =   0
+                           y   =   0
+                           z   =   0
+                           __type   =   "Vector3d"
+                        }
+                        __type   =   "Vector3dRefParam"
+                     }
+                     attachBoneRef   =   {
+                        def   =   "GUN_L"
+                        __type   =   "StringRefParam"
+                     }
+                     animEventRef   =   {
+                        def   =   "AbilityEffect"
+                        __type   =   "StringRefParam"
+                     }
+                     maxAngleRef   =   {
+                        __type   =   "FloatRefParam"
+                     }
+                     __type   =   "BlueprintNodeAbilityTaskAimingThrowableParams"
+                  }
+               }
+               __type   =   "BlueprintAbility"
+            }
+            __type   =   "AbilityController"
+         }
+         gearActor   =   "AbilityBuffCrate"
+         isTerminateOnDetachAbility   =   True
+         __type   =   "AbilityControllerDescThrow"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   equipment_healing_injector   =   {
+      slot   =   "INJECTOR"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            startingCharges   =   2
+            regenerationRules   =   {
+               CraftPointsSimpleRegen   =   {
+                  __type   =   "EnergyCraftPointsSimpleRegen"
+               }
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         factoryUid   =   "HealingInjector"
+         __type   =   "AbilityControllerDescHealingInjector"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   equipment_combat_stimulants   =   {
+      slot   =   "NONE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            startingCharges   =   2
+            regenerationRules   =   {
+               CraftPointsSimpleRegen   =   {
+                  __type   =   "EnergyCraftPointsSimpleRegen"
+               }
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescCombatStimulants"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   equipment_melta_charge   =   {
+      slot   =   "ROUTINE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            maxCharges   =   1
+            startingCharges   =   1
+            regenerationRules   =   {
+               CraftPointsSimpleRegen   =   {
+                  __type   =   "EnergyCraftPointsSimpleRegen"
+               }
+            }
+            modifiersHolder   =   {
+               allowedModifiers   =   [
+                  "ENERGY_MAX_CHARGES",
+                  "ENERGY_STARTING_CHARGES"
+               ]
+               __type   =   "AttributeModifiersHolder"
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         type   =   {
+            blueprint   =   {
+               nodes   =   {
+                  AbilityTaskAimingForThrow   =   {
+                     shouldCalculateSpeedRef   =   {
+                        def   =   False
+                        __type   =   "BoolRefParam"
+                     }
+                     speedRef   =   {
+                        def   =   10
+                        __type   =   "FloatRefParam"
+                     }
+                     maxAimingAngleRef   =   {
+                        def   =   -30
+                        __type   =   "FloatRefParam"
+                     }
+                     __type   =   "BlueprintNodeAbilityTaskAimingThrowableParams"
+                  }
+               }
+               variables   =   {
+                  AngularImpulse   =   {
+                     value   =   {
+                        x   =   0.5
+                        y   =   0.5
+                        z   =   0.5
+                        __type   =   "Vector3d"
+                     }
+                     __type   =   "BlueprintVariableVector3d"
+                  }
+               }
+               __type   =   "BlueprintAbility"
+            }
+            cooldDownTime   =   0.8
+            __type   =   "AbilityControllerThrowAndDetonate"
+         }
+         gearActor   =   "MeltaCharge"
+         __type   =   "AbilityControllerDescThrowAndDetonate"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   equipment_steroids   =   {
+      slot   =   "ROUTINE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            maxCharges   =   2
+            startingCharges   =   2
+            regenerationRules   =   {
+               CraftPointsSimpleRegen   =   {
+                  __type   =   "EnergyCraftPointsSimpleRegen"
+               }
+            }
+            modifiersHolder   =   {
+               allowedModifiers   =   [
+                  "ENERGY_MAX_CHARGES",
+                  "ENERGY_STARTING_CHARGES"
+               ]
+               __type   =   "AttributeModifiersHolder"
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescSteroids"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_banner_ultramar   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            maxCharges   =   1
+            startingCharges   =   1
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   0.8
+                  ticksPerSec   =   20
+                  regenStartingDelay   =   1
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescBannerUltramar"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_camouflage   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         type   =   {
+            abilityResourceDrainers   =   {
+               AbilityResourceEnergyDrainerTagStreak   =   {
+                  requiredTag   =   "EFFECT_TRIGGERED"
+                  drainEnergyPercentPerAddedTagSpline   =   {
+                     spline   =   [
+                        2,
+                        0,
+                        3,
+                        0,
+                        4,
+                        5,
+                        5,
+                        10,
+                        6,
+                        20,
+                        11,
+                        100
+                     ]
+                     __type   =   "SplineLinear1d"
+                  }
+                  timeToReset   =   10
+               }
+            }
+            __type   =   "AbilityResourceEnergy"
+         }
+         energySettings   =   {
+            activationCost   =   15
+            activationThreshold   =   15
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   3
+                  ticksPerSec   =   20
+                  regenStartingDelay   =   1
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            energyDrainRate   =   5
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescCamouflage"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_grappling_hook   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   5.1
+                  ticksPerSec   =   20
+                  regenStartingDelay   =   1
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescGrapplingHook"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_barrier   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "PERCENT"
+            maxCharges   =   1
+            startingCharges   =   1
+            activationCost   =   15
+            deactivationCost   =   0
+            activationThreshold   =   15
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   1.5
+                  ticksPerSec   =   20
+                  regenStartingDelay   =   1
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            energyDrainRate   =   5
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         energyRestoringMultiplier   =   0.25
+         __type   =   "AbilityControllerDescBarrier"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_rage   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         energySettings   =   {
+            activationCost   =   0
+            activationThreshold   =   100
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   2
+                  ticksPerSec   =   60
+                  regenStartingDelay   =   1
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            energyDrainRate   =   10
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescRage"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_jetpack   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   5
+                  ticksPerSec   =   20
+                  regenStartingDelay   =   1
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescJetpack"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_jetpack_pve   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   3.5
+                  ticksPerSec   =   20
+                  regenStartingDelay   =   0
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescJetpackPve"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_threatening_battle_cry   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         energySettings   =   {
+            activationCost   =   0
+            activationThreshold   =   100
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   5
+                  ticksPerSec   =   60
+                  regenStartingDelay   =   1
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            energyDrainRate   =   10
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescThreateningBattleCry"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_grab_attack   =   {
+      slot   =   "ULTIMATE"
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescGrabAttack"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_auspex_scan   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            maxCharges   =   1
+            startingCharges   =   1
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   1.1
+                  ticksPerSec   =   20
+                  regenStartingDelay   =   1
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescAuspexScan"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_psychic_scream   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescPsychicScream"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_psychic_leech   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescPsychicLeech"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_warp_field   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescWarpField"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_grab_trap   =   {
+      slot   =   "ULTIMATE"
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescGrabTrap"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_teleport   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescTeleport"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_warp_ball_improved   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescWarpBallImproved"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_wall_warp_flame   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescWallWarpFlame"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   melee_chaos_chainsword   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "ChaosChainswordDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_hormagaunt_claws   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "HormagauntClawDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_tyranid_warrior_claws   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "TyranidWarriorClawDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_tyranid_warrior_talons   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "TyranidWarriorTalonsDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_ravener_claws   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "RavenerClawDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_exalted_sorcerer_force_stave   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "ExaltedSorcererForceStaveDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_rubric_marine_body   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "RubricMarineBodyDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_combat_knife   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "MeleeCombatKnifeDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_chainsword   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "MeleeChainswordDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_thunder_hammer   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "MeleeThunderHammerDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_power_fist   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "MeleePowerFistDesc"
+         useAbilityMeleeAsSecondaryWithCarryable   =   True
+         __type   =   "AbilityControllerDescMelee"
+      }
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_power_sword   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "MeleePowerSwordDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_tyranid_warrior_whip   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "TyranidWarriorWhipDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_lictor_claws   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "LictorClawsDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_bot_chainsword   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "MeleeBotChainswordDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_tzaangor_sword   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "TzaangorSwordDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_chaos_khopesh   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "ChaosKhopeshDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_chaos_sidearm_khopesh   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "ChaosSidearmKhopeshDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_carnifex_claws   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "CarnifexClawDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_lesser_sorcerer_force_stave   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "LesserSorcererForceStaveDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_firearm   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "MeleeFirearmDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_pc_helbrute_hammer   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "MeleePcHelbruteHammerDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_helbrute_hammer   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "HelbruteHammerDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_hive_tyrant_weapon   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "HiveTyrantMeleeWeaponDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_icon_of_flame   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescIconOfFlame"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_toxic_retreat   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescToxicRetreat"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_smear_away   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescSmearDash"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_poison_strike   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescPoisonStrike"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_tyrant_wave   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescTyrantWave"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_spore_mine_explosion   =   {
+      controllerDesc   =   {
+         factoryUid   =   "SporeMineExplosion"
+         __type   =   "AbilityControllerDescSporeMineExplosion"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_lictor_camouflage   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescLictorCamouflage"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_icarus_rocket_pod   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescIcarusRocketPod"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_flamer_protection   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescFlamerProtection"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_spore_mine_melee   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescSporeMineMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   melee_nereph_final_boss_force_stave   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "NerephFinalBossForceStaveDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_nereph_final_boss_blink_strike   =   {
+      controllerDesc   =   {
+         factoryUid   =   "NerephBlinkSequence"
+         __type   =   "AbilityControllerDescNerephBlinkStrike"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_nereph_clone_weak_dissolve   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescNerephCloneWeakDissolve"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_nereph_clone_attack   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescNerephCloneAttack"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_nereph_dark_room   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescNerephDarkRoom"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_nereph_summon_loc   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescNerephSummonLoc"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_psychic_arc   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescPsychicArc"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_nereph_head_barrage   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescNerephHeadBarrage"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_lord_of_change_firestorm   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescLordOfChangeFirestorm"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_lord_of_change_eye_of_tzeentch   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescLordOfChangeEyeOfTzeentch"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_psychic_storm   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescPsychicStorm"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_lord_of_change_teleport   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescLordOfChangeTeleport"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_lord_of_change_magic_claws   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescLordOfChangeMagicClaws"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_helbrute_aftershock   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescHelbruteAftershock"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_helbrute_warp_walk   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescHelbruteWarpWalk"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_helbrute_overcharged_plasma   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescHelbruteOverchardgedPlasma"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_ambush   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescAmbush"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_helbrute_taunt   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescHelbruteTaunt"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_rocket_storm   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescRocketStorm"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_passive_adrenaline   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescPassiveAdrenaline"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_ravener_burrow   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescRavenerBurrow"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_calgars_shooting   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescCalgarsShooting"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_warp_stalkers   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescWarpStalkers"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_doom_bolts_storm   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescDoomBoltsStorm"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_story_tower_portal_open   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescStoryTowerPortalOpen"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_story_tower_portal_close   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescStoryTowerPortalClose"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_lesser_sorcerer_revive   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescLesserSorcererRevive"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_chaos_energy_ray   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescChaosEnergyRay"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_lord_of_change_ground_slam   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescLordOfChangeGroundSlam"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_heldrake_fire   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescHeldrakeFire"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_turret_stance   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescTurretStance"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_calgars_heavy_attack   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescCalgarsHeavyAttack"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_stomp   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescStomp"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_nereph_clone_attack_singular_unanimated   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescNerephCloneAttackSingularUnanimated"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_lesser_sorcerer_summon_shields   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescLesserSorcererSummonShields"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_nereph_aftershock   =   {
+      controllerDesc   =   {
+         type   =   {
+            blueprint   =   {
+               variables   =   {
+                  HammerBone   =   {
+                     value   =   "GUN_R"
+                     __type   =   "BlueprintVariableString"
+                  }
+               }
+               __type   =   "BlueprintAbility"
+            }
+            __type   =   "AbilityController"
+         }
+         factoryUid   =   "NerephAftershock"
+         __type   =   "AbilityControllerDescHelbruteAftershock"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_focused_psychic_storm   =   {
+      controllerDesc   =   {
+         factoryUid   =   "FocusedPsychicStorm"
+         __type   =   "AbilityControllerDescFocusedPsychicStorm"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_lord_of_change_dissolve   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescLordOfChangeDissolve"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   melee_ripper_tornado   =   {
+      controllerDesc   =   {
+         meleeDescLink   =   "RipperTornadoDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_cultist_suicide   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescCultistSuicide"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_bolster_defense   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescBolsterDefense"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_warp_blast   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescWarpBlast"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_hierophant_shooting   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescHierophantShooting"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   melee_tzaangor_spear   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "TzaangorSpearDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_tzaangor_spearman_dodge_throw   =   {
+      slot   =   "ROUTINE"
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescTzaangorSpearmanDodgeThrow"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_trygon_ground_burst   =   {
+      controllerDesc   =   {
+         factoryUid   =   "TrygonGroundBurst"
+         __type   =   "AbilityControllerDescTrygonGroundBurst"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   melee_chalice   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "MeleeChaliceDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_jump   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescJump"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_tzaangor_spearman_flying_disk   =   {
+      slot   =   "PASSIVE"
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescTzaangorSpearmanFlyingDisk"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_hierophant_smoke   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescHierophantSmoke"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_biovore_shoot_mine   =   {
+      controllerDesc   =   {
+         type   =   {
+            allowParallelCast   =   True
+            __type   =   "AbilityController"
+         }
+         __type   =   "AbilityControllerDescBiovoreSpawnMine"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   melee_biovore_claws   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "BiovoreClawDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_tzaangor_spearman_throw   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescTzaangorSpearmanThrow"
+      }
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_trygon_talons   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "TrygonTalonsDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_biovore_deploy   =   {
+      controllerDesc   =   {
+         factoryUid   =   "BiovoreDeploy"
+         __type   =   "AbilityControllerDescBiovoreDeploy"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_acid_shower   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescAcidShower"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   melee_power_axe   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "MeleePowerAxeDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_trygon_bio_electric_charge   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescTrygonBioElectricCharge"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_chaos_spawn_scare_scream   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescChaosSpawnScareScream"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_chaos_spawn_warp_hole   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescChaosSpawnWarpHole"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   melee_chaos_spawn   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "ChaosSpawnMeleeDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_trygon_bio_electric_burst   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescTrygonBioElectricBurst"
+      }
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_shoulder_gun_bolter   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         type   =   {
+            abilityResourceDrainers   =   {
+               shotEvent   =   {
+                  customEventUid   =   "shot"
+                  drainPerEvent   =   4
+                  __type   =   "AbilityResourceEnergyDrainerCustomEvent"
+               }
+            }
+            __type   =   "AbilityResourceEnergy"
+         }
+         energySettings   =   {
+            settingsType   =   "PERCENT"
+            maxCharges   =   1
+            startingCharges   =   1
+            activationCost   =   0
+            deactivationCost   =   0
+            activationThreshold   =   100
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   1.2
+                  ticksPerSec   =   20
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            isDrainingBlocksRegeneration   =   True
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescShoulderGunBolter"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_shoulder_gun_plasma   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         type   =   {
+            abilityResourceDrainers   =   {
+               shotEvent   =   {
+                  customEventUid   =   "shot"
+                  drainPerEvent   =   5
+                  __type   =   "AbilityResourceEnergyDrainerCustomEvent"
+               }
+            }
+            __type   =   "AbilityResourceEnergy"
+         }
+         energySettings   =   {
+            settingsType   =   "PERCENT"
+            maxCharges   =   1
+            startingCharges   =   1
+            activationCost   =   0
+            deactivationCost   =   0
+            activationThreshold   =   100
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   1.2
+                  ticksPerSec   =   20
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            isDrainingBlocksRegeneration   =   True
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescShoulderGunPlasma"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   melee_power_halberd   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "MeleePowerHalberdDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_shoulder_gun_sniper   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         type   =   {
+            abilityResourceDrainers   =   {
+               shotEvent   =   {
+                  customEventUid   =   "shot"
+                  drainPerEvent   =   20
+                  __type   =   "AbilityResourceEnergyDrainerCustomEvent"
+               }
+            }
+            __type   =   "AbilityResourceEnergy"
+         }
+         energySettings   =   {
+            activationCost   =   0
+            activationThreshold   =   100
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   1.2
+                  ticksPerSec   =   20
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescShoulderGunSniper"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_pc_helbrute_healing   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            maxCharges   =   1
+            startingCharges   =   0
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   1.2
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescPcHelbruteHealing"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_astropath_minor_head_barrage   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescAstropathMinorHeadBarrage"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_astropath_minor_chaos_wave   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescAstropathMinorChaosWave"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   melee_vortex_beast_fists   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "VortexBeastFistsDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   melee_vortex_tentacle_whip   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "VortexTentacleWhipDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_tentacle_warp_spike   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescTentacleWarpSpike"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_warp_spike   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescWarpSpike"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   melee_tyranid_prime_claws   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "TyranidPrimeClawsDesc"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityMeleeDesc"
+   }
+   ability_vortex_beast_aftershock   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescVortexBeastAftershock"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_vortex_beast_warp_spike   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescVortexBeastWarpSpike"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_vortex_beast_dark_dimension   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescVortexBeastDarkDimension"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_tyranid_prime_shock_zone   =   {
+      slot   =   "ULTIMATE"
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescTyranidPrimeShockZone"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_vortex_beast_rejuvenation   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescVortexBeastRejuvenation"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_vortex_beast_beam   =   {
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescVortexBeastBeam"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_tyranid_prime_chest_hook   =   {
+      slot   =   "ROUTINE"
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescTyranidPrimeChestHook"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ability_tyranid_prime_flying   =   {
+      slot   =   "PASSIVE"
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescTyranidPrimeFlying"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+   ability_tyranid_prime_rage_regeneration   =   {
+      slot   =   "INJECTOR"
+      controllerDesc   =   {
+         __type   =   "AbilityControllerDescTyranidPrimeRageRegeneration"
+      }
+      debugCategory   =   "NPC"
+      __type   =   "AbilityDescDefault"
+   }
+   ultimate_mod_1   =   {
+      slot   =   "ULTIMATE"
+      resourceDesc   =   {
+         energySettings   =   {
+            settingsType   =   "CHARGES"
+            maxCharges   =   1
+            startingCharges   =   1
+            regenerationRules   =   {
+               TimerRegen   =   {
+                  recoverSpeed   =   2.5
+                  ticksPerSec   =   20
+                  regenStartingDelay   =   1
+                  __type   =   "EnergyTimerRegen"
+               }
+            }
+            __type   =   "EnergySettings"
+         }
+         __type   =   "AbilityResourceEnergyDesc"
+      }
+      controllerDesc   =   {
+         type   =   {
+            blueprint   =   {
+               nodes   =   {
+                  AbilityTaskOnCastStarted   =   {
+                     OnCastStarted   =   [
+                        "AbilityTaskOnCastStarted_F82ahC3n5/Subscribe",
+                        "AbilityTaskChangeStatusTag_2_1_F84nLqc3/AddTag"
+                     ]
+                     castType   =   "BASE"
+                     __type   =   "BlueprintNodeAbilityTaskSubscribeOnCastStarted"
+                  }
+                  SetIactorTransform3d_F81b9E4b2   =   {
+                     viewData   =   {
+                        x   =   6700
+                        y   =   7150
+                     }
+                     OnExit   =   [
+                        "Sequence4_F82cMA9F/Start"
+                     ]
+                     __type   =   "BlueprintNodeSetIactorTransform3d"
+                  }
+                  AbilityTaskDataGetTargetTransform_F81b9E4b3   =   {
+                     viewData   =   {
+                        x   =   6350
+                        y   =   7300
+                     }
+                     GetTransform   =   [
+                        "SetIactorTransform3d_F81b9E4b2/transform3d/cb"
+                     ]
+                     __type   =   "BlueprintNodeAbilityTaskGetTargetTransform"
+                  }
+                  AbilityTaskTriggerAbilityEffect_F81b9E4bb   =   {
+                     viewData   =   {
+                        x   =   7300
+                        y   =   7000
+                     }
+                     __type   =   "BlueprintNodeAbilityTaskTriggerAbilityEffect"
+                  }
+                  AbilityTaskChangeStatusTag_2_1_F81b9E4bc   =   {
+                     viewData   =   {
+                        x   =   7150
+                        y   =   7600
+                     }
+                     OnExit   =   [
+                        "AbilityTaskChangeStatusTag_F81b9E4bd/RemoveTag"
+                     ]
+                     abilityStatusTag   =   "INVISIBLE"
+                     __type   =   "BlueprintNodeAbilityTaskAddRemoveStatusTag"
+                  }
+                  AbilityTaskChangeStatusTag_F81b9E4bd   =   {
+                     viewData   =   {
+                        x   =   7450
+                        y   =   7600
+                     }
+                     OnExit   =   [
+                        "EnableDisableUndyingMode_F81b9E4be/Input"
+                     ]
+                     abilityStatusTag   =   "UNTARGETABLE"
+                     __type   =   "BlueprintNodeAbilityTaskAddRemoveStatusTag"
+                  }
+                  EnableDisableUndyingMode_F81b9E4be   =   {
+                     viewData   =   {
+                        x   =   7750
+                        y   =   7600
+                     }
+                     __type   =   "BlueprintNodeEnableDisableUndying"
+                  }
+                  HandleEvent_F81b9E4bh   =   {
+                     viewData   =   {
+                        x   =   6150
+                        y   =   7600
+                     }
+                     OnHandle   =   [
+                        "AbilityTaskChangeStatusTag_2_1_F82d504I/RemoveTag"
+                     ]
+                     eventUidRefParam   =   {
+                        def   =   "RemoveTags"
+                        __type   =   "StringRefParam"
+                     }
+                     __type   =   "BlueprintNodeHandleEvent"
+                  }
+                  TriggerEvent_F81b9E4bj   =   {
+                     viewData   =   {
+                        x   =   8250
+                        y   =   7150
+                     }
+                     OnExit   =   [
+                        "AbilityTaskDeactivateAbility_F82ahC3nf/Deactivate"
+                     ]
+                     eventUid   =   {
+                        def   =   "RemoveTags"
+                        __type   =   "StringRefParam"
+                     }
+                     __type   =   "BlueprintNodeTriggerCustomEvent"
+                  }
+                  HandleEvent_F81b9E4b10   =   {
+                     viewData   =   {
+                        x   =   6150
+                        y   =   7150
+                     }
+                     OnHandle   =   [
+                        "TriggerEvent_F82fjOdq/TriggerBlueprintEvent"
+                     ]
+                     eventUidRefParam   =   {
+                        def   =   "Teleport"
+                        __type   =   "StringRefParam"
+                     }
+                     __type   =   "BlueprintNodeHandleEvent"
+                  }
+                  Command_F81b9E4b11   =   {
+                     viewData   =   {
+                        x   =   7600
+                        y   =   7150
+                     }
+                     OnSuccess   =   [
+                        "TriggerEvent_F81b9E4bj/TriggerBlueprintEvent"
+                     ]
+                     OnFail   =   [
+                        "TriggerEvent_F81b9E4bj/TriggerBlueprintEvent"
+                     ]
+                     commandDesc   =   {
+                        type   =   {
+                           strikeType   =   "LIGHT_TAP"
+                           __type   =   "CommandMeleeStrike"
+                        }
+                        __type   =   "CommandDesc"
+                     }
+                     __type   =   "BlueprintNodeCommand"
+                  }
+                  TriggerEvent_F81b9E4b16   =   {
+                     viewData   =   {
+                        x   =   8150
+                        y   =   6600
+                     }
+                     eventUid   =   {
+                        def   =   "Teleport"
+                        __type   =   "StringRefParam"
+                     }
+                     __type   =   "BlueprintNodeTriggerCustomEvent"
+                  }
+                  AbilityTaskDataSetTargetActor_F81b9E4b1b   =   {
+                     viewData   =   {
+                        x   =   8200
+                        y   =   7300
+                     }
+                     actorRef   =   {
+                        __type   =   "ActorRefParam"
+                     }
+                     __type   =   "BlueprintNodeAbilityTaskSetTargetActor"
+                  }
+                  AbilityTaskAdditiveAnimation_2_F81b9E4b1c   =   {
+                     viewData   =   {
+                        x   =   7600
+                        y   =   7300
+                     }
+                     OnSuccess   =   [
+                        "AbilityTaskDataSetTargetActor_F81b9E4b1b/Execute"
+                     ]
+                     OnFail   =   [
+                        "AbilityTaskDataSetTargetActor_F81b9E4b1b/Execute"
+                     ]
+                     animLinks   =   {
+                        Primaris   =   {
+                           firstAnimLink   =   {
+                              link   =   "Primaris.Jetpack.JetpackOnLand"
+                              __type   =   "AnimTableLink"
+                           }
+                           __type   =   "AnimTablePairLink"
+                        }
+                     }
+                     needWaitCompleteAnimRef   =   {
+                        def   =   False
+                        __type   =   "BoolRefParam"
+                     }
+                     __type   =   "BlueprintNodeAbilityTaskAdditiveAnimation"
+                  }
+                  AbilityTaskCompleteCast_F82ahC3n4   =   {
+                     viewData   =   {
+                        x   =   7400
+                        y   =   6750
+                     }
+                     OnExit   =   [
+                        "If_F82ahC3ni/Input"
+                     ]
+                     __type   =   "BlueprintNodeAbilityTaskCompleteCast"
+                  }
+                  AbilityTaskOnCastStarted_F82ahC3n5   =   {
+                     viewData   =   {
+                        x   =   6150
+                        y   =   6750
+                     }
+                     shouldSubscribeOnInitRef   =   {
+                        def   =   False
+                        __type   =   "BoolRefParam"
+                     }
+                     OnCastStarted   =   [
+                        "AbilityTaskAdditiveAnimation_F82ahC3n6/Execute"
+                     ]
+                     castType   =   "ADDITIONAL"
+                     __type   =   "BlueprintNodeAbilityTaskSubscribeOnCastStarted"
+                  }
+                  AbilityTaskAdditiveAnimation_F82ahC3n6   =   {
+                     viewData   =   {
+                        x   =   6650
+                        y   =   6750
+                     }
+                     OnSuccess   =   [
+                        "AbilityTaskCompleteCast_F82ahC3n4/CompleteCast"
+                     ]
+                     OnFail   =   [
+                        "PipeWithCondition_F82ahC3np/Input"
+                     ]
+                     OnAnimEvent   =   [
+                        "PipeWithCondition_F82ahC3nc/Input",
+                        "AbilityTaskChangeStatusTag_2_1_F84nLT3e/RemoveTag"
+                     ]
+                     animEvents   =   [
+                        "AbilityEffect"
+                     ]
+                     animLinks   =   {
+                        Primaris   =   {
+                           firstAnimLink   =   {
+                              link   =   "Primaris.Ability.CamoCloak"
+                              __type   =   "AnimTableLink"
+                           }
+                           secondAnimLink   =   {
+                              link   =   "Primaris.Ability.AbortCamoCloak"
+                              __type   =   "AnimTableLink"
+                           }
+                           __type   =   "AnimTablePairLink"
+                        }
+                     }
+                     __type   =   "BlueprintNodeAbilityTaskAdditiveAnimation"
+                  }
+                  AbilityTaskDataGetTargetTransform_F82ahC3nb   =   {
+                     viewData   =   {
+                        x   =   6450
+                        y   =   7000
+                     }
+                     GetTransform   =   [
+                        "IsNull_F82ahC3ne/objectRef/cb"
+                     ]
+                     __type   =   "BlueprintNodeAbilityTaskGetTargetTransform"
+                  }
+                  PipeWithCondition_F82ahC3nc   =   {
+                     viewData   =   {
+                        x   =   7100
+                        y   =   7000
+                     }
+                     OnExit   =   [
+                        "AbilityTaskTriggerAbilityEffect_F81b9E4bb/TriggerAbilityEffect"
+                     ]
+                     __type   =   "BlueprintMathLibraryBoolpipe"
+                  }
+                  BoolNot_F82ahC3nd   =   {
+                     viewData   =   {
+                        x   =   6900
+                        y   =   7000
+                     }
+                     Bool   =   [
+                        "PipeWithCondition_F82ahC3nc/bool/cb"
+                     ]
+                     __type   =   "BlueprintMathLibraryBoolreverse"
+                  }
+                  IsNull_F82ahC3ne   =   {
+                     viewData   =   {
+                        x   =   6750
+                        y   =   7000
+                     }
+                     IsNull   =   [
+                        "BoolNot_F82ahC3nd/bool/cb"
+                     ]
+                     __type   =   "BlueprintNodeIsNull"
+                  }
+                  AbilityTaskDeactivateAbility_F82ahC3nf   =   {
+                     viewData   =   {
+                        x   =   8550
+                        y   =   6750
+                     }
+                     __type   =   "BlueprintNodeAbilityTaskDeactivate"
+                  }
+                  AbilityTaskSubscribeOnSpawnableActor_F82ahC3ng   =   {
+                     viewData   =   {
+                        x   =   7900
+                        y   =   6950
+                     }
+                     OnCleared   =   [
+                        "AbilityTaskDeactivateAbility_F82ahC3nf/Deactivate"
+                     ]
+                     GetActor   =   [
+                        "IsNull_F82ahC3nh/objectRef/cb"
+                     ]
+                     __type   =   "BlueprintNodeAbilityTaskSubscribeOnSpawnableActor"
+                  }
+                  IsNull_F82ahC3nh   =   {
+                     viewData   =   {
+                        x   =   7650
+                        y   =   6850
+                     }
+                     IsNull   =   [
+                        "If_F82ahC3ni/condition/cb"
+                     ]
+                     __type   =   "BlueprintNodeIsNull"
+                  }
+                  If_F82ahC3ni   =   {
+                     viewData   =   {
+                        x   =   7650
+                        y   =   6749.203
+                     }
+                     OnTrue   =   [
+                        "PipeWithCondition_F86bfO3r1/Input",
+                        "PipeWithCondition_F86bvu04/Input"
+                     ]
+                     OnFalse   =   [
+                        "AbilityTaskSubscribeOnSpawnableActor_F82ahC3ng/Unsubscribe"
+                     ]
+                     __type   =   "BlueprintNodeIf"
+                  }
+                  AbilityTaskCheckAbilityTag_F82ahC3no   =   {
+                     viewData   =   {
+                        x   =   7100
+                        y   =   6900
+                     }
+                     HasAbilityTag   =   [
+                        "PipeWithCondition_F82ahC3np/bool/cb",
+                        "BoolNot_F86byk3R/bool/cb"
+                     ]
+                     tag   =   "EFFECT_TRIGGERED"
+                     __type   =   "BlueprintNodeAbilityTaskCheckAbilityTag"
+                  }
+                  PipeWithCondition_F82ahC3np   =   {
+                     viewData   =   {
+                        x   =   7150
+                        y   =   6800
+                     }
+                     OnExit   =   [
+                        "AbilityTaskCompleteCast_F82ahC3n4/CompleteCast"
+                     ]
+                     __type   =   "BlueprintMathLibraryBoolpipe"
+                  }
+                  Sequence4_F82cMA9F   =   {
+                     viewData   =   {
+                        x   =   7000
+                        y   =   7150
+                     }
+                     OnExit1   =   [
+                        "Command_F81b9E4b11/Execute"
+                     ]
+                     OnExit2   =   [
+                        "AbilityTaskChangeStatusTag_2_1_F82fhW0N3/AddTag"
+                     ]
+                     __type   =   "BlueprintSequence4"
+                  }
+                  AbilityTaskChangeStatusTag_2_1_F82d504I   =   {
+                     viewData   =   {
+                        x   =   6450
+                        y   =   7600
+                     }
+                     OnExit   =   [
+                        "AbilityTaskChangeStatusTag_2_1_F82fiA8T/RemoveTag"
+                     ]
+                     abilityStatusTag   =   "PREPARE_GROUND_POUND"
+                     __type   =   "BlueprintNodeAbilityTaskAddRemoveStatusTag"
+                  }
+                  HandleEvent_F82fhKdg   =   {
+                     viewData   =   {
+                        x   =   6150
+                        y   =   7450
+                     }
+                     OnHandle   =   [
+                        "AbilityTaskChangeStatusTag_2_1_F82fij05/AddTag"
+                     ]
+                     eventUidRefParam   =   {
+                        def   =   "AddTags"
+                        __type   =   "StringRefParam"
+                     }
+                     __type   =   "BlueprintNodeHandleEvent"
+                  }
+                  AbilityTaskChangeStatusTag_2_1_F82fhW0N   =   {
+                     viewData   =   {
+                        x   =   6750
+                        y   =   7450
+                     }
+                     OnExit   =   [
+                        "AbilityTaskChangeStatusTag_F82fhW0N1/AddTag"
+                     ]
+                     abilityStatusTag   =   "INVISIBLE"
+                     __type   =   "BlueprintNodeAbilityTaskAddRemoveStatusTag"
+                  }
+                  AbilityTaskChangeStatusTag_F82fhW0N1   =   {
+                     viewData   =   {
+                        x   =   7050
+                        y   =   7450
+                     }
+                     OnExit   =   [
+                        "EnableDisableUndyingMode_F82fhW0N2/Input"
+                     ]
+                     abilityStatusTag   =   "UNTARGETABLE"
+                     __type   =   "BlueprintNodeAbilityTaskAddRemoveStatusTag"
+                  }
+                  EnableDisableUndyingMode_F82fhW0N2   =   {
+                     viewData   =   {
+                        x   =   7350
+                        y   =   7450
+                     }
+                     valueRef   =   {
+                        def   =   True
+                        __type   =   "BoolRefParam"
+                     }
+                     __type   =   "BlueprintNodeEnableDisableUndying"
+                  }
+                  AbilityTaskChangeStatusTag_2_1_F82fhW0N3   =   {
+                     viewData   =   {
+                        x   =   7200
+                        y   =   7300
+                     }
+                     OnExit   =   [
+                        "AbilityTaskAdditiveAnimation_2_F81b9E4b1c/Execute"
+                     ]
+                     abilityStatusTag   =   "PREPARE_GROUND_POUND"
+                     __type   =   "BlueprintNodeAbilityTaskAddRemoveStatusTag"
+                  }
+                  AbilityTaskChangeStatusTag_2_1_F82fij05   =   {
+                     viewData   =   {
+                        x   =   6450
+                        y   =   7450
+                     }
+                     OnExit   =   [
+                        "AbilityTaskChangeStatusTag_2_1_F82fhW0N/AddTag"
+                     ]
+                     abilityStatusTag   =   "FLYING"
+                     __type   =   "BlueprintNodeAbilityTaskAddRemoveStatusTag"
+                  }
+                  AbilityTaskChangeStatusTag_2_1_F82fiA8T   =   {
+                     viewData   =   {
+                        x   =   6850
+                        y   =   7600
+                     }
+                     OnExit   =   [
+                        "AbilityTaskChangeStatusTag_2_1_F81b9E4bc/RemoveTag"
+                     ]
+                     abilityStatusTag   =   "FLYING"
+                     __type   =   "BlueprintNodeAbilityTaskAddRemoveStatusTag"
+                  }
+                  TriggerEvent_F82fjOdq   =   {
+                     viewData   =   {
+                        x   =   6450
+                        y   =   7150
+                     }
+                     OnExit   =   [
+                        "SetIactorTransform3d_F81b9E4b2/Set"
+                     ]
+                     eventUid   =   {
+                        def   =   "AddTags"
+                        __type   =   "StringRefParam"
+                     }
+                     __type   =   "BlueprintNodeTriggerCustomEvent"
+                  }
+                  AbilityTaskChangeStatusTag_2_1_F84nLqc3   =   {
+                     viewData   =   {
+                        x   =   6500
+                        y   =   6300
+                     }
+                     OnExit   =   [
+                        "AbilityTaskAimingToNavmesh_F86c1Q2y/StartUpdate"
+                     ]
+                     abilityStatusTag   =   "AIMING"
+                     __type   =   "BlueprintNodeAbilityTaskAddRemoveStatusTag"
+                  }
+                  AbilityTaskChangeStatusTag_2_1_F84nLT3e   =   {
+                     viewData   =   {
+                        x   =   6800
+                        y   =   6600
+                     }
+                     OnExit   =   [
+                        "AbilityTaskAimingToNavmesh_F86c1Q2y/StopUpdate"
+                     ]
+                     abilityStatusTag   =   "AIMING"
+                     __type   =   "BlueprintNodeAbilityTaskAddRemoveStatusTag"
+                  }
+                  AbilityTaskCheckAbilityTag_F86bfO3r   =   {
+                     viewData   =   {
+                        x   =   7900
+                        y   =   6700
+                     }
+                     HasAbilityTag   =   [
+                        "PipeWithCondition_F86bfO3r1/bool/cb",
+                        "BoolNot_F86bvg5N/bool/cb"
+                     ]
+                     tag   =   "EFFECT_TRIGGERED"
+                     __type   =   "BlueprintNodeAbilityTaskCheckAbilityTag"
+                  }
+                  PipeWithCondition_F86bfO3r1   =   {
+                     viewData   =   {
+                        x   =   7900
+                        y   =   6600
+                     }
+                     OnExit   =   [
+                        "TriggerEvent_F81b9E4b16/TriggerBlueprintEvent"
+                     ]
+                     __type   =   "BlueprintMathLibraryBoolpipe"
+                  }
+                  BoolNot_F86bvg5N   =   {
+                     viewData   =   {
+                        x   =   8250
+                        y   =   6700
+                     }
+                     Bool   =   [
+                        "PipeWithCondition_F86bvu04/bool/cb"
+                     ]
+                     __type   =   "BlueprintMathLibraryBoolreverse"
+                  }
+                  PipeWithCondition_F86bvu04   =   {
+                     viewData   =   {
+                        x   =   7900
+                        y   =   6800
+                     }
+                     OnExit   =   [
+                        "AbilityTaskDeactivateAbility_F82ahC3nf/Deactivate"
+                     ]
+                     __type   =   "BlueprintMathLibraryBoolpipe"
+                  }
+                  BoolNot_F86byk3R   =   {
+                     viewData   =   {
+                        x   =   7400
+                        y   =   6900
+                     }
+                     __type   =   "BlueprintMathLibraryBoolreverse"
+                  }
+                  Transform3dFromVector3d_F86c1I2Q   =   {
+                     viewData   =   {
+                        x   =   7550
+                        y   =   6500
+                     }
+                     Get   =   [
+                        "AbilityTaskDataSetTargetTransform_F86c2MdO3/transformRef/cb"
+                     ]
+                     __type   =   "BlueprintNodeTransform3dFromVector"
+                  }
+                  AbilityTaskAimingToNavmesh_F86c1Q2y   =   {
+                     viewData   =   {
+                        x   =   6750
+                        y   =   6300
+                     }
+                     OnUpdated   =   [
+                        "If_F86c2MdO1/Input"
+                     ]
+                     maxDistanceRef   =   {
+                        def   =   75
+                        __type   =   "FloatRefParam"
+                     }
+                     destinationRefineRef   =   {
+                        def   =   {
+                           cdtOnPhysMove   =   True
+                           cdtOnWpnBullet   =   True
+                           cdtOnAbilityMove   =   True
+                           layerAnimObj   =   True
+                           layerSceneryObject   =   True
+                           flBackface   =   True
+                           flCollectHiddenInst   =   True
+                           __type   =   "CdtRefine"
+                        }
+                        __type   =   "CdtRefineRefParam"
+                     }
+                     GetTransform   =   [
+                        "IsNull_F86c2MdO/objectRef/cb",
+                        "Transform3dGetPosition_F86c6Uf5/transform3d/cb"
+                     ]
+                     __type   =   "BlueprintNodeAbilityTaskAimingToNavmesh"
+                  }
+                  IsNull_F86c2MdO   =   {
+                     viewData   =   {
+                        x   =   7100
+                        y   =   6400
+                     }
+                     IsNull   =   [
+                        "If_F86c2MdO1/condition/cb"
+                     ]
+                     __type   =   "BlueprintNodeIsNull"
+                  }
+                  If_F86c2MdO1   =   {
+                     viewData   =   {
+                        x   =   7100
+                        y   =   6250
+                     }
+                     OnTrue   =   [
+                        "AbilityTaskDataSetTargetTransform_F86c2MdO2/Execute"
+                     ]
+                     OnFalse   =   [
+                        "AbilityTaskDataSetTargetTransform_F86c2MdO3/Execute"
+                     ]
+                     __type   =   "BlueprintNodeIf"
+                  }
+                  AbilityTaskDataSetTargetTransform_F86c2MdO2   =   {
+                     viewData   =   {
+                        x   =   7850
+                        y   =   6250
+                     }
+                     transformRef   =   {
+                        __type   =   "Transform3dRefParam"
+                     }
+                     __type   =   "BlueprintNodeAbilityTaskSetTargetTransform"
+                  }
+                  AbilityTaskDataSetTargetTransform_F86c2MdO3   =   {
+                     viewData   =   {
+                        x   =   7850
+                        y   =   6350
+                     }
+                     transformRef   =   {
+                        __type   =   "Transform3dRefParam"
+                     }
+                     __type   =   "BlueprintNodeAbilityTaskSetTargetTransform"
+                  }
+                  GetClosestPointOnNavmesh_F86c3D0p   =   {
+                     viewData   =   {
+                        x   =   7300
+                        y   =   6500
+                     }
+                     materialFilterRef   =   {
+                        def   =   {
+                           excludeMaterials   =   [
+                              1,
+                              9,
+                              10,
+                              2
+                           ]
+                           __type   =   "NavMaterialFilterInfo"
+                        }
+                        __type   =   "NavMaterialFilterInfoRefParam"
+                     }
+                     GetLocalized   =   [
+                        "Transform3dFromVector3d_F86c1I2Q/vecRef/cb"
+                     ]
+                     __type   =   "BlueprintNodeGetClosestPointOnNavmesh"
+                  }
+                  Transform3dGetPosition_F86c6Uf5   =   {
+                     viewData   =   {
+                        x   =   7100
+                        y   =   6500
+                     }
+                     GetPosition   =   [
+                        "GetClosestPointOnNavmesh_F86c3D0p/centerRef/cb"
+                     ]
+                     __type   =   "BlueprintNodeTransform3dGetPosition"
+                  }
+               }
+               variables   =   {
+                  MarkDuration   =   {
+                     isReadOnly   =   True
+                     value   =   0.5
+                     __type   =   "BlueprintVariableFloat"
+                  }
+               }
+               __type   =   "BlueprintAbility"
+            }
+            preventingCastCondition   =   {
+               condition   =   {
+                  bodyStateConditionInternal   =   {
+                     bodyStateArray   =   [
+                        "DODGE",
+                        "MELEE_STRIKE",
+                        "MELEE_PREPARING",
+                        "MELEE_PARRY",
+                        "FINISHER_EXECUTOR",
+                        "FINISHER_TARGET",
+                        "GUN_STRIKE_EXECUTOR",
+                        "GRAB_EXECUTOR",
+                        "GRAB_TARGET",
+                        "FALLING_ATTACK",
+                        "HEAVY_HIT",
+                        "RIPOSTE_HIT",
+                        "KNOCKBACK",
+                        "STUN",
+                        "INCAP",
+                        "HOOK_TARGET"
+                     ]
+                     __type   =   "BodyStateCondition"
+                  }
+                  __type   =   "ConditionBodyStates"
+               }
+               __type   =   "ConditionCheckerHolder"
+            }
+            __type   =   "AbilityController"
+         }
+         factoryUid   =   "TerminatorTeleport"
+         gearActor   =   "AuspexScan"
+         isTerminatePreviousGear   =   True
+         __type   =   "AbilityControllerDescGear"
+      }
+      __type   =   "AbilityDescDefault"
+   }
+}
+__type   =   "object"
