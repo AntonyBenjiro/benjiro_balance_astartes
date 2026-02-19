@@ -488,7 +488,7 @@ templates   =   {
             __type   =   "WeaponLoadoutTemplate"
          }
          Loadout4   =   {
-            primarySkill   =   "smg_bolt_carbine"
+            primarySkill   =   "none"
             secondarySkill   =   "hgun_plasma_pistol"
             meleeSkill   =   "melee_chainsword"
             equipmentSkill   =   "equipment_melta_charge"
@@ -679,14 +679,14 @@ templates   =   {
             __type   =   "WeaponLoadoutTemplate"
          }
          Loadout3   =   {
-            primarySkill   =   "none"
+            primarySkill   =   "hwpn_pyrecannon"
             secondarySkill   =   "hgun_plasma_pistol"
             meleeSkill   =   "melee_power_axe"
             equipmentSkill   =   "equipment_shock_grenade"
             __type   =   "WeaponLoadoutTemplate"
          }
          Loadout4   =   {
-            primarySkill   =   "none"
+            primarySkill   =   "hwpn_support_heavy_meltagun"
             secondarySkill   =   "hgun_plasma_pistol"
             meleeSkill   =   "melee_thunder_hammer"
             equipmentSkill   =   "equipment_melta_charge"

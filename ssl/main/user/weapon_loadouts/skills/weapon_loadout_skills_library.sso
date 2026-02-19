@@ -506,17 +506,6 @@ weaponSkillPacks   =   {
       __type   =   "WeaponLoadoutSkillPack"
    }
    Raider   =   {
-      primaryWeapons   =   {
-         arifle_auto_bolt_rifle   =   {
-            __type   =   "WeaponSkillLocks"
-         }
-         smg_bolt_carbine   =   {
-            __type   =   "WeaponSkillLocks"
-         }
-         brifle_marksman_bolt_carbine   =   {
-            __type   =   "WeaponSkillLocks"
-         }
-      }
       secondaryWeapons   =   {
          hgun_bolt_pistol   =   {
             __type   =   "WeaponSkillLocks"
@@ -703,9 +692,6 @@ weaponSkillPacks   =   {
             __type   =   "WeaponSkillLocks"
          }
          hwpn_support_heavy_meltagun   =   {
-            __type   =   "WeaponSkillLocks"
-         }
-         none   =   {
             __type   =   "WeaponSkillLocks"
          }
       }
