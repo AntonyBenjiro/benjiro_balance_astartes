@@ -1,0 +1,1937 @@
+primaryFirearms   =   {
+   arifle_bolt_rifle   =   {
+      perksList   =   [
+         "SpawnWithBolter"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   arifle_death_watch_bolt_rifle   =   {
+      perksList   =   [
+         "SpawnWithDeathwatchBoltRifle"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hwpn_las_fusil   =   {
+      perksList   =   [
+         "SpawnWithLascannon"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hwpn_support_heavy_bolter   =   {
+      perksList   =   [
+         "SpawnWithHeavyBolter"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hwpn_heavy_flamer   =   {
+      perksList   =   [
+         "SpawnWithFlamer"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hwpn_support_plasma_incinerator   =   {
+      perksList   =   [
+         "SpawnWithHeavyPlasma"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   shotgun_meltagun   =   {
+      perksList   =   [
+         "SpawnWithMeltaGun"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   brifle_stalker_bolt_rifle   =   {
+      perksList   =   [
+         "SpawnWithStalkerBolter"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   smg_bolt_carbine   =   {
+      perksList   =   [
+         "SpawnWithBoltCarbine"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   brifle_marksman_bolt_carbine   =   {
+      perksList   =   [
+         "SpawnWithBoltCarbineMarksman"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   brifle_instigator_bolt_carbine   =   {
+      perksList   =   [
+         "SpawnWithInstigatorBoltCarbine"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   arifle_auto_bolt_rifle   =   {
+      perksList   =   [
+         "SpawnWithAutoBoltRifle"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   arifle_heavy_bolt_rifle   =   {
+      perksList   =   [
+         "SpawnWithHeavyBoltRifle"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   smg_occulus_bolt_carbine   =   {
+      perksList   =   [
+         "SpawnWithOcculusBoltCarbine"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hwpn_support_heavy_meltagun   =   {
+      perksList   =   [
+         "SpawnWithHeavyMelta"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   brifle_bolt_sniper_rifle   =   {
+      perksList   =   [
+         "SpawnWithBoltSniperRifle"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   pwpn_plasma_exterminator   =   {
+      perksList   =   [
+         "SpawnWithPlasmaExterminator"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   pc_helbrute_plasma_cannon   =   {
+      perksList   =   [
+         "SpawnWithPcHelbrutePlasmaCannon"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hwpn_pyroblaster   =   {
+      perksList   =   [
+         "SpawnWithPyroBlaster"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hwpn_pyrecannon   =   {
+      perksList   =   [
+         "SpawnWithPyrecannon"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+}
+secondaryFirearms   =   {
+   hgun_bolt_pistol   =   {
+      perksList   =   [
+         "SpawnWithBoltPistol"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hgun_plasma_pistol   =   {
+      perksList   =   [
+         "SpawnWithPlasmaPistol"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hgun_heavy_bolt_pistol   =   {
+      perksList   =   [
+         "SpawnWithHeavyBoltPistolAsPrimary"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hgun_volkite_pistol   =   {
+      perksList   =   [
+         "SpawnWithVolkitePistol"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hgun_inferno_pistol   =   {
+      perksList   =   [
+         "SpawnWithInfernoPistol"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hgun_death_watch_bolt_pistol   =   {
+      perksList   =   [
+         "SpawnWithDeathwatchBoltPistol"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hgun_assault_bolter   =   {
+      perksList   =   [
+         "SpawnWithAssaultBolter"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   hgun_bolt_pistol_last_stand   =   {
+      perksList   =   [
+         "SpawnWithBoltPistolLastStand"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+}
+meleeAbilities   =   {
+   melee_chainsword   =   {
+      perksList   =   [
+         "SpawnWithMeleeChainsword"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   melee_thunder_hammer   =   {
+      perksList   =   [
+         "SpawnWithMeleeThunderHammer"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   melee_combat_knife   =   {
+      perksList   =   [
+         "SpawnWithMeleeCombatKnife"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   melee_power_fist   =   {
+      perksList   =   [
+         "SpawnWithMeleePowerFist"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   melee_power_sword   =   {
+      perksList   =   [
+         "SpawnWithMeleePowerSword"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   melee_firearm   =   {
+      perksList   =   [
+         "SpawnWithMeleeBody"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   melee_pc_helbrute_hammer   =   {
+      perksList   =   [
+         "SpawnWithPcHelbruteHammer"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   melee_power_axe   =   {
+      perksList   =   [
+         "SpawnWithMeleePowerAxe"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   melee_power_halberd   =   {
+      perksList   =   [
+         "SpawnWithMeleePowerHalberd"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+}
+equipmentAbilities   =   {
+   equipment_frag_grenade   =   {
+      perksList   =   [
+         "SpawnWithFragGrenade"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   equipment_shock_grenade   =   {
+      perksList   =   [
+         "SpawnWithShockGrenade"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   equipment_krak_grenade   =   {
+      perksList   =   [
+         "SpawnWithKrakGrenade"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   equipment_melta_charge   =   {
+      perksList   =   [
+         "SpawnWithMeltaCharge"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+   equipment_steroids   =   {
+      perksList   =   [
+         "SpawnWithSteroids"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
+}
+weaponSkillPacks   =   {
+   Soldier   =   {
+      primaryWeapons   =   {
+         arifle_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         arifle_auto_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         arifle_heavy_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         smg_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         pwpn_plasma_exterminator   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_pyroblaster   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_marksman_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_plasma_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_combat_knife   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_chainsword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_steroids   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   Sniper   =   {
+      primaryWeapons   =   {
+         arifle_death_watch_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_stalker_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_bolt_sniper_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_las_fusil   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_instigator_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_plasma_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_death_watch_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_combat_knife   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_chainsword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_axe   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_steroids   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   Support   =   {
+      primaryWeapons   =   {
+         arifle_heavy_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_las_fusil   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_pyrecannon   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         pwpn_plasma_exterminator   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_support_heavy_bolter   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_support_plasma_incinerator   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_support_heavy_meltagun   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_plasma_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_assault_bolter   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_firearm   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_combat_knife   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_chainsword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_fist   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_steroids   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   Tank   =   {
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_plasma_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_volkite_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_death_watch_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_chainsword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_sword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_thunder_hammer   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_fist   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_axe   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_steroids   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   Raider   =   {
+      primaryWeapons   =   {
+         arifle_auto_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         smg_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_marksman_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_plasma_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_volkite_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_inferno_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_death_watch_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_assault_bolter   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_chainsword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_sword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_thunder_hammer   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_axe   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_steroids   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   Berserk   =   {
+      primaryWeapons   =   {
+         arifle_auto_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         smg_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         smg_occulus_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_instigator_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         shotgun_meltagun   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_pyroblaster   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         pwpn_plasma_exterminator   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_plasma_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_inferno_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_death_watch_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_combat_knife   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_chainsword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_axe   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_steroids   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   Engineer   =   {
+      primaryWeapons   =   {
+         arifle_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         arifle_heavy_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         smg_occulus_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         pwpn_plasma_exterminator   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_plasma_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_inferno_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_power_axe   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_halberd   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_steroids   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   CharacterMod1   =   {
+      primaryWeapons   =   {
+         hwpn_pyrecannon   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_support_heavy_bolter   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_support_plasma_incinerator   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_support_heavy_meltagun   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         none   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_plasma_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_assault_bolter   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_power_sword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_thunder_hammer   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_fist   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_axe   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_firearm   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_steroids   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   Chaplain   =   {
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_plasma_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_death_watch_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_assault_bolter   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_thunder_hammer   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_fist   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_steroids   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   Apothecary   =   {
+      primaryWeapons   =   {
+         arifle_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_pyroblaster   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         pwpn_plasma_exterminator   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         arifle_auto_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_plasma_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_death_watch_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_power_axe   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_chainsword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_combat_knife   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_steroids   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   StoryDefault   =   {
+      primaryWeapons   =   {
+         arifle_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         arifle_auto_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         arifle_heavy_bolt_rifle   =   {
+            locks   =   {
+               AfterSkylab   =   {
+                  shouldCheckLeader   =   True
+                  missionUid   =   "STORY_SKYLAB"
+                  __type   =   "MissionLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_stalker_bolt_rifle   =   {
+            locks   =   {
+               AfterAssasination   =   {
+                  shouldCheckLeader   =   True
+                  missionUid   =   "STORY_ASSASSINATION"
+                  __type   =   "MissionLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         shotgun_meltagun   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         smg_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         smg_occulus_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_bolt_sniper_rifle   =   {
+            locks   =   {
+               AfterSkylab   =   {
+                  shouldCheckLeader   =   True
+                  missionUid   =   "STORY_SKYLAB"
+                  __type   =   "MissionLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         pwpn_plasma_exterminator   =   {
+            locks   =   {
+               AfterRescue   =   {
+                  shouldCheckLeader   =   True
+                  missionUid   =   "STORY_RESCUE"
+                  __type   =   "MissionLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_marksman_bolt_carbine   =   {
+            locks   =   {
+               AfterAssasination   =   {
+                  shouldCheckLeader   =   True
+                  missionUid   =   "STORY_ASSASSINATION"
+                  __type   =   "MissionLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_instigator_bolt_carbine   =   {
+            locks   =   {
+               AfterRescue   =   {
+                  shouldCheckLeader   =   True
+                  missionUid   =   "STORY_RESCUE"
+                  __type   =   "MissionLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_plasma_pistol   =   {
+            locks   =   {
+               AfterCannon   =   {
+                  shouldCheckLeader   =   True
+                  missionUid   =   "STORY_CANNON"
+                  __type   =   "MissionLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
+            locks   =   {
+               AfterCannon   =   {
+                  shouldCheckLeader   =   True
+                  missionUid   =   "STORY_CANNON"
+                  __type   =   "MissionLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_chainsword   =   {
+            locks   =   {
+               NotOnBlackstone   =   {
+                  invertResult   =   True
+                  availableOperations   =   [
+                     "BLACKSTONE"
+                  ]
+                  __type   =   "LeaderOperationLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_combat_knife   =   {
+            locks   =   {
+               NotOnBlackstone   =   {
+                  invertResult   =   True
+                  availableOperations   =   [
+                     "BLACKSTONE"
+                  ]
+                  __type   =   "LeaderOperationLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_thunder_hammer   =   {
+            locks   =   {
+               AfterBlackstone   =   {
+                  shouldCheckLeader   =   True
+                  missionUid   =   "STORY_BLACKSTONE"
+                  __type   =   "MissionLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_sword   =   {
+            locks   =   {
+               AfterAssasination   =   {
+                  shouldCheckLeader   =   True
+                  missionUid   =   "STORY_ASSASSINATION"
+                  __type   =   "MissionLockReason"
+               }
+               NotOnBlackstone   =   {
+                  invertResult   =   True
+                  availableOperations   =   [
+                     "BLACKSTONE"
+                  ]
+                  __type   =   "LeaderOperationLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            locks   =   {
+               AfterSkylab   =   {
+                  shouldCheckLeader   =   True
+                  missionUid   =   "STORY_SKYLAB"
+                  __type   =   "MissionLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            locks   =   {
+               AfterAssasination   =   {
+                  shouldCheckLeader   =   True
+                  missionUid   =   "STORY_ASSASSINATION"
+                  __type   =   "MissionLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            locks   =   {
+               AfterRescue   =   {
+                  shouldCheckLeader   =   True
+                  missionUid   =   "STORY_RESCUE"
+                  __type   =   "MissionLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   SoldierPVP   =   {
+      primaryWeapons   =   {
+         arifle_bolt_rifle   =   {
+            locks   =   {
+               LvL1   =   {
+                  requiredLevel   =   1
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         arifle_auto_bolt_rifle   =   {
+            locks   =   {
+               LvL2   =   {
+                  requiredLevel   =   2
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         arifle_heavy_bolt_rifle   =   {
+            locks   =   {
+               lvl6   =   {
+                  requiredLevel   =   6
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_stalker_bolt_rifle   =   {
+            locks   =   {
+               LvL22   =   {
+                  requiredLevel   =   22
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         shotgun_meltagun   =   {
+            locks   =   {
+               LvL19   =   {
+                  requiredLevel   =   19
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         smg_bolt_carbine   =   {
+            locks   =   {
+               LvL10   =   {
+                  requiredLevel   =   10
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         pwpn_plasma_exterminator   =   {
+            locks   =   {
+               LvL25   =   {
+                  requiredLevel   =   25
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_marksman_bolt_carbine   =   {
+            locks   =   {
+               LvL13   =   {
+                  requiredLevel   =   13
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_plasma_pistol   =   {
+            locks   =   {
+               LvL39   =   {
+                  requiredLevel   =   39
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
+            locks   =   {
+               LvL44   =   {
+                  requiredLevel   =   44
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_chainsword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_combat_knife   =   {
+            locks   =   {
+               LvL33   =   {
+                  requiredLevel   =   33
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            locks   =   {
+               LvL3   =   {
+                  requiredLevel   =   3
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            locks   =   {
+               LvL12   =   {
+                  requiredLevel   =   12
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            locks   =   {
+               LvL20   =   {
+                  requiredLevel   =   20
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   SniperPvP   =   {
+      primaryWeapons   =   {
+         brifle_bolt_sniper_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_las_fusil   =   {
+            locks   =   {
+               LvL24   =   {
+                  requiredLevel   =   24
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_stalker_bolt_rifle   =   {
+            locks   =   {
+               LvL17   =   {
+                  requiredLevel   =   17
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         smg_bolt_carbine   =   {
+            locks   =   {
+               LvL8   =   {
+                  requiredLevel   =   8
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_instigator_bolt_carbine   =   {
+            locks   =   {
+               LvL37   =   {
+                  requiredLevel   =   37
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_marksman_bolt_carbine   =   {
+            locks   =   {
+               LvL43   =   {
+                  requiredLevel   =   43
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_inferno_pistol   =   {
+            locks   =   {
+               LvL30   =   {
+                  requiredLevel   =   30
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
+            locks   =   {
+               LvL40   =   {
+                  requiredLevel   =   40
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_combat_knife   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            locks   =   {
+               LvL3   =   {
+                  requiredLevel   =   3
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            locks   =   {
+               LvL12   =   {
+                  requiredLevel   =   12
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            locks   =   {
+               LvL20   =   {
+                  requiredLevel   =   20
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   SupportPvP   =   {
+      primaryWeapons   =   {
+         hwpn_support_heavy_bolter   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_support_plasma_incinerator   =   {
+            locks   =   {
+               LvL23   =   {
+                  requiredLevel   =   23
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         hwpn_support_heavy_meltagun   =   {
+            locks   =   {
+               LvL15   =   {
+                  requiredLevel   =   15
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_plasma_pistol   =   {
+            locks   =   {
+               LvL5   =   {
+                  requiredLevel   =   5
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_inferno_pistol   =   {
+            locks   =   {
+               LvL29   =   {
+                  requiredLevel   =   29
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
+            locks   =   {
+               LvL35   =   {
+                  requiredLevel   =   35
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_firearm   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            locks   =   {
+               LvL3   =   {
+                  requiredLevel   =   3
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            locks   =   {
+               LvL12   =   {
+                  requiredLevel   =   12
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            locks   =   {
+               LvL20   =   {
+                  requiredLevel   =   20
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   TankPvP   =   {
+      secondaryWeapons   =   {
+         hgun_plasma_pistol   =   {
+            locks   =   {
+               LvL7   =   {
+                  requiredLevel   =   7
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_volkite_pistol   =   {
+            locks   =   {
+               LvL28   =   {
+                  requiredLevel   =   28
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
+            locks   =   {
+               LvL45   =   {
+                  requiredLevel   =   45
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_power_fist   =   {
+            locks   =   {
+               LvL21   =   {
+                  requiredLevel   =   21
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_sword   =   {
+            locks   =   {
+               LvL9   =   {
+                  requiredLevel   =   9
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_chainsword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_axe   =   {
+            locks   =   {
+               LvL48   =   {
+                  requiredLevel   =   48
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            locks   =   {
+               LvL3   =   {
+                  requiredLevel   =   3
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            locks   =   {
+               LvL12   =   {
+                  requiredLevel   =   12
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            locks   =   {
+               LvL20   =   {
+                  requiredLevel   =   20
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   RaiderPvP   =   {
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
+            locks   =   {
+               LvL14   =   {
+                  requiredLevel   =   14
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_volkite_pistol   =   {
+            locks   =   {
+               LvL27   =   {
+                  requiredLevel   =   27
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_inferno_pistol   =   {
+            locks   =   {
+               LvL32   =   {
+                  requiredLevel   =   32
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_plasma_pistol   =   {
+            locks   =   {
+               LvL41   =   {
+                  requiredLevel   =   41
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_chainsword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_thunder_hammer   =   {
+            locks   =   {
+               LvL4   =   {
+                  requiredLevel   =   4
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_fist   =   {
+            locks   =   {
+               LvL18   =   {
+                  requiredLevel   =   18
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_axe   =   {
+            locks   =   {
+               LvL47   =   {
+                  requiredLevel   =   47
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_sword   =   {
+            locks   =   {
+               LvL34   =   {
+                  requiredLevel   =   34
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            locks   =   {
+               LvL3   =   {
+                  requiredLevel   =   3
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            locks   =   {
+               LvL12   =   {
+                  requiredLevel   =   12
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            locks   =   {
+               LvL20   =   {
+                  requiredLevel   =   20
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   BerserkPvP   =   {
+      primaryWeapons   =   {
+         smg_occulus_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_instigator_bolt_carbine   =   {
+            locks   =   {
+               LvL16   =   {
+                  requiredLevel   =   16
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         brifle_marksman_bolt_carbine   =   {
+            locks   =   {
+               LvL36   =   {
+                  requiredLevel   =   36
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         smg_bolt_carbine   =   {
+            locks   =   {
+               LvL42   =   {
+                  requiredLevel   =   42
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_volkite_pistol   =   {
+            locks   =   {
+               LvL26   =   {
+                  requiredLevel   =   26
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_inferno_pistol   =   {
+            locks   =   {
+               LvL31   =   {
+                  requiredLevel   =   31
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
+            locks   =   {
+               LvL38   =   {
+                  requiredLevel   =   38
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_combat_knife   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_chainsword   =   {
+            locks   =   {
+               LvL11   =   {
+                  requiredLevel   =   11
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_axe   =   {
+            locks   =   {
+               LvL46   =   {
+                  requiredLevel   =   46
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            locks   =   {
+               LvL3   =   {
+                  requiredLevel   =   3
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            locks   =   {
+               LvL12   =   {
+                  requiredLevel   =   12
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            locks   =   {
+               LvL20   =   {
+                  requiredLevel   =   20
+                  __type   =   "PvpProfileLevelLockReason"
+               }
+            }
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+   EngineerPvP   =   {
+      primaryWeapons   =   {
+         arifle_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         arifle_heavy_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         smg_occulus_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         pwpn_plasma_exterminator   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      secondaryWeapons   =   {
+         hgun_plasma_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_inferno_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      meleeWeapons   =   {
+         melee_power_axe   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      equipWeapons   =   {
+         equipment_frag_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_shock_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_krak_grenade   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         equipment_melta_charge   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+      }
+      __type   =   "WeaponLoadoutSkillPack"
+   }
+}
+masteryPacks   =   {
+   STORY_TITUS   =   {
+      __value   =   [
+         "StoryDefault"
+      ]
+   }
+   STORY_GADRIEL   =   {
+      __value   =   [
+         "StoryDefault"
+      ]
+   }
+   STORY_CHAIRON   =   {
+      __value   =   [
+         "StoryDefault"
+      ]
+   }
+   STORY_SOLDIER   =   {
+      __value   =   [
+         "Soldier"
+      ]
+   }
+   STORY_RAIDER   =   {
+      __value   =   [
+         "Raider"
+      ]
+   }
+   STORY_BERSERK   =   {
+      __value   =   [
+         "Berserk"
+      ]
+   }
+   STORY_TANK   =   {
+      __value   =   [
+         "Tank"
+      ]
+   }
+   STORY_SNIPER   =   {
+      __value   =   [
+         "Sniper"
+      ]
+   }
+   STORY_SUPPORT   =   {
+      __value   =   [
+         "Support"
+      ]
+   }
+   PVE_SOLDIER   =   {
+      __value   =   [
+         "Soldier"
+      ]
+   }
+   PVE_RAIDER   =   {
+      __value   =   [
+         "Raider"
+      ]
+   }
+   PVE_BERSERK   =   {
+      __value   =   [
+         "Berserk"
+      ]
+   }
+   PVE_TANK   =   {
+      __value   =   [
+         "Tank"
+      ]
+   }
+   PVE_SNIPER   =   {
+      __value   =   [
+         "Sniper"
+      ]
+   }
+   PVE_SUPPORT   =   {
+      __value   =   [
+         "Support"
+      ]
+   }
+   PVE_ENGINEER   =   {
+      __value   =   [
+         "Engineer"
+      ]
+   }
+   PVE_CHARACTER_MOD_1   =   {
+      __value   =   [
+         "CharacterMod1"
+      ]
+   }
+   PVE_CHARACTER_MOD_2   =   {
+      __value   =   [
+         "Chaplain"
+      ]
+   }
+   PVE_CHARACTER_MOD_3   =   {
+      __value   =   [
+         "Apothecary"
+      ]
+   }
+   PVP_SOLDIER   =   {
+      __value   =   [
+         "SoldierPVP"
+      ]
+   }
+   PVP_SNIPER   =   {
+      __value   =   [
+         "SniperPvP"
+      ]
+   }
+   PVP_SUPPORT   =   {
+      __value   =   [
+         "SupportPvP"
+      ]
+   }
+   PVP_RAIDER   =   {
+      __value   =   [
+         "RaiderPvP"
+      ]
+   }
+   PVP_TANK   =   {
+      __value   =   [
+         "TankPvP"
+      ]
+   }
+   PVP_BERSERK   =   {
+      __value   =   [
+         "BerserkPvP"
+      ]
+   }
+   PVP_ENGINEER   =   {
+      __value   =   [
+         "EngineerPvP"
+      ]
+   }
+   PVP_CHARACTER_MOD_1   =   {
+      __value   =   [
+         "SoldierPVP"
+      ]
+   }
+   PVP_CHARACTER_MOD_2   =   {
+      __value   =   [
+         "SoldierPVP"
+      ]
+   }
+   PVP_CHARACTER_MOD_3   =   {
+      __value   =   [
+         "SoldierPVP"
+      ]
+   }
+}
+__type   =   "object"

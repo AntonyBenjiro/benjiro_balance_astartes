@@ -1,0 +1,1023 @@
+templates   =   {
+   STORY_TITUS   =   {
+      shouldUseLoadoutSkins   =   False
+      customTemplates   =   {
+         Default   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "NONE"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Invasion   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "INVASION"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Evacuation   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "EVACUATION"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         TacticalOps   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "TACTICAL_OPS"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Scientist   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "SCIENTIST"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Messenger   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "MESSENGER"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_heavy_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Blackstone   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "BLACKSTONE"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_heavy_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_thunder_hammer"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         LastStand   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "LAST_STAND"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   STORY_GADRIEL   =   {
+      shouldUseLoadoutSkins   =   False
+      customTemplates   =   {
+         Default   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "NONE"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Invasion   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "INVASION"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Evacuation   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "EVACUATION"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         TacticalOps   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "TACTICAL_OPS"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Scientist   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "SCIENTIST"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Messenger   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "MESSENGER"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_heavy_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Blackstone   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "BLACKSTONE"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_heavy_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_thunder_hammer"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         LastStand   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "LAST_STAND"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   STORY_CHAIRON   =   {
+      shouldUseLoadoutSkins   =   False
+      customTemplates   =   {
+         Default   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "NONE"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Invasion   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "INVASION"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Evacuation   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "EVACUATION"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         TacticalOps   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "TACTICAL_OPS"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Scientist   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "SCIENTIST"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Messenger   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "MESSENGER"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_heavy_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Blackstone   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "BLACKSTONE"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_heavy_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_thunder_hammer"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         LastStand   =   {
+            locks   =   {
+               LeaderOperationLockReason   =   {
+                  availableOperations   =   [
+                     "LAST_STAND"
+                  ]
+               }
+            }
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   STORY_SOLDIER   =   {
+      shouldUseLoadoutSkins   =   False
+      defaultTemplates   =   {
+         StarterSet   =   {
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   STORY_RAIDER   =   {
+      shouldUseLoadoutSkins   =   False
+      defaultTemplates   =   {
+         StarterSet   =   {
+            primarySkill   =   "brifle_stalker_bolt_rifle"
+            secondarySkill   =   "hgun_heavy_bolt_pistol"
+            meleeSkill   =   "melee_thunder_hammer"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   STORY_BERSERK   =   {
+      shouldUseLoadoutSkins   =   False
+      defaultTemplates   =   {
+         StarterSet   =   {
+            primarySkill   =   "smg_occulus_bolt_carbine"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   STORY_TANK   =   {
+      shouldUseLoadoutSkins   =   False
+      defaultTemplates   =   {
+         StarterSet   =   {
+            primarySkill   =   "pwpn_plasma_exterminator"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_power_fist"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   STORY_SNIPER   =   {
+      shouldUseLoadoutSkins   =   False
+      defaultTemplates   =   {
+         StarterSet   =   {
+            primarySkill   =   "brifle_bolt_sniper_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   STORY_SUPPORT   =   {
+      shouldUseLoadoutSkins   =   False
+      defaultTemplates   =   {
+         StarterSet   =   {
+            primarySkill   =   "hwpn_support_heavy_bolter"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_firearm"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVE_SOLDIER   =   {
+      customTemplates   =   {
+         Loadout1   =   {
+            primarySkill   =   "arifle_auto_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout2   =   {
+            primarySkill   =   "pwpn_plasma_exterminator"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_krak_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout3   =   {
+            primarySkill   =   "arifle_heavy_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_shock_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout4   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_steroids"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVE_RAIDER   =   {
+      customTemplates   =   {
+         Loadout1   =   {
+            primarySkill   =   "none"
+            secondarySkill   =   "hgun_heavy_bolt_pistol"
+            meleeSkill   =   "melee_thunder_hammer"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout2   =   {
+            primarySkill   =   "none"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_krak_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout3   =   {
+            primarySkill   =   "none"
+            secondarySkill   =   "hgun_volkite_pistol"
+            meleeSkill   =   "melee_power_fist"
+            equipmentSkill   =   "equipment_shock_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout4   =   {
+            primarySkill   =   "smg_bolt_carbine"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_melta_charge"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVE_BERSERK   =   {
+      customTemplates   =   {
+         Loadout1   =   {
+            primarySkill   =   "brifle_instigator_bolt_carbine"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout2   =   {
+            primarySkill   =   "smg_occulus_bolt_carbine"
+            secondarySkill   =   "hgun_inferno_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_krak_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout3   =   {
+            primarySkill   =   "shotgun_meltagun"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_shock_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout4   =   {
+            primarySkill   =   "smg_occulus_bolt_carbine"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_steroids"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVE_TANK   =   {
+      customTemplates   =   {
+         Loadout1   =   {
+            primarySkill   =   "none"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_power_sword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout2   =   {
+            primarySkill   =   "none"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_krak_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout3   =   {
+            primarySkill   =   "none"
+            secondarySkill   =   "hgun_volkite_pistol"
+            meleeSkill   =   "melee_power_fist"
+            equipmentSkill   =   "equipment_shock_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout4   =   {
+            primarySkill   =   "none"
+            secondarySkill   =   "hgun_heavy_bolt_pistol"
+            meleeSkill   =   "melee_thunder_hammer"
+            equipmentSkill   =   "equipment_steroids"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVE_SNIPER   =   {
+      customTemplates   =   {
+         Loadout1   =   {
+            primarySkill   =   "brifle_bolt_sniper_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout2   =   {
+            primarySkill   =   "brifle_stalker_bolt_rifle"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_krak_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout3   =   {
+            primarySkill   =   "hwpn_las_fusil"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_shock_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout4   =   {
+            primarySkill   =   "arifle_death_watch_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_steroids"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVE_SUPPORT   =   {
+      customTemplates   =   {
+         Loadout1   =   {
+            primarySkill   =   "hwpn_support_heavy_bolter"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_firearm"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout2   =   {
+            primarySkill   =   "hwpn_support_plasma_incinerator"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_firearm"
+            equipmentSkill   =   "equipment_krak_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout3   =   {
+            primarySkill   =   "hwpn_support_heavy_meltagun"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_firearm"
+            equipmentSkill   =   "equipment_shock_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout4   =   {
+            primarySkill   =   "arifle_heavy_bolt_rifle"
+            secondarySkill   =   "hgun_heavy_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_melta_charge"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVE_ENGINEER   =   {
+      customTemplates   =   {
+         Loadout1   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_power_halberd"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout2   =   {
+            primarySkill   =   "smg_occulus_bolt_carbine"
+            secondarySkill   =   "hgun_inferno_pistol"
+            meleeSkill   =   "melee_power_axe"
+            equipmentSkill   =   "equipment_krak_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout3   =   {
+            primarySkill   =   "pwpn_plasma_exterminator"
+            secondarySkill   =   "hgun_inferno_pistol"
+            meleeSkill   =   "melee_power_halberd"
+            equipmentSkill   =   "equipment_shock_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout4   =   {
+            primarySkill   =   "pwpn_plasma_exterminator"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_power_halberd"
+            equipmentSkill   =   "equipment_steroids"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVE_CHARACTER_MOD_1   =   {
+      customTemplates   =   {
+         Loadout1   =   {
+            primarySkill   =   "hwpn_support_heavy_bolter"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_power_fist"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout2   =   {
+            primarySkill   =   "hwpn_support_plasma_incinerator"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_power_axe"
+            equipmentSkill   =   "equipment_krak_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout3   =   {
+            primarySkill   =   "none"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_power_axe"
+            equipmentSkill   =   "equipment_shock_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout4   =   {
+            primarySkill   =   "none"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_thunder_hammer"
+            equipmentSkill   =   "equipment_melta_charge"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVE_CHARACTER_MOD_2   =   {
+      customTemplates   =   {
+         Loadout1   =   {
+            primarySkill   =   "none"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_thunder_hammer"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout2   =   {
+            primarySkill   =   "none"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_thunder_hammer"
+            equipmentSkill   =   "equipment_krak_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout3   =   {
+            primarySkill   =   "none"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_thunder_hammer"
+            equipmentSkill   =   "equipment_shock_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout4   =   {
+            primarySkill   =   "none"
+            secondarySkill   =   "hgun_death_watch_bolt_pistol"
+            meleeSkill   =   "melee_thunder_hammer"
+            equipmentSkill   =   "equipment_melta_charge"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVE_CHARACTER_MOD_3   =   {
+      customTemplates   =   {
+         Loadout1   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout2   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_krak_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout3   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_shock_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         Loadout4   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_melta_charge"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVP_SOLDIER   =   {
+      customTemplates   =   {
+         EditableLoadout_1   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_2   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_3   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVP_SNIPER   =   {
+      customTemplates   =   {
+         EditableLoadout_1   =   {
+            primarySkill   =   "brifle_bolt_sniper_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_2   =   {
+            primarySkill   =   "brifle_bolt_sniper_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_3   =   {
+            primarySkill   =   "brifle_bolt_sniper_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVP_SUPPORT   =   {
+      customTemplates   =   {
+         EditableLoadout_1   =   {
+            primarySkill   =   "hwpn_support_heavy_bolter"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_firearm"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_2   =   {
+            primarySkill   =   "hwpn_support_heavy_bolter"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_firearm"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_3   =   {
+            primarySkill   =   "hwpn_support_heavy_bolter"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_firearm"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVP_RAIDER   =   {
+      customTemplates   =   {
+         EditableLoadout_1   =   {
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_2   =   {
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_3   =   {
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVP_TANK   =   {
+      customTemplates   =   {
+         EditableLoadout_1   =   {
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_2   =   {
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_3   =   {
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVP_BERSERK   =   {
+      customTemplates   =   {
+         EditableLoadout_1   =   {
+            primarySkill   =   "smg_occulus_bolt_carbine"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_2   =   {
+            primarySkill   =   "smg_occulus_bolt_carbine"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_3   =   {
+            primarySkill   =   "smg_occulus_bolt_carbine"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_combat_knife"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVP_ENGINEER   =   {
+      customTemplates   =   {
+         EditableLoadout_1   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_plasma_pistol"
+            meleeSkill   =   "melee_power_axe"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_2   =   {
+            primarySkill   =   "smg_occulus_bolt_carbine"
+            secondarySkill   =   "hgun_inferno_pistol"
+            meleeSkill   =   "melee_power_axe"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_3   =   {
+            primarySkill   =   "pwpn_plasma_exterminator"
+            secondarySkill   =   "hgun_inferno_pistol"
+            meleeSkill   =   "melee_power_axe"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVP_CHARACTER_MOD_1   =   {
+      customTemplates   =   {
+         EditableLoadout_1   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_2   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_3   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVP_CHARACTER_MOD_2   =   {
+      customTemplates   =   {
+         EditableLoadout_1   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_2   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_3   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+   PVP_CHARACTER_MOD_3   =   {
+      customTemplates   =   {
+         EditableLoadout_1   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_2   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+         EditableLoadout_3   =   {
+            primarySkill   =   "arifle_bolt_rifle"
+            secondarySkill   =   "hgun_bolt_pistol"
+            meleeSkill   =   "melee_chainsword"
+            equipmentSkill   =   "equipment_frag_grenade"
+            __type   =   "WeaponLoadoutTemplate"
+         }
+      }
+      __type   =   "WeaponLoadoutTemplatesSet"
+   }
+}
+supportedTeams   =   [
+   "PLR_LOYALIST",
+   "PLR_CHAOS"
+]
+__type   =   "object"
