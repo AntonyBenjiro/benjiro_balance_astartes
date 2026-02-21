@@ -135,6 +135,21 @@ skillsCategories   =   {
             icon   =   "perk_soldier_17"
             __type   =   "UiSkillData"
          }
+         PveTerminatorChargeTPForEliteFinishers   =   {
+            nameUid   =   "UI_MASTERY_PERK_TERMINATOR_RECHARGE_TP_FROM_KILLS_NAME"
+            descUid   =   "UI_MASTERY_PERK_TERMINATOR_RECHARGE_TP_FROM_KILLS_DESC"
+            parameters   =   [
+               {
+                  text   =   "30%"
+               }
+            ]
+            icon   =   "perk_sniper_03"
+            affectedPresences   =   [
+               "EXTREMIS",
+               "TERMINUS"
+            ]
+            __type   =   "UiEnemyPresenceSkillData"
+         }
       }
       __type   =   "UiSkillCategory"
    }
@@ -6786,7 +6801,7 @@ skillsCategories   =   {
                   text   =   "1"
                },
                {
-                  text   =   "20%"
+                  text   =   "25%"
                }
             ]
             icon   =   "prestige_perk_support_02"

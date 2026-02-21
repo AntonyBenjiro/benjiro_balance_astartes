@@ -7046,6 +7046,39 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
+         PveTerminatorChargeTPForEliteFinishers   =   {
+            type   =   {
+               activationTrigger   =   {
+                  triggers   =   {
+                     PerkTriggerFinisher   =   {
+                        shouldTriggerOnStarted   =   False
+                        shouldTriggerOnStopped   =   False
+                     }
+                     PerkTriggerHitActor   =   {
+                        isKillOnly   =   True
+                        hitCondition   =   {
+                           threatClasses   =   [
+                              "COMMON",
+                              "FODDER",
+                              "ELITE"
+                           ]
+                           isBlacklist   =   True
+                           __type   =   "HitConditionThreatClasses"
+                        }
+                     }
+                  }
+                  __type   =   "PerkTriggerComposite"
+               }
+               application   =   {
+                  abilitySlot   =   "ULTIMATE"
+                  restorePercents   =   30
+                  canRestoreWhenAbilityActive   =   True
+                  __type   =   "PerkApplicationRestoreAbilityEnergy"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
       }
       __type   =   "PerkCategoryCommon"
    }

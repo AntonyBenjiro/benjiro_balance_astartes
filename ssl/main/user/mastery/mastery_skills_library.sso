@@ -1819,7 +1819,7 @@ skills   =   {
       }
       Level17   =   {
          perks   =   [
-            "PveTankRestoresHPWithFinishers"
+            "PveTerminatorChargeTPForEliteFinishers"
          ]
          __type   =   "MasterySkill"
       }
