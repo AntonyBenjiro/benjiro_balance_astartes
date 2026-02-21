@@ -819,8 +819,7 @@ skills   =   {
       }
       Level11   =   {
          perks   =   [
-            "PveSoldierRestoreChargeForAuspexTargetsQuantity",
-            "SpawnWithCombatShield"
+            "PveSoldierRestoreChargeForAuspexTargetsQuantity"
          ]
          __type   =   "MasterySkill"
       }
@@ -1723,7 +1722,7 @@ skills   =   {
       }
       Level3   =   {
          perks   =   [
-            "PveSoldierReduceRecoil"
+            "PveTerminatorAdamantGrip"
          ]
          __type   =   "MasterySkill"
       }
@@ -1892,13 +1891,14 @@ skills   =   {
       }
       Prestige3   =   {
          perks   =   [
-            "PveSupporthipFireSpredDecrease"
+            "PveTerminatorSuppressiveAdvance"
          ]
          __type   =   "MasterySkill"
       }
       Prestige4   =   {
          perks   =   [
-            "PveTerminatorRestoreSecondaryAmmoForFinisherOfSpecial"
+            "PveTerminatorRestoreSecondaryAmmoForFinisherOfSpecial",
+            "PveSupportRestorePrimaryAmmoForFinisherOfSpecial"
          ]
          __type   =   "MasterySkill"
       }

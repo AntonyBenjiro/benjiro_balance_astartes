@@ -1,0 +1,19 @@
+__type: res_desc_texts
+strs:
+  brazilian_portuguese: strings_brazilian_portuguese.str
+  czech: strings_czech.str
+  english: strings_benjiros_english.str
+  french: strings_french.str
+  german: strings_german.str
+  italian: strings_italian.str
+  japanese: strings_japanese.str
+  korean: strings_korean.str
+  polish: strings_polish.str
+  russian: strings_russian.str
+  simplified_chinese: strings_simplified_chinese.str
+  spanish: strings_spanish.str
+  spanish_latin_america: strings_spanish_latin_america.str
+  thai: strings_thai.str
+  traditional_chinese: strings_traditional_chinese.str
+  turkish: strings_turkish.str
+  ukrainian: strings_ukrainian.str
