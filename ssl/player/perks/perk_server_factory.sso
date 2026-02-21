@@ -29187,7 +29187,7 @@ categories   =   {
                         }
                         perkApplication   =   {
                            clipType   =   "DEFAULT_CLIP"
-                           refillPercentsClip   =   20
+                           refillPercentsClip   =   25
                            typeOfRefillClip   =   "IN_CLIP"
                            __type   =   "PerkApplicationRefillAmmo"
                         }
