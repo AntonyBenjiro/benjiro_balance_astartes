@@ -18216,7 +18216,7 @@ firearms   =   {
       ammoSettings   =   {
          typeData   =   {
             ammo_arifle   =   {
-               maxAmount   =   1
+               maxAmount   =   0
                __type   =   "AmmoTypeSettings"
             }
          }
@@ -18225,9 +18225,6 @@ firearms   =   {
       clipsSettings   =   {
          default_clip   =   {
             ammoType   =   "ammo_arifle"
-            maxAmmo   =   1
-            ammoPercToStartBlink   =   -1
-            hasHidableBullet   =   False
             __type   =   "ClipSettings"
          }
       }

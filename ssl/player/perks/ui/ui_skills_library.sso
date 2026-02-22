@@ -3415,7 +3415,10 @@ skillsCategories   =   {
             descUid   =   "UI_MASTERY_PERK_COMBAT_SHIELD_DESC"
             parameters   =   [
                {
-                  text   =   "20%"
+                  text   =   "50%"
+               },
+               {
+                  text   =   "30%"
                }
             ]
             icon   =   "perk_tank_08"
@@ -6652,6 +6655,23 @@ skillsCategories   =   {
             ]
             icon   =   "wpn_perk_spread"
             __type   =   "UiSkillData"
+         }
+         PveTerminatorRestoreAmmoForFinisherOfSpecial   =   {
+            nameUid   =   "UI_MASTERY_PERK_PRESTIGE_TERMINATOR_05_NAME"
+            descUid   =   "UI_MASTERY_PERK_PRESTIGE_TERMINATOR_05_DESC"
+            parameters   =   [
+               {
+                  text   =   "1"
+               },
+               {
+                  text   =   "20%"
+               }
+            ]
+            icon   =   "prestige_perk_support_02"
+            affectedPresences   =   [
+               "EXTREMIS"
+            ]
+            __type   =   "UiEnemyPresenceSkillData"
          }
       }
       __type   =   "UiSkillCategory"

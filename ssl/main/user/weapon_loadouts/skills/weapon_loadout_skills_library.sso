@@ -173,19 +173,22 @@ secondaryFirearms   =   {
 meleeAbilities   =   {
    melee_chainsword   =   {
       perksList   =   [
-         "SpawnWithMeleeChainsword"
+         "SpawnWithMeleeChainsword",
+         "PveSpawnWoPrimaryIfHasShield"
       ]
       __type   =   "WeaponLoadoutSkill"
    }
    melee_thunder_hammer   =   {
       perksList   =   [
-         "SpawnWithMeleeThunderHammer"
+         "SpawnWithMeleeThunderHammer",
+         "PveSpawnWoPrimary"
       ]
       __type   =   "WeaponLoadoutSkill"
    }
    melee_combat_knife   =   {
       perksList   =   [
-         "SpawnWithMeleeCombatKnife"
+         "SpawnWithMeleeCombatKnife",
+         "PveSpawnWoPrimaryIfHasShield"
       ]
       __type   =   "WeaponLoadoutSkill"
    }
@@ -197,13 +200,15 @@ meleeAbilities   =   {
    }
    melee_power_sword   =   {
       perksList   =   [
-         "SpawnWithMeleePowerSword"
+         "SpawnWithMeleePowerSword",
+         "PveSpawnWoPrimaryIfHasShield"
       ]
       __type   =   "WeaponLoadoutSkill"
    }
    melee_firearm   =   {
       perksList   =   [
-         "SpawnWithMeleeBody"
+         "SpawnWithMeleeBody",
+         "PveSpawnWoPrimaryIfHasShield"
       ]
       __type   =   "WeaponLoadoutSkill"
    }
@@ -215,13 +220,15 @@ meleeAbilities   =   {
    }
    melee_power_axe   =   {
       perksList   =   [
-         "SpawnWithMeleePowerAxe"
+         "SpawnWithMeleePowerAxe",
+         "PveSpawnWoPrimaryIfHasShield"
       ]
       __type   =   "WeaponLoadoutSkill"
    }
    melee_power_halberd   =   {
       perksList   =   [
-         "SpawnWithMeleePowerHalberd"
+         "SpawnWithMeleePowerHalberd",
+         "PveSpawnWoPrimaryIfHasShield"
       ]
       __type   =   "WeaponLoadoutSkill"
    }

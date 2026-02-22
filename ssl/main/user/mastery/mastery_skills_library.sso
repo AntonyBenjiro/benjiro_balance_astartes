@@ -1897,8 +1897,7 @@ skills   =   {
       }
       Prestige4   =   {
          perks   =   [
-            "PveSupportRestorePrimaryAmmoForFinisherOfSpecial",
-            "PveTerminatorRestoreSecondaryAmmoForFinisherOfSpecial"
+            "PveTerminatorRestoreAmmoForFinisherOfSpecial"
          ]
          __type   =   "MasterySkill"
       }
