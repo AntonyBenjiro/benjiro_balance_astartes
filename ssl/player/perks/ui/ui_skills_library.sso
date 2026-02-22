@@ -1777,6 +1777,40 @@ skillsCategories   =   {
             icon   =   "perk_support_command_20"
             __type   =   "UiEnemyPresenceSkillData"
          }
+         PveSupportRefillAmmoForEliteFinisher   =   {
+            nameUid   =   "UI_MASTERY_PERK_SUPPORT_SCAVENGER_NAME"
+            descUid   =   "UI_MASTERY_PERK_SUPPORT_SCAVENGER_DESC"
+            parameters   =   [
+               {
+                  text   =   "1"
+               },
+               {
+                  text   =   "20%"
+               },
+               {
+                  text   =   "30%"
+               },
+               {
+                  text   =   "60"
+               }
+            ]
+            icon   =   "perk_soldier_13"
+            affectedPresences   =   [
+               "MAJORIS"
+            ]
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveSupportBlockPenetration   =   {
+            nameUid   =   "UI_MASTERY_PERK_SUPPORT_KRAKEN_ROUNDS_NAME"
+            descUid   =   "UI_MASTERY_PERK_SUPPORT_KRAKEN_ROUNDS_DESC"
+            parameters   =   [
+               {
+                  text   =   "100%"
+               }
+            ]
+            icon   =   "perk_soldier_04"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
       }
       __type   =   "UiSkillCategory"
    }
@@ -6665,6 +6699,9 @@ skillsCategories   =   {
                },
                {
                   text   =   "20%"
+               },
+               {
+                  text   =   "30%"
                }
             ]
             icon   =   "prestige_perk_support_02"
@@ -6887,6 +6924,17 @@ skillsCategories   =   {
                }
             ]
             icon   =   "pve_supporthip_fire_spred_decrease"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveSupportImprovedCharging   =   {
+            nameUid   =   "UI_MASTERY_PERK_PRESTIGE_SUPPORT_IMPROVED_CHARGING_NAME"
+            descUid   =   "UI_MASTERY_PERK_PRESTIGE_SUPPORT_IMPROVED_CHARGING_DESC"
+            parameters   =   [
+               {
+                  text   =   "30%"
+               }
+            ]
+            icon   =   "perk_soldier_03"
             __type   =   "UiEnemyPresenceSkillData"
          }
       }

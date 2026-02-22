@@ -432,12 +432,6 @@ weaponSkillPacks   =   {
          melee_combat_knife   =   {
             __type   =   "WeaponSkillLocks"
          }
-         melee_chainsword   =   {
-            __type   =   "WeaponSkillLocks"
-         }
-         melee_power_fist   =   {
-            __type   =   "WeaponSkillLocks"
-         }
       }
       equipWeapons   =   {
          equipment_frag_grenade   =   {

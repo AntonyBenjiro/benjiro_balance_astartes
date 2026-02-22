@@ -595,13 +595,13 @@ skills   =   {
       }
       Level9   =   {
          perks   =   [
-            "PveSupportRestoreAmmoForMultikillWithOneShot"
+            "PveSupportBlockPenetration"
          ]
          __type   =   "MasterySkill"
       }
       Level10   =   {
          perks   =   [
-            "PveSoldierReceiveAmmoClipForKillEliteOrHigher"
+            "PveSupportRefillAmmoForEliteFinisher"
          ]
          __type   =   "MasterySkill"
       }
@@ -715,7 +715,7 @@ skills   =   {
       }
       Prestige2   =   {
          perks   =   [
-            "PveSupportRestorePrimaryAmmoForFinisherOfSpecial"
+            "PveSupportImprovedCharging"
          ]
          __type   =   "MasterySkill"
       }
