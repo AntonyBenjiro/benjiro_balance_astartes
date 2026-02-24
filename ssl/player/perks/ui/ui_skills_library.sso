@@ -7487,6 +7487,110 @@ skillsCategories   =   {
       }
       __type   =   "UiSkillCategory"
    }
+   MasteryMeleeFirearm   =   {
+      skillsData   =   {
+         PveMeleeFirearmShatteringIncreasedAoE   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_FIREARM_INCREASE_AOE_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_FIREARM_INCREASE_AOE_DESC"
+            parameters   =   [
+               {
+                  text   =   "50%"
+               }
+            ]
+            icon   =   "wpn_perk_radius"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleeFirearmIncreasedByLightAttacks   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_UP_LIGHT_ATTACK_01_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_UP_LIGHT_ATTACK_01_DESC"
+            parameters   =   [
+               {
+                  text   =   "10%"
+               }
+            ]
+            icon   =   "wpn_perk_strength"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleeFirearmIncreasedByHoldAttacks   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_UP_HOLD_ATTACK_01_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_UP_HOLD_ATTACK_01_DESC"
+            parameters   =   [
+               {
+                  text   =   "15%"
+               }
+            ]
+            icon   =   "wpn_perk_strength"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleeFirearmIncreasedRiposteWindow   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_FIREARM_INCREASE_RIPOSTE_WINDOW_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_FIREARM_INCREASE_RIPOSTE_WINDOW_DESC"
+            parameters   =   [
+               {
+                  text   =   "25%"
+               }
+            ]
+            icon   =   "heroic_wpn_perk_combat_knife"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleeFirearmArmorForPerfectBlock   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_FIREARM_ARMOR_BY_BLOCK_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_FIREARM_ARMOR_BY_BLOCK_DESC"
+            parameters   =   [
+               {
+                  text   =   "1"
+               }
+            ]
+            icon   =   "wpn_perk_armour_restore"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleeFirearmSpeedIncrease   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_GENERIC_04_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_GENERIC_04_DESC"
+            parameters   =   [
+               {
+                  text   =   "10%"
+               }
+            ]
+            icon   =   "wpn_perk_speed"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleeFirearmUnstoppableAfterRiposte   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_FIREARM_UNSTOPPABLE_RIPOSTE_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_FIREARM_UNSTOPPABLE_RIPOSTE_DESC"
+            parameters   =   [
+               {
+                  text   =   "3"
+               }
+            ]
+            icon   =   "wpn_perk_retaliation"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleeFirearmLessPrepareTime   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_FIREARM_LESS_STOMP_PREPARE_TIME_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_FIREARM_LESS_STOMP_PREPARE_TIME_DESC"
+            parameters   =   [
+               {
+                  text   =   "15%"
+               }
+            ]
+            icon   =   "wpn_perk_time"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleeFirearmIncreasedDodgeWindow   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_FIREARM_INCREASE_DODGE_WINDOW_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_FIREARM_INCREASE_DODGE_WINDOW_DESC"
+            parameters   =   [
+               {
+                  text   =   "50%"
+               }
+            ]
+            icon   =   "wpn_perk_stomp"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+      }
+      __type   =   "UiSkillCategory"
+   }
 }
 playerPerksTypeLocalization   =   {
    PERSONAL   =   {

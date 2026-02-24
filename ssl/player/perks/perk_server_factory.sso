@@ -32703,5 +32703,281 @@ categories   =   {
       }
       __type   =   "PerkCategoryCommon"
    }
+   PvE_Melee_Firearm   =   {
+      descs   =   {
+         PveMeleeFirearmShatteringIncreasedAoE   =   {
+            type   =   {
+               activationTrigger   =   {
+                  shouldTriggerOnStarted   =   True
+                  shouldCheckWeaponType   =   True
+                  meleeStrikeWeaponType   =   "FIREARM"
+                  strikeUids   =   [
+                     "LightPrepared",
+                     "Heavy4"
+                  ]
+                  __type   =   "PerkTriggerMeleeStrike"
+               }
+               deactivationTrigger   =   {
+                  shouldTriggerOnStopped   =   True
+                  shouldCheckWeaponType   =   True
+                  meleeStrikeWeaponType   =   "FIREARM"
+                  strikeUids   =   [
+                     "LightPrepared",
+                     "Heavy4"
+                  ]
+                  __type   =   "PerkTriggerMeleeStrike"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "MELEE_DAMAGE_EXTRA_DISPATCHER_RADIUS"
+                        bonus   =   50
+                        applyType   =   "PERCENT_SUM"
+                     },
+                     {
+                        type   =   "MELEE_DAMAGE_EXTRA_2_DISPATCHER_RADIUS"
+                        bonus   =   50
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               perkVisualizationType   =   "SURVIVAL_BOOST"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleeFirearmIncreasedByLightAttacks   =   {
+            type   =   {
+               activationTrigger   =   {
+                  shouldTriggerOnStarted   =   True
+                  shouldCheckWeaponType   =   True
+                  meleeStrikeWeaponType   =   "FIREARM"
+                  strikeUids   =   [
+                     "Light1",
+                     "Light2",
+                     "Light3",
+                     "Light3_cycled",
+                     "LightDashLeft"
+                  ]
+                  __type   =   "PerkTriggerMeleeStrike"
+               }
+               deactivationTrigger   =   {
+                  shouldTriggerOnStopped   =   True
+                  shouldCheckWeaponType   =   True
+                  meleeStrikeWeaponType   =   "FIREARM"
+                  strikeUids   =   [
+                     "Light1",
+                     "Light2",
+                     "Light3",
+                     "Light3_cycled",
+                     "LightPrepared"
+                  ]
+                  __type   =   "PerkTriggerMeleeStrike"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   10
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               perkVisualizationType   =   "MELEE_BOOST"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleeFirearmIncreasedByHoldAttacks   =   {
+            type   =   {
+               activationTrigger   =   {
+                  shouldTriggerOnStarted   =   True
+                  shouldCheckWeaponType   =   True
+                  meleeStrikeWeaponType   =   "FIREARM"
+                  strikeUids   =   [
+                     "Heavy4",
+                     "LightPrepared",
+                     "PerkDash"
+                  ]
+                  __type   =   "PerkTriggerMeleeStrike"
+               }
+               deactivationTrigger   =   {
+                  shouldTriggerOnStopped   =   True
+                  shouldCheckWeaponType   =   True
+                  meleeStrikeWeaponType   =   "FIREARM"
+                  strikeUids   =   [
+                     "Heavy4",
+                     "LightPrepared"
+                  ]
+                  __type   =   "PerkTriggerMeleeStrike"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   10
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               perkVisualizationType   =   "MELEE_BOOST"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleeFirearmIncreasedRiposteWindow   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "MELEE_RIPOSTE_WINDOW"
+                        bonus   =   25
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleeFirearmArmorForPerfectBlock   =   {
+            type   =   {
+               activationTrigger   =   {
+                  shouldTriggerByPerfectBlock   =   True
+                  __type   =   "PerkTriggerParry"
+               }
+               application   =   {
+                  shouldRestoreSegment   =   True
+                  segmentToRestore   =   1
+                  __type   =   "PerkApplicationRestoreArmor"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleeFirearmSpeedIncrease   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "MELEE_COMBO_SLOWDOWN"
+                        bonus   =   -10
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               perkVisualizationType   =   "MELEE_BOOST"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleeFirearmUnstoppableAfterRiposte   =   {
+            type   =   {
+               activationTrigger   =   {
+                  triggers   =   {
+                     MeleeRiposte   =   {
+                        condition   =   {
+                           condition   =   {
+                              isRiposteOnly   =   True
+                              __type   =   "ConditionMeleeParryRecently"
+                           }
+                           __type   =   "ConditionTriggerHolder"
+                        }
+                        __type   =   "PerkTriggerCondition"
+                     }
+                  }
+                  __type   =   "PerkTriggerComposite"
+               }
+               activationController   =   {
+                  delayedResetSec   =   3
+                  shouldIgnoreActivationTriggerIfActive   =   False
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "HEAVY_HIT_POISE_SENSITIVITY"
+                        bonus   =   -100
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "HEAVY_HIT_INSTEAD_KNOCKBACK_PROBABILITY"
+                        bonus   =   100
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleeFirearmLessPrepareTime   =   {
+            type   =   {
+               activationTrigger   =   {
+                  shouldTriggerOnStarted   =   True
+                  shouldCheckWeaponType   =   True
+                  meleeStrikeWeaponType   =   "FIREARM"
+                  strikeUids   =   [
+                     "LightPrepared"
+                  ]
+                  __type   =   "PerkTriggerMeleeStrike"
+               }
+               deactivationTrigger   =   {
+                  shouldTriggerOnStopped   =   True
+                  shouldCheckWeaponType   =   True
+                  meleeStrikeWeaponType   =   "FIREARM"
+                  strikeUids   =   [
+                     "LightPrepared"
+                  ]
+                  __type   =   "PerkTriggerMeleeStrike"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "MELEE_COMBO_SLOWDOWN"
+                        bonus   =   -15
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               perkVisualizationType   =   "MELEE_BOOST"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleeFirearmIncreasedDodgeWindow   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "PERFECT_DODGE_WINDOW"
+                        bonus   =   50
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+      }
+      __type   =   "PerkCategoryCommon"
+   }
 }
 __type   =   "object"
