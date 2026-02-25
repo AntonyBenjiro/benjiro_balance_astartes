@@ -2244,6 +2244,22 @@ skillsCategories   =   {
             icon   =   "pve_soldier_restore_equipment_team_perk"
             __type   =   "UiEnemyPresenceSkillData"
          }
+         PveSoldierHellfireRounds   =   {
+            nameUid   =   "UI_MASTERY_PERK_SOLDIER_HELLFIRE_ROUNDS_NAME"
+            descUid   =   "UI_MASTERY_PERK_SOLDIER_HELLFIRE_ROUNDS_DESC"
+            parameters   =   [
+               {
+                  text   =   "30%"
+                  type   =   "NEGATIVE"
+               },
+               {
+                  text   =   "50%"
+                  type   =   "NEGATIVE"
+               }
+            ]
+            icon   =   "perk_support_08"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
       }
       __type   =   "UiSkillCategory"
    }

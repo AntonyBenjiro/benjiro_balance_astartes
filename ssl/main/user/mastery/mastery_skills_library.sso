@@ -753,7 +753,7 @@ skills   =   {
    PVE_Soldier_Progression   =   {
       Level2   =   {
          perks   =   [
-            "PveSoldierBuffPrimaryDamageDebuffSecondaryDamage"
+            "PveSoldierHellfireRounds"
          ]
          __type   =   "MasterySkill"
       }

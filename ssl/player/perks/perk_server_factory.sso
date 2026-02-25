@@ -14467,6 +14467,68 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
+         PveSoldierHellfireRounds   =   {
+            type   =   {
+               activationTrigger   =   {
+                  hitCondition   =   {
+                     isCheckOnlySpecificFirearm   =   True
+                     firearms   =   [
+                        "arifle_auto_bolt_rifle",
+                        "arifle_bolt_rifle",
+                        "arifle_heavy_bolt_rifle",
+                        "arifle_death_watch_bolt_rifle",
+                        "brifle_stalker_bolt_rifle",
+                        "brifle_marksman_bolt_carbine",
+                        "brifle_instigator_bolt_carbine",
+                        "brifle_bolt_sniper_rifle",
+                        "smg_bolt_carbine",
+                        "smg_occulus_bolt_carbine"
+                     ]
+                     __type   =   "HitConditionDamageFirearm"
+                  }
+                  __type   =   "PerkTriggerHitActor"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0.1
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  applications   =   {
+                     PerkApplicationEmitStatusEffect   =   {
+                        statusEffectDesc   =   {
+                           type   =   {
+                              statusEffectName   =   "BurningStackable"
+                              __type   =   "TargetEmitter"
+                           }
+                           __type   =   "StatusEffectEmitterDesc"
+                        }
+                        targetProvider   =   {
+                           damageType   =   "dmg_type_bullet"
+                           shouldSetAfterDealDamage   =   False
+                           __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
+                        }
+                     }
+                     PerkApplicationModifiers   =   {
+                        permanentModifiers   =   [
+                           {
+                              type   =   "SCALE_DAMAGE_AMOUNT_FROM_FIREARM"
+                              bonus   =   -30
+                              applyType   =   "PERCENT_SUM"
+                           },
+                           {
+                              type   =   "SCALE_FIREARM_PENETRATION_BOLTER"
+                              bonus   =   -50
+                              applyType   =   "PERCENT_SUM"
+                           }
+                        ]
+                     }
+                  }
+                  __type   =   "PerkApplicationComposite"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
       }
       __type   =   "PerkCategoryCommon"
    }
