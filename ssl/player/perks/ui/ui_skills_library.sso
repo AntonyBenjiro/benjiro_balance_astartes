@@ -1994,17 +1994,20 @@ skillsCategories   =   {
             __type   =   "UiEnemyPresenceSkillData"
          }
          PveSoldierReceiveAmmoClipForKillEliteOrHigher   =   {
-            nameUid   =   "UI_MASTERY_PERK_SOLDIER_T5_03_NAME"
-            descUid   =   "UI_MASTERY_PERK_SOLDIER_T5_03_DESC"
+            nameUid   =   "UI_MASTERY_PERK_SUPPORT_SCAVENGER_NAME"
+            descUid   =   "UI_MASTERY_PERK_SUPPORT_SCAVENGER_DESC"
             parameters   =   [
                {
                   text   =   "1"
                },
                {
-                  text   =   "30"
+                  text   =   "20%"
                },
                {
                   text   =   "30%"
+               },
+               {
+                  text   =   "60"
                }
             ]
             icon   =   "perk_soldier_13"

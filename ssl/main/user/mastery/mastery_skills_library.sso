@@ -509,7 +509,7 @@ skills   =   {
       }
       Prestige2   =   {
          perks   =   [
-            "PveSniperRestorePrimaryAmmoForSecondaryWeaponKill"
+            "PveTerminatorRestoreAmmoForFinisherOfSpecial"
          ]
          __type   =   "MasterySkill"
       }
@@ -1123,7 +1123,7 @@ skills   =   {
       }
       Prestige1   =   {
          perks   =   [
-            "PveTankRestoreSecondaryAmmoForFinisherOfSpecial"
+            "PveTerminatorRestoreAmmoForFinisherOfSpecial"
          ]
          __type   =   "MasterySkill"
       }
@@ -1359,7 +1359,7 @@ skills   =   {
       }
       Prestige6   =   {
          perks   =   [
-            "PveBerserkRestoreArmorSegmentForRapidSuccession"
+            "PveTerminatorRestoreAmmoForFinisherOfSpecial"
          ]
          __type   =   "MasterySkill"
       }
@@ -1568,7 +1568,7 @@ skills   =   {
       }
       Prestige6   =   {
          perks   =   [
-            "PveRaiderIncreaseRangedAttackDamage"
+            "PveTerminatorRestoreAmmoForFinisherOfSpecial"
          ]
          __type   =   "MasterySkill"
       }
@@ -2121,7 +2121,7 @@ skills   =   {
       }
       Prestige7   =   {
          perks   =   [
-            "PveBerserkIncreaseEquipmentDamage"
+            "PveTerminatorRestoreAmmoForFinisherOfSpecial"
          ]
          __type   =   "MasterySkill"
       }
@@ -2297,7 +2297,7 @@ skills   =   {
       }
       Prestige2   =   {
          perks   =   [
-            "PveSoldierIncreaseMaxAmmo"
+            "PveTerminatorRestoreAmmoForFinisherOfSpecial"
          ]
          __type   =   "MasterySkill"
       }

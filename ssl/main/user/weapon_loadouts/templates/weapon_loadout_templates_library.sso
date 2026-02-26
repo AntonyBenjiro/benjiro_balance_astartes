@@ -458,7 +458,7 @@ templates   =   {
             primarySkill   =   "arifle_bolt_rifle"
             secondarySkill   =   "hgun_bolt_pistol"
             meleeSkill   =   "melee_chainsword"
-            equipmentSkill   =   "equipment_steroids"
+            equipmentSkill   =   "equipment_melta_charge"
             __type   =   "WeaponLoadoutTemplate"
          }
       }

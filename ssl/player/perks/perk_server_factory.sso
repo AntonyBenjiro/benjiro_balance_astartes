@@ -12937,7 +12937,7 @@ categories   =   {
                      cooldownTime   =   60
                      __type   =   "PerkCooldown"
                   }
-                  delayedResetSec   =   3
+                  delayedResetSec   =   0.1
                   __type   =   "PerkActivationControllerBinary"
                }
                application   =   {
@@ -13364,28 +13364,12 @@ categories   =   {
                            isBlacklist   =   True
                            __type   =   "HitConditionThreatClasses"
                         }
-                        HitConditionNot   =   {
-                           pdNodePosX   =   224
-                           pdNodePosY   =   352
-                           condition   =   {
-                              pdNodePosX   =   -5
-                              pdNodePosY   =   392
-                              conditions   =   {
-                                 HitConditionIsInventoryAmmoFull   =   {
-                                    pdNodePosX   =   -414
-                                    pdNodePosY   =   329
-                                    clipType   =   "DEFAULT_CLIP"
-                                    shouldCheckTotalAmmo   =   True
-                                 }
-                                 HitConditionIsInventoryAmmoFull_1   =   {
-                                    pdNodePosX   =   -412
-                                    pdNodePosY   =   516
-                                    clipType   =   "DEFAULT_CLIP"
-                                    __type   =   "HitConditionIsInventoryAmmoFull"
-                                 }
-                              }
-                              __type   =   "HitConditionCompositeOr"
-                           }
+                        HitConditionDmgTypes   =   {
+                           pdNodePosX   =   -21.44003
+                           pdNodePosY   =   317.6648
+                           damageTypes   =   [
+                              "dmg_type_finisher"
+                           ]
                         }
                      }
                      __type   =   "HitConditionCompositeAnd"
@@ -13394,7 +13378,7 @@ categories   =   {
                }
                activationController   =   {
                   cooldown   =   {
-                     cooldownTime   =   30
+                     cooldownTime   =   60
                      __type   =   "PerkCooldown"
                   }
                   delayedResetSec   =   0
@@ -13403,10 +13387,11 @@ categories   =   {
                }
                application   =   {
                   applications   =   {
-                     ReceiveAmmo   =   {
+                     ReceiveAmmoSecondary   =   {
                         ownerCondition   =   {
                            condition   =   {
                               condition   =   {
+                                 slot   =   "SECONDARY"
                                  clipToCheckAmmo   =   "DEFAULT_CLIP"
                                  __type   =   "ConditionFirearmFromSlotMaxAmmoInventoryIsZero"
                               }
@@ -13415,42 +13400,81 @@ categories   =   {
                            __type   =   "ConditionCheckerHolder"
                         }
                         perkApplication   =   {
+                           firearmSlot   =   "SECONDARY"
                            clipType   =   "DEFAULT_CLIP"
+                           shouldPutAmmoInClipWhenInventoryIsFull   =   False
                            shouldPutClipOvercapInInventory   =   True
                            refillPercentsClip   =   100
-                           typeOfRefillClip   =   "IN_INVENTORY"
-                           refillPercentsInventory   =   0
-                           tryPutAmmoInClipWhenInventoryIsFull   =   True
+                           typeOfRefillClip   =   "IN_CLIP"
+                           refillPercentsInventory   =   20
+                           typeOfRefillInventory   =   "IN_INVENTORY"
                            __type   =   "PerkApplicationRefillAmmo"
                         }
                         __type   =   "PerkApplicationEnableCondition"
                      }
-                     ReceiveAmmoForNoInventoryFirearm   =   {
+                     ReceiveAmmoSecondaryForNoInventoryFirearm   =   {
                         ownerCondition   =   {
                            condition   =   {
+                              slot   =   "SECONDARY"
                               clipToCheckAmmo   =   "DEFAULT_CLIP"
                               __type   =   "ConditionFirearmFromSlotMaxAmmoInventoryIsZero"
                            }
                            __type   =   "ConditionCheckerHolder"
                         }
                         perkApplication   =   {
+                           firearmSlot   =   "SECONDARY"
+                           clipType   =   "DEFAULT_CLIP"
+                           refillPercentsClip   =   30
+                           typeOfRefillClip   =   "IN_CLIP"
+                           refillPercentsInventory   =   30
+                           typeOfRefillInventory   =   "IN_INVENTORY"
+                           __type   =   "PerkApplicationRefillAmmo"
+                        }
+                        __type   =   "PerkApplicationEnableCondition"
+                     }
+                     ReceiveAmmoPrimary   =   {
+                        ownerCondition   =   {
+                           condition   =   {
+                              condition   =   {
+                                 slot   =   "PRIMARY"
+                                 clipToCheckAmmo   =   "DEFAULT_CLIP"
+                                 __type   =   "ConditionFirearmFromSlotMaxAmmoInventoryIsZero"
+                              }
+                              __type   =   "ConditionInvert"
+                           }
+                           __type   =   "ConditionCheckerHolder"
+                        }
+                        perkApplication   =   {
+                           firearmSlot   =   "PRIMARY"
+                           clipType   =   "DEFAULT_CLIP"
+                           shouldPutAmmoInClipWhenInventoryIsFull   =   False
+                           shouldPutClipOvercapInInventory   =   True
+                           refillPercentsClip   =   100
+                           typeOfRefillClip   =   "IN_CLIP"
+                           refillPercentsInventory   =   20
+                           typeOfRefillInventory   =   "IN_INVENTORY"
+                           tryPutAmmoInClipWhenInventoryIsFull   =   True
+                           __type   =   "PerkApplicationRefillAmmo"
+                        }
+                        __type   =   "PerkApplicationEnableCondition"
+                     }
+                     ReceiveAmmoPrimaryForNoInventoryFirearm   =   {
+                        ownerCondition   =   {
+                           condition   =   {
+                              slot   =   "PRIMARY"
+                              clipToCheckAmmo   =   "DEFAULT_CLIP"
+                              __type   =   "ConditionFirearmFromSlotMaxAmmoInventoryIsZero"
+                           }
+                           __type   =   "ConditionCheckerHolder"
+                        }
+                        perkApplication   =   {
+                           firearmSlot   =   "PRIMARY"
                            clipType   =   "DEFAULT_CLIP"
                            refillPercentsClip   =   30
                            typeOfRefillClip   =   "IN_CLIP"
                            __type   =   "PerkApplicationRefillAmmo"
                         }
                         __type   =   "PerkApplicationEnableCondition"
-                     }
-                     ReceiveAmmoForGrenadeLauncher   =   {
-                        useGrenadeLauncherClip   =   True
-                        amountToRefillInClip   =   2
-                        __type   =   "PerkApplicationRefillAmmoConstantValue"
-                     }
-                     ReceiveAmmoForHeroicMelta   =   {
-                        isCustomBarrelSelectEnabled   =   True
-                        barrelId   =   "melta"
-                        amountToRefillInClip   =   2
-                        __type   =   "PerkApplicationRefillAmmoConstantValue"
                      }
                   }
                   __type   =   "PerkApplicationComposite"
@@ -31270,28 +31294,38 @@ categories   =   {
          PveTerminatorRestoreAmmoForFinisherOfSpecial   =   {
             type   =   {
                activationTrigger   =   {
-                  triggers   =   {
-                     PerkTriggerFinisher   =   {
-                        shouldTriggerOnStarted   =   False
-                        shouldTriggerOnStopped   =   False
-                     }
-                     PerkTriggerHitActor   =   {
-                        isKillOnly   =   True
-                        hitCondition   =   {
+                  isKillOnly   =   True
+                  hitConditionPropDiagramRootX   =   550.6669
+                  hitConditionPropDiagramRootY   =   198.6667
+                  hitCondition   =   {
+                     pdNodePosX   =   381
+                     pdNodePosY   =   236
+                     conditions   =   {
+                        condition   =   {
+                           pdNodePosX   =   -25.4194
+                           pdNodePosY   =   115
                            threatClasses   =   [
-                              "COMMON",
                               "FODDER",
+                              "COMMON",
                               "ELITE"
                            ]
                            isBlacklist   =   True
                            __type   =   "HitConditionThreatClasses"
                         }
+                        HitConditionDmgTypes   =   {
+                           pdNodePosX   =   -21.44003
+                           pdNodePosY   =   317.6648
+                           damageTypes   =   [
+                              "dmg_type_finisher"
+                           ]
+                        }
                      }
+                     __type   =   "HitConditionCompositeAnd"
                   }
-                  __type   =   "PerkTriggerComposite"
+                  __type   =   "PerkTriggerHitActor"
                }
                activationController   =   {
-                  delayedResetSec   =   0
+                  delayedResetSec   =   0.1
                   shouldIgnoreActivationTriggerIfActive   =   True
                   __type   =   "PerkActivationControllerBinary"
                }
@@ -31318,7 +31352,6 @@ categories   =   {
                            typeOfRefillClip   =   "IN_CLIP"
                            refillPercentsInventory   =   20
                            typeOfRefillInventory   =   "IN_INVENTORY"
-                           tryPutAmmoInClipWhenInventoryIsFull   =   True
                            __type   =   "PerkApplicationRefillAmmo"
                         }
                         __type   =   "PerkApplicationEnableCondition"
@@ -31336,6 +31369,9 @@ categories   =   {
                            firearmSlot   =   "SECONDARY"
                            clipType   =   "DEFAULT_CLIP"
                            refillPercentsClip   =   30
+                           typeOfRefillClip   =   "IN_CLIP"
+                           refillPercentsInventory   =   30
+                           typeOfRefillInventory   =   "IN_INVENTORY"
                            __type   =   "PerkApplicationRefillAmmo"
                         }
                         __type   =   "PerkApplicationEnableCondition"
