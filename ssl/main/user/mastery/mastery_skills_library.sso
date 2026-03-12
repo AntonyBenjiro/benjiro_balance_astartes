@@ -1,4 +1,82 @@
 skills   =   {
+   TestCategory_Remove_After   =   {
+      regen   =   {
+         perks   =   [
+            "HealthRegen"
+         ]
+         __type   =   "MasterySkill"
+      }
+      hook   =   {
+         perks   =   [
+            "SpawnWithGrapplingHook",
+            "AbilityRegen"
+         ]
+         __type   =   "MasterySkill"
+      }
+      grenade   =   {
+         perks   =   [
+            "SpawnWithFragGrenade"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Jumppack   =   {
+         perks   =   [
+            "SpawnWithFragGrenade"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Tank   =   {
+         perks   =   [
+            "SpawnWithCombatShield",
+            "SpawnWithFragGrenade",
+            "SpawnWithBarrier"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Sniper   =   {
+         perks   =   [
+            "SpawnWithFragGrenade",
+            "AbilityCamouflage"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Support   =   {
+         perks   =   [
+            "HACK_AmmoRegen",
+            "SpawnWithFragGrenade",
+            "SpawnWithBunner"
+         ]
+         __type   =   "MasterySkill"
+      }
+      HeavyMelta   =   {
+         perks   =   [
+            "HACK_AmmoRegen",
+            "SpawnWithHeavyMelta"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Soldier   =   {
+         perks   =   [
+            "SpawnWithFragGrenade",
+            "SpawnWithJetpackAuspexScanAbility"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Berserker   =   {
+         perks   =   [
+            "SpawnWithGrapplingHook",
+            "SpawnWithFragGrenade"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Raider   =   {
+         perks   =   [
+            "SpawnWithJetpackAbility",
+            "SpawnWithShockGrenade"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
    Test2_Masteries   =   {
       FastReload   =   {
          perks   =   [
@@ -159,6 +237,7 @@ skills   =   {
       }
       Raider   =   {
          perks   =   [
+            "SpawnWithJetpackAbility",
             "PveRaiderRefundPercentChargeOnJetpackDodge"
          ]
          __type   =   "MasterySkill"
