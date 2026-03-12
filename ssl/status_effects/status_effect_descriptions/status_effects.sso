@@ -1865,6 +1865,40 @@ statusEffects   =   {
       vulnerability   =   "Burning"
       duration   =   3
       tps   =   2.5
+      type   =   "STACKABLE"
+      appliedModifiers   =   [
+         {
+            type   =   "MAX_ON_GROUND_MOVEMENT_SPEED"
+            bonus   =   -5
+            applyType   =   "PERCENT_MULT"
+         }
+      ]
+      shouldProlongTimeOnRefresh   =   True
+      maxStacks   =   256
+      damageDelaySec   =   0.1
+      tickDamagerLink   =   {
+         damagerDescUid   =   "flamer_burn"
+         __type   =   "DamagerDescriptionLink"
+      }
+      activationDamagerLink   =   {
+         damagerDescUid   =   "flamer_burn"
+         __type   =   "DamagerDescriptionLink"
+      }
+      initiatorDamageAmountModifierStackDesc   =   {
+         type   =   {
+            ownerModifierTypes   =   [
+               "SCALE_DAMAGE_AMOUNT_FROM_BURNING_STATUS_EFFECT"
+            ]
+            __type   =   "ModifiersStack"
+         }
+         __type   =   "ModifiersStackDesc"
+      }
+      targetDamageAmountModifierTypes   =   [
+         "DAMAGE_FROM_SE_BURNING_SENSITIVITY"
+      ]
+      shouldDeactivateOnIncap   =   False
+      __type   =   "StatusEffectTypeDamageOnTime"
+   }
    HealStimAddContestedHealth   =   {
       vulnerability   =   "HealStimAddContestedHealth"
       duration   =   25
