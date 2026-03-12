@@ -11,7 +11,7 @@ statusEffects   =   {
    }
    BlindnessPvP   =   {
       vulnerability   =   "Blindness"
-      duration   =   2
+      duration   =   1.5
       type   =   "REFRESH"
       presetType   =   "TRANSITION"
       transitionVisualPresetName   =   "character\\blind"
@@ -322,6 +322,16 @@ statusEffects   =   {
    CamouflageLictor   =   {
       vulnerability   =   "CamouflageLictor"
       type   =   "REFRESH"
+      presetType   =   "TRANSITION"
+      vpInTransitionTime   =   0.33
+      vpOutTransitionTime   =   0.33
+      __type   =   "StatusEffectCamouflage"
+   }
+   CamouflageForMutator   =   {
+      vulnerability   =   "Camouflage"
+      duration   =   20
+      type   =   "REFRESH"
+      shouldProlongTimeOnRefresh   =   False
       presetType   =   "TRANSITION"
       vpInTransitionTime   =   0.33
       vpOutTransitionTime   =   0.33
@@ -1131,12 +1141,12 @@ statusEffects   =   {
    }
    Steroids   =   {
       vulnerability   =   "Steroids"
-      duration   =   15
+      duration   =   20
       type   =   "REFRESH"
       appliedModifiers   =   [
          {
             type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
-            bonus   =   25
+            bonus   =   35
             applyType   =   "PERCENT_MULT"
          },
          {
@@ -1265,7 +1275,27 @@ statusEffects   =   {
       duration   =   20
       type   =   "STACKABLE"
       maxStacks   =   2
-      __type   =   "StatusEffectTypeBase"
+      splineModifiers   =   [
+         {
+            modifierDescription   =   {
+               type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+               applyType   =   "PERCENT_MULT"
+               __type   =   "ModifierDescription"
+            }
+            bonusSpline   =   {
+               spline   =   [
+                  0,
+                  0,
+                  1,
+                  35,
+                  2,
+                  70,
+               ]
+               __type   =   "SplineCurve1d"
+            }
+         }
+      ]
+      __type   =   "StatusEffectTypeSplineModifiers"
    }
    PerfectBlockBuffDischarge_Strong   =   {
       vulnerability   =   "PerfectBlockBuffDischarge"
@@ -1273,11 +1303,6 @@ statusEffects   =   {
       tps   =   10
       type   =   "REFRESH"
       appliedModifiers   =   [
-         {
-            type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
-            bonus   =   70
-            applyType   =   "PERCENT_MULT"
-         },
          {
             type   =   "SCALE_HEAVY_HIT_AMOUNT_FROM_MELEE"
             bonus   =   1
@@ -1307,13 +1332,6 @@ statusEffects   =   {
       duration   =   5
       tps   =   10
       type   =   "REFRESH"
-      appliedModifiers   =   [
-         {
-            type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
-            bonus   =   35
-            applyType   =   "PERCENT_MULT"
-         }
-      ]
       __type   =   "StatusEffectTypeBase"
    }
    TyranidArtilleryDamager   =   {
@@ -1847,39 +1865,104 @@ statusEffects   =   {
       vulnerability   =   "Burning"
       duration   =   3
       tps   =   2.5
+   HealStimAddContestedHealth   =   {
+      vulnerability   =   "HealStimAddContestedHealth"
+      duration   =   25
+      tps   =   1.8
+      type   =   "REFRESH"
+      screenEffect   =   {
+         transitionVisualPresetName   =   "character\\stimshot"
+         vpInTransitionTime   =   1
+         vpOutTransitionTime   =   1
+         __type   =   "SeScreenEffectSettings"
+      }
+      __type   =   "StatusEffectTypeBase"
+   }
+   WalkingPowerStance   =   {
+      vulnerability   =   "WalkingPowerStance"
+      duration   =   99999
+      __type   =   "StatusEffectTypeBase"
+   }
+   TemporalBoost   =   {
+      vulnerability   =   "TemporalBoost"
+      duration   =   15
       type   =   "STACKABLE"
       appliedModifiers   =   [
          {
-            type   =   "MAX_ON_GROUND_MOVEMENT_SPEED"
-            bonus   =   -5
-            applyType   =   "PERCENT_MULT"
+            type   =   "ABILITY_ULTIMATE_REGENERATION"
+            bonus   =   10
+            applyType   =   "PERCENT_SUM"
+         },
+         {
+            type   =   "SCALE_DAMAGE_AMOUNT_FROM_FIREARM"
+            bonus   =   10
+            applyType   =   "PERCENT_SUM"
+         },
+         {
+            type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+            bonus   =   10
+            applyType   =   "PERCENT_SUM"
+         },
+         {
+            type   =   "SCALE_DAMAGE_RADIUS_FROM_ABILITY_GEAR"
+            bonus   =   10
+            applyType   =   "PERCENT_SUM"
          }
       ]
-      shouldProlongTimeOnRefresh   =   True
-      maxStacks   =   256
-      damageDelaySec   =   0.1
-      tickDamagerLink   =   {
-         damagerDescUid   =   "flamer_burn"
-         __type   =   "DamagerDescriptionLink"
-      }
-      activationDamagerLink   =   {
-         damagerDescUid   =   "flamer_burn"
-         __type   =   "DamagerDescriptionLink"
-      }
-      initiatorDamageAmountModifierStackDesc   =   {
-         type   =   {
-            ownerModifierTypes   =   [
-               "SCALE_DAMAGE_AMOUNT_FROM_BURNING_STATUS_EFFECT"
-            ]
-            __type   =   "ModifiersStack"
+      shouldProlongTimeOnRefresh   =   False
+      maxStacks   =   20
+      __type   =   "StatusEffectTypeBase"
+   }
+   MeleePerkDamageSensivityDebuff   =   {
+      vulnerability   =   "DamageSensivityDebuff"
+      duration   =   5
+      type   =   "REFRESH"
+      appliedModifiers   =   [
+         {
+            type   =   "DAMAGE_SENSITIVITY"
+            bonus   =   15
+            applyType   =   "PERCENT_SUM"
          }
-         __type   =   "ModifiersStackDesc"
-      }
-      targetDamageAmountModifierTypes   =   [
-         "DAMAGE_FROM_SE_BURNING_SENSITIVITY"
       ]
-      shouldDeactivateOnIncap   =   False
-      __type   =   "StatusEffectTypeDamageOnTime"
+      __type   =   "StatusEffectTypeBase"
+   }
+   AssignedEnemy   =   {
+      vulnerability   =   "AssignedEnemy"
+      duration   =   99999
+      __type   =   "StatusEffectTypeBase"
+   }
+   EngineerShoulderGunDebuff   =   {
+      vulnerability   =   "EngineerShoulderGunDebuff"
+      duration   =   10
+      type   =   "REFRESH"
+      appliedModifiers   =   [
+         {
+            type   =   "DAMAGE_SENSITIVITY"
+            bonus   =   15
+            applyType   =   "PERCENT_SUM"
+         }
+      ]
+      __type   =   "StatusEffectTypeBase"
+   }
+   EngineerGrenadeDebuff   =   {
+      vulnerability   =   "EngineerGrenadeDebuff"
+      duration   =   10
+      type   =   "REFRESH"
+      appliedModifiers   =   [
+         {
+            type   =   "DAMAGE_SENSITIVITY"
+            bonus   =   25
+            applyType   =   "PERCENT_SUM"
+         }
+      ]
+      __type   =   "StatusEffectTypeBase"
+   }
+   MutatorMeleeStrikesStackUpVisualBuff   =   {
+      vulnerability   =   "MutatorMeleeStrikesStackUpBuff"
+      duration   =   999
+      type   =   "STACKABLE"
+      maxStacks   =   9
+      __type   =   "StatusEffectTypeBase"
    }
 }
 __type   =   "object"

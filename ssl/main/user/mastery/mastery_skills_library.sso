@@ -279,9 +279,17 @@ skills   =   {
          ]
          __type   =   "MasterySkill"
       }
+      Engineer   =   {
+         perks   =   [
+            "PveEngineerSpawnWithPlasmaZoneAiming",
+            "DodgePresetDefault"
+         ]
+         __type   =   "MasterySkill"
+      }
       EngineerPVE   =   {
          perks   =   [
-            "SpawnWithShoulderGunBolter"
+            "SpawnWithShoulderGunBolter",
+            "SpawnWithHealingInjector"
          ]
          __type   =   "MasterySkill"
       }
@@ -1406,7 +1414,7 @@ skills   =   {
       }
       Level6   =   {
          perks   =   [
-            "PveRaiderEnduranceAfterGroundpound"
+            "PveRaiderRetoreChargeAfterHitDash"
          ]
          __type   =   "MasterySkill"
       }
@@ -1574,7 +1582,16 @@ skills   =   {
       }
       Prestige7   =   {
          perks   =   [
-            "PveRaiderRestoreJumpPackChargeForRevivingTeammate"
+            "PveRaiderEnduranceAfterGroundpound"
+         ]
+         __type   =   "MasterySkill"
+      }
+   }
+   Helbrute   =   {
+      HelbrutePVP   =   {
+         perks   =   [
+            "SpawnWithPcHelbruteHealingAbility",
+            "PvPHellbruteAbilityRestore"
          ]
          __type   =   "MasterySkill"
       }
@@ -1599,6 +1616,9 @@ skills   =   {
          __type   =   "MasterySkill"
       }
       Level5Team   =   {
+         perks   =   [
+            "PveEngineerSentryTurretTeamBuff"
+         ]
          __type   =   "MasterySkill"
       }
       Level6   =   {
@@ -1656,6 +1676,9 @@ skills   =   {
          __type   =   "MasterySkill"
       }
       Level15   =   {
+         perks   =   [
+            "PveEngineerSentryTurretPowerUp"
+         ]
          __type   =   "MasterySkill"
       }
       Level16   =   {
@@ -1665,6 +1688,9 @@ skills   =   {
          __type   =   "MasterySkill"
       }
       Level17   =   {
+         perks   =   [
+            "PveEngineerShoulderGunZoneSentry"
+         ]
          __type   =   "MasterySkill"
       }
       Level18   =   {
@@ -1692,6 +1718,9 @@ skills   =   {
          __type   =   "MasterySkill"
       }
       Level22   =   {
+         perks   =   [
+            "PveEngineerShoulderGunRegenNearSentry"
+         ]
          __type   =   "MasterySkill"
       }
       Level23   =   {
@@ -1709,6 +1738,48 @@ skills   =   {
       Level25   =   {
          perks   =   [
             "PveEngineerShoulderGunIgniteOnHit"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige1   =   {
+         perks   =   [
+            "PveEngineerHeadshotRamp"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige2   =   {
+         perks   =   [
+            "PveEngineerReviveAbilityRegenTeam"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige3   =   {
+         perks   =   [
+            "PveEngineerMedicaeStimmsHealBoost"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige4   =   {
+         perks   =   [
+            "PveEngineerEquipmentDamageRadiusIncrease"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige5   =   {
+         perks   =   [
+            "PveEngineerSentryTurretApplyBiggerExplosion"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige6   =   {
+         perks   =   [
+            "PveEngineerRangedDRWhenSurrounded"
+         ]
+         __type   =   "MasterySkill"
+      }
+      Prestige7   =   {
+         perks   =   [
+            "PveEngineerMeleeAfterGunStrike"
          ]
          __type   =   "MasterySkill"
       }
@@ -2328,15 +2399,6 @@ skills   =   {
       Prestige7   =   {
          perks   =   [
             "PveApothecaryRestoreRighteousFuryForRevivingTeammate"
-         ]
-         __type   =   "MasterySkill"
-      }
-   }
-   Helbrute   =   {
-      HelbrutePVP   =   {
-         perks   =   [
-            "SpawnWithPcHelbruteHealingAbility",
-            "PvPHellbruteAbilityRestore"
          ]
          __type   =   "MasterySkill"
       }

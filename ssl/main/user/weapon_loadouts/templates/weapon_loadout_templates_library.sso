@@ -524,7 +524,7 @@ templates   =   {
             primarySkill   =   "smg_occulus_bolt_carbine"
             secondarySkill   =   "hgun_bolt_pistol"
             meleeSkill   =   "melee_chainsword"
-            equipmentSkill   =   "equipment_steroids"
+            equipmentSkill   =   "equipment_melta_charge"
             __type   =   "WeaponLoadoutTemplate"
          }
       }
@@ -557,7 +557,7 @@ templates   =   {
             primarySkill   =   "none"
             secondarySkill   =   "hgun_heavy_bolt_pistol"
             meleeSkill   =   "melee_thunder_hammer"
-            equipmentSkill   =   "equipment_steroids"
+            equipmentSkill   =   "equipment_melta_charge"
             __type   =   "WeaponLoadoutTemplate"
          }
       }
@@ -590,7 +590,7 @@ templates   =   {
             primarySkill   =   "arifle_death_watch_bolt_rifle"
             secondarySkill   =   "hgun_bolt_pistol"
             meleeSkill   =   "melee_combat_knife"
-            equipmentSkill   =   "equipment_steroids"
+            equipmentSkill   =   "equipment_melta_charge"
             __type   =   "WeaponLoadoutTemplate"
          }
       }
@@ -653,10 +653,10 @@ templates   =   {
             __type   =   "WeaponLoadoutTemplate"
          }
          Loadout4   =   {
-            primarySkill   =   "pwpn_plasma_exterminator"
+            primarySkill   =   "arifle_bolt_rifle"
             secondarySkill   =   "hgun_plasma_pistol"
             meleeSkill   =   "melee_power_halberd"
-            equipmentSkill   =   "equipment_steroids"
+            equipmentSkill   =   "equipment_melta_charge"
             __type   =   "WeaponLoadoutTemplate"
          }
       }
@@ -916,7 +916,7 @@ templates   =   {
          EditableLoadout_1   =   {
             primarySkill   =   "arifle_bolt_rifle"
             secondarySkill   =   "hgun_plasma_pistol"
-            meleeSkill   =   "melee_power_axe"
+            meleeSkill   =   "melee_power_halberd"
             equipmentSkill   =   "equipment_frag_grenade"
             __type   =   "WeaponLoadoutTemplate"
          }
