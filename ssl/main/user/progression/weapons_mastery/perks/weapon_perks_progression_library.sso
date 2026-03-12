@@ -2828,7 +2828,7 @@ weapons   =   {
                      perkUid   =   "hwpn_las_fusil_relic_1_1"
                      type   =   "FirearmHealthRegenRestoreHealthByInstaRapidKillsOnLowHealth"
                      blockedByPerks   =   [
-                        "hwpn_las_fusil_artificer_2_1"
+                        "hwpn_las_fusil_relic_2_1"
                      ]
                      unlocksPerks   =   [
                         "hwpn_las_fusil_relic_1_2"
@@ -2838,7 +2838,7 @@ weapons   =   {
                      perkUid   =   "hwpn_las_fusil_relic_2_1"
                      type   =   "FirearmDamageIncreaseDamageByInstaRapidKills"
                      blockedByPerks   =   [
-                        "hwpn_las_fusil_artificer_1_1"
+                        "hwpn_las_fusil_relic_1_1"
                      ]
                      unlocksPerks   =   [
                         "hwpn_las_fusil_relic_2_2"
@@ -6562,23 +6562,23 @@ weapons   =   {
             perkLayers   =   [
                [
                   {
-                     perkUid   =   "melee_power_axe_common_1"
-                     type   =   "PveMeleeGenericSpeedIncrease"
+                     perkUid   =   "melee_power_halberd_common_1"
+                     type   =   "PveMeleeGenericPowerIncrease"
                      blockedByPerks   =   [
-                        "melee_power_axe_common_2"
+                        "melee_power_halberd_common_2"
                      ]
                      unlocksPerks   =   [
-                        "melee_power_axe_mastercrafted_1_1"
+                        "melee_power_halberd_mastercrafted_1_1"
                      ]
                   },
                   {
-                     perkUid   =   "melee_power_axe_common_2"
-                     type   =   "PveMeleeGenericPowerIncrease"
+                     perkUid   =   "melee_power_halberd_common_2"
+                     type   =   "PveMeleeGenericSpeedIncrease"
                      blockedByPerks   =   [
-                        "melee_power_axe_common_1"
+                        "melee_power_halberd_common_1"
                      ]
                      unlocksPerks   =   [
-                        "melee_power_axe_mastercrafted_2_1"
+                        "melee_power_halberd_mastercrafted_2_1"
                      ]
                   }
                ]
@@ -6589,74 +6589,64 @@ weapons   =   {
             perkLayers   =   [
                [
                   {
-                     perkUid   =   "melee_power_axe_mastercrafted_1_1"
-                     type   =   "PveMeleePowerAxeNoHeavyHitsInStance"
+                     perkUid   =   "melee_power_halberd_mastercrafted_1_1"
+                     type   =   "PveMeleePowerHalberdLungeRestoreArmor"
                      blockedByPerks   =   [
-                        "melee_power_axe_mastercrafted_2_1"
+                        "melee_power_halberd_mastercrafted_2_1"
                      ]
                      unlocksPerks   =   [
-                        "melee_power_axe_mastercrafted_1_2"
+                        "melee_power_halberd_mastercrafted_1_2"
                      ]
                   },
                   {
-                     perkUid   =   "melee_power_axe_mastercrafted_2_1"
-                     type   =   "PveMeleePowerAxeLastStrikeMoreDamage"
+                     perkUid   =   "melee_power_halberd_mastercrafted_2_1"
+                     type   =   "PveMeleePowerHalberdLightComboAOE"
                      blockedByPerks   =   [
-                        "melee_power_axe_mastercrafted_1_1"
+                        "melee_power_halberd_mastercrafted_1_1"
                      ]
                      unlocksPerks   =   [
-                        "melee_power_axe_mastercrafted_2_2"
+                        "melee_power_halberd_mastercrafted_2_2"
                      ]
                   }
                ],
                [
                   {
-                     perkUid   =   "melee_power_axe_mastercrafted_1_2"
+                     perkUid   =   "melee_power_halberd_mastercrafted_1_2"
                      type   =   "PveMeleeGenericPowerIncrease"
                      unlocksPerks   =   [
-                        "melee_power_axe_mastercrafted_2_2",
-                        "melee_power_axe_mastercrafted_1_3"
+                        "melee_power_halberd_mastercrafted_1_3",
+                        "melee_power_halberd_mastercrafted_2_2"
                      ]
                   },
                   {
-                     perkUid   =   "melee_power_axe_mastercrafted_2_2"
-                     type   =   "PveMeleeGenericPowerIncrease"
+                     perkUid   =   "melee_power_halberd_mastercrafted_2_2"
+                     type   =   "PveMeleeGenericSpeedIncrease"
                      unlocksPerks   =   [
-                        "melee_power_axe_mastercrafted_1_2",
-                        "melee_power_axe_mastercrafted_2_3"
+                        "melee_power_halberd_mastercrafted_2_3",
+                        "melee_power_halberd_mastercrafted_1_2"
                      ]
                   }
                ],
                [
                   {
-                     perkUid   =   "melee_power_axe_mastercrafted_1_3_sub"
-                     type   =   "PveMeleePowerAxeWhirlwindCombo"
-                  },
-                  {
-                     perkUid   =   "melee_power_axe_mastercrafted_1_3"
-                     type   =   "PveMeleePowerAxeFadingStopInStance"
+                     perkUid   =   "melee_power_halberd_mastercrafted_1_3"
+                     type   =   "PveMeleePowerHalberdLungeRushDamageStack"
                      blockedByPerks   =   [
-                        "melee_power_axe_mastercrafted_2_3"
+                        "melee_power_halberd_artificer_2_3"
                      ]
                      unlocksPerks   =   [
-                        "melee_power_axe_mastercrafted_1_3_sub",
-                        "melee_power_axe_artificer_1_1"
+                        "melee_power_halberd_artificer_1_1"
                      ]
                   },
                   {
-                     perkUid   =   "melee_power_axe_mastercrafted_2_3"
-                     type   =   "PveMeleePowerAxeLightDamageAfterRiposte"
+                     perkUid   =   "melee_power_halberd_mastercrafted_2_3"
+                     type   =   "PveMeleePowerHalberdLightComboDontLoseControl"
                      blockedByPerks   =   [
-                        "melee_power_axe_mastercrafted_1_3"
+                        "melee_power_halberd_artificer_1_3"
                      ]
                      unlocksPerks   =   [
-                        "melee_power_axe_mastercrafted_2_3_sub",
-                        "melee_power_axe_artificer_2_1"
+                        "melee_power_halberd_artificer_2_1"
                      ]
-                  },
-                  {
-                     perkUid   =   "melee_power_axe_mastercrafted_2_3_sub"
-                     type   =   "PveMeleePowerAxeOverheadAfterBackstep"
                   }
                ]
             ]
@@ -6666,63 +6656,73 @@ weapons   =   {
             perkLayers   =   [
                [
                   {
-                     perkUid   =   "melee_power_axe_artificer_1_1"
-                     type   =   "PveMeleePowerAxeGunstrikeBuffFromStance"
+                     perkUid   =   "melee_power_halberd_artificer_1_1"
+                     type   =   "PveMeleePowerHalberdLungeRushDamageReduction"
                      blockedByPerks   =   [
-                        "melee_power_axe_artificer_2_1"
+                        "melee_power_halberd_artificer_2_1"
                      ]
                      unlocksPerks   =   [
-                        "melee_power_axe_artificer_1_2"
+                        "melee_power_halberd_artificer_1_2"
                      ]
                   },
                   {
-                     perkUid   =   "melee_power_axe_artificer_2_1"
-                     type   =   "PveMeleeGenericIncomingRangedDamageReduced"
+                     perkUid   =   "melee_power_halberd_artificer_2_1"
+                     type   =   "PveMeleePowerHalberdSprintStrikeNewStrike"
                      blockedByPerks   =   [
-                        "melee_power_axe_artificer_1_1"
+                        "melee_power_halberd_artificer_1_1"
                      ]
                      unlocksPerks   =   [
-                        "melee_power_axe_artificer_2_2"
+                        "melee_power_halberd_artificer_2_2"
                      ]
                   }
                ],
                [
                   {
-                     perkUid   =   "melee_power_axe_artificer_1_2"
-                     type   =   "PveMeleePowerAxeWiderBackstepWave"
+                     perkUid   =   "melee_power_halberd_artificer_1_2_sub"
+                     type   =   "PveMeleePowerHalberdLungeDebuff"
+                  },
+                  {
+                     perkUid   =   "melee_power_halberd_artificer_1_2"
+                     type   =   "PveMeleeGenericPowerIncreaseOnFullArmour"
                      unlocksPerks   =   [
-                        "melee_power_axe_artificer_1_3",
-                        "melee_power_axe_artificer_2_2"
+                        "melee_power_halberd_artificer_1_2_sub",
+                        "melee_power_halberd_artificer_2_2",
+                        "melee_power_halberd_artificer_1_3"
                      ]
                   },
                   {
-                     perkUid   =   "melee_power_axe_artificer_2_2"
-                     type   =   "PveMeleePowerAxeBackstepMoreDamage"
+                     perkUid   =   "melee_power_halberd_artificer_2_2"
+                     type   =   "PveMeleeGenericPowerIncrease"
                      unlocksPerks   =   [
-                        "melee_power_axe_artificer_2_3",
-                        "melee_power_axe_artificer_1_2"
+                        "melee_power_halberd_artificer_2_2_sub",
+                        "melee_power_halberd_artificer_1_2",
+                        "melee_power_halberd_artificer_2_3"
                      ]
+                  },
+                  {
+                     perkUid   =   "melee_power_halberd_artificer_2_2_sub"
+                     type   =   "PveMeleePowerHalberdBlastDamageAfterCombo"
                   }
                ],
                [
                   {
-                     perkUid   =   "melee_power_axe_artificer_1_3"
-                     type   =   "PveMeleeGenericPowerIncreaseVsCannonFodder"
+                     perkUid   =   "melee_power_halberd_artificer_1_3"
+                     type   =   "PveMeleePowerHalberdLungeRushGroupBuff"
                      blockedByPerks   =   [
-                        "melee_power_axe_artificer_2_3"
+                        "melee_power_halberd_artificer_2_3"
                      ]
                      unlocksPerks   =   [
-                        "melee_power_axe_relic_1_1"
+                        "melee_power_halberd_relic_1_1"
                      ]
                   },
                   {
-                     perkUid   =   "melee_power_axe_artificer_2_3"
-                     type   =   "PveMeleePowerAxeMoreDamageEliteHigher"
+                     perkUid   =   "melee_power_halberd_artificer_2_3"
+                     type   =   "PveMeleePowerHalberdUnstoppableBlast"
                      blockedByPerks   =   [
-                        "melee_power_axe_artificer_1_3"
+                        "melee_power_halberd_artificer_1_3"
                      ]
                      unlocksPerks   =   [
-                        "melee_power_axe_relic_2_1"
+                        "melee_power_halberd_relic_2_1"
                      ]
                   }
                ]
@@ -6733,34 +6733,193 @@ weapons   =   {
             perkLayers   =   [
                [
                   {
-                     perkUid   =   "melee_power_axe_relic_1_1"
-                     type   =   "PveMeleeGenericArmorByRapidKills"
+                     perkUid   =   "melee_power_halberd_relic_1_1"
+                     type   =   "PveMeleePowerHalberdRelicMajorisSprint"
+                     blockedByPerks   =   [
+                        "melee_power_halberd_relic_2_1"
+                     ]
                      unlocksPerks   =   [
-                        "melee_power_axe_relic_2_2"
+                        "melee_power_halberd_relic_1_2"
                      ]
                   },
                   {
-                     perkUid   =   "melee_power_axe_relic_2_1"
-                     type   =   "PveMeleePowerAxeContestedByLightAttacks"
+                     perkUid   =   "melee_power_halberd_relic_2_1"
+                     type   =   "PveMeleePowerHalberdRelicFastBlast"
+                     blockedByPerks   =   [
+                        "melee_power_halberd_relic_1_1"
+                     ]
                      unlocksPerks   =   [
-                        "melee_power_axe_relic_1_2"
+                        "melee_power_halberd_relic_2_2"
                      ]
                   }
                ],
                [
                   {
-                     perkUid   =   "melee_power_axe_relic_1_2"
-                     type   =   "PveMeleePowerAxeAOEAfterOverhead"
+                     perkUid   =   "melee_power_halberd_relic_1_2"
+                     type   =   "PveMeleePowerHalberdRelicExplosiveLunge"
                      blockedByPerks   =   [
-                        "melee_power_axe_relic_2_2"
+                        "melee_power_halberd_relic_2_2"
                      ]
                   },
                   {
-                     perkUid   =   "melee_power_axe_relic_2_2"
-                     type   =   "PveMeleePowerAxeHeavyPowerIncreaseForEachHeavyStrike"
+                     perkUid   =   "melee_power_halberd_relic_2_2"
+                     type   =   "PveMeleePowerHalberdRelicDoubleBlast"
                      blockedByPerks   =   [
-                        "melee_power_axe_relic_1_2"
+                        "melee_power_halberd_relic_1_2"
                      ]
+                  }
+               ]
+            ]
+            __type   =   "WeaponPerkTier"
+         }
+      }
+      __type   =   "WeaponPerkInfo"
+   }
+   hgun_bolt_carbine   =   {
+      tiers   =   {
+         COMMON   =   {
+            perkLayers   =   [
+               [
+                  {
+                     perkUid   =   "hgun_volkite_pistol_common_1"
+                     type   =   "FirearmDamageIncreaseDamageSecondary"
+                     blockedByPerks   =   [
+                        "hgun_volkite_pistol_common_2"
+                     ]
+                     unlocksPerks   =   [
+                        "hgun_volkite_pistol_mastercrafted_1_1"
+                     ]
+                  },
+                  {
+                     perkUid   =   "hgun_volkite_pistol_common_2"
+                     type   =   "FirearmAmmoIncreaseClipSizeSecondary"
+                     blockedByPerks   =   [
+                        "hgun_volkite_pistol_common_1"
+                     ]
+                     unlocksPerks   =   [
+                        "hgun_volkite_pistol_mastercrafted_2_1"
+                     ]
+                  }
+               ]
+            ]
+            __type   =   "WeaponPerkTier"
+         }
+         MASTERCRAFTED   =   {
+            perkLayers   =   [
+               [
+                  {
+                     perkUid   =   "hgun_volkite_pistol_mastercrafted_1_1"
+                     type   =   "FirearmReloadInstantlyReloadByGunstrikeSecondary"
+                     unlocksPerks   =   [
+                        "hgun_volkite_pistol_mastercrafted_1_2"
+                     ]
+                  },
+                  {
+                     perkUid   =   "hgun_volkite_pistol_mastercrafted_2_1"
+                     type   =   "FirearmVolkiteHeatingSpeedByGunstrikeSecondary"
+                     unlocksPerks   =   [
+                        "hgun_volkite_pistol_mastercrafted_2_2"
+                     ]
+                  }
+               ],
+               [
+                  {
+                     perkUid   =   "hgun_volkite_pistol_mastercrafted_1_2"
+                     type   =   "FirearmDamageIncreaseDamageAgainstBossSecondary"
+                     unlocksPerks   =   [
+                        "hgun_volkite_pistol_artificer_1_1",
+                        "hgun_volkite_pistol_mastercrafted_2_2"
+                     ]
+                  },
+                  {
+                     perkUid   =   "hgun_volkite_pistol_mastercrafted_2_2"
+                     type   =   "FirearmAmmoIncreaseAmmoPoolSecondary"
+                     unlocksPerks   =   [
+                        "hgun_volkite_pistol_artificer_2_1",
+                        "hgun_volkite_pistol_mastercrafted_1_2"
+                     ]
+                  }
+               ]
+            ]
+            __type   =   "WeaponPerkTier"
+         }
+         ARTIFICER   =   {
+            perkLayers   =   [
+               [
+                  {
+                     perkUid   =   "hgun_volkite_pistol_artificer_1_1"
+                     type   =   "FirearmVolkiteDischargeAreaSecondary"
+                     blockedByPerks   =   [
+                        "hgun_volkite_pistol_artificer_2_1"
+                     ]
+                     unlocksPerks   =   [
+                        "hgun_volkite_pistol_artificer_1_2"
+                     ]
+                  },
+                  {
+                     perkUid   =   "hgun_volkite_pistol_artificer_2_1"
+                     type   =   "FirearmVolkiteDischargeAreaSecondary"
+                     blockedByPerks   =   [
+                        "hgun_volkite_pistol_artificer_1_1"
+                     ]
+                     unlocksPerks   =   [
+                        "hgun_volkite_pistol_artificer_2_2"
+                     ]
+                  }
+               ],
+               [
+                  {
+                     perkUid   =   "hgun_volkite_pistol_artificer_1_2"
+                     type   =   "FirearmVolkiteVentingSpeedSecondary"
+                     unlocksPerks   =   [
+                        "hgun_volkite_pistol_relic_1_1",
+                        "hgun_volkite_pistol_artificer_2_2"
+                     ]
+                  },
+                  {
+                     perkUid   =   "hgun_volkite_pistol_artificer_2_2"
+                     type   =   "FirearmVolkiteHeatingSpeedSecondary"
+                     unlocksPerks   =   [
+                        "hgun_volkite_pistol_relic_2_1",
+                        "hgun_volkite_pistol_artificer_1_2"
+                     ]
+                  }
+               ]
+            ]
+            __type   =   "WeaponPerkTier"
+         }
+         RELIC   =   {
+            perkLayers   =   [
+               [
+                  {
+                     perkUid   =   "hgun_volkite_pistol_relic_1_1"
+                     type   =   "FirearmVolkiteDischargeDamageByMeleeKillEliteSecondary"
+                     blockedByPerks   =   [
+                        "hgun_volkite_pistol_relic_2_1"
+                     ]
+                     unlocksPerks   =   [
+                        "hgun_volkite_pistol_relic_1_2"
+                     ]
+                  },
+                  {
+                     perkUid   =   "hgun_volkite_pistol_relic_2_1"
+                     type   =   "FirearmVolkiteHeatingSpeedByMeleeKillEliteSecondary"
+                     blockedByPerks   =   [
+                        "hgun_volkite_pistol_relic_1_1"
+                     ]
+                     unlocksPerks   =   [
+                        "hgun_volkite_pistol_relic_2_2"
+                     ]
+                  }
+               ],
+               [
+                  {
+                     perkUid   =   "hgun_volkite_pistol_relic_1_2"
+                     type   =   "FirearmVolkiteDischargeDamageAreaSecondary"
+                  },
+                  {
+                     perkUid   =   "hgun_volkite_pistol_relic_2_2"
+                     type   =   "FirearmVolkiteDealHeatByDischargeSecondary"
                   }
                ]
             ]
