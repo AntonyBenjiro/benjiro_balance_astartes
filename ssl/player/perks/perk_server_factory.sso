@@ -6952,6 +6952,34 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
+         PveTerminatorRestoreAbilityPercentOnParryOrBlock   =   {
+            type   =   {
+               activationTrigger   =   {
+                  triggers   =   {
+                     PerkTriggerParry   =   {
+                        shouldTriggerByRiposte   =   True
+                        shouldTriggerByPerfectBlock   =   True
+                     }
+                  }
+                  __type   =   "PerkTriggerComposite"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0.1
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  abilitySlot   =   "ULTIMATE"
+                  shouldRestoreCharges   =   False
+                  chargesToRestore   =   1
+                  restorePercents   =   25
+                  canRestoreWhenAbilityActive   =   False
+                  shouldCalculatePercentByCharge   =   True
+                  __type   =   "PerkApplicationRestoreAbilityEnergy"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
          PveTerminatorAdamantGrip   =   {
             type   =   {
                activationTrigger   =   {
@@ -9253,6 +9281,52 @@ categories   =   {
                                           }
                                           Output   =   [
                                              "SpawnNpcByArchetype_F8rcFj1C/Spawn"
+                                          ]
+                                          __type   =   "BlueprintLibraryPipe"
+                                       }
+                                       SpawnNpcByArchetype_G3dauP1N   =   {
+                                          viewData   =   {
+                                             x   =   450
+                                             y   =   -350
+                                          }
+                                          OnSpawned   =   [
+                                             "RepeatCOROUTINE_G3dauP1N1/ContinueIterate"
+                                          ]
+                                          OnFailed   =   [
+                                             "RepeatCOROUTINE_G3dauP1N1/ContinueIterate"
+                                          ]
+                                          typeRef   =   {
+                                             def   =   "ImpGuardsman"
+                                             __type   =   "AiArchetypeRefParam"
+                                          }
+                                          tagRef   =   {
+                                             def   =   "perk_summoned"
+                                             __type   =   "StringRefParam"
+                                          }
+                                          __type   =   "BlueprintNodeSpawnActorByArchetype"
+                                       }
+                                       RepeatCOROUTINE_G3dauP1N1   =   {
+                                          viewData   =   {
+                                             x   =   -200
+                                             y   =   -200
+                                          }
+                                          repeatAmountRef   =   {
+                                             def   =   10
+                                             __type   =   "IntRefParam"
+                                          }
+                                          OnFinish   =   [  ]
+                                          OnIteration   =   [
+                                             "Pipe_G3dauP1N2/Input"
+                                          ]
+                                          __type   =   "BlueprintNodeRepeatCoroutine"
+                                       }
+                                       Pipe_G3dauP1N2   =   {
+                                          viewData   =   {
+                                             x   =   100
+                                             y   =   -350
+                                          }
+                                          Output   =   [
+                                             "SpawnNpcByArchetype_G3dauP1N/Spawn"
                                           ]
                                           __type   =   "BlueprintLibraryPipe"
                                        }
@@ -13418,99 +13492,99 @@ categories   =   {
                   __type   =   "PerkActivationControllerBinary"
                }
                application   =   {
-                  applications   =   {
-                     ReceiveAmmoSecondary   =   {
-                        ownerCondition   =   {
-                           condition   =   {
-                              condition   =   {
-                                 slot   =   "SECONDARY"
-                                 clipToCheckAmmo   =   "DEFAULT_CLIP"
-                                 __type   =   "ConditionFirearmFromSlotMaxAmmoInventoryIsZero"
-                              }
-                              __type   =   "ConditionInvert"
-                           }
-                           __type   =   "ConditionCheckerHolder"
-                        }
-                        perkApplication   =   {
-                           firearmSlot   =   "SECONDARY"
-                           clipType   =   "DEFAULT_CLIP"
-                           shouldPutAmmoInClipWhenInventoryIsFull   =   False
-                           shouldPutClipOvercapInInventory   =   True
-                           refillPercentsClip   =   100
-                           typeOfRefillClip   =   "IN_CLIP"
-                           refillPercentsInventory   =   20
-                           typeOfRefillInventory   =   "IN_INVENTORY"
-                           __type   =   "PerkApplicationRefillAmmo"
-                        }
-                        __type   =   "PerkApplicationEnableCondition"
-                     }
-                     ReceiveAmmoSecondaryForNoInventoryFirearm   =   {
-                        ownerCondition   =   {
-                           condition   =   {
-                              slot   =   "SECONDARY"
-                              clipToCheckAmmo   =   "DEFAULT_CLIP"
-                              __type   =   "ConditionFirearmFromSlotMaxAmmoInventoryIsZero"
-                           }
-                           __type   =   "ConditionCheckerHolder"
-                        }
-                        perkApplication   =   {
-                           firearmSlot   =   "SECONDARY"
-                           clipType   =   "DEFAULT_CLIP"
-                           refillPercentsClip   =   30
-                           typeOfRefillClip   =   "IN_CLIP"
-                           refillPercentsInventory   =   30
-                           typeOfRefillInventory   =   "IN_INVENTORY"
-                           __type   =   "PerkApplicationRefillAmmo"
-                        }
-                        __type   =   "PerkApplicationEnableCondition"
-                     }
-                     ReceiveAmmoPrimary   =   {
-                        ownerCondition   =   {
-                           condition   =   {
-                              condition   =   {
-                                 slot   =   "PRIMARY"
-                                 clipToCheckAmmo   =   "DEFAULT_CLIP"
-                                 __type   =   "ConditionFirearmFromSlotMaxAmmoInventoryIsZero"
-                              }
-                              __type   =   "ConditionInvert"
-                           }
-                           __type   =   "ConditionCheckerHolder"
-                        }
-                        perkApplication   =   {
-                           firearmSlot   =   "PRIMARY"
-                           clipType   =   "DEFAULT_CLIP"
-                           shouldPutAmmoInClipWhenInventoryIsFull   =   False
-                           shouldPutClipOvercapInInventory   =   True
-                           refillPercentsClip   =   100
-                           typeOfRefillClip   =   "IN_CLIP"
-                           refillPercentsInventory   =   20
-                           typeOfRefillInventory   =   "IN_INVENTORY"
-                           tryPutAmmoInClipWhenInventoryIsFull   =   True
-                           __type   =   "PerkApplicationRefillAmmo"
-                        }
-                        __type   =   "PerkApplicationEnableCondition"
-                     }
-                     ReceiveAmmoPrimaryForNoInventoryFirearm   =   {
-                        ownerCondition   =   {
-                           condition   =   {
-                              slot   =   "PRIMARY"
-                              clipToCheckAmmo   =   "DEFAULT_CLIP"
-                              __type   =   "ConditionFirearmFromSlotMaxAmmoInventoryIsZero"
-                           }
-                           __type   =   "ConditionCheckerHolder"
-                        }
-                        perkApplication   =   {
-                           firearmSlot   =   "PRIMARY"
-                           clipType   =   "DEFAULT_CLIP"
-                           refillPercentsClip   =   30
-                           typeOfRefillClip   =   "IN_CLIP"
-                           __type   =   "PerkApplicationRefillAmmo"
-                        }
-                        __type   =   "PerkApplicationEnableCondition"
-                     }
-                  }
-                  __type   =   "PerkApplicationComposite"
-               }
+                   applications   =   {
+                      ReceiveAmmoSecondary   =   {
+                         ownerCondition   =   {
+                            condition   =   {
+                               condition   =   {
+                                  slot   =   "SECONDARY"
+                                  clipToCheckAmmo   =   "DEFAULT_CLIP"
+                                  __type   =   "ConditionFirearmFromSlotMaxAmmoInventoryIsZero"
+                               }
+                               __type   =   "ConditionInvert"
+                            }
+                            __type   =   "ConditionCheckerHolder"
+                         }
+                         perkApplication   =   {
+                            firearmSlot   =   "SECONDARY"
+                            clipType   =   "DEFAULT_CLIP"
+                            shouldPutAmmoInClipWhenInventoryIsFull   =   False
+                            shouldPutClipOvercapInInventory   =   True
+                            refillPercentsClip   =   100
+                            typeOfRefillClip   =   "IN_CLIP"
+                            refillPercentsInventory   =   20
+                            typeOfRefillInventory   =   "IN_INVENTORY"
+                            __type   =   "PerkApplicationRefillAmmo"
+                         }
+                         __type   =   "PerkApplicationEnableCondition"
+                      }
+                      ReceiveAmmoSecondaryForNoInventoryFirearm   =   {
+                         ownerCondition   =   {
+                            condition   =   {
+                               slot   =   "SECONDARY"
+                               clipToCheckAmmo   =   "DEFAULT_CLIP"
+                               __type   =   "ConditionFirearmFromSlotMaxAmmoInventoryIsZero"
+                            }
+                            __type   =   "ConditionCheckerHolder"
+                         }
+                         perkApplication   =   {
+                            firearmSlot   =   "SECONDARY"
+                            clipType   =   "DEFAULT_CLIP"
+                            refillPercentsClip   =   30
+                            typeOfRefillClip   =   "IN_CLIP"
+                            refillPercentsInventory   =   30
+                            typeOfRefillInventory   =   "IN_INVENTORY"
+                            __type   =   "PerkApplicationRefillAmmo"
+                         }
+                         __type   =   "PerkApplicationEnableCondition"
+                      }
+                      ReceiveAmmoPrimary   =   {
+                         ownerCondition   =   {
+                            condition   =   {
+                               condition   =   {
+                                  slot   =   "PRIMARY"
+                                  clipToCheckAmmo   =   "DEFAULT_CLIP"
+                                  __type   =   "ConditionFirearmFromSlotMaxAmmoInventoryIsZero"
+                               }
+                               __type   =   "ConditionInvert"
+                            }
+                            __type   =   "ConditionCheckerHolder"
+                         }
+                         perkApplication   =   {
+                            firearmSlot   =   "PRIMARY"
+                            clipType   =   "DEFAULT_CLIP"
+                            shouldPutAmmoInClipWhenInventoryIsFull   =   False
+                            shouldPutClipOvercapInInventory   =   True
+                            refillPercentsClip   =   100
+                            typeOfRefillClip   =   "IN_CLIP"
+                            refillPercentsInventory   =   20
+                            typeOfRefillInventory   =   "IN_INVENTORY"
+                            tryPutAmmoInClipWhenInventoryIsFull   =   True
+                            __type   =   "PerkApplicationRefillAmmo"
+                         }
+                         __type   =   "PerkApplicationEnableCondition"
+                      }
+                      ReceiveAmmoPrimaryForNoInventoryFirearm   =   {
+                         ownerCondition   =   {
+                            condition   =   {
+                               slot   =   "PRIMARY"
+                               clipToCheckAmmo   =   "DEFAULT_CLIP"
+                               __type   =   "ConditionFirearmFromSlotMaxAmmoInventoryIsZero"
+                            }
+                            __type   =   "ConditionCheckerHolder"
+                         }
+                         perkApplication   =   {
+                            firearmSlot   =   "PRIMARY"
+                            clipType   =   "DEFAULT_CLIP"
+                            refillPercentsClip   =   30
+                            typeOfRefillClip   =   "IN_CLIP"
+                            __type   =   "PerkApplicationRefillAmmo"
+                         }
+                         __type   =   "PerkApplicationEnableCondition"
+                      }
+                   }
+                   __type   =   "PerkApplicationComposite"
+                }
                __type   =   "PerkServer"
             }
             __type   =   "PerkDesc"
@@ -19087,6 +19161,7 @@ categories   =   {
                }
                application   =   {
                   abilitySlot   =   "ULTIMATE"
+                  restorePercents   =   100
                   canRestoreWhenAbilityActive   =   True
                   shouldCalculatePercentByCharge   =   True
                   __type   =   "PerkApplicationRestoreAbilityEnergy"

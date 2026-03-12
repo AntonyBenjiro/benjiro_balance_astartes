@@ -1,0 +1,32 @@
+__type: res_desc_sso
+brandName: UiSkillsLibrary
+clientDynamicLinks: []
+dynamicLinks: []
+links: []
+linksDedicated: []
+linksDesc:
+- res://ssl/player/perks/ui/ui_enemy_presence_skill_data.sso.resource
+- res://ssl/player/perks/ui/ui_skill_category.sso.resource
+- res://ssl/player/perks/ui/ui_skill_data.sso.resource
+- res://ssl/player/perks/ui/ui_skill_data_parameter.sso.resource
+linksDescDedicated: []
+linksDescVisual: []
+linksDescWeak: []
+linksFgaMeta: []
+linksFont: []
+linksMr: []
+linksPct: []
+linksPreset: []
+linksSound: []
+linksSsl:
+- res://ssl/player/perks/ui/ui_skills_library.ssc.resource
+linksSslDedicated: []
+linksSslVisual: []
+linksTpl: []
+linksVideo: []
+linksVisual: []
+parents: []
+serverDynamicLinks: []
+sso: ui_skills_library.sso
+tags: []
+typemask: []
