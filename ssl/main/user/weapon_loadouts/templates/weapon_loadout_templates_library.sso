@@ -632,7 +632,7 @@ templates   =   {
    PVE_ENGINEER   =   {
       customTemplates   =   {
          Loadout1   =   {
-            primarySkill   =   "arifle_bolt_rifle"
+            primarySkill   =   "smg_occulus_bolt_carbine"
             secondarySkill   =   "hgun_plasma_pistol"
             meleeSkill   =   "melee_power_halberd"
             equipmentSkill   =   "equipment_frag_grenade"
@@ -646,14 +646,14 @@ templates   =   {
             __type   =   "WeaponLoadoutTemplate"
          }
          Loadout3   =   {
-            primarySkill   =   "pwpn_plasma_exterminator"
+            primarySkill   =   "smg_occulus_bolt_carbine"
             secondarySkill   =   "hgun_inferno_pistol"
             meleeSkill   =   "melee_power_halberd"
             equipmentSkill   =   "equipment_shock_grenade"
             __type   =   "WeaponLoadoutTemplate"
          }
          Loadout4   =   {
-            primarySkill   =   "arifle_bolt_rifle"
+            primarySkill   =   "smg_occulus_bolt_carbine"
             secondarySkill   =   "hgun_plasma_pistol"
             meleeSkill   =   "melee_power_halberd"
             equipmentSkill   =   "equipment_melta_charge"

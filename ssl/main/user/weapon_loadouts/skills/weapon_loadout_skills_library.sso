@@ -600,6 +600,9 @@ weaponSkillPacks   =   {
          hgun_death_watch_bolt_pistol   =   {
             __type   =   "WeaponSkillLocks"
          }
+         hgun_heavy_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
       }
       meleeWeapons   =   {
          melee_combat_knife   =   {
@@ -633,13 +636,10 @@ weaponSkillPacks   =   {
    }
    Engineer   =   {
       primaryWeapons   =   {
-         arifle_bolt_rifle   =   {
-            __type   =   "WeaponSkillLocks"
-         }
-         arifle_heavy_bolt_rifle   =   {
-            __type   =   "WeaponSkillLocks"
-         }
          smg_occulus_bolt_carbine   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         arifle_auto_bolt_rifle   =   {
             __type   =   "WeaponSkillLocks"
          }
          pwpn_plasma_exterminator   =   {
@@ -651,6 +651,21 @@ weaponSkillPacks   =   {
             __type   =   "WeaponSkillLocks"
          }
          hgun_inferno_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_death_watch_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_assault_bolter   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_volkite_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_heavy_bolt_pistol   =   {
             __type   =   "WeaponSkillLocks"
          }
       }
@@ -686,7 +701,7 @@ weaponSkillPacks   =   {
          arifle_heavy_bolt_rifle   =   {
             __type   =   "WeaponSkillLocks"
          }
-		 hwpn_pyroblaster   =   {
+         hwpn_pyroblaster   =   {
             __type   =   "WeaponSkillLocks"
          }
          hwpn_pyrecannon   =   {
@@ -726,10 +741,10 @@ weaponSkillPacks   =   {
          melee_power_sword   =   {
             __type   =   "WeaponSkillLocks"
          }
-		 melee_thunder_hammer   =   {
+         melee_thunder_hammer   =   {
             __type   =   "WeaponSkillLocks"
          }
-		 melee_power_fist   =   {
+         melee_power_fist   =   {
             __type   =   "WeaponSkillLocks"
          }
          melee_power_axe   =   {

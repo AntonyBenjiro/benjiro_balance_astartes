@@ -339,12 +339,6 @@ skills   =   {
          ]
          __type   =   "MasterySkill"
       }
-      Engineer   =   {
-         perks   =   [
-            "SpawnWithShoulderGunPlasma"
-         ]
-         __type   =   "MasterySkill"
-      }
    }
    PVE_Sniper_Progression   =   {
       Level2   =   {
@@ -1743,7 +1737,7 @@ skills   =   {
       }
       Prestige1   =   {
          perks   =   [
-            "PveEngineerHeadshotRamp"
+            "PveTerminatorRestoreAmmoForFinisherOfSpecial"
          ]
          __type   =   "MasterySkill"
       }
