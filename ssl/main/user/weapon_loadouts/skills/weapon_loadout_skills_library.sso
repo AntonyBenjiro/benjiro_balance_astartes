@@ -415,13 +415,13 @@ weaponSkillPacks   =   {
          hgun_bolt_pistol   =   {
             __type   =   "WeaponSkillLocks"
          }
+         hgun_heavy_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
          hgun_plasma_pistol   =   {
             __type   =   "WeaponSkillLocks"
          }
          hgun_assault_bolter   =   {
-            __type   =   "WeaponSkillLocks"
-         }
-         hgun_heavy_bolt_pistol   =   {
             __type   =   "WeaponSkillLocks"
          }
       }
@@ -683,7 +683,16 @@ weaponSkillPacks   =   {
    }
    CharacterMod1   =   {
       primaryWeapons   =   {
+         arifle_heavy_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+		 hwpn_pyroblaster   =   {
+            __type   =   "WeaponSkillLocks"
+         }
          hwpn_pyrecannon   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         pwpn_plasma_exterminator   =   {
             __type   =   "WeaponSkillLocks"
          }
          hwpn_support_heavy_bolter   =   {
@@ -697,30 +706,33 @@ weaponSkillPacks   =   {
          }
       }
       secondaryWeapons   =   {
+         hgun_heavy_bolt_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
          hgun_plasma_pistol   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         hgun_volkite_pistol   =   {
             __type   =   "WeaponSkillLocks"
          }
          hgun_assault_bolter   =   {
             __type   =   "WeaponSkillLocks"
          }
-         hgun_heavy_bolt_pistol   =   {
-            __type   =   "WeaponSkillLocks"
-         }
       }
       meleeWeapons   =   {
+         melee_firearm   =   {
+            __type   =   "WeaponSkillLocks"
+         }
          melee_power_sword   =   {
             __type   =   "WeaponSkillLocks"
          }
-         melee_thunder_hammer   =   {
+		 melee_thunder_hammer   =   {
             __type   =   "WeaponSkillLocks"
          }
-         melee_power_fist   =   {
+		 melee_power_fist   =   {
             __type   =   "WeaponSkillLocks"
          }
          melee_power_axe   =   {
-            __type   =   "WeaponSkillLocks"
-         }
-         melee_firearm   =   {
             __type   =   "WeaponSkillLocks"
          }
       }

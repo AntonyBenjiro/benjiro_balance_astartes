@@ -1143,7 +1143,7 @@ skillsCategories   =   {
             parameters   =   [
                {
                   text   =   "300%"
-               },
+               }
                {
                   text   =   "10"
                }
@@ -1296,6 +1296,9 @@ skillsCategories   =   {
             parameters   =   [
                {
                   text   =   "20%"
+               },
+               {
+                  text   =   "5"
                }
             ]
             icon   =   "perk_sniper_19"
@@ -3283,7 +3286,7 @@ skillsCategories   =   {
             descUid   =   "UI_MASTERY_PERK_TEAM_RAIDER_01_DESC"
             parameters   =   [
                {
-                  text   =   "10%"
+                  text   =   "15%"
                }
             ]
             icon   =   "perk_raider_command_05"
@@ -3338,6 +3341,360 @@ skillsCategories   =   {
                }
             ]
             icon   =   "perk_tank_command_10"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveRaiderRetoreChargeAfterHitDash   =   {
+            nameUid   =   "UI_MASTERY_PERK_RAIDER_T3_02A_NAME"
+            descUid   =   "UI_MASTERY_PERK_RAIDER_T3_02A_DESC"
+            parameters   =   [
+               {
+                  text   =   "1"
+               },
+               {
+                  text   =   "10"
+               }
+            ]
+            icon   =   "prestige_perk_raider_08"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+      }
+      __type   =   "UiSkillCategory"
+   }
+   MasteryEngineerPerks   =   {
+      skillsData   =   {
+         PveEngineerSpawnWithShoulderGunBolter   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T1_01_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T1_01_DESC"
+            icon   =   "ability_shoulder_gun"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerRangedBoostAfterEquipmentUse   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T2_01_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T2_01_DESC"
+            parameters   =   [
+               {
+                  text   =   "15%"
+               },
+               {
+                  text   =   "10"
+               }
+            ]
+            icon   =   "perk_engineer_02"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerSpawnWithShoulderGunSniper   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T2_02_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T2_02_DESC"
+            icon   =   "perk_engineer_10"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerSpawnWithShoulderGunPlasma   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T2_03_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T2_03_DESC"
+            icon   =   "perk_engineer_18"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerChargedMeleeDamageIncrease   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T3_01_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T3_01_DESC"
+            parameters   =   [
+               {
+                  text   =   "20%"
+               }
+            ]
+            icon   =   "perk_engineer_03"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerEquipmentExposeOnHit   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T3_02_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T3_02_DESC"
+            parameters   =   [
+               {
+                  text   =   "25%"
+               },
+               {
+                  text   =   "10"
+               }
+            ]
+            icon   =   "perk_engineer_11"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerRangedDamageAfterPerfectDefense   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T3_03_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T3_03_DESC"
+            parameters   =   [
+               {
+                  text   =   "25%"
+               },
+               {
+                  text   =   "10"
+               }
+            ]
+            icon   =   "perk_engineer_19"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerEquipmentDamageBoost   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T4_01_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T4_01_DESC"
+            parameters   =   [
+               {
+                  text   =   "35%"
+               }
+            ]
+            icon   =   "perk_engineer_04"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerMeleeAfterFinisher   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T4_02_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T4_02_DESC"
+            parameters   =   [
+               {
+                  text   =   "20%"
+               },
+               {
+                  text   =   "15"
+               }
+            ]
+            icon   =   "perk_engineer_12"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerFarRangedDamage   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T4_03_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T4_03_DESC"
+            parameters   =   [
+               {
+                  text   =   "20"
+               },
+               {
+                  text   =   "25%"
+               }
+            ]
+            icon   =   "perk_engineer_20"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerShoulderGunExposeOnHit   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T5_01_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T5_01_DESC"
+            parameters   =   [
+               {
+                  text   =   "15%"
+               },
+               {
+                  text   =   "10"
+                  type   =   "POSITIVE"
+               }
+            ]
+            icon   =   "perk_engineer_06"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerShoulderGunStabilityWhileActive   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T5_02_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T5_02_DESC"
+            parameters   =   [
+               {
+                  text   =   "10"
+               }
+            ]
+            icon   =   "perk_engineer_14"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerShoulderGunRegenNearSentry   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T5_03_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T5_03_DESC"
+            parameters   =   [
+               {
+                  text   =   "25%"
+               }
+            ]
+            icon   =   "perk_engineer_22"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerTurretShoulderGunRegen   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T5_03_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T5_03_DESC"
+            parameters   =   [
+               {
+                  text   =   "25%"
+               }
+            ]
+            icon   =   "perk_engineer_22"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerShoulderGunFasterRecharge   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T6_01_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T6_01_DESC"
+            parameters   =   [
+               {
+                  text   =   "15%"
+               }
+            ]
+            icon   =   "perk_engineer_07"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerSentryTurretPowerUp   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T6_02_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T6_02_DESC"
+            parameters   =   [
+               {
+                  text   =   "30%"
+               },
+               {
+                  text   =   "50%"
+               }
+            ]
+            icon   =   "perk_engineer_15"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerShoulderGunKillRestoresEquipment   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T6_03_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T6_03_DESC"
+            parameters   =   [
+               {
+                  text   =   "1"
+               },
+               {
+                  text   =   "75"
+                  type   =   "POSITIVE"
+               }
+            ]
+            icon   =   "perk_engineer_23"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerMeleeBoostAfterShoulderGun   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T7_01_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T7_01_DESC"
+            parameters   =   [
+               {
+                  text   =   "35%"
+               },
+               {
+                  text   =   "10"
+                  type   =   "POSITIVE"
+               }
+            ]
+            icon   =   "perk_engineer_08"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerShoulderGunArmorOnKill   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T7_02_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T7_02_DESC"
+            parameters   =   [
+               {
+                  text   =   "1"
+               },
+               {
+                  text   =   "30"
+               }
+            ]
+            icon   =   "perk_engineer_16"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerShoulderGunMajorisOnlyFarBonus   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T7_03_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T7_03_DESC"
+            parameters   =   [
+               {
+                  text   =   "20%"
+               },
+               {
+                  text   =   "20"
+               }
+            ]
+            icon   =   "perk_berserk_02"
+            affectedPresences   =   [
+               "MAJORIS"
+            ]
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerShoulderGunMajorisKillRestoreUltimate   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T8_01_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T8_01_DESC"
+            parameters   =   [
+               {
+                  text   =   "100%"
+               },
+               {
+                  text   =   "90"
+                  type   =   "POSITIVE"
+               }
+            ]
+            icon   =   "perk_engineer_09"
+            affectedPresences   =   [
+               "MAJORIS"
+            ]
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerShoulderGunZoneSentry   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T8_02_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T8_02_DESC"
+            parameters   =   [
+               {
+                  text   =   "50%"
+               }
+            ]
+            icon   =   "perk_engineer_17"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerShoulderGunIgniteOnHit   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T8_03_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T8_03_DESC"
+            icon   =   "perk_engineer_25"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerTurretBuff   =   {
+            nameUid   =   "UI_MASTERY_PERK_TEAM_ENGINEER_01_NAME"
+            descUid   =   "UI_MASTERY_PERK_TEAM_ENGINEER_01_DESC"
+            parameters   =   [
+               {
+                  text   =   "15"
+               },
+               {
+                  text   =   "25%"
+               },
+               {
+                  text   =   "15%"
+               }
+            ]
+            icon   =   "perk_engineer_05"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerSentryTurretTeamBuff   =   {
+            nameUid   =   "UI_MASTERY_PERK_TEAM_ENGINEER_01_NAME"
+            descUid   =   "UI_MASTERY_PERK_TEAM_ENGINEER_01_DESC"
+            parameters   =   [
+               {
+                  text   =   "15"
+               },
+               {
+                  text   =   "25%"
+               },
+               {
+                  text   =   "15%"
+               }
+            ]
+            icon   =   "perk_engineer_05"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerArmorAndSegmentOnInjectorTeam   =   {
+            nameUid   =   "UI_MASTERY_PERK_TEAM_ENGINEER_02_NAME"
+            descUid   =   "UI_MASTERY_PERK_TEAM_ENGINEER_02_DESC"
+            parameters   =   [
+               {
+                  text   =   "1"
+               }
+            ]
+            icon   =   "perk_engineer_13"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerTeamExtraEquipment   =   {
+            nameUid   =   "UI_MASTERY_PERK_TEAM_ENGINEER_03_NAME"
+            descUid   =   "UI_MASTERY_PERK_TEAM_ENGINEER_03_DESC"
+            parameters   =   [
+               {
+                  text   =   "1"
+               }
+            ]
+            icon   =   "perk_engineer_21"
             __type   =   "UiEnemyPresenceSkillData"
          }
       }
@@ -3497,6 +3854,11 @@ skillsCategories   =   {
                }
             ]
             icon   =   "ability_grapnel_launcher"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         SpawnWithShoulderGunBolter   =   {
+            nameUid   =   "UI_MASTERY_PERK_ENGINEER_T1_01_NAME"
+            descUid   =   "UI_MASTERY_PERK_ENGINEER_T1_01_DESC"
             __type   =   "UiEnemyPresenceSkillData"
          }
       }
@@ -4460,6 +4822,183 @@ skillsCategories   =   {
             affectedPresences   =   [
                "MAJORIS"
             ]
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+      }
+      __type   =   "UiSkillCategory"
+   }
+   MasteryMeleePowerHalberdPerks   =   {
+      skillsData   =   {
+         PveMeleePowerHalberdLungeRestoreArmor   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_01_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_01_DESC"
+            parameters   =   [
+               {
+                  text   =   "1"
+               },
+               {
+                  text   =   "60"
+               }
+            ]
+            icon   =   "wpn_perk_lunge_restore_armor"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleePowerHalberdLightComboAOE   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_02_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_02_DESC"
+            icon   =   "wpn_perk_light_combo_aoe"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleePowerHalberdLungeRushDamageStack   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_03_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_03_DESC"
+            parameters   =   [
+               {
+                  text   =   "10%"
+               },
+               {
+                  text   =   "4"
+               }
+            ]
+            icon   =   "wpn_perk_lunge_rush_damage_stack"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleePowerHalberdLungeRushDamageReduction   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_04_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_04_DESC"
+            parameters   =   [
+               {
+                  text   =   "50%"
+               }
+            ]
+            icon   =   "wpn_perk_lunge_rush_damage_reduction"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleePowerHalberdSprintStrikeNewStrike   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_05_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_05_DESC"
+            icon   =   "wpn_perk_sprint_strike_new_strike"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleePowerHalberdLungeDebuff   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_06_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_06_DESC"
+            parameters   =   [
+               {
+                  text   =   "15%"
+               },
+               {
+                  text   =   "5"
+               }
+            ]
+            icon   =   "wpn_perk_lunge_debuff"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleePowerHalberdBlastDamageAfterCombo   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_07_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_07_DESC"
+            parameters   =   [
+               {
+                  text   =   "25%"
+               },
+               {
+                  text   =   "5"
+               }
+            ]
+            icon   =   "wpn_perk_blast_damage_after_combo"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleePowerHalberdLungeRushGroupBuff   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_08_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_08_DESC"
+            parameters   =   [
+               {
+                  text   =   "5"
+               },
+               {
+                  text   =   "20%"
+               },
+               {
+                  text   =   "10"
+               }
+            ]
+            icon   =   "wpn_perk_lunge_rush_group_buff"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleePowerHalberdUnstoppableBlast   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_09_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_09_DESC"
+            icon   =   "wpn_perk_unstoppable_blast"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleePowerHalberdRelicMajorisSprint   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_10_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_10_DESC"
+            parameters   =   [
+               {
+                  text   =   "1"
+               },
+               {
+                  text   =   "30%"
+               }
+            ]
+            icon   =   "wpn_perk_relic_majoris_sprint"
+            affectedPresences   =   [
+               "MAJORIS"
+            ]
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleePowerHalberdRelicFastBlast   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_11_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_11_DESC"
+            parameters   =   [
+               {
+                  text   =   "40%"
+               }
+            ]
+            icon   =   "wpn_perk_relic_fast_blast"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleePowerHalberdRelicExplosiveLunge   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_12_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_12_DESC"
+            parameters   =   [
+               {
+                  text   =   "40%"
+               },
+               {
+                  text   =   "15"
+               }
+            ]
+            icon   =   "wpn_perk_relic_explosive_lunge"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleePowerHalberdRelicDoubleBlast   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_13_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_HALBERD_13_DESC"
+            parameters   =   [
+               {
+                  text   =   "50%"
+               }
+            ]
+            icon   =   "wpn_perk_relic_double_blast"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveMeleePowerHalberdLightComboDontLoseControl   =   {
+            nameUid   =   "UI_WEAPON_SKILL_MELEE_GENERIC_13_NAME"
+            descUid   =   "UI_WEAPON_SKILL_MELEE_GENERIC_13_DESC"
+            parameters   =   [
+               {
+                  text   =   "5"
+               },
+               {
+                  text   =   "7"
+               },
+               {
+                  text   =   "10"
+               }
+            ]
+            icon   =   "wpn_perk_stomp"
             __type   =   "UiEnemyPresenceSkillData"
          }
       }
@@ -6654,6 +7193,20 @@ skillsCategories   =   {
             icon   =   "perk_tank_04"
             __type   =   "UiEnemyPresenceSkillData"
          }
+         NoRestoreAtCloseDistance   =   {
+            nameUid   =   "UI_MUTATOR_NO_RESTORE_AT_CLOSE_DISTANCE_NAME"
+            icon   =   "perk_status_team_buff"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         NoRestoreAtFarDistance   =   {
+            nameUid   =   "UI_MUTATOR_NO_RESTORE_AT_FAR_DISTANCE_NAME"
+            icon   =   "perk_status_team_buff"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         TemporalBoostIndication   =   {
+            icon   =   "temporal_boost_buff"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
       }
       __type   =   "UiSkillCategory"
    }
@@ -7311,6 +7864,98 @@ skillsCategories   =   {
       }
       __type   =   "UiSkillCategory"
    }
+   MasteryEngineerPrestigePerks   =   {
+      skillsData   =   {
+         PveEngineerHeadshotRamp   =   {
+            nameUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_01_NAME"
+            descUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_01_DESC"
+            parameters   =   [
+               {
+                  text   =   "3%"
+               },
+               {
+                  text   =   "15%"
+               },
+               {
+                  text   =   "5"
+               }
+            ]
+            icon   =   "prestige_perk_soldier_01"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerReviveAbilityRegenTeam   =   {
+            nameUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_02_NAME"
+            descUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_02_DESC"
+            icon   =   "prestige_perk_engineer_03"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerMedicaeStimmsHealBoost   =   {
+            nameUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_03_NAME"
+            descUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_03_DESC"
+            parameters   =   [
+               {
+                  text   =   "40%"
+               }
+            ]
+            icon   =   "prestige_perk_soldier_05"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerEquipmentDamageRadiusIncrease   =   {
+            nameUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_04_NAME"
+            descUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_04_DESC"
+            parameters   =   [
+               {
+                  text   =   "15%"
+               }
+            ]
+            icon   =   "pve_sniper_range_increase"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerRangedDRWhenSurrounded   =   {
+            nameUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_06_NAME"
+            descUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_06_DESC"
+            parameters   =   [
+               {
+                  text   =   "5"
+               },
+               {
+                  text   =   "20%"
+               }
+            ]
+            icon   =   "perk_tank_12"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerMeleeAfterGunStrike   =   {
+            nameUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_07_NAME"
+            descUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_07_DESC"
+            parameters   =   [
+               {
+                  text   =   "25%"
+               },
+               {
+                  text   =   "5"
+               }
+            ]
+            icon   =   "prestige_perk_engineer_01"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PveEngineerSentryTurretApplyBiggerExplosion   =   {
+            nameUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_05_NAME"
+            descUid   =   "UI_MASTERY_PERK_PRESTIGE_ENGINEER_05_DESC"
+            parameters   =   [
+               {
+                  text   =   "1000%"
+               },
+               {
+                  text   =   "20%"
+               }
+            ]
+            icon   =   "prestige_perk_engineer_02"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+      }
+      __type   =   "UiSkillCategory"
+   }
    BuffMarines   =   {
       skillsData   =   {
          HmBuffMarineIncreaseFirearmDamage   =   {
@@ -7501,6 +8146,35 @@ skillsCategories   =   {
             affectedPresences   =   [
                "MAJORIS"
             ]
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         HeavyBoltRifleAUX   =   {
+            nameUid   =   "UI_WEAPON_SKILL_HEROIC_HEAVY_BOLT_AUX_NAME"
+            descUid   =   "UI_WEAPON_SKILL_HEROIC_HEAVY_BOLT_AUX_DESC"
+            icon   =   "heroic_wpn_perk_heavy_bolt_rifle_aux"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         HeroicPlasmaPistolRange   =   {
+            nameUid   =   "UI_WEAPON_SKILL_HEROIC_PLASMA_PISTOL_RANGE_NAME"
+            descUid   =   "UI_WEAPON_SKILL_HEROIC_PLASMA_PISTOL_RANGE_DESC"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PvEMeleePowerAxeBlockingWalkingStanceUI   =   {
+            nameUid   =   "UI_WEAPON_SKILL_HEROIC_POWER_AXE_NAME"
+            descUid   =   "UI_WEAPON_SKILL_HEROIC_POWER_AXE_DESC"
+            icon   =   "heroic_wpn_perk_power_axe"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PvEMeleeCombatKnifeDamageAfterRiposte   =   {
+            nameUid   =   "UI_WEAPON_SKILL_HEROIC_A_COMBAT_KNIFE_NAME"
+            descUid   =   "UI_WEAPON_SKILL_HEROIC_A_COMBAT_KNIFE_DESC"
+            icon   =   "heroic_wpn_perk_combat_knife_knuckles"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
+         PvEMeleeHalberdLungeCharge   =   {
+            nameUid   =   "UI_WEAPON_SKILL_HEROIC_HALBERD_NAME"
+            descUid   =   "UI_WEAPON_SKILL_HEROIC_HALBERD_DESC"
+            icon   =   "heroic_wpn_perk_power_halberd"
             __type   =   "UiEnemyPresenceSkillData"
          }
       }

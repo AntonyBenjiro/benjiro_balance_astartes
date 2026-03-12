@@ -1,30 +1,6 @@
 categories   =   {
    Common   =   {
       descs   =   {
-         EquipmentSpawnWithC4   =   {
-            type   =   {
-               activationTrigger   =   {
-                  __type   =   "PerkTriggerPassive"
-               }
-               application   =   {
-                  __type   =   "PerkApplicationSetAbility"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         EquipmentSpawnWithStimPistol   =   {
-            type   =   {
-               activationTrigger   =   {
-                  __type   =   "PerkTriggerPassive"
-               }
-               application   =   {
-                  __type   =   "PerkApplicationSetAbility"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
          EquipmentSpawnWithFragGrenade   =   {
             type   =   {
                activationTrigger   =   {
@@ -39,261 +15,6 @@ categories   =   {
                      __type   =   "AbilityUserSlotDescription"
                   }
                   __type   =   "PerkApplicationSetAbility"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         EquipmentSpawnWithSupplyBag   =   {
-            type   =   {
-               activationTrigger   =   {
-                  __type   =   "PerkTriggerPassive"
-               }
-               application   =   {
-                  ability   =   {
-                     abilityDesc   =   {
-                        abilityUid   =   "equipment_buff_crate"
-                        __type   =   "AbilityDescriptionLink"
-                     }
-                     __type   =   "AbilityUserSlotDescription"
-                  }
-                  __type   =   "PerkApplicationSetAbility"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         EquipmentSpawnWithTaser   =   {
-            type   =   {
-               activationTrigger   =   {
-                  __type   =   "PerkTriggerPassive"
-               }
-               application   =   {
-                  __type   =   "PerkApplicationSetAbility"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         EquipmentSpawnWithMaskingGrenade   =   {
-            type   =   {
-               activationTrigger   =   {
-                  __type   =   "PerkTriggerPassive"
-               }
-               application   =   {
-                  __type   =   "PerkApplicationSetAbility"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         EquipmentSpawnWithClaymore   =   {
-            type   =   {
-               activationTrigger   =   {
-                  __type   =   "PerkTriggerPassive"
-               }
-               application   =   {
-                  __type   =   "PerkApplicationSetAbility"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         MoreMaxChargesMolotov   =   {
-            type   =   {
-               activationTrigger   =   {
-                  needTriggerOnAttachAbility   =   True
-                  abilityDescriptionUid   =   "molotov"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               deactivationTrigger   =   {
-                  needTriggerOnDetachAbility   =   True
-                  abilityDescriptionUid   =   "molotov"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               application   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "ABILITY_ROUTINE_MAX_CHARGES"
-                        bonus   =   1
-                     }
-                  ]
-                  __type   =   "PerkApplicationModifiers"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         MoreMaxChargesC4   =   {
-            type   =   {
-               activationTrigger   =   {
-                  needTriggerOnAttachAbility   =   True
-                  abilityDescriptionUid   =   "c4"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               deactivationTrigger   =   {
-                  needTriggerOnDetachAbility   =   True
-                  abilityDescriptionUid   =   "c4"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               application   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "ABILITY_ROUTINE_MAX_CHARGES"
-                        bonus   =   1
-                     }
-                  ]
-                  __type   =   "PerkApplicationModifiers"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         MoreMaxChargesStimPistol   =   {
-            type   =   {
-               activationTrigger   =   {
-                  needTriggerOnAttachAbility   =   True
-                  abilityDescriptionUid   =   "stim_pistol"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               deactivationTrigger   =   {
-                  needTriggerOnDetachAbility   =   True
-                  abilityDescriptionUid   =   "stim_pistol"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               application   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "ABILITY_ROUTINE_MAX_CHARGES"
-                        bonus   =   1
-                     }
-                  ]
-                  __type   =   "PerkApplicationModifiers"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         MoreMaxChargesFragGrenade   =   {
-            type   =   {
-               activationTrigger   =   {
-                  needTriggerOnAttachAbility   =   True
-                  abilityDescriptionUid   =   "equipment_frag_grenade"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               deactivationTrigger   =   {
-                  needTriggerOnDetachAbility   =   True
-                  abilityDescriptionUid   =   "equipment_frag_grenade"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               application   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "ABILITY_ROUTINE_MAX_CHARGES"
-                        bonus   =   1
-                     }
-                  ]
-                  __type   =   "PerkApplicationModifiers"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         MoreMaxChargesSupplyBag   =   {
-            type   =   {
-               activationTrigger   =   {
-                  needTriggerOnAttachAbility   =   True
-                  abilityDescriptionUid   =   "equipment_buff_crate"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               deactivationTrigger   =   {
-                  needTriggerOnDetachAbility   =   True
-                  abilityDescriptionUid   =   "equipment_buff_crate"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               application   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "ABILITY_ROUTINE_MAX_CHARGES"
-                        bonus   =   1
-                     }
-                  ]
-                  __type   =   "PerkApplicationModifiers"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         MoreMaxChargesTaser   =   {
-            type   =   {
-               activationTrigger   =   {
-                  needTriggerOnAttachAbility   =   True
-                  abilityDescriptionUid   =   "taser"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               deactivationTrigger   =   {
-                  needTriggerOnDetachAbility   =   True
-                  abilityDescriptionUid   =   "taser"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               application   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "ABILITY_ROUTINE_MAX_CHARGES"
-                        bonus   =   1
-                     }
-                  ]
-                  __type   =   "PerkApplicationModifiers"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         MoreMaxChargesMaskingGrenade   =   {
-            type   =   {
-               activationTrigger   =   {
-                  needTriggerOnAttachAbility   =   True
-                  abilityDescriptionUid   =   "masking_grenade"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               deactivationTrigger   =   {
-                  needTriggerOnDetachAbility   =   True
-                  abilityDescriptionUid   =   "masking_grenade"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               application   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "ABILITY_ROUTINE_MAX_CHARGES"
-                        bonus   =   1
-                     }
-                  ]
-                  __type   =   "PerkApplicationModifiers"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         MoreMaxChargesClaymore   =   {
-            type   =   {
-               activationTrigger   =   {
-                  needTriggerOnAttachAbility   =   True
-                  abilityDescriptionUid   =   "claymore"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               deactivationTrigger   =   {
-                  needTriggerOnDetachAbility   =   True
-                  abilityDescriptionUid   =   "claymore"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               application   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "ABILITY_ROUTINE_MAX_CHARGES"
-                        bonus   =   1
-                     }
-                  ]
-                  __type   =   "PerkApplicationModifiers"
                }
                __type   =   "PerkServer"
             }
@@ -1004,36 +725,6 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
-         EquipmentClaymoreMoreDamageSecond   =   {
-            type   =   {
-               activationTrigger   =   {
-                  needTriggerOnAttachAbility   =   True
-                  abilityDescriptionUid   =   "claymore"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               deactivationTrigger   =   {
-                  needTriggerOnDetachAbility   =   True
-                  abilityDescriptionUid   =   "claymore"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               application   =   {
-                  applications   =   {
-                     PerkApplicationModifiers   =   {
-                        permanentModifiers   =   [
-                           {
-                              type   =   "SCALE_DAMAGE_MAX_ACTORS_LIMIT_FROM_ABILITY"
-                              bonus   =   25
-                              applyType   =   "PERCENT_SUM"
-                           }
-                        ]
-                     }
-                  }
-                  __type   =   "PerkApplicationComposite"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
          TempHealthOnZombieKillstreak   =   {
             type   =   {
                activationTrigger   =   {
@@ -1140,6 +831,10 @@ categories   =   {
                   vulnerabilities   =   [
                      "TyranidToxicDamage"
                   ]
+                  sideEffectModifierType   =   {
+                     type   =   "SE_TOXIN_ACCUMULATION_SENSITIVITY"
+                     __type   =   "ModifierTypeWrapper"
+                  }
                   __type   =   "PerkTriggerGotDamageSideEffect"
                }
                deactivationTrigger   =   {
@@ -1355,6 +1050,10 @@ categories   =   {
                   vulnerabilities   =   [
                      "Corruption"
                   ]
+                  sideEffectModifierType   =   {
+                     type   =   "SE_CORRUPTION_ACCUMULATION_SENSITIVITY"
+                     __type   =   "ModifierTypeWrapper"
+                  }
                   __type   =   "PerkTriggerGotDamageSideEffect"
                }
                deactivationTrigger   =   {
@@ -2127,7 +1826,15 @@ categories   =   {
                      }
                      __type   =   "AbilityUserSlotDescription"
                   }
-                  __type   =   "PerkApplicationSetAbility"
+                  flag   =   "ENABLE_SHOULDER_GUN_ZONE_AIMING"
+                  abilityByFlag   =   {
+                     abilityDesc   =   {
+                        abilityUid   =   "ability_shoulder_gun_bolter_zone_aiming"
+                        __type   =   "AbilityDescriptionLink"
+                     }
+                     __type   =   "AbilityUserSlotDescription"
+                  }
+                  __type   =   "PerkApplicationSetAbilityDependsOnFlag"
                }
                __type   =   "PerkServer"
             }
@@ -2422,31 +2129,6 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
-         MGSMoreMaxChargesFragGrenade   =   {
-            type   =   {
-               activationTrigger   =   {
-                  needTriggerOnAttachAbility   =   True
-                  abilityDescriptionUid   =   "equipment_frag_grenade"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               deactivationTrigger   =   {
-                  needTriggerOnDetachAbility   =   True
-                  abilityDescriptionUid   =   "equipment_frag_grenade"
-                  __type   =   "PerkTriggerAbilityUpdated"
-               }
-               application   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "ABILITY_ROUTINE_MAX_CHARGES"
-                        bonus   =   1
-                     }
-                  ]
-                  __type   =   "PerkApplicationModifiers"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
          AbilityRegen   =   {
             type   =   {
                activationTrigger   =   {
@@ -2584,7 +2266,7 @@ categories   =   {
                   applications   =   {
                      PerkApplicationSetFirearm   =   {
                         firearmDesc   =   {
-                           firearmLink   =   "mod_secondary_firearm_5 : 01"
+                           firearmLink   =   "mod_secondary_firearm_5 : skin_01"
                            __type   =   "WeaponDesc"
                         }
                      }
@@ -3599,20 +3281,19 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
-         SpawnWithShoulderGunPlasma   =   {
+         RestoreHealth   =   {
             type   =   {
                activationTrigger   =   {
                   __type   =   "PerkTriggerPassive"
                }
+               activationController   =   {
+                  delayedResetSec   =   0
+                  shouldIgnoreActivationTriggerIfActive   =   False
+                  __type   =   "PerkActivationControllerBinary"
+               }
                application   =   {
-                  ability   =   {
-                     abilityDesc   =   {
-                        abilityUid   =   "ability_shoulder_gun_plasma"
-                        __type   =   "AbilityDescriptionLink"
-                     }
-                     __type   =   "AbilityUserSlotDescription"
-                  }
-                  __type   =   "PerkApplicationSetAbility"
+                  healPercent   =   20
+                  __type   =   "PerkApplicationRestoreHealth"
                }
                __type   =   "PerkServer"
             }
@@ -4213,12 +3894,12 @@ categories   =   {
             type   =   {
                activationTrigger   =   {
                   needTriggerOnAttachAbility   =   True
-                  abilityDescriptionUid   =   "equipment_frag_grenade"
+                  abilityUid   =   "equipment_frag_grenade"
                   __type   =   "PerkTriggerAbilityUpdated"
                }
                deactivationTrigger   =   {
                   needTriggerOnDetachAbility   =   True
-                  abilityDescriptionUid   =   "equipment_frag_grenade"
+                  abilityUid   =   "equipment_frag_grenade"
                   __type   =   "PerkTriggerAbilityUpdated"
                }
                application   =   {
@@ -4239,12 +3920,12 @@ categories   =   {
             type   =   {
                activationTrigger   =   {
                   needTriggerOnAttachAbility   =   True
-                  abilityDescriptionUid   =   "equipment_frag_grenade"
+                  abilityUid   =   "equipment_frag_grenade"
                   __type   =   "PerkTriggerAbilityUpdated"
                }
                deactivationTrigger   =   {
                   needTriggerOnDetachAbility   =   True
-                  abilityDescriptionUid   =   "equipment_frag_grenade"
+                  abilityUid   =   "equipment_frag_grenade"
                   __type   =   "PerkTriggerAbilityUpdated"
                }
                application   =   {
@@ -4656,7 +4337,7 @@ categories   =   {
                      PerkApplicationModifiers   =   {
                         permanentModifiers   =   [
                            {
-                              type   =   "MAX_AMMO"
+                              type   =   "MAX_AMMO_PRIMARY"
                               bonus   =   25
                               applyType   =   "PERCENT_SUM"
                            },
@@ -5074,9 +4755,24 @@ categories   =   {
                               statusEffectName   =   "PerfectBlockBuffDischarge_Strong"
                               initiatorCondition   =   {
                                  condition   =   {
+                                    conditions   =   {
+                                       StatusEffectStacks   =   {
                                     stacks   =   2
                                     statusEffect   =   "PerfectBlockBuff"
                                     __type   =   "ConditionStatusEffectStacks"
+                                       }
+                                       Invert   =   {
+                                          condition   =   {
+                                             statusEffects   =   [
+                                                "PerfectBlockBuffDischarge_Strong",
+                                                "PerfectBlockBuffDischarge_Weak"
+                                             ]
+                                             __type   =   "ConditionStatusEffect"
+                                          }
+                                          __type   =   "ConditionInvert"
+                                       }
+                                    }
+                                    __type   =   "ConditionGroup"
                                  }
                                  __type   =   "ConditionCheckerHolder"
                               }
@@ -5095,9 +4791,24 @@ categories   =   {
                               statusEffectName   =   "PerfectBlockBuffDischarge_Weak"
                               initiatorCondition   =   {
                                  condition   =   {
+                                    conditions   =   {
+                                       StatusEffectStacks   =   {
                                     stacks   =   1
                                     statusEffect   =   "PerfectBlockBuff"
                                     __type   =   "ConditionStatusEffectStacks"
+                                       }
+                                       Invert   =   {
+                                          condition   =   {
+                                             statusEffects   =   [
+                                                "PerfectBlockBuffDischarge_Strong",
+                                                "PerfectBlockBuffDischarge_Weak"
+                                             ]
+                                             __type   =   "ConditionStatusEffect"
+                                          }
+                                          __type   =   "ConditionInvert"
+                                       }
+                                    }
+                                    __type   =   "ConditionGroup"
                                  }
                                  __type   =   "ConditionCheckerHolder"
                               }
@@ -5109,10 +4820,6 @@ categories   =   {
                            __type   =   "PerkApplicationStatusEffectTargetProviderSelf"
                         }
                         __type   =   "PerkApplicationEmitStatusEffect"
-                     }
-                     PerkApplicationRemoveStatusEffect   =   {
-                        statusEffectName   =   "PerfectBlockBuff"
-                        clearStack   =   True
                      }
                   }
                   __type   =   "PerkApplicationComposite"
@@ -5159,9 +4866,40 @@ categories   =   {
                      __type   =   "DamagerDescriptionLink"
                   }
                   damageAmountModifierStack   =   {
+                     ownerModifierTypes   =   [  ]
                      __type   =   "ModifiersStack"
                   }
                   __type   =   "PerkApplicationDealDamage"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         DischargePerfectBlockRemoveBuffStacks   =   {
+            type   =   {
+               activationTrigger   =   {
+                  triggers   =   {
+                     PerkTriggerStatusEffectUpdatedWeak   =   {
+                        statusEffectName   =   "PerfectBlockBuffDischarge_Weak"
+                        needTriggerOnRemoveEffect   =   True
+                        __type   =   "PerkTriggerStatusEffectUpdated"
+                     }
+                     PerkTriggerStatusEffectUpdatedStrong   =   {
+                        statusEffectName   =   "PerfectBlockBuffDischarge_Strong"
+                        needTriggerOnRemoveEffect   =   True
+                        __type   =   "PerkTriggerStatusEffectUpdated"
+                     }
+                  }
+                  __type   =   "PerkTriggerComposite"
+               }
+               activationController   =   {
+                  delayedResetSec   =   1
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  statusEffectName   =   "PerfectBlockBuff"
+                  clearStack   =   True
+                  __type   =   "PerkApplicationRemoveStatusEffect"
                }
                __type   =   "PerkServer"
             }
@@ -5194,7 +4932,9 @@ categories   =   {
                      __type   =   "StatusEffectEmitterDesc"
                   }
                   targetProvider   =   {
-                     damageType   =   "dmg_type_melee"
+                     damageTypes   =   [
+                        "dmg_type_melee"
+                     ]
                      shouldSetAfterDealDamage   =   True
                      __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
                   }
@@ -5234,7 +4974,9 @@ categories   =   {
                      __type   =   "StatusEffectEmitterDesc"
                   }
                   targetProvider   =   {
-                     damageType   =   "dmg_type_melee"
+                     damageTypes   =   [
+                        "dmg_type_melee"
+                     ]
                      __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
                   }
                   __type   =   "PerkApplicationEmitStatusEffect"
@@ -5269,7 +5011,9 @@ categories   =   {
                      __type   =   "StatusEffectEmitterDesc"
                   }
                   targetProvider   =   {
-                     damageType   =   "dmg_type_melee"
+                     damageTypes   =   [
+                        "dmg_type_melee"
+                     ]
                      __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
                   }
                   __type   =   "PerkApplicationEmitStatusEffect"
@@ -5968,7 +5712,8 @@ categories   =   {
                         "LightLongDash",
                         "ThunderHammerLongDashAttack",
                         "PowerLongDashSlash",
-                        "SpeedLongDashSlash"
+                        "SpeedLongDashSlash",
+                        "PerkOverheadStrike"
                      ]
                      __type   =   "HitConditionMeleeStrike"
                   }
@@ -10435,20 +10180,47 @@ categories   =   {
          PveApothecaryIncreasedGrenades   =   {
             type   =   {
                activationTrigger   =   {
-                  __type   =   "PerkTriggerPassive"
+                  needTriggerOnAttachAbility   =   True
+                  abilityCheckMode   =   "MULTIPLE"
+                  listMode   =   "BLACK"
+                  abilitiesUid   =   [
+                     "equipment_melta_charge"
+                  ]
+                  hasRestrictionBySlot   =   True
+                  abilitySlot   =   "ROUTINE"
+                  __type   =   "PerkTriggerAbilityUpdated"
+               }
+               deactivationTrigger   =   {
+                  needTriggerOnDetachAbility   =   True
+                  abilityCheckMode   =   "MULTIPLE"
+                  listMode   =   "BLACK"
+                  abilitiesUid   =   [
+                     "equipment_melta_charge"
+                  ]
+                  hasRestrictionBySlot   =   True
+                  abilitySlot   =   "ROUTINE"
+                  __type   =   "PerkTriggerAbilityUpdated"
                }
                application   =   {
+                  applications   =   {
+                     ChangeRoutineChargesByModifier   =   {
                   permanentModifiers   =   [
                      {
                         type   =   "ABILITY_ROUTINE_MAX_CHARGES"
                         bonus   =   1
-                     },
-                     {
-                        type   =   "ABILITY_ROUTINE_CHARGES_ON_RESPAWN"
-                        bonus   =   4
                      }
                   ]
                   __type   =   "PerkApplicationModifiers"
+                     }
+                     RestoreRoutineCharges   =   {
+                        abilitySlot   =   "ROUTINE"
+                        shouldRestoreCharges   =   True
+                        chargesToRestore   =   1
+                        canRestoreWhenAbilityActive   =   True
+                        __type   =   "PerkApplicationRestoreAbilityEnergy"
+                     }
+                  }
+                  __type   =   "PerkApplicationComposite"
                }
                __type   =   "PerkServer"
             }
@@ -10573,20 +10345,39 @@ categories   =   {
          PveApothecaryIncreasedMedkits   =   {
             type   =   {
                activationTrigger   =   {
-                  __type   =   "PerkTriggerPassive"
+                  needTriggerOnAttachAbility   =   True
+                  abilityCheckMode   =   "MULTIPLE"
+                  hasRestrictionBySlot   =   True
+                  abilitySlot   =   "INJECTOR"
+                  __type   =   "PerkTriggerAbilityUpdated"
+               }
+               deactivationTrigger   =   {
+                  needTriggerOnDetachAbility   =   True
+                  abilityCheckMode   =   "MULTIPLE"
+                  hasRestrictionBySlot   =   True
+                  abilitySlot   =   "INJECTOR"
+                  __type   =   "PerkTriggerAbilityUpdated"
                }
                application   =   {
+                  applications   =   {
+                     ChangeRoutineChargesByModifier   =   {
                   permanentModifiers   =   [
                      {
                         type   =   "ABILITY_INJECTOR_MAX_CHARGES"
                         bonus   =   1
-                     },
-                     {
-                        type   =   "ABILITY_INJECTOR_CHARGES_ON_RESPAWN"
-                        bonus   =   1
                      }
                   ]
                   __type   =   "PerkApplicationModifiers"
+                     }
+                     RestoreRoutineCharges   =   {
+                        abilitySlot   =   "INJECTOR"
+                        shouldRestoreCharges   =   True
+                        chargesToRestore   =   1
+                        canRestoreWhenAbilityActive   =   True
+                        __type   =   "PerkApplicationRestoreAbilityEnergy"
+                     }
+                  }
+                  __type   =   "PerkApplicationComposite"
                }
                __type   =   "PerkServer"
             }
@@ -11293,7 +11084,7 @@ categories   =   {
                application   =   {
                   permanentModifiers   =   [
                      {
-                        type   =   "MAX_AMMO"
+                        type   =   "MAX_AMMO_PRIMARY"
                         bonus   =   25
                         applyType   =   "PERCENT_SUM"
                      },
@@ -11321,9 +11112,13 @@ categories   =   {
                   __type   =   "PerkTriggerUseAbility"
                }
                deactivationTrigger   =   {
+                  perkTrigger   =   {
                   shouldTriggerOnTagRemoved   =   True
                   abilityUid   =   "ability_camouflage"
                   __type   =   "PerkTriggerAbilityTags"
+                  }
+                  delayTime   =   5
+                  __type   =   "PerkTriggerDelay"
                }
                activationController   =   {
                   delayedResetSec   =   -1
@@ -11490,6 +11285,7 @@ categories   =   {
                                  heavyHitPoiseDamage   =   1
                                  canKnockback   =   True
                                  isPervasive   =   True
+                                 shouldForceHeavyHit   =   True
                                  __type   =   "DamageInfo"
                               }
                               __type   =   "DamagerProject"
@@ -13136,7 +12932,99 @@ categories   =   {
          PveSoldierBuffBolterPenetration   =   {
             type   =   {
                activationTrigger   =   {
-                  __type   =   "PerkTriggerPassive"
+                  condition   =   {
+                     condition   =   {
+                        firearmCondition   =   {
+                           conditionChecker   =   {
+                              passingUids   =   [
+                                 "arifle_auto_bolt_rifle",
+                                 "arifle_bolt_rifle",
+                                 "arifle_heavy_bolt_rifle",
+                                 "brifle_stalker_bolt_rifle",
+                                 "hgun_bolt_pistol",
+                                 "hgun_heavy_bolt_pistol",
+                                 "brifle_marksman_bolt_carbine",
+                                 "smg_bolt_carbine",
+                                 "arifle_death_watch_bolt_rifle",
+                                 "brifle_bolt_sniper_rifle",
+                                 "hgun_death_watch_bolt_pistol",
+                                 "hgun_assault_bolter"
+                              ]
+                              __type   =   "ConditionFirearmUid"
+                           }
+                           conditionTrigger   =   {
+                              condition   =   {
+                                 conditions   =   {
+                                    AUX   =   {
+                                       allowedBarrelUid   =   "aux"
+                                       __type   =   "ConditionActiveBarrel"
+                                    }
+                                    MELTA   =   {
+                                       allowedBarrelUid   =   "melta"
+                                       __type   =   "ConditionActiveBarrel"
+                                    }
+                                 }
+                                 logicOperator   =   "OR"
+                                 __type   =   "ConditionGroup"
+                              }
+                              __type   =   "ConditionInvert"
+                           }
+                           __type   =   "ConditionHybrid"
+                        }
+                        __type   =   "ConditionCurrentFirearmContainer"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               deactivationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        firearmCondition   =   {
+                           condition   =   {
+                              conditionChecker   =   {
+                                 passingUids   =   [
+                                    "arifle_auto_bolt_rifle",
+                                    "arifle_bolt_rifle",
+                                    "arifle_heavy_bolt_rifle",
+                                    "brifle_stalker_bolt_rifle",
+                                    "hgun_bolt_pistol",
+                                    "hgun_heavy_bolt_pistol",
+                                    "brifle_marksman_bolt_carbine",
+                                    "smg_bolt_carbine",
+                                    "arifle_death_watch_bolt_rifle",
+                                    "brifle_bolt_sniper_rifle",
+                                    "hgun_death_watch_bolt_pistol",
+                                    "hgun_assault_bolter"
+                                 ]
+                                 __type   =   "ConditionFirearmUid"
+                              }
+                              conditionTrigger   =   {
+                                 condition   =   {
+                                    conditions   =   {
+                                       AUX   =   {
+                                          allowedBarrelUid   =   "aux"
+                                          __type   =   "ConditionActiveBarrel"
+                                       }
+                                       MELTA   =   {
+                                          allowedBarrelUid   =   "melta"
+                                          __type   =   "ConditionActiveBarrel"
+                                       }
+                                    }
+                                    logicOperator   =   "OR"
+                                    __type   =   "ConditionGroup"
+                                 }
+                                 __type   =   "ConditionInvert"
+                              }
+                              __type   =   "ConditionHybrid"
+                           }
+                           __type   =   "ConditionInvert"
+                        }
+                        __type   =   "ConditionCurrentFirearmContainer"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
                }
                application   =   {
                   permanentModifiers   =   [
@@ -13241,6 +13129,10 @@ categories   =   {
                               type   =   "ABILITY_AUSPEX_MARK_MARKED_DAMAGE_FROM_MELEE_SENSITIVITY_BY_INITIATOR"
                               bonus   =   50
                               applyType   =   "ABSOLUTE"
+                           },
+                           {
+                              type   =   "ABILITY_AUSPEX_MARK_MARKED_DAMAGE_FROM_FIREARM_ABILITY_SENSITIVITY_BY_INITIATOR"
+                              bonus   =   50
                            },
                            {
                               type   =   "ABILITY_AUSPEX_MARK_MARKED_DAMAGE_FROM_EQUIPMENT_SENSITIVITY_BY_INITIATOR"
@@ -13493,7 +13385,7 @@ categories   =   {
                      PerkApplicationModifiers   =   {
                         permanentModifiers   =   [
                            {
-                              type   =   "MAX_AMMO"
+                              type   =   "MAX_AMMO_PRIMARY"
                               bonus   =   25
                               applyType   =   "PERCENT_SUM"
                            },
@@ -14180,6 +14072,10 @@ categories   =   {
                               type   =   "ABILITY_AUSPEX_MARK_MARKED_DAMAGE_FROM_MELEE_SENSITIVITY_BY_INITIATOR"
                               bonus   =   100
                               applyType   =   "ABSOLUTE"
+                           },
+                           {
+                              type   =   "ABILITY_AUSPEX_MARK_MARKED_DAMAGE_FROM_FIREARM_ABILITY_SENSITIVITY_BY_INITIATOR"
+                              bonus   =   100
                            },
                            {
                               type   =   "ABILITY_AUSPEX_MARK_MARKED_DAMAGE_FROM_EQUIPMENT_SENSITIVITY_BY_INITIATOR"
@@ -15771,14 +15667,17 @@ categories   =   {
                      __type   =   "PerkTriggerHitActor"
                   }
                   delayTime   =   5
-                  resetTimerBodyStateConditionObserver   =   {
+                  disableTimerCondition   =   {
                      condition   =   {
+                        bodyStateConditionInternal   =   {
                         bodyStateArray   =   [
                            "FINISHER_EXECUTOR"
                         ]
                         __type   =   "BodyStateCondition"
                      }
-                     __type   =   "BodyStateConditionObserver"
+                        __type   =   "ConditionBodyStates"
+                     }
+                     __type   =   "ConditionTriggerHolder"
                   }
                   __type   =   "PerkTriggerDelay"
                }
@@ -17712,7 +17611,7 @@ categories   =   {
                   permanentModifiers   =   [
                      {
                         type   =   "ABILITY_ULTIMATE_REGENERATION"
-                        bonus   =   10
+                        bonus   =   15
                         applyType   =   "PERCENT_SUM"
                      }
                   ]
@@ -17789,6 +17688,56 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
+         PveRaiderRetoreChargeAfterHitDash   =   {
+            type   =   {
+               activationTrigger   =   {
+                  hitCondition   =   {
+                     pdNodePosX   =   -199.3331
+                     pdNodePosY   =   12.66666
+                     conditions   =   {
+                        hitCondition_1   =   {
+                           pdNodePosX   =   -395.1431
+                           pdNodePosY   =   194.762
+                           strikeUids   =   [
+                              "DashSprintOverhead",
+                              "PowerDashSlash",
+                              "SpeedDashSlash",
+                              "LightDashLeft",
+                              "ThunderHammerLightDash",
+                              "PerkDash",
+                              "LongDashAttack",
+                              "LightLongDash",
+                              "ThunderHammerLongDashAttack",
+                              "PowerLongDashSlash",
+                              "SpeedLongDashSlash",
+                              "PerkOverheadStrike"
+                           ]
+                           __type   =   "HitConditionMeleeStrike"
+                        }
+                     }
+                     __type   =   "HitConditionCompositeAnd"
+                  }
+                  shouldTriggerAfterDealDamage   =   True
+                  __type   =   "PerkTriggerHitActor"
+               }
+               activationController   =   {
+                  delayedResetSec   =   10
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  abilitySlot   =   "ULTIMATE"
+                  shouldRestoreCharges   =   True
+                  chargesToRestore   =   1
+                  restorePercents   =   50
+                  canRestoreWhenAbilityActive   =   True
+                  shouldCalculatePercentByCharge   =   False
+                  shouldCheckPerkDisableFlag   =   False
+                  __type   =   "PerkApplicationRestoreAbilityEnergy"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
       }
       __type   =   "PerkCategoryCommon"
    }
@@ -17812,6 +17761,10 @@ categories   =   {
                      }
                      Melta   =   {
                         abilityDescriptionUid   =   "equipment_melta_charge"
+                        __type   =   "PerkTriggerUseAbility"
+                     }
+                     Steroids   =   {
+                        abilityDescriptionUid   =   "equipment_steroids"
                         __type   =   "PerkTriggerUseAbility"
                      }
                   }
@@ -17846,7 +17799,7 @@ categories   =   {
                   permanentModifiers   =   [
                      {
                         type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE_HOLD"
-                        bonus   =   25
+                        bonus   =   20
                         applyType   =   "PERCENT_SUM"
                      }
                   ]
@@ -17865,7 +17818,7 @@ categories   =   {
                   permanentModifiers   =   [
                      {
                         type   =   "SCALE_DAMAGE_AMOUNT_FROM_ABILITY_GEAR"
-                        bonus   =   20
+                        bonus   =   35
                         applyType   =   "PERCENT_SUM"
                      }
                   ]
@@ -17875,48 +17828,74 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
+         PveEngineerSentryTurretTeamBuff   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  archetype   =   "TarantulaTurret"
+                  perkLink   =   "PveEngineerTurretAddBuff"
+                  __type   =   "PerkApplicationAddPerkToPlayerPerkTargetProp"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
          PveEngineerShoulderGunExposeOnHit   =   {
             type   =   {
                activationTrigger   =   {
                   isKillOnly   =   False
+                  hitConditionPropDiagramRootX   =   358
+                  hitConditionPropDiagramRootY   =   -55
                   hitCondition   =   {
+                     pdNodePosX   =   102
+                     pdNodePosY   =   -55
                      conditions   =   {
-                        HitConditionDamageAbility   =   {
-                           abilities   =   [
-                              "ability_shoulder_gun_sniper",
-                              "ability_shoulder_gun_plasma",
-                              "ability_shoulder_gun_bolter"
-                           ]
+                        HitConditionDamageAbilityShoulderGun   =   {
+                           pdNodePosX   =   -273
+                           pdNodePosY   =   -68
+                        }
+                     }
+                     __type   =   "HitConditionCompositeAnd"
+                  }
+                  shouldTriggerAfterDealDamage   =   True
+                  __type   =   "PerkTriggerHitActor"
+               }
+               deactivationTrigger   =   {
+                  isKillOnly   =   False
+                  hitConditionPropDiagramRootX   =   358
+                  hitConditionPropDiagramRootY   =   -55
+                  hitCondition   =   {
+                     pdNodePosX   =   102
+                     pdNodePosY   =   -55
+                     conditions   =   {
+                        HitConditionDamageAbilityShoulderGun   =   {
+                           pdNodePosX   =   -273
+                           pdNodePosY   =   -68
                         }
                      }
                      __type   =   "HitConditionCompositeAnd"
                   }
                   __type   =   "PerkTriggerHitActor"
                }
-               activationController   =   {
-                  delayedResetSec   =   10
-                  shouldIgnoreActivationTriggerIfActive   =   False
-                  __type   =   "PerkActivationControllerBinary"
-               }
                application   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_FIREARM"
-                        bonus   =   15
-                        applyType   =   "PERCENT_SUM"
-                     },
-                     {
-                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
-                        bonus   =   15
-                        applyType   =   "PERCENT_SUM"
-                     },
-                     {
-                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_ABILITY_GEAR"
-                        bonus   =   15
-                        applyType   =   "PERCENT_SUM"
+                  statusEffectDesc   =   {
+                     type   =   {
+                        statusEffectName   =   "EngineerShoulderGunDebuff"
+                        __type   =   "TargetEmitter"
                      }
+                     __type   =   "StatusEffectEmitterDesc"
+                  }
+                  targetProvider   =   {
+                     damageTypes   =   [
+                        "dmg_type_bullet",
+                        "dmg_type_plasma",
+                        "dmg_type_heavybullet"
                   ]
-                  __type   =   "PerkApplicationModifiers"
+                     __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
+                  }
+                  __type   =   "PerkApplicationEmitStatusEffect"
                }
                __type   =   "PerkServer"
             }
@@ -17983,44 +17962,65 @@ categories   =   {
          PveEngineerShoulderGunMajorisKillRestoreUltimate   =   {
             type   =   {
                activationTrigger   =   {
-                  isKillOnly   =   True
-                  hitCondition   =   {
-                     conditions   =   {
-                        HitConditionThreatClasses   =   {
-                           threatClasses   =   [
-                              "BOSS",
-                              "MINIBOSS",
-                              "ELITE",
-                              "SPECIAL"
-                           ]
-                        }
-                        HitConditionDamageAbility   =   {
+                  isDamagedByAbility   =   True
                            abilities   =   [
+                     "ability_shoulder_gun_bolter",
                               "ability_shoulder_gun_plasma",
                               "ability_shoulder_gun_sniper",
-                              "ability_shoulder_gun_bolter"
+                     "ability_shoulder_gun_bolter_zone_aiming",
+                     "ability_shoulder_gun_plasma_zone_aiming",
+                     "ability_shoulder_gun_sniper_zone_aiming"
                            ]
+                  isIncapedActorClassRestrictionsEnabled   =   True
+                  incapedActorThreatClasses   =   [
+                     "COMMON",
+                     "FODDER"
+                  ]
+                  isThreatClassesBlacklist   =   True
+                  __type   =   "PerkTriggerOnIncapedByOwner"
+                        }
+               deactivationTrigger   =   {
+                  perkTrigger   =   {
+                     triggers   =   {
+                        PerkTriggerAbilityTagBolter   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_bolter"
+                           __type   =   "PerkTriggerAbilityTags"
+                     }
+                        PerkTriggerAbilityTagPlasma   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_plasma"
+                           __type   =   "PerkTriggerAbilityTags"
+                  }
+                        PerkTriggerAbilityTagSniper   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_sniper"
+                           __type   =   "PerkTriggerAbilityTags"
+               }
+                        PerkTriggerAbilityTagBolterZoneAiming   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_bolter_zone_aiming"
+                           __type   =   "PerkTriggerAbilityTags"
+                  }
+                        PerkTriggerAbilityTagPlasmaZoneAiming   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_plasma_zone_aiming"
+                           __type   =   "PerkTriggerAbilityTags"
+                        }
+                        PerkTriggerAbilityTagSniperZoneAiming   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_sniper_zone_aiming"
+                           __type   =   "PerkTriggerAbilityTags"
                         }
                      }
-                     __type   =   "HitConditionCompositeAnd"
+                     __type   =   "PerkTriggerComposite"
                   }
-                  __type   =   "PerkTriggerHitActor"
-               }
-               activationController   =   {
-                  cooldown   =   {
-                     cooldownTime   =   90
-                     __type   =   "PerkCooldown"
-                  }
-                  __type   =   "PerkActivationControllerBinary"
+                  delayTime   =   0.1
+                  __type   =   "PerkTriggerDelay"
                }
                application   =   {
-                  abilitySlot   =   "ULTIMATE"
-                  shouldRestoreCharges   =   False
-                  restorePercents   =   100
-                  canRestoreWhenAbilityActive   =   False
-                  shouldCalculatePercentByCharge   =   False
-                  shouldCheckPerkDisableFlag   =   True
-                  __type   =   "PerkApplicationRestoreAbilityEnergy"
+                  perkLink   =   "PveEngineerRestoreEnergyAtEndOfAbility"
+                  __type   =   "PerkApplicationAttachPerk"
                }
                __type   =   "PerkServer"
             }
@@ -18039,7 +18039,15 @@ categories   =   {
                      }
                      __type   =   "AbilityUserSlotDescription"
                   }
-                  __type   =   "PerkApplicationSetAbility"
+                  flag   =   "ENABLE_SHOULDER_GUN_ZONE_AIMING"
+                  abilityByFlag   =   {
+                     abilityDesc   =   {
+                        abilityUid   =   "ability_shoulder_gun_sniper_zone_aiming"
+                        __type   =   "AbilityDescriptionLink"
+                     }
+                     __type   =   "AbilityUserSlotDescription"
+                  }
+                  __type   =   "PerkApplicationSetAbilityDependsOnFlag"
                }
                __type   =   "PerkServer"
             }
@@ -18052,6 +18060,8 @@ categories   =   {
                   hitCondition   =   {
                      conditions   =   {
                         HitConditionDamageAbility   =   {
+                           pdNodePosX   =   238
+                           pdNodePosY   =   -22
                            abilities   =   [
                               "equipment_frag_grenade",
                               "equipment_shock_grenade",
@@ -18060,29 +18070,45 @@ categories   =   {
                            ]
                         }
                      }
-                     __type   =   "HitConditionCompositeOr"
+                     __type   =   "HitConditionCompositeAnd"
+                  }
+                  shouldTriggerAfterDealDamage   =   True
+                  __type   =   "PerkTriggerHitActor"
+               }
+               deactivationTrigger   =   {
+                  isKillOnly   =   False
+                  hitCondition   =   {
+                     conditions   =   {
+                        HitConditionDamageAbility   =   {
+                           abilities   =   [
+                              "equipment_frag_grenade",
+                              "equipment_shock_grenade",
+                              "equipment_krak_grenade",
+                              "equipment_melta_charge"
+                           ]
+                        }
+                     }
+                     __type   =   "HitConditionCompositeAnd"
                   }
                   shouldTriggerAfterDealDamage   =   False
                   __type   =   "PerkTriggerHitActor"
                }
-               activationController   =   {
-                  delayedResetSec   =   10
-                  __type   =   "PerkActivationControllerBinary"
-               }
                application   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_FIREARM"
-                        bonus   =   25
-                        applyType   =   "PERCENT_MULT"
-                     },
-                     {
-                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
-                        bonus   =   25
-                        applyType   =   "PERCENT_SUM"
+                  statusEffectDesc   =   {
+                     type   =   {
+                        statusEffectName   =   "EngineerGrenadeDebuff"
+                        __type   =   "TargetEmitter"
                      }
+                     __type   =   "StatusEffectEmitterDesc"
+                     }
+                  targetProvider   =   {
+                     damageTypes   =   [
+                        "dmg_type_explosive",
+                        "dmg_type_electro"
                   ]
-                  __type   =   "PerkApplicationModifiers"
+                     __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
+                  }
+                  __type   =   "PerkApplicationEmitStatusEffect"
                }
                __type   =   "PerkServer"
             }
@@ -18091,16 +18117,13 @@ categories   =   {
          PveEngineerMeleeAfterFinisher   =   {
             type   =   {
                activationTrigger   =   {
-                  isKillOnly   =   False
+                  isKillOnly   =   True
                   hitCondition   =   {
-                     conditions   =   {
-                        HitConditionDmgTypes   =   {
                            damageTypes   =   [
-                              "dmg_type_finisher"
+                        "dmg_type_finisher",
+                        "dmg_type_gunstrike"
                            ]
-                        }
-                     }
-                     __type   =   "HitConditionCompositeAnd"
+                     __type   =   "HitConditionDmgTypes"
                   }
                   __type   =   "PerkTriggerHitActor"
                }
@@ -18125,34 +18148,33 @@ categories   =   {
          PveEngineerArmorAndSegmentOnInjector   =   {
             type   =   {
                activationTrigger   =   {
-                  __type   =   "PerkTriggerPassive"
+                  isKillOnly   =   True
+                  hitCondition   =   {
+                     conditions   =   {
+                        HitConditionDmgTypes   =   {
+                           damageTypes   =   [
+                              "dmg_type_finisher"
+                           ]
+                        }
+                        HitConditionThreatClasses   =   {
+                           threatClasses   =   [
+                              "ELITE",
+                              "SPECIAL"
+                           ]
+                        }
+                     }
+                     __type   =   "HitConditionCompositeAnd"
                }
-               deactivationTrigger   =   {
-                  tickTimeSec   =   0.1
-                  __type   =   "PerkTriggerSchedule"
+                  __type   =   "PerkTriggerHitActor"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0
+                  __type   =   "PerkActivationControllerBinary"
                }
                application   =   {
-                  applications   =   {
-                     GiveBonusSegment   =   {
-                        statusEffectDesc   =   {
-                           type   =   {
-                              statusEffectName   =   "FullArmorRegen"
-                              __type   =   "TargetEmitter"
-                           }
-                           __type   =   "StatusEffectEmitterDesc"
-                        }
-                        targetProvider   =   {
-                           __type   =   "PerkApplicationStatusEffectTargetProviderSelf"
-                        }
-                        __type   =   "PerkApplicationEmitStatusEffect"
-                     }
-                     FullArmorWithBonus   =   {
-                        armorPercent   =   100
-                        shouldConsiderBonusSegments   =   True
+                  shouldRestoreSegment   =   True
+                  segmentToRestore   =   1
                         __type   =   "PerkApplicationRestoreArmor"
-                     }
-                  }
-                  __type   =   "PerkApplicationComposite"
                }
                __type   =   "PerkServer"
             }
@@ -18161,12 +18183,10 @@ categories   =   {
          PveEngineerArmorAndSegmentOnInjectorTeam   =   {
             type   =   {
                activationTrigger   =   {
-                  abilityDescriptionUid   =   "equipment_healing_injector"
-                  __type   =   "PerkTriggerUseAbility"
+                  __type   =   "PerkTriggerPassive"
                }
                deactivationTrigger   =   {
-                  tickTimeSec   =   0.05
-                  __type   =   "PerkTriggerSchedule"
+                  __type   =   "null"
                }
                application   =   {
                   perkLink   =   "PveEngineerArmorAndSegmentOnInjector"
@@ -18195,28 +18215,72 @@ categories   =   {
                         abilityUid   =   "ability_shoulder_gun_plasma"
                         __type   =   "PerkTriggerAbilityTags"
                      }
+                     BolterZoneAiming   =   {
+                        shouldTriggerOnTagAdded   =   True
+                        abilityUid   =   "ability_shoulder_gun_bolter_zone_aiming"
+                        __type   =   "PerkTriggerAbilityTags"
+                     }
+                     SniperZoneAiming   =   {
+                        shouldTriggerOnTagAdded   =   True
+                        abilityUid   =   "ability_shoulder_gun_sniper_zone_aiming"
+                        __type   =   "PerkTriggerAbilityTags"
+                     }
+                     PlasmaZoneAiming   =   {
+                        shouldTriggerOnTagAdded   =   True
+                        abilityUid   =   "ability_shoulder_gun_plasma_zone_aiming"
+                        __type   =   "PerkTriggerAbilityTags"
+                     }
                   }
                   __type   =   "PerkTriggerComposite"
                }
                deactivationTrigger   =   {
+                  perkTrigger   =   {
                   triggers   =   {
                      Bolter   =   {
+                           shouldTriggerOnTagAdded   =   False
                         shouldTriggerOnTagRemoved   =   True
                         abilityUid   =   "ability_shoulder_gun_bolter"
                         __type   =   "PerkTriggerAbilityTags"
                      }
                      Sniper   =   {
+                           shouldTriggerOnTagAdded   =   False
                         shouldTriggerOnTagRemoved   =   True
                         abilityUid   =   "ability_shoulder_gun_sniper"
                         __type   =   "PerkTriggerAbilityTags"
                      }
                      Plasma   =   {
+                           shouldTriggerOnTagAdded   =   False
                         shouldTriggerOnTagRemoved   =   True
                         abilityUid   =   "ability_shoulder_gun_plasma"
                         __type   =   "PerkTriggerAbilityTags"
                      }
+                        BolterZoneAiming   =   {
+                           shouldTriggerOnTagAdded   =   False
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_bolter_zone_aiming"
+                           __type   =   "PerkTriggerAbilityTags"
+                        }
+                        SniperZoneAiming   =   {
+                           shouldTriggerOnTagAdded   =   False
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_sniper_zone_aiming"
+                           __type   =   "PerkTriggerAbilityTags"
+                        }
+                        PlasmaZoneAiming   =   {
+                           shouldTriggerOnTagAdded   =   False
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_plasma_zone_aiming"
+                           __type   =   "PerkTriggerAbilityTags"
+                        }
                   }
                   __type   =   "PerkTriggerComposite"
+                  }
+                  delayTime   =   10
+                  __type   =   "PerkTriggerDelay"
+               }
+               activationController   =   {
+                  delayedResetSec   =   -1
+                  __type   =   "PerkActivationControllerBinary"
                }
                application   =   {
                   permanentModifiers   =   [
@@ -18236,13 +18300,34 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
+         PveEngineerSentryTurretPowerUp   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  archetype   =   "TarantulaTurret"
+                  perkLink   =   "PveEngineerTurretPowerUp"
+                  __type   =   "PerkApplicationAddPerkToPlayerPerkTargetProp"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
          PveEngineerShoulderGunArmorOnKill   =   {
             type   =   {
                activationTrigger   =   {
-                  isKillOnly   =   True
+                  isLethalDamageOnly   =   False
+                  isKillOnly   =   False
+                  hitConditionPropDiagramRootX   =   562
+                  hitConditionPropDiagramRootY   =   75
                   hitCondition   =   {
+                     pdNodePosX   =   359
+                     pdNodePosY   =   31
                      conditions   =   {
                         HitConditionThreatClasses   =   {
+                           pdNodePosX   =   19
+                           pdNodePosY   =   204
                            threatClasses   =   [
                               "BOSS",
                               "MINIBOSS",
@@ -18252,17 +18337,26 @@ categories   =   {
                               "COMMON"
                            ]
                         }
-                        HitConditionDamageAbility   =   {
-                           abilities   =   [
-                              "ability_shoulder_gun_plasma",
-                              "ability_shoulder_gun_sniper",
-                              "ability_shoulder_gun_bolter"
+                        HitConditionDamageAbilityShoulderGun   =   {
+                           pdNodePosX   =   -31
+                           pdNodePosY   =   -44.7
+                        }
+                        Health_Amount   =   {
+                           healthPercent   =   [
+                              0,
+                              0.5
                            ]
+                           typeActorToCheck   =   "DAMAGED_ACTOR"
+                           __type   =   "HitConditionHealthAmount"
                         }
                      }
                      __type   =   "HitConditionCompositeAnd"
                   }
                   __type   =   "PerkTriggerHitActor"
+               }
+               deactivationTrigger   =   {
+                  tickTimeSec   =   0.1
+                  __type   =   "PerkTriggerSchedule"
                }
                activationController   =   {
                   cooldown   =   {
@@ -18281,6 +18375,25 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
+         PveEngineerShoulderGunZoneSentry   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  applications   =   {
+                     PerkApplicationFlags   =   {
+                        flags   =   [
+                           "ENABLE_SHOULDER_GUN_ZONE_AIMING"
+                        ]
+                     }
+                  }
+                  __type   =   "PerkApplicationComposite"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
          PveEngineerSpawnWithShoulderGunPlasma   =   {
             type   =   {
                activationTrigger   =   {
@@ -18294,7 +18407,15 @@ categories   =   {
                      }
                      __type   =   "AbilityUserSlotDescription"
                   }
-                  __type   =   "PerkApplicationSetAbility"
+                  flag   =   "ENABLE_SHOULDER_GUN_ZONE_AIMING"
+                  abilityByFlag   =   {
+                     abilityDesc   =   {
+                        abilityUid   =   "ability_shoulder_gun_plasma_zone_aiming"
+                        __type   =   "AbilityDescriptionLink"
+                     }
+                     __type   =   "AbilityUserSlotDescription"
+                  }
+                  __type   =   "PerkApplicationSetAbilityDependsOnFlag"
                }
                __type   =   "PerkServer"
             }
@@ -18303,18 +18424,20 @@ categories   =   {
          PveEngineerRangedDamageAfterPerfectDefense   =   {
             type   =   {
                activationTrigger   =   {
+                  shouldTriggerByRegularParry   =   False
                   shouldTriggerByRiposte   =   True
                   shouldTriggerByPerfectBlock   =   True
                   __type   =   "PerkTriggerParry"
                }
                activationController   =   {
-                  delayedResetSec   =   5
+                  delayedResetSec   =   10
+                  shouldIgnoreActivationTriggerIfActive   =   False
                   __type   =   "PerkActivationControllerBinary"
                }
                application   =   {
                   permanentModifiers   =   [
                      {
-                        type   =   "SCALE_PERK_AOE_DAMAGE_FROM_PERFECT_PARRY"
+                        type   =   "FIREARM_DAMAGE_SENSITIVITY"
                         bonus   =   -25
                         applyType   =   "PERCENT_SUM"
                      }
@@ -18350,7 +18473,7 @@ categories   =   {
                   __type   =   "PerkTriggerPassive"
                }
                application   =   {
-                  perkLink   =   "MoreMaxChargesFragGrenade"
+                  perkLink   =   "MoreMaxChargesForMostEquipments"
                   __type   =   "PerkApplicationAttachTeamPerkToPlayers"
                }
                perkVisualizationType   =   "DEFAULT"
@@ -18358,19 +18481,33 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
-         MoreMaxChargesKrakGrenade   =   {
+         MoreMaxChargesForMostEquipments   =   {
             type   =   {
                activationTrigger   =   {
                   needTriggerOnAttachAbility   =   True
-                  abilityDescriptionUid   =   "equipment_krak_grenade"
+                  abilityCheckMode   =   "MULTIPLE"
+                  listMode   =   "BLACK"
+                  abilitiesUid   =   [
+                     "equipment_melta_charge"
+                  ]
+                  hasRestrictionBySlot   =   True
+                  abilitySlot   =   "ROUTINE"
                   __type   =   "PerkTriggerAbilityUpdated"
                }
                deactivationTrigger   =   {
                   needTriggerOnDetachAbility   =   True
-                  abilityDescriptionUid   =   "equipment_krak_grenade"
+                  abilityCheckMode   =   "MULTIPLE"
+                  listMode   =   "BLACK"
+                  abilitiesUid   =   [
+                     "equipment_melta_charge"
+                  ]
+                  hasRestrictionBySlot   =   True
+                  abilitySlot   =   "ROUTINE"
                   __type   =   "PerkTriggerAbilityUpdated"
                }
                application   =   {
+                  applications   =   {
+                     ChangeRoutineChargesByModifier   =   {
                   permanentModifiers   =   [
                      {
                         type   =   "ABILITY_ROUTINE_MAX_CHARGES"
@@ -18378,44 +18515,30 @@ categories   =   {
                      }
                   ]
                   __type   =   "PerkApplicationModifiers"
+                     }
+                     RestoreRoutineCharges   =   {
+                        abilitySlot   =   "ROUTINE"
+                        shouldRestoreCharges   =   True
+                        chargesToRestore   =   1
+                        canRestoreWhenAbilityActive   =   True
+                        __type   =   "PerkApplicationRestoreAbilityEnergy"
+                     }
+                  }
+                  __type   =   "PerkApplicationComposite"
                }
                __type   =   "PerkServer"
             }
             __type   =   "PerkDesc"
          }
-         MoreMaxChargesShockGrenade   =   {
+         PveEngineerShoulderGunRegenNearSentry   =   {
             type   =   {
                activationTrigger   =   {
-                  triggers   =   {
-                     OnPerkAttach   =   {
                         __type   =   "PerkTriggerPassive"
-                     }
-                     OnAttach   =   {
-                        needTriggerOnAttachAbility   =   True
-                        abilityDescriptionUid   =   "equipment_shock_grenade"
-                        __type   =   "PerkTriggerAbilityUpdated"
-                     }
-                  }
-                  __type   =   "PerkTriggerComposite"
-               }
-               deactivationTrigger   =   {
-                  triggers   =   {
-                     OnDetach   =   {
-                        needTriggerOnDetachAbility   =   True
-                        abilityDescriptionUid   =   "equipment_shock_grenade"
-                        __type   =   "PerkTriggerAbilityUpdated"
-                     }
-                  }
-                  __type   =   "PerkTriggerComposite"
                }
                application   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "ABILITY_ROUTINE_MAX_CHARGES"
-                        bonus   =   1
-                     }
-                  ]
-                  __type   =   "PerkApplicationModifiers"
+                  archetype   =   "TarantulaTurret"
+                  perkLink   =   "PveEngineerTurretAddShoulderGunRegen"
+                  __type   =   "PerkApplicationAddPerkToPlayerPerkTargetProp"
                }
                __type   =   "PerkServer"
             }
@@ -18424,10 +18547,28 @@ categories   =   {
          PveEngineerShoulderGunKillRestoresEquipment   =   {
             type   =   {
                activationTrigger   =   {
-                  isKillOnly   =   True
+                  condition   =   {
+                     condition   =   {
+                        conditionChecker   =   {
+                           abilityProvider   =   {
+                              shouldCheckSlot   =   True
+                              abilitySlot   =   "ROUTINE"
+                              shouldCheckUid   =   False
+                              isInvertedAbilityUidCheck   =   False
+                              __type   =   "AbilityProvider"
+                           }
+                           compareType   =   "SMALLER"
+                           energyPercent   =   100
+                           __type   =   "ConditionAbilityState"
+                        }
+                        conditionTrigger   =   {
                   hitCondition   =   {
+                              pdNodePosX   =   124
+                              pdNodePosY   =   34
                      conditions   =   {
                         HitConditionThreatClasses   =   {
+                                    pdNodePosX   =   -195
+                                    pdNodePosY   =   -175
                            threatClasses   =   [
                               "BOSS",
                               "MINIBOSS",
@@ -18437,21 +18578,36 @@ categories   =   {
                               "FODDER"
                            ]
                         }
-                        HitConditionDamageAbility   =   {
-                           abilities   =   [
-                              "ability_shoulder_gun_plasma",
-                              "ability_shoulder_gun_sniper",
-                              "ability_shoulder_gun_bolter"
+                                 HitConditionDamageAbilityShoulderGun   =   {
+                                    pdNodePosX   =   -222
+                                    pdNodePosY   =   125
+                                 }
+                                 Health_Amount   =   {
+                                    healthPercent   =   [
+                                       0,
+                                       0.5
                            ]
+                                    typeActorToCheck   =   "DAMAGED_ACTOR"
+                                    __type   =   "HitConditionHealthAmount"
                         }
                      }
                      __type   =   "HitConditionCompositeAnd"
                   }
-                  __type   =   "PerkTriggerHitActor"
+                           __type   =   "ConditionHitActor"
+                        }
+                        __type   =   "ConditionHybrid"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               deactivationTrigger   =   {
+                  tickTimeSec   =   0.1
+                  __type   =   "PerkTriggerSchedule"
                }
                activationController   =   {
                   cooldown   =   {
-                     cooldownTime   =   90
+                     cooldownTime   =   75
                      __type   =   "PerkCooldown"
                   }
                   delayedResetSec   =   -1
@@ -18470,62 +18626,28 @@ categories   =   {
          PveEngineerShoulderGunMajorisOnlyFarBonus   =   {
             type   =   {
                activationTrigger   =   {
-                  hitCondition   =   {
-                     conditions   =   {
-                        HitConditionThreatClasses   =   {
-                           threatClasses   =   [
-                              "BOSS",
-                              "MINIBOSS",
-                              "ELITE",
-                              "SPECIAL"
-                           ]
-                        }
-                        HitConditionDamageAbility   =   {
-                           abilities   =   [
-                              "ability_shoulder_gun_plasma",
-                              "ability_shoulder_gun_sniper",
-                              "ability_shoulder_gun_bolter"
-                           ]
-                        }
-                     }
-                     __type   =   "HitConditionCompositeAnd"
-                  }
-                  __type   =   "PerkTriggerHitActor"
+                  __type   =   "PerkTriggerPassive"
                }
                application   =   {
                   applications   =   {
-                     Bolter   =   {
-                        abilityUid   =   "ability_shoulder_gun_bolter"
-                        modifiers   =   [
+                     PerkApplicationModifiers   =   {
+                        permanentModifiers   =   [
                            {
-                              type   =   "SCALE_FIREARM_DAMAGE_IF_TARGET_FURTHER_THAN_20_M"
+                              type   =   "ABILITY_TARGET_FINDER_PIORITY_FODDER"
+                              bonus   =   -100
+                              applyType   =   "UNCAPPABLE_PERCENT_MULT"
+                           },
+                           {
+                              type   =   "ABILITY_TARGET_FINDER_PIORITY_COMMON"
+                              bonus   =   -100
+                              applyType   =   "UNCAPPABLE_PERCENT_MULT"
+                           },
+                           {
+                              type   =   "SCALE_FIREARM_ABILITY_DAMAGE_IF_TARGET_FURTHER_THAN_20_M"
                               bonus   =   20
                               applyType   =   "PERCENT_SUM"
                            }
                         ]
-                        __type   =   "PerkApplicationUpdateAbilityZoneActor"
-                     }
-                     Sniper   =   {
-                        abilityUid   =   "ability_shoulder_gun_sniper"
-                        modifiers   =   [
-                           {
-                              type   =   "SCALE_FIREARM_DAMAGE_IF_TARGET_FURTHER_THAN_20_M"
-                              bonus   =   20
-                              applyType   =   "PERCENT_SUM"
-                           }
-                        ]
-                        __type   =   "PerkApplicationUpdateAbilityZoneActor"
-                     }
-                     Plasma   =   {
-                        abilityUid   =   "ability_shoulder_gun_plasma"
-                        modifiers   =   [
-                           {
-                              type   =   "SCALE_FIREARM_DAMAGE_IF_TARGET_FURTHER_THAN_20_M"
-                              bonus   =   20
-                              applyType   =   "PERCENT_SUM"
-                           }
-                        ]
-                        __type   =   "PerkApplicationUpdateAbilityZoneActor"
                      }
                   }
                   __type   =   "PerkApplicationComposite"
@@ -18537,62 +18659,297 @@ categories   =   {
          PveEngineerShoulderGunIgniteOnHit   =   {
             type   =   {
                activationTrigger   =   {
-                  __type   =   "PerkTriggerPassive"
+                  isKillOnly   =   False
+                  hitCondition   =   {
+                           abilities   =   [
+                        "ability_shoulder_gun_bolter",
+                              "ability_shoulder_gun_sniper",
+                        "ability_shoulder_gun_plasma"
+                           ]
+                     __type   =   "HitConditionDamageAbilityShoulderGun"
+                     }
+                  __type   =   "PerkTriggerHitActor"
                }
                activationController   =   {
-                  delayedResetSec   =   -1
-                  shouldIgnoreActivationTriggerIfActive   =   False
+                  delayedResetSec   =   0
                   __type   =   "PerkActivationControllerBinary"
                }
                application   =   {
-                  perkLink   =   "EngineerIgnitEnemySholderGun"
-                  __type   =   "PerkApplicationAttachPerk"
+                  applications   =   {
+                     BurnBolter   =   {
+                        dmgInfo   =   {
+                           damageType   =   "dmg_type_undefined"
+                           sideEffects   =   [
+                              {
+                                 type   =   "BURNING"
+                                 value   =   100
+                              }
+                           ]
+                           __type   =   "DamageInfo"
+                        }
+                        targetProvider   =   {
+                           damageTypes   =   [
+                              "dmg_type_bullet"
+                           ]
+                           shouldSetAfterDealDamage   =   True
+                           __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
+                        }
+                        __type   =   "PerkApplicationDamageActor"
+                     }
+                     BurnSniper   =   {
+                        dmgInfo   =   {
+                           damageType   =   "dmg_type_undefined"
+                           sideEffects   =   [
+                              {
+                                 type   =   "BURNING"
+                                 value   =   100
+                              }
+                           ]
+                           __type   =   "DamageInfo"
+                        }
+                        targetProvider   =   {
+                           damageTypes   =   [
+                              "dmg_type_heavybullet"
+                           ]
+                           shouldSetAfterDealDamage   =   True
+                           __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
+                        }
+                        __type   =   "PerkApplicationDamageActor"
+                     }
+                     BurnPlasma   =   {
+                        dmgInfo   =   {
+                           damageType   =   "dmg_type_undefined"
+                           sideEffects   =   [
+                              {
+                                 type   =   "BURNING"
+                                 value   =   100
+                              }
+                           ]
+                           __type   =   "DamageInfo"
+                  }
+                  targetProvider   =   {
+                           damageTypes   =   [
+                              "dmg_type_plasma"
+                           ]
+                           shouldSetAfterDealDamage   =   True
+                     __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
+                  }
+                        __type   =   "PerkApplicationDamageActor"
+                     }
+                  }
+                  __type   =   "PerkApplicationComposite"
                }
                __type   =   "PerkServer"
             }
             __type   =   "PerkDesc"
          }
-         EngineerIgnitEnemySholderGun   =   {
+         PveEngineerSpawnWithPlasmaZoneAiming   =   {
             type   =   {
                activationTrigger   =   {
-                  isLethalDamageOnly   =   False
-                  isKillOnly   =   False
-                  hitCondition   =   {
-                     conditions   =   {
-                        HitConditionDamageAbility   =   {
-                           abilities   =   [
-                              "ability_shoulder_gun_plasma",
-                              "ability_shoulder_gun_sniper",
-                              "ability_shoulder_gun_bolter"
-                           ]
-                        }
-                     }
-                     __type   =   "HitConditionCompositeAnd"
-                  }
-                  shouldTriggerAfterDealDamage   =   False
-                  __type   =   "PerkTriggerHitActor"
-               }
-               activationController   =   {
-                  delayedResetSec   =   0
-                  shouldIgnoreActivationTriggerIfActive   =   False
-                  __type   =   "PerkActivationControllerBinary"
+                  __type   =   "PerkTriggerPassive"
                }
                application   =   {
-                  statusEffectDesc   =   {
-                     type   =   {
-                        statusEffectName   =   "Burning"
-                        __type   =   "TargetEmitter"
+                  ability   =   {
+                     abilityDesc   =   {
+                        abilityUid   =   "ability_shoulder_gun_plasma_zone_aiming"
+                        __type   =   "AbilityDescriptionLink"
                      }
-                     __type   =   "StatusEffectEmitterDesc"
+                     __type   =   "AbilityUserSlotDescription"
                   }
-                  targetProvider   =   {
-                     damageType   =   "dmg_type_bullet"
-                     shouldSetAfterDealDamage   =   False
-                     __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
+                  __type   =   "PerkApplicationSetAbility"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerTurretAddBuff   =   {
+            type   =   {
+               activationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        __type   =   "ConditionPropEnableDisable"
+                     }
+                     __type   =   "ConditionTriggerHolder"
                   }
-                  needRemoveStatusEffectsOnTerminate   =   True
-                  shouldUseContinuousEmit   =   False
-                  __type   =   "PerkApplicationEmitStatusEffect"
+                  __type   =   "PerkTriggerCondition"
+               }
+               deactivationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        condition   =   {
+                           __type   =   "ConditionPropEnableDisable"
+                        }
+                        __type   =   "ConditionInvert"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               application   =   {
+                  radius   =   15
+                  period   =   0.2
+                  perkLink   =   "PveEngineerTurretBuff"
+                  __type   =   "PerkApplicationAttachPerkToPlayersInRadius"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerTurretBuff   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   15
+                        applyType   =   "PERCENT_SUM"
+                     },
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_FIREARM"
+                        bonus   =   15
+                        applyType   =   "PERCENT_SUM"
+                     },
+                     {
+                        type   =   "DAMAGE_SENSITIVITY"
+                        bonus   =   -25
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerTurretPowerUp   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_FIREARM"
+                        bonus   =   30
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "TARANTULA_MAX_ENERGY"
+                        bonus   =   50
+                        applyType   =   "PERCENT_MULT"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerTurretAddShoulderGunRegen   =   {
+            type   =   {
+               activationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        __type   =   "ConditionPropEnableDisable"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               deactivationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        condition   =   {
+                           __type   =   "ConditionPropEnableDisable"
+                        }
+                        __type   =   "ConditionInvert"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               application   =   {
+                  radius   =   15
+                  period   =   0.2
+                  perkLink   =   "PveEngineerTurretShoulderGunRegen"
+                  __type   =   "PerkApplicationAttachPerkToPlayersInRadius"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerTurretShoulderGunRegen   =   {
+            type   =   {
+               activationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        characterType   =   "MARINE_ENGINEER"
+                        selector   =   "ALIVE_ONLY"
+                        __type   =   "ConditionCharacterType"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "ABILITY_ULTIMATE_REGENERATION"
+                        bonus   =   25
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerRestoreEnergyAtEndOfAbility   =   {
+            type   =   {
+               activationTrigger   =   {
+                  triggers   =   {
+                     PerkTriggerAbilityTagBolter   =   {
+                        shouldTriggerOnTagRemoved   =   True
+                        abilityUid   =   "ability_shoulder_gun_bolter"
+                        __type   =   "PerkTriggerAbilityTags"
+                     }
+                     PerkTriggerAbilityTagPlasma   =   {
+                        shouldTriggerOnTagRemoved   =   True
+                        abilityUid   =   "ability_shoulder_gun_plasma"
+                        __type   =   "PerkTriggerAbilityTags"
+                     }
+                     PerkTriggerAbilityTagSniper   =   {
+                        shouldTriggerOnTagRemoved   =   True
+                        abilityUid   =   "ability_shoulder_gun_sniper"
+                        __type   =   "PerkTriggerAbilityTags"
+                     }
+                     PerkTriggerAbilityTagBolterZoneAiming   =   {
+                        shouldTriggerOnTagRemoved   =   True
+                        abilityUid   =   "ability_shoulder_gun_bolter_zone_aiming"
+                        __type   =   "PerkTriggerAbilityTags"
+                     }
+                     PerkTriggerAbilityTagPlasmaZoneAiming   =   {
+                        shouldTriggerOnTagRemoved   =   True
+                        abilityUid   =   "ability_shoulder_gun_plasma_zone_aiming"
+                        __type   =   "PerkTriggerAbilityTags"
+                     }
+                     PerkTriggerAbilityTagSniperZoneAiming   =   {
+                        shouldTriggerOnTagRemoved   =   True
+                        abilityUid   =   "ability_shoulder_gun_sniper_zone_aiming"
+                        __type   =   "PerkTriggerAbilityTags"
+                     }
+                  }
+                  __type   =   "PerkTriggerComposite"
+               }
+               application   =   {
+                  abilitySlot   =   "ULTIMATE"
+                  canRestoreWhenAbilityActive   =   True
+                  shouldCalculatePercentByCharge   =   True
+                  __type   =   "PerkApplicationRestoreAbilityEnergy"
                }
                __type   =   "PerkServer"
             }
@@ -18676,12 +19033,12 @@ categories   =   {
             type   =   {
                activationTrigger   =   {
                   shouldTriggerOnReachedFromBelow   =   True
-                  threshold   =   1
+                  threshold   =   100
                   __type   =   "PerkTriggerArmorThresholdReached"
                }
                deactivationTrigger   =   {
                   shouldTriggerOnReachedFromAbove   =   True
-                  threshold   =   0
+                  threshold   =   99
                   __type   =   "PerkTriggerArmorThresholdReached"
                }
                application   =   {
@@ -21291,7 +21648,8 @@ categories   =   {
                         "Light3",
                         "Light4",
                         "DashSprintOverhead",
-                        "LongDashAttack"
+                        "LongDashAttack",
+                        "PerkOverheadStrike"
                      ]
                      __type   =   "HitConditionMeleeStrike"
                   }
@@ -21316,6 +21674,7 @@ categories   =   {
                   shouldCheckCurrentStrike   =   True
                   strikes   =   [
                      "DashSprintOverhead",
+                     "PerkOverheadStrike",
                      "LongDashAttack",
                      "Light1",
                      "Light2",
@@ -21597,7 +21956,8 @@ categories   =   {
                            pdNodePosY   =   316.3334
                            strikeUids   =   [
                               "DashSprintOverhead",
-                              "LongDashAttack"
+                              "LongDashAttack",
+                              "PerkOverheadStrike"
                            ]
                         }
                      }
@@ -21672,6 +22032,751 @@ categories   =   {
                   }
                   __type   =   "PerkApplicationDealDamage"
                }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+      }
+      __type   =   "PerkCategoryCommon"
+   }
+   PvE_Melee_Power_Halberd   =   {
+      descs   =   {
+         PveMeleePowerHalberdLightComboDontLoseControl   =   {
+            type   =   {
+               activationTrigger   =   {
+                  killsCount   =   7
+                  factor   =   7
+                  killCondition   =   {
+                     strikeUids   =   [
+                        "Light1",
+                        "Light2",
+                        "Light3",
+                        "Light1Chained"
+                     ]
+                     __type   =   "HitConditionMeleeStrike"
+                  }
+                  __type   =   "PerkTriggerKillstreak"
+               }
+               activationController   =   {
+                  cooldown   =   {
+                     cooldownTime   =   10
+                     __type   =   "PerkCooldown"
+                  }
+                  delayedResetSec   =   6
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "HEAVY_HIT_POISE_SENSITIVITY"
+                        bonus   =   -100
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "HEAVY_HIT_INSTEAD_KNOCKBACK_PROBABILITY"
+                        bonus   =   100
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdLungeRushDamageReduction   =   {
+            type   =   {
+               activationTrigger   =   {
+                  shouldTriggerOnStarted   =   True
+                  shouldTriggerByDamagingPreparing   =   True
+                  shouldCheckWeaponType   =   True
+                  meleeWeaponType   =   "POWERHALBERD"
+                  strikeUids   =   [
+                     "ThrustLunge"
+                  ]
+                  __type   =   "PerkTriggerMeleePreparing"
+               }
+               deactivationTrigger   =   {
+                  shouldTriggerOnStopped   =   True
+                  shouldTriggerByDamagingPreparing   =   True
+                  shouldCheckWeaponType   =   True
+                  meleeWeaponType   =   "POWERHALBERD"
+                  strikeUids   =   [
+                     "ThrustLunge"
+                  ]
+                  __type   =   "PerkTriggerMeleePreparing"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "FIREARM_DAMAGE_SENSITIVITY"
+                        bonus   =   -50
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               perkVisualizationType   =   "SURVIVAL_BOOST"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdLungeRestoreArmor   =   {
+            type   =   {
+               activationTrigger   =   {
+                  isKillOnly   =   True
+                  hitCondition   =   {
+                     strikeUids   =   [
+                        "ThrustStrike"
+                     ]
+                     __type   =   "HitConditionMeleeStrike"
+                  }
+                  __type   =   "PerkTriggerHitActor"
+               }
+               activationController   =   {
+                  cooldown   =   {
+                     cooldownTime   =   60
+                     __type   =   "PerkCooldown"
+                  }
+                  delayedResetSec   =   0.1
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  shouldRestoreSegment   =   True
+                  segmentToRestore   =   1
+                  __type   =   "PerkApplicationRestoreArmor"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdLungeRushDamageStack   =   {
+            type   =   {
+               activationTrigger   =   {
+                  hitConditionPropDiagramRootX   =   181
+                  hitConditionPropDiagramRootY   =   -39
+                  hitCondition   =   {
+                     strikeUids   =   [
+                        "ThrustLunge",
+                        "ImpalingStrike_Stacks0",
+                        "ImpalingStrike_Stacks1",
+                        "ImpalingStrike_Stacks2",
+                        "ImpalingStrike_Stacks3"
+                     ]
+                     __type   =   "HitConditionMeleeStrike"
+                  }
+                  shouldTriggerAfterDealDamage   =   True
+                  __type   =   "PerkTriggerHitActor"
+               }
+               activationController   =   {
+                  cooldown   =   {
+                     cooldownTime   =   0.1
+                     __type   =   "PerkCooldown"
+                  }
+                  delayedResetSec   =   4
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  modifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   10
+                        applyType   =   "PERCENT_SUM"
+                        isExclusive   =   True
+                     }
+                  ]
+                  maxMultiplier   =   10
+                  isResetMultiplierAfterDelay   =   True
+                  resetMultiplierDelay   =   4
+                  shouldCheckCurrentStrike   =   True
+                  strikes   =   [
+                     "ThrustLunge",
+                     "ImpalingStrike_Stacks0",
+                     "ImpalingStrike_Stacks1",
+                     "ImpalingStrike_Stacks2",
+                     "ImpalingStrike_Stacks3"
+                  ]
+                  __type   =   "PerkApplicationAccumulateModifersByMeleeStrike"
+               }
+               perkVisualizationType   =   "MELEE_BOOST"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdLightComboAOE   =   {
+            type   =   {
+               activationTrigger   =   {
+                  hitConditionPropDiagramRootX   =   181
+                  hitConditionPropDiagramRootY   =   -39
+                  hitCondition   =   {
+                     strikeUids   =   [
+                        "Light1",
+                        "Light2",
+                        "Light3",
+                        "Light1Chained"
+                     ]
+                     __type   =   "HitConditionMeleeStrike"
+                  }
+                  shouldTriggerAfterDealDamage   =   True
+                  __type   =   "PerkTriggerHitActor"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0.1
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  damagerLink   =   {
+                     damagerDescUid   =   "melee_halberd_light_combo_aoe"
+                     __type   =   "DamagerDescriptionLink"
+                  }
+                  damageAmountModifierStack   =   {
+                     ownerModifierTypes   =   [
+                        "SCALE_PERK_DAMAGE_AMOUNT"
+                     ]
+                     __type   =   "ModifiersStack"
+                  }
+                  __type   =   "PerkApplicationDealDamage"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdLungeDebuff   =   {
+            type   =   {
+               activationTrigger   =   {
+                  hitConditionPropDiagramRootX   =   181
+                  hitConditionPropDiagramRootY   =   -39
+                  hitCondition   =   {
+                     strikeUids   =   [
+                        "ThrustLunge",
+                        "ImpalingStrike_Stacks0",
+                        "ImpalingStrike_Stacks1",
+                        "ImpalingStrike_Stacks2",
+                        "ImpalingStrike_Stacks3",
+                        "ThrustStrike"
+                     ]
+                     __type   =   "HitConditionMeleeStrike"
+                  }
+                  shouldTriggerAfterDealDamage   =   True
+                  __type   =   "PerkTriggerHitActor"
+               }
+               deactivationTrigger   =   {
+                  hitCondition   =   {
+                     strikeUids   =   [
+                        "ThrustLunge",
+                        "ImpalingStrike_Stacks0",
+                        "ImpalingStrike_Stacks1",
+                        "ImpalingStrike_Stacks2",
+                        "ImpalingStrike_Stacks3",
+                        "ThrustStrike"
+                     ]
+                     __type   =   "HitConditionMeleeStrike"
+                  }
+                  __type   =   "PerkTriggerHitActor"
+               }
+               activationController   =   {
+                  cooldown   =   {
+                     cooldownTime   =   0.1
+                     __type   =   "null"
+                  }
+                  delayedResetSec   =   -1
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  statusEffectDesc   =   {
+                     type   =   {
+                        statusEffectName   =   "MeleePerkDamageSensivityDebuff"
+                        __type   =   "TargetEmitter"
+                     }
+                     __type   =   "StatusEffectEmitterDesc"
+                  }
+                  targetProvider   =   {
+                     damageTypes   =   [
+                        "dmg_type_melee"
+                     ]
+                     shouldSetAfterDealDamage   =   True
+                     __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
+                  }
+                  __type   =   "PerkApplicationEmitStatusEffect"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdPowerOnArmor   =   {
+            type   =   {
+               activationTrigger   =   {
+                  shouldTriggerOnReachedFromBelow   =   True
+                  threshold   =   1
+                  __type   =   "PerkTriggerArmorThresholdReached"
+               }
+               deactivationTrigger   =   {
+                  shouldTriggerOnReachedFromAbove   =   True
+                  threshold   =   1
+                  __type   =   "PerkTriggerArmorThresholdReached"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   10
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdBlastDamageAfterCombo   =   {
+            type   =   {
+               activationTrigger   =   {
+                  hitCondition   =   {
+                     pdNodePosX   =   577.5806
+                     pdNodePosY   =   238
+                     conditions   =   {
+                        HitConditionDmgTypes   =   {
+                           pdNodePosX   =   223.5805
+                           pdNodePosY   =   353
+                           damageTypes   =   [
+                              "dmg_type_melee"
+                           ]
+                        }
+                        Melee_Strike   =   {
+                           strikeUids   =   [
+                              "Light3"
+                           ]
+                           __type   =   "HitConditionMeleeStrike"
+                        }
+                     }
+                     __type   =   "HitConditionCompositeAnd"
+                  }
+                  shouldTriggerAfterDealDamage   =   False
+                  __type   =   "PerkTriggerHitActor"
+               }
+               activationController   =   {
+                  delayedResetSec   =   5
+                  shouldIgnoreActivationTriggerIfActive   =   True
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  modifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   25
+                        applyType   =   "PERCENT_MULT"
+                        isExclusive   =   True
+                     }
+                  ]
+                  maxMultiplier   =   25
+                  resetMultiplierDelay   =   5
+                  shouldCheckCurrentStrike   =   True
+                  strikes   =   [
+                     "PowerBlast",
+                     "PowerBlastDouble"
+                  ]
+                  __type   =   "PerkApplicationAccumulateModifersByMeleeStrike"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdSprintStrikeNewStrike   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  flags   =   [
+                     "MELEE_HALBERD_OVERHEAD_AFTER_BLAST"
+                  ]
+                  __type   =   "PerkApplicationFlags"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdRelicMajorisSprint   =   {
+            type   =   {
+               activationTrigger   =   {
+                  isKillOnly   =   True
+                  hitCondition   =   {
+                     conditions   =   {
+                        HitConditionThreatClasses   =   {
+                           threatClasses   =   [
+                              "ELITE",
+                              "SPECIAL",
+                              "MINIBOSS",
+                              "BOSS"
+                           ]
+                        }
+                        HitConditionMeleeStrike   =   {
+                           strikeUids   =   [
+                              "DashSprintOverhead"
+                           ]
+                        }
+                        HitConditionHealthAmount   =   {
+                           healthPercent   =   [
+                              0,
+                              30
+                           ]
+                           typeActorToCheck   =   "DAMAGER_ACTOR"
+                        }
+                        HitConditionDmgType   =   {
+                           pdNodePosX   =   -381.22
+                           pdNodePosY   =   350
+                           damageTypes   =   [
+                              "dmg_type_melee"
+                           ]
+                           __type   =   "HitConditionDmgTypes"
+                        }
+                     }
+                     __type   =   "HitConditionCompositeAnd"
+                  }
+                  __type   =   "PerkTriggerHitActor"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0.1
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  shouldRestoreSegment   =   True
+                  segmentToRestore   =   1
+                  __type   =   "PerkApplicationRestoreArmor"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdRelicExplosiveLunge   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  applications   =   {
+                     AttachExplosiveLunge   =   {
+                        perkLink   =   "PveMeleePowerHalberdRelicExplosiveLunge_Energy"
+                        __type   =   "PerkApplicationAttachPerk"
+                     }
+                     AttachExplosiveLungeDamage   =   {
+                        perkLink   =   "PveMeleePowerHalberdRelicExplosiveLunge_Damage"
+                        __type   =   "PerkApplicationAttachPerk"
+                     }
+                  }
+                  __type   =   "PerkApplicationComposite"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdRelicExplosiveLunge_Energy   =   {
+            type   =   {
+               activationTrigger   =   {
+                  hitCondition   =   {
+                     pdNodePosX   =   -103
+                     pdNodePosY   =   171
+                     conditions   =   {
+                        hitCondition   =   {
+                           pdNodePosX   =   -436.6667
+                           pdNodePosY   =   151
+                           damageTypes   =   [
+                              "dmg_type_melee"
+                           ]
+                           __type   =   "HitConditionDmgTypes"
+                        }
+                        HitConditionMeleeStrike   =   {
+                           pdNodePosX   =   -436.6666
+                           pdNodePosY   =   316.3334
+                           strikeUids   =   [
+                              "ThrustStrike"
+                           ]
+                        }
+                     }
+                     __type   =   "HitConditionCompositeAnd"
+                  }
+                  __type   =   "PerkTriggerHitActor"
+               }
+               activationController   =   {
+                  cooldown   =   {
+                     cooldownTime   =   15
+                     __type   =   "null"
+                  }
+                  delayedResetSec   =   15
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  shouldTerminateOnDisable   =   False
+                  actorDesc   =   {
+                     type   =   {
+                        properties   =   {
+                           prop_blueprints   =   {
+                              blueprints   =   {
+                                 Deployment   =   {
+                                    nodes   =   {
+                                       SubscribeOnEquipmentUserChanged   =   {
+                                          viewData   =   {
+                                             x   =   3800
+                                             y   =   7850
+                                          }
+                                          subscribeOnInitRef   =   {
+                                             def   =   True
+                                             __type   =   "BoolRefParam"
+                                          }
+                                          OnUserSet   =   [
+                                             "DeployZoneEffect/Deploy"
+                                          ]
+                                          __type   =   "BlueprintNodeSubscribeOnEquipmentUserChanged"
+                                       }
+                                       DeployZoneEffect   =   {
+                                          viewData   =   {
+                                             x   =   4200
+                                             y   =   7850
+                                          }
+                                          __type   =   "BlueprintNodeZoneEffectDeploy"
+                                       }
+                                    }
+                                    __type   =   "BlueprintServer"
+                                 }
+                              }
+                           }
+                        }
+                        deploymentSec   =   5
+                        __type   =   "zone_shock_perk_server"
+                     }
+                     __type   =   "ZoneShockDesc"
+                  }
+                  damageAmountModifierStack   =   {
+                     ownerModifierTypes   =   [
+                        "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                     ]
+                     __type   =   "ModifiersStack"
+                  }
+                  __type   =   "PerkApplicationSpawnActor"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdRelicExplosiveLunge_Damage   =   {
+            type   =   {
+               activationTrigger   =   {
+                  hitCondition   =   {
+                     pdNodePosX   =   -103
+                     pdNodePosY   =   171
+                     conditions   =   {
+                        hitCondition   =   {
+                           pdNodePosX   =   -436.6667
+                           pdNodePosY   =   151
+                           damageTypes   =   [
+                              "dmg_type_melee"
+                           ]
+                           __type   =   "HitConditionDmgTypes"
+                        }
+                        HitConditionMeleeStrike   =   {
+                           pdNodePosX   =   -436.6666
+                           pdNodePosY   =   316.3334
+                           strikeUids   =   [
+                              "ThrustStrike"
+                           ]
+                        }
+                     }
+                     __type   =   "HitConditionCompositeAnd"
+                  }
+                  __type   =   "PerkTriggerHitActor"
+               }
+               activationController   =   {
+                  cooldown   =   {
+                     cooldownTime   =   15
+                     __type   =   "null"
+                  }
+                  delayedResetSec   =   -1
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   40
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               perkVisualizationType   =   "MELEE_BOOST"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdSwitchStylePower   =   {
+            type   =   {
+               activationTrigger   =   {
+                  sharedVariables   =   {
+                     speedMode   =   {
+                        condition   =   {
+                           __type   =   "ConditionAlwaysPass"
+                        }
+                        __type   =   "ConditionCheckerHolder"
+                     }
+                  }
+                  __type   =   "PerkTriggerMeleeSharedVariableUpdate"
+               }
+               activationController   =   {
+                  cooldown   =   {
+                     cooldownTime   =   10
+                     __type   =   "PerkCooldown"
+                  }
+                  delayedResetSec   =   5
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   20
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               perkVisualizationType   =   "MELEE_BOOST"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdLungeRushGroupBuff   =   {
+            type   =   {
+               activationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        hitConditionPropDiagramRootX   =   659
+                        hitConditionPropDiagramRootY   =   234
+                        hitCondition   =   {
+                           pdNodePosX   =   486
+                           pdNodePosY   =   274
+                           conditions   =   {
+                              HitConditionDmgTypes   =   {
+                                 pdNodePosX   =   85
+                                 pdNodePosY   =   233
+                                 damageTypes   =   [
+                                    "dmg_type_melee",
+                                    "dmg_type_melee_push"
+                                 ]
+                              }
+                              hitCondition_1   =   {
+                                 pdNodePosX   =   90
+                                 pdNodePosY   =   395
+                                 bodyStateCondition   =   {
+                                    bodyStateArray   =   [
+                                       "MELEE_PREPARING"
+                                    ]
+                                    type   =   "ANY"
+                                    __type   =   "BodyStateCondition"
+                                 }
+                                 checkActor   =   "DAMAGER"
+                                 __type   =   "HitConditionBodyState"
+                              }
+                           }
+                           __type   =   "HitConditionCompositeAnd"
+                        }
+                        requiredHitsCount   =   5
+                        __type   =   "ConditionHitFewActors"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               activationController   =   {
+                  delayedResetSec   =   10
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   20
+                        applyType   =   "PERCENT_SUM"
+                        isExclusive   =   False
+                        useRandom   =   False
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdUnstoppableBlast   =   {
+            type   =   {
+               activationTrigger   =   {
+                  shouldTriggerOnStarted   =   True
+                  shouldCheckWeaponType   =   True
+                  meleeWeaponType   =   "POWERHALBERD"
+                  __type   =   "PerkTriggerMeleePreparing"
+               }
+               deactivationTrigger   =   {
+                  shouldTriggerOnStopped   =   True
+                  shouldCheckWeaponType   =   True
+                  meleeWeaponType   =   "POWERHALBERD"
+                  __type   =   "PerkTriggerMeleePreparing"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "HEAVY_HIT_POISE_SENSITIVITY"
+                        bonus   =   -100
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "HEAVY_HIT_INSTEAD_KNOCKBACK_PROBABILITY"
+                        bonus   =   100
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               perkVisualizationType   =   "DEFAULT"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdRelicFastBlast   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               activationController   =   {
+                  shouldIgnoreActivationTriggerIfActive   =   True
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "MELEE_HEAVY_COMBO_PREPARATION_TIME"
+                        bonus   =   -40
+                        applyType   =   "PERCENT_SUM"
+                        isExclusive   =   False
+                        useRandom   =   False
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               perkVisualizationType   =   "SURVIVAL_BOOST"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMeleePowerHalberdRelicDoubleBlast   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  flags   =   [
+                     "MELEE_HALBERD_DOUBLE_POWER_BLAST"
+                  ]
+                  __type   =   "PerkApplicationFlags"
+               }
+               perkVisualizationType   =   "MELEE_BOOST"
                __type   =   "PerkServer"
             }
             __type   =   "PerkDesc"
@@ -22622,7 +23727,7 @@ categories   =   {
                      PerkApplicationModifiers   =   {
                         permanentModifiers   =   [
                            {
-                              type   =   "MAX_AMMO"
+                              type   =   "MAX_AMMO_PRIMARY"
                               bonus   =   20
                               applyType   =   "PERCENT_SUM"
                            },
@@ -22882,7 +23987,7 @@ categories   =   {
                      PerkApplicationModifiers   =   {
                         permanentModifiers   =   [
                            {
-                              type   =   "MAX_AMMO"
+                              type   =   "MAX_AMMO_PRIMARY"
                               bonus   =   20
                               applyType   =   "PERCENT_SUM"
                            },
@@ -23045,6 +24150,7 @@ categories   =   {
                            __type   =   "ConditionCheckerHolder"
                         }
                         perkApplication   =   {
+                           shouldPutClipOvercapInInventory   =   True
                            refillPercentsClip   =   1
                            refillPercentsInventory   =   0
                            __type   =   "PerkApplicationRefillAmmo"
@@ -23068,10 +24174,6 @@ categories   =   {
                         __type   =   "PerkApplicationEnableCondition"
                      }
                   }
-                  clipType   =   "DEFAULT_CLIP"
-                  refillPercentsClip   =   0
-                  typeOfRefillClip   =   "IN_INVENTORY"
-                  refillPercentsInventory   =   1
                   __type   =   "PerkApplicationComposite"
                }
                __type   =   "PerkFirearmServer"
@@ -25911,6 +27013,11 @@ categories   =   {
                               type   =   "FIREARM_NORMAL_VENTING_RATE"
                               bonus   =   15
                               applyType   =   "PERCENT_SUM"
+                           },
+                           {
+                              type   =   "FIREARM_IMPROVED_VENTING_RATE"
+                              bonus   =   15
+                              applyType   =   "PERCENT_SUM"
                            }
                         ]
                      }
@@ -25918,6 +27025,11 @@ categories   =   {
                         __value   =   [
                            {
                               type   =   "FIREARM_NORMAL_VENTING_RATE"
+                              bonus   =   15
+                              applyType   =   "PERCENT_SUM"
+                           },
+                           {
+                              type   =   "FIREARM_IMPROVED_VENTING_RATE"
                               bonus   =   15
                               applyType   =   "PERCENT_SUM"
                            }
@@ -25941,6 +27053,11 @@ categories   =   {
                         __value   =   [
                            {
                               type   =   "FIREARM_NORMAL_VENTING_RATE"
+                              bonus   =   15
+                              applyType   =   "PERCENT_SUM"
+                           },
+                           {
+                              type   =   "FIREARM_IMPROVED_VENTING_RATE"
                               bonus   =   15
                               applyType   =   "PERCENT_SUM"
                            }
@@ -28299,43 +29416,28 @@ categories   =   {
          FirearmonlyHeadReturnAmmo   =   {
             type   =   {
                activationTrigger   =   {
-                  hitConditionPropDiagramRootX   =   185
-                  hitConditionPropDiagramRootY   =   8
                   hitCondition   =   {
-                     pdNodePosX   =   -19
-                     pdNodePosY   =   47
+                     pdNodePosX   =   -16.44444
+                     pdNodePosY   =   147
                      conditions   =   {
-                        HitConditionBones   =   {
-                           pdNodePosX   =   -325
-                           pdNodePosY   =   -48
+                        hitCondition_1   =   {
+                           pdNodePosX   =   -340.6667
+                           pdNodePosY   =   -141.3333
+                           firearms   =   [
+                              "brifle_bolt_sniper_rifle"
+                           ]
+                           __type   =   "HitConditionDamageFirearm"
+                        }
+                        hitCondition   =   {
+                           pdNodePosX   =   -280.7777
+                           pdNodePosY   =   35.27779
                            boneNames   =   [
                               "HEAD"
                            ]
-                        }
-                        HitConditionCompositeAnd   =   {
-                           pdNodePosX   =   -216
-                           pdNodePosY   =   314
-                           conditions   =   {
-                              HitConditionNpcArchetype   =   {
-                                 pdNodePosX   =   -498
-                                 pdNodePosY   =   281
-                                 archetypes   =   [
-                                    "ChsOccultTerminatorMelee",
-                                    "ChsOccultTerminatorRanged"
-                                 ]
-                              }
-                              HitConditionBonesIdHack   =   {
-                                 pdNodePosX   =   -498
-                                 pdNodePosY   =   424
-                                 bonesId   =   [
-                                    8,
-                                    9
-                                 ]
-                              }
+                           __type   =   "HitConditionBones"
                            }
                         }
-                     }
-                     __type   =   "HitConditionCompositeOr"
+                     __type   =   "HitConditionCompositeAnd"
                   }
                   shouldTriggerAfterDealDamage   =   True
                   __type   =   "PerkTriggerHitActor"
@@ -28582,6 +29684,7 @@ categories   =   {
                      }
                      __type   =   "HitConditionCompositeAnd"
                   }
+                  shouldTriggerAfterDealDamage   =   True
                   __type   =   "PerkTriggerHitActor"
                }
                activationController   =   {
@@ -28597,8 +29700,10 @@ categories   =   {
                      __type   =   "StatusEffectEmitterDesc"
                   }
                   targetProvider   =   {
-                     damageType   =   "dmg_type_bullet"
-                     shouldSetAfterDealDamage   =   True
+                     damageTypes   =   [
+                        "dmg_type_bullet"
+                     ]
+                     shouldSetAfterDealDamage   =   False
                      __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
                   }
                   needRemoveStatusEffectsOnTerminate   =   False
@@ -28636,6 +29741,23 @@ categories   =   {
                      __type   =   "HitConditionCompositeAnd"
                   }
                   __type   =   "PerkApplicationKillAfterDealDamage"
+               }
+               __type   =   "PerkFirearmServer"
+            }
+            __type   =   "PerkFirearmDesc"
+         }
+         HeavyBoltRifleAUX   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_MELEE_DAMAGE_TO_CHAOS"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
                }
                __type   =   "PerkFirearmServer"
             }
@@ -29101,6 +30223,57 @@ categories   =   {
                   __type   =   "PerkApplicationModifiers"
                }
                perkVisualizationType   =   "MELEE_BOOST"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PvEMeleeCombatKnifeDamageAfterRiposte   =   {
+            type   =   {
+               activationTrigger   =   {
+                  shouldTriggerByRiposte   =   True
+                  __type   =   "PerkTriggerParry"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  dmgInfo   =   {
+                     damageType   =   "dmg_type_melee_riposte"
+                     defaultDamageScale   =   9
+                     meleeWeaponType   =   "KNIFE"
+                     isPervasive   =   True
+                     __type   =   "DamageInfo"
+                  }
+                  targetProvider   =   {
+                     shouldSetActorByRiposte   =   True
+                     __type   =   "PerkApplicationStatusEffectTargetProviderLastParriedAttacker"
+                  }
+                  damageAmountModifierStack   =   {
+                     ownerModifierTypes   =   [
+                        "SCALE_PERK_DAMAGE_AMOUNT",
+                        "SCALE_PERK_DAMAGE_KNIFE_RIPOSTE"
+                     ]
+                     __type   =   "ModifiersStack"
+                  }
+                  isDirectHit   =   True
+                  __type   =   "PerkApplicationDamageActor"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PvEMeleeHalberdLungeCharge   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  flags   =   [
+                     "MELEE_HALBERD_LUNGE_CHARGE"
+                  ]
+                  __type   =   "PerkApplicationFlags"
+               }
                __type   =   "PerkServer"
             }
             __type   =   "PerkDesc"
@@ -30119,14 +31292,17 @@ categories   =   {
                      __type   =   "PerkTriggerHitActor"
                   }
                   delayTime   =   5
-                  resetTimerBodyStateConditionObserver   =   {
+                  disableTimerCondition   =   {
                      condition   =   {
+                        bodyStateConditionInternal   =   {
                         bodyStateArray   =   [
                            "FINISHER_EXECUTOR"
                         ]
                         __type   =   "BodyStateCondition"
                      }
-                     __type   =   "BodyStateConditionObserver"
+                        __type   =   "ConditionBodyStates"
+                     }
+                     __type   =   "ConditionTriggerHolder"
                   }
                   __type   =   "PerkTriggerDelay"
                }
@@ -30169,7 +31345,7 @@ categories   =   {
                      PerkApplicationModifiers   =   {
                         permanentModifiers   =   [
                            {
-                              type   =   "MAX_AMMO"
+                              type   =   "MAX_AMMO_PRIMARY"
                               bonus   =   15
                               applyType   =   "PERCENT_SUM"
                            },
@@ -31064,6 +32240,268 @@ categories   =   {
       }
       __type   =   "PerkCategoryCommon"
    }
+   PvE_Engineer_Prestige_Progression   =   {
+      descs   =   {
+         PveEngineerHeadshotRamp   =   {
+            type   =   {
+               activationTrigger   =   {
+                  hitConditionPropDiagramRootX   =   -80
+                  hitConditionPropDiagramRootY   =   -6
+                  hitCondition   =   {
+                     pdNodePosX   =   -367.3869
+                     pdNodePosY   =   8
+                     boneNames   =   [
+                        "HEAD"
+                     ]
+                     __type   =   "HitConditionBones"
+                  }
+                  __type   =   "PerkTriggerHitActor"
+               }
+               deactivationTrigger   =   {
+                  perkTrigger   =   {
+                     hitConditionPropDiagramRootX   =   -96
+                     hitConditionPropDiagramRootY   =   -4
+                     hitCondition   =   {
+                        pdNodePosX   =   -367.3869
+                        pdNodePosY   =   8
+                        boneNames   =   [
+                           "HEAD"
+                        ]
+                        __type   =   "HitConditionBones"
+                     }
+                     __type   =   "PerkTriggerHitActor"
+                  }
+                  delayTime   =   5
+                  disableTimerCondition   =   {
+                     condition   =   {
+                        bodyStateConditionInternal   =   {
+                           bodyStateArray   =   [
+                              "FINISHER_EXECUTOR"
+                           ]
+                           __type   =   "BodyStateCondition"
+                        }
+                        __type   =   "ConditionBodyStates"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerDelay"
+               }
+               application   =   {
+                  modifiers   =   [
+                     {
+                        type   =   "SCALE_HEADSHOT_DAMAGE_FROM_FIREARM"
+                        bonus   =   3
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  perkTrigger   =   {
+                     hitConditionPropDiagramRootX   =   -17
+                     hitConditionPropDiagramRootY   =   9
+                     hitCondition   =   {
+                        pdNodePosX   =   -367.3869
+                        pdNodePosY   =   8
+                        boneNames   =   [
+                           "HEAD"
+                        ]
+                        __type   =   "HitConditionBones"
+                     }
+                     __type   =   "PerkTriggerHitActor"
+                  }
+                  maxMultiplier   =   5
+                  shouldIncreaseMultiplierOnEnable   =   True
+                  __type   =   "PerkApplicationAccumulateModifersByTrigger"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerReviveAbilityRegenTeam   =   {
+            type   =   {
+               activationTrigger   =   {
+                  entryPointOwnerTag   =   "NPC_SENTRY_TURRET"
+                  __type   =   "PerkTriggerSmartInteraction"
+               }
+               deactivationTrigger   =   {
+                  isTriggerOnEnteredSmart   =   False
+                  isTriggerOnLeftSmart   =   True
+                  entryPointOwnerTag   =   "NPC_SENTRY_TURRET"
+                  __type   =   "PerkTriggerSmartInteraction"
+               }
+               application   =   {
+                  statusEffectDesc   =   {
+                     type   =   {
+                        statusEffectName   =   "Invulnerability"
+                        __type   =   "TargetEmitter"
+                     }
+                     __type   =   "StatusEffectEmitterDesc"
+                  }
+                  targetProvider   =   {
+                     __type   =   "PerkApplicationStatusEffectTargetProviderSelf"
+                  }
+                  disableSEWithLogic   =   True
+                  __type   =   "PerkApplicationEmitStatusEffect"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerMedicaeStimmsHealBoost   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "MAX_REGEN_HEALTH_FROM_HEALING_INJECTOR"
+                        bonus   =   40
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerEquipmentDamageRadiusIncrease   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_RADIUS_FROM_ABILITY_GEAR"
+                        bonus   =   15
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerSentryTurretBiggerExplosion   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_PERK_TURRET_EXPLOSION"
+                        bonus   =   1000
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "SCALE_DAMAGE_RADIUS_FROM_ABILITY_GEAR"
+                        bonus   =   20
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerRangedDRWhenSurrounded   =   {
+            type   =   {
+               activationTrigger   =   {
+                  maxDistance   =   10
+                  npcCount   =   5
+                  shouldTriggerOnLargerOrEqual   =   True
+                  pauseBetweenUpdates   =   0.5
+                  __type   =   "PerkTriggerNpcInAggro"
+               }
+               deactivationTrigger   =   {
+                  maxDistance   =   10
+                  npcCount   =   5
+                  shouldTriggerOnSmaller   =   True
+                  pauseBetweenUpdates   =   0.5
+                  __type   =   "PerkTriggerNpcInAggro"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "FIREARM_DAMAGE_SENSITIVITY"
+                        bonus   =   -20
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerMeleeAfterGunStrike   =   {
+            type   =   {
+               activationTrigger   =   {
+                  gameEventUid   =   "PlayerGunStrike"
+                  __type   =   "PerkTriggerGameEvent"
+               }
+               activationController   =   {
+                  delayedResetSec   =   5
+                  shouldIgnoreActivationTriggerIfActive   =   False
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   25
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerSentryTurretApplyBiggerExplosion   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  archetype   =   "TarantulaTurret"
+                  perkLink   =   "PveEngineerSentryTurretBiggerExplosion"
+                  __type   =   "PerkApplicationAddPerkToPlayerPerkTargetProp"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveEngineerSentryTurretExplodeOnDeath   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerDeath"
+               }
+               application   =   {
+                  damagerLink   =   {
+                     damagerDescUid   =   "sentry_turret_death_explosion"
+                     __type   =   "DamagerDescriptionLink"
+                  }
+                  damageAmountModifierStack   =   {
+                     ownerModifierTypes   =   [
+                        "SCALE_PERK_DAMAGE_AMOUNT",
+                        "SCALE_PERK_TURRET_EXPLOSION"
+                     ]
+                     __type   =   "ModifiersStack"
+                  }
+                  __type   =   "PerkApplicationDealDamage"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+      }
+      __type   =   "PerkCategoryCommon"
+   }
    PvE_Terminator_Prestige_Progression   =   {
       descs   =   {
          PveTerminatorArmorBoost   =   {
@@ -31795,7 +33233,12 @@ categories   =   {
                            __type   =   "PerkTriggerComposite"
                         }
                         delayTime   =   20
-                        shouldResetDelayAfterCinematic   =   True
+                        disableTimerCondition   =   {
+                           condition   =   {
+                              __type   =   "ConditionCinematic"
+                           }
+                           __type   =   "ConditionTriggerHolder"
+                        }
                      }
                   }
                   __type   =   "PerkTriggerComposite"
@@ -32396,7 +33839,7 @@ categories   =   {
                      PerkApplicationModifiers   =   {
                         permanentModifiers   =   [
                            {
-                              type   =   "MAX_AMMO"
+                              type   =   "MAX_AMMO_PRIMARY"
                               bonus   =   100
                               applyType   =   "PERCENT_SUM"
                            },
@@ -32766,7 +34209,8 @@ categories   =   {
                      }
                      __type   =   "IactorDesc"
                   }
-                  __type   =   "PerkApplicationSpawnActor"
+                  predictTimeSec   =   2
+                  __type   =   "PerkApplicationSpawnActorWithPrediction"
                }
                __type   =   "PerkServer"
             }
@@ -32793,6 +34237,802 @@ categories   =   {
                      __type   =   "PerkApplicationStatusEffectTargetProviderSelf"
                   }
                   __type   =   "PerkApplicationEmitStatusEffect"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         MutatorHealForFinisher   =   {
+            type   =   {
+               activationTrigger   =   {
+                  isLethalDamageOnly   =   True
+                  hitCondition   =   {
+                     damageTypes   =   [
+                        "dmg_type_finisher"
+                     ]
+                     __type   =   "HitConditionDmgTypes"
+                  }
+                  shouldTriggerOnStopped   =   True
+                  __type   =   "PerkTriggerHitActor"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0.1
+                  shouldIgnoreActivationTriggerIfActive   =   False
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  healPercent   =   10
+                  __type   =   "PerkApplicationRestoreHealth"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorMeleeStrikesStackUp   =   {
+            type   =   {
+               activationTrigger   =   {
+                  hitCondition   =   {
+                     damageTypes   =   [
+                        "dmg_type_melee"
+                     ]
+                     __type   =   "HitConditionDmgTypes"
+                  }
+                  shouldTriggerOnStopped   =   False
+                  __type   =   "PerkTriggerHitActor"
+               }
+               deactivationTrigger   =   {
+                  perkTrigger   =   {
+                     hitConditionPropDiagramRootX   =   75
+                     hitConditionPropDiagramRootY   =   105
+                     hitCondition   =   {
+                        pdNodePosX   =   -260
+                        pdNodePosY   =   220
+                        damageTypes   =   [
+                           "dmg_type_melee"
+                        ]
+                        __type   =   "HitConditionDmgTypes"
+                     }
+                     __type   =   "PerkTriggerHitActor"
+                  }
+                  delayTime   =   4
+                  __type   =   "PerkTriggerDelay"
+               }
+               activationController   =   {
+                  cooldown   =   {
+                     __type   =   "PerkCooldown"
+                  }
+                  delayedResetSec   =   -1
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  modifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   100
+                        applyType   =   "PERCENT_MULT"
+                     }
+                  ]
+                  maxMultiplier   =   9
+                  shouldIncreaseMultiplierOnEnable   =   True
+                  isResetMultiplierAfterDelay   =   False
+                  resetMultiplierDelay   =   4
+                  hackStatusEffectName   =   "MutatorMeleeStrikesStackUpVisualBuff"
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   25
+                        applyType   =   "PERCENT_MULT"
+                     }
+                  ]
+                  __type   =   "PerkApplicationAccumulateModifersByMeleeStrike"
+               }
+               perkVisualizationType   =   "DEFAULT"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorExecutingBoostsMeleeDamage   =   {
+            type   =   {
+               activationTrigger   =   {
+                  shouldTriggerOnStopped   =   True
+                  __type   =   "PerkTriggerFinisher"
+               }
+               deactivationTrigger   =   {
+                  perkTrigger   =   {
+                     shouldTriggerOnStopped   =   True
+                     __type   =   "PerkTriggerFinisher"
+                  }
+                  delayTime   =   8
+                  __type   =   "PerkTriggerDelay"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   200
+                        applyType   =   "PERCENT_MULT"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               perkVisualizationType   =   "WPN_DMG_BOOST"
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorKneelingGrantsInvisibility   =   {
+            type   =   {
+               activationTrigger   =   {
+                  isTriggerOnEnteredSmart   =   True
+                  shouldApplyToAnySmart   =   True
+                  sequenceName   =   "in_game_emote_solo_1"
+                  __type   =   "PerkTriggerSmartEmote"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  statusEffectDesc   =   {
+                     type   =   {
+                        statusEffectName   =   "CamouflageForMutator"
+                        __type   =   "TargetEmitter"
+                     }
+                     __type   =   "StatusEffectEmitterDesc"
+                  }
+                  targetProvider   =   {
+                     __type   =   "PerkApplicationStatusEffectTargetProviderSelf"
+                  }
+                  __type   =   "PerkApplicationEmitStatusEffect"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         MutatorHealNearbyForFinisher   =   {
+            type   =   {
+               activationTrigger   =   {
+                  isLethalDamageOnly   =   True
+                  hitCondition   =   {
+                     damageTypes   =   [
+                        "dmg_type_finisher"
+                     ]
+                     __type   =   "HitConditionDmgTypes"
+                  }
+                  shouldTriggerOnStopped   =   True
+                  __type   =   "PerkTriggerHitActor"
+               }
+               activationController   =   {
+                  cooldown   =   {
+                     __type   =   "null"
+                  }
+                  delayedResetSec   =   0.01
+                  shouldIgnoreActivationTriggerIfActive   =   False
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  perkLink   =   "RestoreHealth"
+                  isDistanceCheckEnabled   =   True
+                  distance   =   7
+                  applyToOwner   =   False
+                  __type   =   "PerkApplicationAttachPerkToPlayers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorSpawnSporesOnDeathSpecial   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerDeath"
+               }
+               application   =   {
+                  spawnCount   =   3
+                  archetype   =   "TyrSporeMine"
+                  __type   =   "PerkApplicationSpawnActorsFromPool"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorSpawnSporesOnDeathElite   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerDeath"
+               }
+               application   =   {
+                  spawnCount   =   5
+                  archetype   =   "TyrSporeMine"
+                  __type   =   "PerkApplicationSpawnActorsFromPool"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorSpawnSporesOnDeathMiniBoss   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerDeath"
+               }
+               application   =   {
+                  spawnCount   =   7
+                  archetype   =   "TyrSporeMine"
+                  __type   =   "PerkApplicationSpawnActorsFromPool"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PerkMutatorCreateSkullProjectilesOnDeathSpecial   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerDeath"
+               }
+               application   =   {
+                  spawnCount   =   3
+                  projectileCreator   =   {
+                     preset   =   {
+                        bulletSpeed   =   12
+                        homingPreset   =   {
+                           followHalfAngle   =   25
+                           __type   =   "HomingSettings"
+                        }
+                        desc   =   {
+                           type   =   {
+                              __type   =   "pjl_tzeentch_curse_server"
+                           }
+                           __type   =   "ProjectileDesc"
+                        }
+                        __type   =   "ProjectilePreset"
+                     }
+                     __type   =   "ProjectileCreator"
+                  }
+                  __type   =   "PerkApplicationCreateProjectiles"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PerkMutatorCreateSkullProjectilesOnDeathElite   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerDeath"
+               }
+               application   =   {
+                  spawnCount   =   5
+                  projectileCreator   =   {
+                     preset   =   {
+                        bulletSpeed   =   12
+                        homingPreset   =   {
+                           followHalfAngle   =   25
+                           __type   =   "HomingSettings"
+                        }
+                        desc   =   {
+                           type   =   {
+                              __type   =   "pjl_tzeentch_curse_server"
+                           }
+                           __type   =   "ProjectileDesc"
+                        }
+                        __type   =   "ProjectilePreset"
+                     }
+                     __type   =   "ProjectileCreator"
+                  }
+                  __type   =   "PerkApplicationCreateProjectiles"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PerkMutatorCreateSkullProjectilesOnDeathMiniBoss   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerDeath"
+               }
+               application   =   {
+                  spawnCount   =   7
+                  projectileCreator   =   {
+                     preset   =   {
+                        bulletSpeed   =   12
+                        homingPreset   =   {
+                           followHalfAngle   =   25
+                           __type   =   "HomingSettings"
+                        }
+                        desc   =   {
+                           type   =   {
+                              __type   =   "pjl_tzeentch_curse_server"
+                           }
+                           __type   =   "ProjectileDesc"
+                        }
+                        __type   =   "ProjectilePreset"
+                     }
+                     __type   =   "ProjectileCreator"
+                  }
+                  __type   =   "PerkApplicationCreateProjectiles"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorExplosionsRestoreArmour   =   {
+            type   =   {
+               activationTrigger   =   {
+                  triggerType   =   "OnHit"
+                  hitCondition   =   {
+                     pdNodePosX   =   59.02
+                     pdNodePosY   =   166
+                     damageTypes   =   [
+                        "dmg_type_explosive"
+                     ]
+                     __type   =   "HitConditionDmgTypes"
+                  }
+                  __type   =   "PerkTriggerGotHit"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  shouldRestoreSegment   =   True
+                  segmentToRestore   =   1
+                  __type   =   "PerkApplicationRestoreArmor"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorAddCursedRelic   =   {
+            type   =   {
+               activationTrigger   =   {
+                  perkTrigger   =   {
+                     firstJoinOnly   =   True
+                     __type   =   "PerkTriggerPlayerSpawn"
+                  }
+                  delayTime   =   1
+                  __type   =   "PerkTriggerDelay"
+               }
+               application   =   {
+                  inventoryItemUnit   =   {
+                     inventoryItemUid   =   "mutator_cursed_relic"
+                     inventoryItemAmount   =   1
+                     __type   =   "InventoryItemUnit"
+                  }
+                  __type   =   "PerkApplicationAddInventoryItem"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorDropCursedRelicOnIncap   =   {
+            type   =   {
+               activationTrigger   =   {
+                  inventoryItemUid   =   "mutator_cursed_relic"
+                  __type   =   "PerkTriggerLostInventoryItem"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0.1
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  actorDesc   =   {
+                     type   =   {
+                        __type   =   "pickup_collectible_mutator_cursed_relic_server"
+                     }
+                     __type   =   "LootableObjectServerDesc"
+                  }
+                  spawnOffset   =   {
+                     z   =   1
+                     __type   =   "Vector3d"
+                  }
+                  damageAmountModifierStack   =   {
+                     ownerModifierTypes   =   [  ]
+                     __type   =   "ModifiersStack"
+                  }
+                  __type   =   "PerkApplicationSpawnActor"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorCursedRelicDebuff   =   {
+            type   =   {
+               activationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        itemUid   =   "mutator_cursed_relic"
+                        __type   =   "ConditionHasItemInInventory"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               deactivationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        condition   =   {
+                           itemUid   =   "mutator_cursed_relic"
+                           __type   =   "ConditionHasItemInInventory"
+                        }
+                        __type   =   "ConditionInvert"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_FIREARM"
+                        bonus   =   -25
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   -25
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "AI_TARGET_DESIRABILITY"
+                        bonus   =   30
+                        applyType   =   "PERCENT_SUM"
+                     },
+                     {
+                        type   =   "DAMAGE_SENSITIVITY"
+                        bonus   =   50
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorAddHallowedRelic   =   {
+            type   =   {
+               activationTrigger   =   {
+                  perkTrigger   =   {
+                     firstJoinOnly   =   True
+                     __type   =   "PerkTriggerPlayerSpawn"
+                  }
+                  delayTime   =   1
+                  __type   =   "PerkTriggerDelay"
+               }
+               application   =   {
+                  inventoryItemUnit   =   {
+                     inventoryItemUid   =   "mutator_hallowed_relic"
+                     inventoryItemAmount   =   1
+                     __type   =   "InventoryItemUnit"
+                  }
+                  __type   =   "PerkApplicationAddInventoryItem"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorDropHallowedRelic   =   {
+            type   =   {
+               activationTrigger   =   {
+                  inventoryItemUid   =   "mutator_hallowed_relic"
+                  __type   =   "PerkTriggerLostInventoryItem"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0.1
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  actorDesc   =   {
+                     type   =   {
+                        __type   =   "pickup_collectible_mutator_hallowed_relic_server"
+                     }
+                     __type   =   "LootableObjectServerDesc"
+                  }
+                  spawnOffset   =   {
+                     z   =   1
+                     __type   =   "Vector3d"
+                  }
+                  damageAmountModifierStack   =   {
+                     ownerModifierTypes   =   [  ]
+                     __type   =   "ModifiersStack"
+                  }
+                  __type   =   "PerkApplicationSpawnActor"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorAddAuraHallowedRelic   =   {
+            type   =   {
+               activationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        itemUid   =   "mutator_hallowed_relic"
+                        __type   =   "ConditionHasItemInInventory"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               deactivationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        condition   =   {
+                           itemUid   =   "mutator_hallowed_relic"
+                           __type   =   "ConditionHasItemInInventory"
+                        }
+                        __type   =   "ConditionInvert"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_FIREARM"
+                        bonus   =   50
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   50
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "HEALTH_REGEN_SPEED"
+                        bonus   =   0.5
+                        applyType   =   "ABSOLUTE"
+                     },
+                     {
+                        type   =   "SCALE_GRAPPLING_HOOK_MAIN_DAMAGE"
+                        bonus   =   50
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "SCALE_DAMAGE_FROM_SHOULDER_GUN_BOLTER"
+                        bonus   =   50
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "SCALE_DAMAGE_FROM_SHOULDER_GUN_PLASMA"
+                        bonus   =   50
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "SCALE_DAMAGE_FROM_SHOULDER_GUN_SNIPER"
+                        bonus   =   50
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "SCALE_PERK_DOT_DAMAGE_FROM_BANNER"
+                        bonus   =   50
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "SCALE_PERK_AOE_DAMAGE_FROM_PERFECT_PARRY"
+                        bonus   =   50
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "SCALE_PERK_DOT_DAMAGE_FROM_BARRIER"
+                        bonus   =   50
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "SCALE_PERK_DAMAGE_FROM_BARRIER_EXPLOSION"
+                        bonus   =   50
+                        applyType   =   "PERCENT_MULT"
+                     }
+                  ]
+                  radius   =   15
+                  frequency   =   1
+                  __type   =   "PerkApplicationModifiersInRadiusToPlayers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorLimitedRelics   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  inventoryItemUnit   =   {
+                     inventoryItemUid   =   "revive_token"
+                     inventoryItemAmount   =   5
+                     __type   =   "InventoryItemUnit"
+                  }
+                  canChangeMaxValue   =   True
+                  __type   =   "PerkApplicationAddInventoryItem"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorLimitedRelicsDeadOnLastIncap   =   {
+            type   =   {
+               activationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        conditionChecker   =   {
+                           condition   =   {
+                              itemUid   =   "revive_token"
+                              __type   =   "ConditionHasItemInInventory"
+                           }
+                           __type   =   "ConditionInvert"
+                        }
+                        conditionTrigger   =   {
+                           __type   =   "ConditionIncap"
+                        }
+                        __type   =   "ConditionHybrid"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               deactivationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  __type   =   "PerkApplicationKill"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         MutatorIncapByIntoxicationOrCorruption   =   {
+            type   =   {
+               activationTrigger   =   {
+                  perkTrigger   =   {
+                     condition   =   {
+                        condition   =   {
+                           statusEffects   =   [
+                              "Toxic",
+                              "Corruption"
+                           ]
+                           __type   =   "ConditionStatusEffect"
+                        }
+                        __type   =   "ConditionTriggerHolder"
+                     }
+                     __type   =   "PerkTriggerCondition"
+                  }
+                  delayTime   =   0.5
+                  __type   =   "PerkTriggerDelay"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  ownerCondition   =   {
+                     condition   =   {
+                        statusEffects   =   [
+                           "Toxic",
+                           "Corruption"
+                        ]
+                        __type   =   "ConditionStatusEffect"
+                     }
+                     __type   =   "ConditionCheckerHolder"
+                  }
+                  perkApplication   =   {
+                     __type   =   "PerkApplicationIncapOrKill"
+                  }
+                  __type   =   "PerkApplicationEnableCondition"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorMultipleFocusFireFocusable   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "DAMAGE_SENSITIVITY"
+                        bonus   =   -75
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorMultipleFocusFireFocused   =   {
+            type   =   {
+               activationTrigger   =   {
+                  focusWindowTime   =   1
+                  __type   =   "PerkTriggerGotDamageFocusedByPlayersBand"
+               }
+               deactivationTrigger   =   {
+                  perkTrigger   =   {
+                     __type   =   "PerkTriggerPassive"
+                  }
+                  delayTime   =   1
+                  __type   =   "PerkTriggerDelay"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "FOCUSED_DAMAGE_SENSITIVITY"
+                        bonus   =   100
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorEmitAssignedEnemyStatusEffect   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  statusEffectDesc   =   {
+                     type   =   {
+                        statusEffectName   =   "AssignedEnemy"
+                        __type   =   "TargetEmitter"
+                     }
+                     __type   =   "StatusEffectEmitterDesc"
+                  }
+                  targetProvider   =   {
+                     statusEffectsApplicationListType   =   "BLACK"
+                     statusEffectNames   =   [
+                        "AssignedEnemy"
+                     ]
+                     __type   =   "PerkApplicationStatusEffectTargetProviderCharactersVulnerable"
+                  }
+                  __type   =   "PerkApplicationEmitStatusEffect"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveMutatorLowerHealthToDamage   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  modifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_FIREARM"
+                        bonus   =   100
+                        applyType   =   "PERCENT_SUM"
+                     },
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   100
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationAccumulateModifersByHealth"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         TemporalBoostIndication   =   {
+            type   =   {
+               activationTrigger   =   {
+                  statusEffectName   =   "TemporalBoost"
+                  needTriggerOnAddEffectStack   =   True
+                  __type   =   "PerkTriggerStatusEffectUpdated"
+               }
+               deactivationTrigger   =   {
+                  statusEffectName   =   "TemporalBoost"
+                  needTriggerOnRemoveEffect   =   True
+                  __type   =   "PerkTriggerStatusEffectUpdated"
+               }
+               application   =   {
+                  __type   =   "PerkApplicationModifiers"
                }
                __type   =   "PerkServer"
             }
