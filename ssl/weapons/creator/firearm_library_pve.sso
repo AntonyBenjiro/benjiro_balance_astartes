@@ -2634,16 +2634,16 @@ firearms   =   {
             SCOPE   =   {
                deviationAngle   =   0.7
                autoaimAngle   =   0.7
-               autoaimDistance   =   110
-               autoaimFalloffDistance   =   100
+               autoaimDistance   =   130
+               autoaimFalloffDistance   =   120
                autoaimNearFalloffDistance   =   0
                __type   =   "AutoAimSettings"
             }
             ZOOM   =   {
                deviationAngle   =   0.7
                autoaimAngle   =   0.7
-               autoaimDistance   =   110
-               autoaimFalloffDistance   =   100
+               autoaimDistance   =   130
+               autoaimFalloffDistance   =   120
                autoaimNearFalloffDistance   =   0
                __type   =   "AutoAimSettings"
             }
@@ -2656,8 +2656,8 @@ firearms   =   {
          magnetismSettingsOverrides   =   {
             ZOOM   =   {
                magnetismAngle   =   4
-               magnetismDistance   =   120
-               magnetismFalloffDistance   =   110
+               magnetismDistance   =   130
+               magnetismFalloffDistance   =   120
                magnetismNearFalloffDistance   =   5
                __type   =   "MagnetismSettings"
             }
@@ -7237,16 +7237,16 @@ firearms   =   {
             SCOPE   =   {
                deviationAngle   =   0.7
                autoaimAngle   =   0.7
-               autoaimDistance   =   110
-               autoaimFalloffDistance   =   100
+               autoaimDistance   =   130
+               autoaimFalloffDistance   =   120
                autoaimNearFalloffDistance   =   0
                __type   =   "AutoAimSettings"
             }
             ZOOM   =   {
                deviationAngle   =   0.7
                autoaimAngle   =   0.7
-               autoaimDistance   =   110
-               autoaimFalloffDistance   =   100
+               autoaimDistance   =   130
+               autoaimFalloffDistance   =   120
                autoaimNearFalloffDistance   =   0
                __type   =   "AutoAimSettings"
             }
@@ -7259,15 +7259,15 @@ firearms   =   {
          magnetismSettingsOverrides   =   {
             ZOOM   =   {
                magnetismAngle   =   4
-               magnetismDistance   =   120
-               magnetismFalloffDistance   =   110
+               magnetismDistance   =   130
+               magnetismFalloffDistance   =   120
                magnetismNearFalloffDistance   =   5
                __type   =   "MagnetismSettings"
             }
             SCOPE   =   {
                magnetismAngle   =   4
-               magnetismDistance   =   120
-               magnetismFalloffDistance   =   110
+               magnetismDistance   =   130
+               magnetismFalloffDistance   =   120
                magnetismNearFalloffDistance   =   15
                __type   =   "MagnetismSettings"
             }
@@ -17001,6 +17001,17 @@ firearms   =   {
       __type   =   "MountedBolterFirearmDescription"
    }
    mounted_plasma   =   {
+      shellDescriptions   =   {
+         simple_shot   =   {
+            shotCreatorSettings   =   {
+               headshotDist   =   0
+               damage   =   8
+               heavyHitDamage   =   2
+               __type   =   "ShotCreatorSettings"
+            }
+            __type   =   "ShellDescription"
+         }
+      }
       __type   =   "MountedPlasmaFirearmDescription"
    }
    hwpn_pyroblaster   =   {
@@ -17338,6 +17349,16 @@ firearms   =   {
       __type   =   "FirearmDefaultDescription"
    }
    mounted_sniper   =   {
+      shellDescriptions   =   {
+         lascannon   =   {
+            shotCreatorSettings   =   {
+               damage   =   27
+               heavyHitDamage   =   1
+               __type   =   "ShotCreatorSettings"
+            }
+            __type   =   "ShellDescription"
+         }
+      }
       __type   =   "MountedSniperFirearmDescription"
    }
    hwpn_pyrecannon   =   {
@@ -18023,6 +18044,11 @@ firearms   =   {
          }
          __type   =   "OverheatSettingsFirearm"
       }
+      modules   =   {
+         DualWielding   =   {
+            __type   =   "FirearmDescriptionModuleDualWielding"
+         }
+      }
       __type   =   "FirearmDefaultDescription"
    }
    mod_secondary_firearm_5   =   {
@@ -18225,6 +18251,9 @@ firearms   =   {
       clipsSettings   =   {
          default_clip   =   {
             ammoType   =   "ammo_arifle"
+            maxAmmo   =   0
+            ammoPercToStartBlink   =   -1
+            hasHidableBullet   =   False
             __type   =   "ClipSettings"
          }
       }
@@ -18233,53 +18262,6 @@ firearms   =   {
          fovCollection   =   {
             DEFAULT   =   {
                __value   =   30
-            }
-         }
-         autoAimSettingsDefault   =   {
-            deviationAngle   =   2
-            autoaimAngle   =   2
-            autoaimDistance   =   15
-            autoaimFalloffDistance   =   10
-            autoaimNearFalloffDistance   =   0
-            __type   =   "AutoAimSettings"
-         }
-         autoAimSettingsOverrides   =   {
-            ZOOM   =   {
-               deviationAngle   =   2
-               autoaimAngle   =   2
-               autoaimDistance   =   50
-               autoaimFalloffDistance   =   40
-               autoaimNearFalloffDistance   =   0
-               __type   =   "AutoAimSettings"
-            }
-            SCOPE   =   {
-               deviationAngle   =   1.7
-               autoaimAngle   =   1.7
-               autoaimDistance   =   50
-               autoaimFalloffDistance   =   40
-               autoaimNearFalloffDistance   =   0
-               __type   =   "AutoAimSettings"
-            }
-         }
-         magnetismSettingsDefault   =   {
-            magnetismDistance   =   15
-            magnetismFalloffDistance   =   10
-            __type   =   "MagnetismSettings"
-         }
-         magnetismSettingsOverrides   =   {
-            ZOOM   =   {
-               magnetismAngle   =   3
-               magnetismDistance   =   60
-               magnetismFalloffDistance   =   50
-               magnetismNearFalloffDistance   =   5
-               __type   =   "MagnetismSettings"
-            }
-            SCOPE   =   {
-               magnetismAngle   =   4
-               magnetismDistance   =   120
-               magnetismFalloffDistance   =   110
-               magnetismNearFalloffDistance   =   5
-               __type   =   "MagnetismSettings"
             }
          }
          __type   =   "AimSettings"

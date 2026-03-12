@@ -3504,7 +3504,7 @@ categories   =   {
                   applications   =   {
                      PerkApplicationSetFirearm   =   {
                         firearmDesc   =   {
-                           firearmLink   =   "mod_secondary_firearm_5 : 01"
+                           firearmLink   =   "mod_secondary_firearm_5 : skin_01"
                            __type   =   "WeaponDesc"
                         }
                      }
@@ -4757,9 +4757,9 @@ categories   =   {
                                  condition   =   {
                                     conditions   =   {
                                        StatusEffectStacks   =   {
-                                    stacks   =   2
-                                    statusEffect   =   "PerfectBlockBuff"
-                                    __type   =   "ConditionStatusEffectStacks"
+                                          stacks   =   2
+                                          statusEffect   =   "PerfectBlockBuff"
+                                          __type   =   "ConditionStatusEffectStacks"
                                        }
                                        Invert   =   {
                                           condition   =   {
@@ -4793,9 +4793,9 @@ categories   =   {
                                  condition   =   {
                                     conditions   =   {
                                        StatusEffectStacks   =   {
-                                    stacks   =   1
-                                    statusEffect   =   "PerfectBlockBuff"
-                                    __type   =   "ConditionStatusEffectStacks"
+                                          stacks   =   1
+                                          statusEffect   =   "PerfectBlockBuff"
+                                          __type   =   "ConditionStatusEffectStacks"
                                        }
                                        Invert   =   {
                                           condition   =   {
@@ -10204,13 +10204,13 @@ categories   =   {
                application   =   {
                   applications   =   {
                      ChangeRoutineChargesByModifier   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "ABILITY_ROUTINE_MAX_CHARGES"
-                        bonus   =   1
-                     }
-                  ]
-                  __type   =   "PerkApplicationModifiers"
+                        permanentModifiers   =   [
+                           {
+                              type   =   "ABILITY_ROUTINE_MAX_CHARGES"
+                              bonus   =   1
+                           }
+                        ]
+                        __type   =   "PerkApplicationModifiers"
                      }
                      RestoreRoutineCharges   =   {
                         abilitySlot   =   "ROUTINE"
@@ -10361,13 +10361,13 @@ categories   =   {
                application   =   {
                   applications   =   {
                      ChangeRoutineChargesByModifier   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "ABILITY_INJECTOR_MAX_CHARGES"
-                        bonus   =   1
-                     }
-                  ]
-                  __type   =   "PerkApplicationModifiers"
+                        permanentModifiers   =   [
+                           {
+                              type   =   "ABILITY_INJECTOR_MAX_CHARGES"
+                              bonus   =   1
+                           }
+                        ]
+                        __type   =   "PerkApplicationModifiers"
                      }
                      RestoreRoutineCharges   =   {
                         abilitySlot   =   "INJECTOR"
@@ -11113,9 +11113,9 @@ categories   =   {
                }
                deactivationTrigger   =   {
                   perkTrigger   =   {
-                  shouldTriggerOnTagRemoved   =   True
-                  abilityUid   =   "ability_camouflage"
-                  __type   =   "PerkTriggerAbilityTags"
+                     shouldTriggerOnTagRemoved   =   True
+                     abilityUid   =   "ability_camouflage"
+                     __type   =   "PerkTriggerAbilityTags"
                   }
                   delayTime   =   5
                   __type   =   "PerkTriggerDelay"
@@ -14423,8 +14423,8 @@ categories   =   {
                            __type   =   "StatusEffectEmitterDesc"
                         }
                         targetProvider   =   {
-                           damageType   =   "dmg_type_bullet"
                            shouldSetAfterDealDamage   =   False
+                           damageType   =   "dmg_type_bullet"
                            __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
                         }
                      }
@@ -15670,11 +15670,11 @@ categories   =   {
                   disableTimerCondition   =   {
                      condition   =   {
                         bodyStateConditionInternal   =   {
-                        bodyStateArray   =   [
-                           "FINISHER_EXECUTOR"
-                        ]
-                        __type   =   "BodyStateCondition"
-                     }
+                           bodyStateArray   =   [
+                              "FINISHER_EXECUTOR"
+                           ]
+                           __type   =   "BodyStateCondition"
+                        }
                         __type   =   "ConditionBodyStates"
                      }
                      __type   =   "ConditionTriggerHolder"
@@ -17892,7 +17892,7 @@ categories   =   {
                         "dmg_type_bullet",
                         "dmg_type_plasma",
                         "dmg_type_heavybullet"
-                  ]
+                     ]
                      __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
                   }
                   __type   =   "PerkApplicationEmitStatusEffect"
@@ -17963,14 +17963,14 @@ categories   =   {
             type   =   {
                activationTrigger   =   {
                   isDamagedByAbility   =   True
-                           abilities   =   [
+                  abilities   =   [
                      "ability_shoulder_gun_bolter",
-                              "ability_shoulder_gun_plasma",
-                              "ability_shoulder_gun_sniper",
+                     "ability_shoulder_gun_plasma",
+                     "ability_shoulder_gun_sniper",
                      "ability_shoulder_gun_bolter_zone_aiming",
                      "ability_shoulder_gun_plasma_zone_aiming",
                      "ability_shoulder_gun_sniper_zone_aiming"
-                           ]
+                  ]
                   isIncapedActorClassRestrictionsEnabled   =   True
                   incapedActorThreatClasses   =   [
                      "COMMON",
@@ -17978,7 +17978,7 @@ categories   =   {
                   ]
                   isThreatClassesBlacklist   =   True
                   __type   =   "PerkTriggerOnIncapedByOwner"
-                        }
+               }
                deactivationTrigger   =   {
                   perkTrigger   =   {
                      triggers   =   {
@@ -17986,22 +17986,22 @@ categories   =   {
                            shouldTriggerOnTagRemoved   =   True
                            abilityUid   =   "ability_shoulder_gun_bolter"
                            __type   =   "PerkTriggerAbilityTags"
-                     }
+                        }
                         PerkTriggerAbilityTagPlasma   =   {
                            shouldTriggerOnTagRemoved   =   True
                            abilityUid   =   "ability_shoulder_gun_plasma"
                            __type   =   "PerkTriggerAbilityTags"
-                  }
+                        }
                         PerkTriggerAbilityTagSniper   =   {
                            shouldTriggerOnTagRemoved   =   True
                            abilityUid   =   "ability_shoulder_gun_sniper"
                            __type   =   "PerkTriggerAbilityTags"
-               }
+                        }
                         PerkTriggerAbilityTagBolterZoneAiming   =   {
                            shouldTriggerOnTagRemoved   =   True
                            abilityUid   =   "ability_shoulder_gun_bolter_zone_aiming"
                            __type   =   "PerkTriggerAbilityTags"
-                  }
+                        }
                         PerkTriggerAbilityTagPlasmaZoneAiming   =   {
                            shouldTriggerOnTagRemoved   =   True
                            abilityUid   =   "ability_shoulder_gun_plasma_zone_aiming"
@@ -18100,12 +18100,12 @@ categories   =   {
                         __type   =   "TargetEmitter"
                      }
                      __type   =   "StatusEffectEmitterDesc"
-                     }
+                  }
                   targetProvider   =   {
                      damageTypes   =   [
                         "dmg_type_explosive",
                         "dmg_type_electro"
-                  ]
+                     ]
                      __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
                   }
                   __type   =   "PerkApplicationEmitStatusEffect"
@@ -18119,10 +18119,10 @@ categories   =   {
                activationTrigger   =   {
                   isKillOnly   =   True
                   hitCondition   =   {
-                           damageTypes   =   [
+                     damageTypes   =   [
                         "dmg_type_finisher",
                         "dmg_type_gunstrike"
-                           ]
+                     ]
                      __type   =   "HitConditionDmgTypes"
                   }
                   __type   =   "PerkTriggerHitActor"
@@ -18164,7 +18164,7 @@ categories   =   {
                         }
                      }
                      __type   =   "HitConditionCompositeAnd"
-               }
+                  }
                   __type   =   "PerkTriggerHitActor"
                }
                activationController   =   {
@@ -18174,7 +18174,7 @@ categories   =   {
                application   =   {
                   shouldRestoreSegment   =   True
                   segmentToRestore   =   1
-                        __type   =   "PerkApplicationRestoreArmor"
+                  __type   =   "PerkApplicationRestoreArmor"
                }
                __type   =   "PerkServer"
             }
@@ -18235,25 +18235,25 @@ categories   =   {
                }
                deactivationTrigger   =   {
                   perkTrigger   =   {
-                  triggers   =   {
-                     Bolter   =   {
+                     triggers   =   {
+                        Bolter   =   {
                            shouldTriggerOnTagAdded   =   False
-                        shouldTriggerOnTagRemoved   =   True
-                        abilityUid   =   "ability_shoulder_gun_bolter"
-                        __type   =   "PerkTriggerAbilityTags"
-                     }
-                     Sniper   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_bolter"
+                           __type   =   "PerkTriggerAbilityTags"
+                        }
+                        Sniper   =   {
                            shouldTriggerOnTagAdded   =   False
-                        shouldTriggerOnTagRemoved   =   True
-                        abilityUid   =   "ability_shoulder_gun_sniper"
-                        __type   =   "PerkTriggerAbilityTags"
-                     }
-                     Plasma   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_sniper"
+                           __type   =   "PerkTriggerAbilityTags"
+                        }
+                        Plasma   =   {
                            shouldTriggerOnTagAdded   =   False
-                        shouldTriggerOnTagRemoved   =   True
-                        abilityUid   =   "ability_shoulder_gun_plasma"
-                        __type   =   "PerkTriggerAbilityTags"
-                     }
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_plasma"
+                           __type   =   "PerkTriggerAbilityTags"
+                        }
                         BolterZoneAiming   =   {
                            shouldTriggerOnTagAdded   =   False
                            shouldTriggerOnTagRemoved   =   True
@@ -18272,8 +18272,8 @@ categories   =   {
                            abilityUid   =   "ability_shoulder_gun_plasma_zone_aiming"
                            __type   =   "PerkTriggerAbilityTags"
                         }
-                  }
-                  __type   =   "PerkTriggerComposite"
+                     }
+                     __type   =   "PerkTriggerComposite"
                   }
                   delayTime   =   10
                   __type   =   "PerkTriggerDelay"
@@ -18508,13 +18508,13 @@ categories   =   {
                application   =   {
                   applications   =   {
                      ChangeRoutineChargesByModifier   =   {
-                  permanentModifiers   =   [
-                     {
-                        type   =   "ABILITY_ROUTINE_MAX_CHARGES"
-                        bonus   =   1
-                     }
-                  ]
-                  __type   =   "PerkApplicationModifiers"
+                        permanentModifiers   =   [
+                           {
+                              type   =   "ABILITY_ROUTINE_MAX_CHARGES"
+                              bonus   =   1
+                           }
+                        ]
+                        __type   =   "PerkApplicationModifiers"
                      }
                      RestoreRoutineCharges   =   {
                         abilitySlot   =   "ROUTINE"
@@ -18533,7 +18533,7 @@ categories   =   {
          PveEngineerShoulderGunRegenNearSentry   =   {
             type   =   {
                activationTrigger   =   {
-                        __type   =   "PerkTriggerPassive"
+                  __type   =   "PerkTriggerPassive"
                }
                application   =   {
                   archetype   =   "TarantulaTurret"
@@ -18562,22 +18562,22 @@ categories   =   {
                            __type   =   "ConditionAbilityState"
                         }
                         conditionTrigger   =   {
-                  hitCondition   =   {
+                           hitCondition   =   {
                               pdNodePosX   =   124
                               pdNodePosY   =   34
-                     conditions   =   {
-                        HitConditionThreatClasses   =   {
+                              conditions   =   {
+                                 HitConditionThreatClasses   =   {
                                     pdNodePosX   =   -195
                                     pdNodePosY   =   -175
-                           threatClasses   =   [
-                              "BOSS",
-                              "MINIBOSS",
-                              "ELITE",
-                              "SPECIAL",
-                              "COMMON",
-                              "FODDER"
-                           ]
-                        }
+                                    threatClasses   =   [
+                                       "BOSS",
+                                       "MINIBOSS",
+                                       "ELITE",
+                                       "SPECIAL",
+                                       "COMMON",
+                                       "FODDER"
+                                    ]
+                                 }
                                  HitConditionDamageAbilityShoulderGun   =   {
                                     pdNodePosX   =   -222
                                     pdNodePosY   =   125
@@ -18586,13 +18586,13 @@ categories   =   {
                                     healthPercent   =   [
                                        0,
                                        0.5
-                           ]
+                                    ]
                                     typeActorToCheck   =   "DAMAGED_ACTOR"
                                     __type   =   "HitConditionHealthAmount"
-                        }
-                     }
-                     __type   =   "HitConditionCompositeAnd"
-                  }
+                                 }
+                              }
+                              __type   =   "HitConditionCompositeAnd"
+                           }
                            __type   =   "ConditionHitActor"
                         }
                         __type   =   "ConditionHybrid"
@@ -18661,13 +18661,13 @@ categories   =   {
                activationTrigger   =   {
                   isKillOnly   =   False
                   hitCondition   =   {
-                           abilities   =   [
+                     abilities   =   [
                         "ability_shoulder_gun_bolter",
-                              "ability_shoulder_gun_sniper",
+                        "ability_shoulder_gun_sniper",
                         "ability_shoulder_gun_plasma"
-                           ]
+                     ]
                      __type   =   "HitConditionDamageAbilityShoulderGun"
-                     }
+                  }
                   __type   =   "PerkTriggerHitActor"
                }
                activationController   =   {
@@ -18726,14 +18726,14 @@ categories   =   {
                               }
                            ]
                            __type   =   "DamageInfo"
-                  }
-                  targetProvider   =   {
+                        }
+                        targetProvider   =   {
                            damageTypes   =   [
                               "dmg_type_plasma"
                            ]
                            shouldSetAfterDealDamage   =   True
-                     __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
-                  }
+                           __type   =   "PerkApplicationStatusEffectTargetProviderLastAttacked"
+                        }
                         __type   =   "PerkApplicationDamageActor"
                      }
                   }
@@ -29435,8 +29435,8 @@ categories   =   {
                               "HEAD"
                            ]
                            __type   =   "HitConditionBones"
-                           }
                         }
+                     }
                      __type   =   "HitConditionCompositeAnd"
                   }
                   shouldTriggerAfterDealDamage   =   True
@@ -31295,11 +31295,11 @@ categories   =   {
                   disableTimerCondition   =   {
                      condition   =   {
                         bodyStateConditionInternal   =   {
-                        bodyStateArray   =   [
-                           "FINISHER_EXECUTOR"
-                        ]
-                        __type   =   "BodyStateCondition"
-                     }
+                           bodyStateArray   =   [
+                              "FINISHER_EXECUTOR"
+                           ]
+                           __type   =   "BodyStateCondition"
+                        }
                         __type   =   "ConditionBodyStates"
                      }
                      __type   =   "ConditionTriggerHolder"
@@ -32680,20 +32680,6 @@ categories   =   {
                }
                application   =   {
                   modifierDescriptionsPerSlot   =   {
-                     HEAVY   =   {
-                        __value   =   [
-                           {
-                              type   =   "SCALE_RECOIL"
-                              bonus   =   -30
-                              applyType   =   "PERCENT_SUM"
-                           },
-                           {
-                              type   =   "FIREARM_SCALE_SPREAD"
-                              bonus   =   -30
-                              applyType   =   "PERCENT_SUM"
-                           }
-                        ]
-                     }
                      PRIMARY   =   {
                         __value   =   [
                            {
@@ -32709,6 +32695,20 @@ categories   =   {
                         ]
                      }
                      SECONDARY   =   {
+                        __value   =   [
+                           {
+                              type   =   "SCALE_RECOIL"
+                              bonus   =   -30
+                              applyType   =   "PERCENT_SUM"
+                           },
+                           {
+                              type   =   "FIREARM_SCALE_SPREAD"
+                              bonus   =   -30
+                              applyType   =   "PERCENT_SUM"
+                           }
+                        ]
+                     }
+                     HEAVY   =   {
                         __value   =   [
                            {
                               type   =   "SCALE_RECOIL"

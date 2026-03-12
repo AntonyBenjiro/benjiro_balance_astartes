@@ -194,7 +194,8 @@ meleeAbilities   =   {
    }
    melee_power_fist   =   {
       perksList   =   [
-         "SpawnWithMeleePowerFist"
+         "SpawnWithMeleePowerFist",
+         "PveSpawnWoPrimary"
       ]
       __type   =   "WeaponLoadoutSkill"
    }
@@ -645,6 +646,9 @@ weaponSkillPacks   =   {
          pwpn_plasma_exterminator   =   {
             __type   =   "WeaponSkillLocks"
          }
+         arifle_bolt_rifle   =   {
+            __type   =   "WeaponSkillLocks"
+         }
       }
       secondaryWeapons   =   {
          hgun_plasma_pistol   =   {
@@ -676,6 +680,18 @@ weaponSkillPacks   =   {
          melee_power_halberd   =   {
             __type   =   "WeaponSkillLocks"
          }
+         melee_chainsword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_thunder_hammer   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_fist   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_power_sword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
       }
       equipWeapons   =   {
          equipment_frag_grenade   =   {
@@ -699,9 +715,6 @@ weaponSkillPacks   =   {
    CharacterMod1   =   {
       primaryWeapons   =   {
          arifle_heavy_bolt_rifle   =   {
-            __type   =   "WeaponSkillLocks"
-         }
-         hwpn_pyroblaster   =   {
             __type   =   "WeaponSkillLocks"
          }
          hwpn_pyrecannon   =   {
