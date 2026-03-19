@@ -1,0 +1,2662 @@
+executorsInfo   =   {
+   Primaris   =   {
+      targetsInfo   =   {
+         Primaris   =   {
+            __type   =   "PairCombatTargetInfo"
+         }
+         Hormagaunt   =   {
+            finisherDescs   =   {
+               UnarmedUnsafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_fist_slam"
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagaunt2Preparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagaunt2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               UnarmedUnsafe2   =   {
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_tail_grab"
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagaunt1Preparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagaunt1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               UnarmedSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_stomp"
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagaunt3Preparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagaunt3"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainswordSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_chainsword_front"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc",
+                     "MeleeBotChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagaunt5Preparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagaunt5"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainswordSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_chainsword_right"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc",
+                     "MeleeBotChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagaunt4Preparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagaunt4"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSwordSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_powersword_air_slash"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntPowerSwordSafePrepare1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntPowerSwordSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSwordSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_powersword_safe_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntPowerSwordSafePrepare2"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntPowerSwordSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammerSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_thunderhammer_safe"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntThunderHammerSafePreparing1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntThunderHammerSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammmerUnsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_thunderhammer_unsafe"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntThunderHammerUnsafePrepare1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntThunderHammerUnsafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerFistSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_powerfist_safe_back_throw"
+                  requiredMeleeUids   =   [
+                     "MeleePowerFistDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntPowerFistPreparing1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntPowerFist1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerFistSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_powerfist_safe_head_crack"
+                  requiredMeleeUids   =   [
+                     "MeleePowerFistDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntPowerFistSafePrepare2"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntPowerFistSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               CombatKnifeSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_combat_knife_safe_chin_hit"
+                  requiredMeleeUids   =   [
+                     "MeleeCombatKnifeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntCombatKnifeSafePrepare1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntCombatKnifeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               CombatKnifeSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_combat_knife_safe_2"
+                  requiredMeleeUids   =   [
+                     "MeleeCombatKnifeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntCombatKnifeSafePrepare2"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntCombatKnifeSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_halberd_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntHalberdSave1Preparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntHalberdSave1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_halberd_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntHalberdPrepare2"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntHalberdSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Shield1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_shield_1"
+                  requiredInventoryUids   =   [
+                     "combat_shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntShieldSafePrepare1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntShieldSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_poweraxe_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntAxeSafePrepare1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntAxeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_poweraxe_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntAxeSafePrepare2"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntAxeSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe3   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_hormagaunt_poweraxe_3"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntAxeSafePrepare3"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHormagauntAxeSafe3"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         Termagant   =   {
+            finisherDescs   =   {
+               UnarmedSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_unarmed_safe_front_throw"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntUnarmedSafe3"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               UnarmedSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_unarmed_safe4_press"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntUnarmedSafe4"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainSafe1   =   {
+                  finisherType   =   "CHAIN"
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_unarmed_safe_chain_1"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntUnarmedSafeChain1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainSafe2   =   {
+                  finisherType   =   "CHAIN"
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_unarmed_safe_chain_2"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntUnarmedSafeChain2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainSafe3   =   {
+                  finisherType   =   "CHAIN"
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_unarmed_safe_chain_3"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntUnarmedSafeChain3"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainswordUnsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_termagant_leg_grab"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc",
+                     "MeleeBotChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagaunt2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainswordSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_stab"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc",
+                     "MeleeBotChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagaunt4"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSwordSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_upper_head"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntPowerSwordUnsafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSwordSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_powersword_safe_double_slash"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntPowerSwordSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammerSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_thunderhammer_safe_smash"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntThunderHammerSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammerUnsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_termagant_thunderhammer_unsafe"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntThunderHammerUnsafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerFistSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_powerfist_safe_fist_hit"
+                  requiredMeleeUids   =   [
+                     "MeleePowerFistDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntPowerFistSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               CombatKnifeSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_combat_knife_safe_gutting"
+                  requiredMeleeUids   =   [
+                     "MeleeCombatKnifeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntCombatKnifeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_poweraxe_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntAxeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_poweraxe_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntAxeSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_halberd_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntHalberd1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_termagant_halberd_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTermagauntHalberd2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         TyranidWarriorMelee   =   {
+            finisherDescs   =   {
+               UnarmedSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_unarmed_safe_blade_in_body"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorUnarmedSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               UnarmedUnsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_unarmed_unsafe_1"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorUnarmedUnsafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainswordUnsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_cut_head"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc",
+                     "MeleeBotChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarrior3"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainswordSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_safe"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc",
+                     "MeleeBotChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarrior2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainswordSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_cut_half_body"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc",
+                     "MeleeBotChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarrior1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSwordSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_powersword_safe_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorPowerSwordSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSwordSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_powersword_safe_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorPowerSwordSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammerSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_thunderhammer_safe_1"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorThunderHammerSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammerSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_thunderhammer_safe_2"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorThunderHammerSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerFistSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_powerfist_safe_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerFistDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorPowerFistSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerFistUnsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_powerfist_unsafe_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerFistDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorPowerFistUnsafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               CombatKnifeUnsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_combatknife_safe_1"
+                  requiredMeleeUids   =   [
+                     "MeleeCombatKnifeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorCombatKnifeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               CombatKnifeSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_combatknife_safe_2"
+                  requiredMeleeUids   =   [
+                     "MeleeCombatKnifeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorCombatKnifeSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_poweraxe_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorAxeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_poweraxe_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorAxeSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_halberd_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorHalberdSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_halberd_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorHalberdSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Axe1ForTechMarine   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_melee_axe_1_for_techmarine"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc"
+                  ]
+                  requiredCharacterUids   =   [
+                     "ENGINEER"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidWarriorAxe03Eng01"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         TyranidWarriorRanged   =   {
+            finisherDescs   =   {
+               UnarmedUnsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_unarmed_safe_back_throat_hit"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedUnarmedSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               UnarmedSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_unarmed_safe_2"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedUnarmedSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainswordSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_chainsword_safe_1"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc",
+                     "MeleeBotChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedChainswordSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainswordSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_chainsword_safe_2"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedChainswordSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSwordSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_power_sword_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedPowerSwordSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSwordSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_power_sword_safe_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedPowerSwordSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammerSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_thunderhammer_safe"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedThunderHammerSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammerSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_thunderhammer_safe_2"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedThunderHammerUnsafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerFistSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_powerfist_safe"
+                  requiredMeleeUids   =   [
+                     "MeleePowerFistDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedPowerFistSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerFistSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_powerfist_safe_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerFistDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedPowerFistSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               CombatKnifeSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_combat_knife_safe_1"
+                  requiredMeleeUids   =   [
+                     "MeleeCombatKnifeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedCombatKnifeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               CombatKnifeUnsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_combat_knife_unsafe"
+                  requiredMeleeUids   =   [
+                     "MeleeCombatKnifeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedCombatKnifeUnsafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_poweraxe_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedAxeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_poweraxe_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedAxeSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_halberd_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedHalberd1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_halberd_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedHalberd2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Axe1ForTechMarine   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_axe_1_for_techmarine"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc"
+                  ]
+                  requiredCharacterUids   =   [
+                     "ENGINEER"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTWRangedAxe03Eng02"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         Lictor   =   {
+            finisherDescs   =   {
+               UnarmedUnsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_lictor_unic_safe_1"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForLictorUnicSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               UnarmedSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_lictor_unic_safe_2"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForLictorUnarmedSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         Zoanthrope   =   {
+            finisherDescs   =   {
+               UnarmedSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_zoanthrope_tear_head"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForZoanthrope1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               UnarmedSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_zoanthrope_finisher_2"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForZoanthrope2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         Ravener   =   {
+            finisherDescs   =   {
+               UnarmedUnsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_ravener_1"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRavener1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               UnarmedSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_ravener_safe"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRavener1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         Neurothrope   =   {
+            finisherDescs   =   {
+               FinisherNeuro   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_neurothrope_1"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForNeurothrope1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         Carnifex   =   {
+            finisherDescs   =   {
+               FinisherCarnifex   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_carnifex_1"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForCarnifex1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         Tzaangor   =   {
+            finisherDescs   =   {
+               UnarmedSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_knock_hit"
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangor2Preparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangor2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               UnarmedSafe3   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_unarmed_safe_3"
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangor4Preparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangor4"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainSwordSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_chainsword_safe_1"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc",
+                     "MeleeBotChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorChainswordSafePreparing1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorChainswordSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainSwordSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_chainsword_safe_2"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc",
+                     "MeleeBotChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorChainswordSafePreparing2"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorChainswordSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSwordSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_powersword_hit"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorPowerSwordSafePreparing1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorPowerSwordSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSwordUnsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_tzaangor_powersword_unsafe"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorPowerSwordUnsafePrepare2"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorPowerSwordUnsafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammerSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_thunderhammer_safe_hit"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorThunderHammerSafePreparing1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorThunderHammerSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerFistSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_powerfist_safe_head_crack"
+                  requiredMeleeUids   =   [
+                     "MeleePowerFistDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorPowerFistSafe1Preparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorPowerFistSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               CombatKnifeSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_combatknife_hit"
+                  requiredMeleeUids   =   [
+                     "MeleeCombatKnifeDesc"
+                  ]
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorCombatKnifeSafePreparing1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorCombatKnifeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Shield1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_shield_1"
+                  requiredInventoryUids   =   [
+                     "combat_shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorShieldSafePrepare1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorShieldSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_poweraxe_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorAxeSafePrepare1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorAxeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_poweraxe_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorAxeSafePrepare2"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorAxeSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_halberd_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorHalberdPrepare1"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorHalberdSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_halberd_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  startPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorHalberdPrepare2"
+                     __type   =   "AnimTableLink"
+                  }
+                  stopPreparingAnim   =   {
+                     link   =   "Primaris.Finisher.AbortPreparing"
+                     __type   =   "AnimTableLink"
+                  }
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorHalberdSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         RubricMarine   =   {
+            finisherDescs   =   {
+               UnarmedSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_unarmed_safe_1"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubricUnarmedSafe4"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               UnarmedSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_unarmed_safe_2"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubricUnarmedSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               UnarmedSafe3   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_unarmed_safe_3"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubricUnarmedSafe3"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainSwordSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_chainsword_1_safe"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc",
+                     "MeleeBotChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubricChainswordSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainSwordSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_chainsword_2_safe"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc",
+                     "MeleeBotChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubricChainswordSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSwordSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_powesword_safe"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubricPowerSwordSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammerSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_thunderhammer_safe"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubricThunderHammerSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerFistSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_powerfist_safe_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerFistDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubricPowerFistSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               CombatKnifeSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_combat_knife_safe"
+                  requiredMeleeUids   =   [
+                     "MeleeCombatKnifeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubricCombatKnifeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_poweraxe_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubrickAxeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_poweraxe_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubrickAxeSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_halberd_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubrickHalberdSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_halberd_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubrickHalberdSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Axe1ForTechMarine   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_rubricmarine_axe_1_for_techmarine"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc"
+                  ]
+                  requiredCharacterUids   =   [
+                     "ENGINEER"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForRubricAxe03Eng01"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         Sorcerer   =   {
+            finisherDescs   =   {
+               UnarmedSafe   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_lesser_sorcerer_unarmed_safe"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForLesserSorcererUnarmedSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         OccultTerminator   =   {
+            finisherDescs   =   {
+               UnarmedSafe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_terminator_unarmed_safe1"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTerminatorUnarmedSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               UnarmedSafe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_terminator_unarmed_safe2"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTerminatorUnarmedSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         Helbrute   =   {
+            finisherDescs   =   {
+               FinisherHelbrute   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_helbrute_finisher_1"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForHelbruteUnarmedSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         TzaangorSpearman   =   {
+            finisherDescs   =   {
+               Unarmed1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_unarmed_1"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanUnarmedSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Unarmed2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_unarmed_2"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanUnarmedSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Unarmed3Unsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_unarmed_3"
+                  reservedSlots   =   [
+                     "left_hand",
+                     "right_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanUnarmedUnsafe3"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainSword1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_chainsword_1"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanChainswordSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ChainSword2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_chainsword_2"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanChainswordSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSword1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_powersword_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanPowerSwordSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSword2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_powersword_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanPowerSwordSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammer1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_thunderhammer_1"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanThunderHammerSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammer2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_thunderhammer_2"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanThunderHammerSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerFist1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_powerfist_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerFistDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanPowerFistSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerFist2Unsafe   =   {
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_powerfist_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerFistDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanPowerFistSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               CombatKnife1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_combatknife_1"
+                  requiredMeleeUids   =   [
+                     "MeleeCombatKnifeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanCombarKnifeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               CombatKnife2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_combatknife_2"
+                  requiredMeleeUids   =   [
+                     "MeleeCombatKnifeDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanCombarKnifeSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_poweraxe_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanAxeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_poweraxe_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  reservedSlots   =   [
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanAxeSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_halberd_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanHalberd1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_halberd_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanHalberd2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd3   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_halberd_3"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanHalberdSafe3"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         Biovore   =   {
+            finisherDescs   =   {
+               Finisher1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_biovore_1"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForBiovore1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Finisher2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_biovore_2"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForBiovore2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         ChaosSpawn   =   {
+            finisherDescs   =   {
+               Unarmed1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_unarmed_1"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnUnarmedSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Unarmed2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_unarmed_2"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnUnarmedSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Unarmed3   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_unarmed_3"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnUnarmedSafe3"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Chainsword1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_chainsword_1"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnChainswordSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Chainsword2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_chainsword_2"
+                  requiredMeleeUids   =   [
+                     "MeleeChainswordDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnChainswordSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSword1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_powersword_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnPowerSwordSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerSword2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_powersword_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerSwordDesc",
+                     "MeleePowerAxeDesc"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnPowerSwordSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammer1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_thunderhammer_1"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnHammerSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               ThunderHammer2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_thunderhammer_2"
+                  requiredMeleeUids   =   [
+                     "MeleeThunderHammerDesc",
+                     "MeleeModDesc1"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnThunderHammerSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerFist1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_powerfist_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerFistDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnPowerFistSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerFist2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_powerfist_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerFistDesc"
+                  ]
+                  reservedSlots   =   [
+                     "left_hand",
+                     "shield"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnPowerFistSave2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               CombatKnife1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_combat_knife_1"
+                  requiredMeleeUids   =   [
+                     "MeleeCombatKnifeDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnKnifeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               CombatKnife2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_combat_knife_2"
+                  requiredMeleeUids   =   [
+                     "MeleeCombatKnifeDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnKnifeSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_axe_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnAxeSafe1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               PowerAxe2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_axe_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc",
+                     "MeleePowerSwordDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnAxeSafe2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_halberd_1"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnHalberd1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Halberd2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_halberd_2"
+                  requiredMeleeUids   =   [
+                     "MeleePowerHalberdDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnHalberd2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Axe1ForTechMarine   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_chaos_spawn_axe_1_for_techmarine"
+                  requiredMeleeUids   =   [
+                     "MeleePowerAxeDesc"
+                  ]
+                  requiredCharacterUids   =   [
+                     "ENGINEER"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForChaosSpawnAxe03Eng01"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         Astropath   =   {
+            finisherDescs   =   {
+               Finisher1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_minor_astroparh_unarmed_1"
+                  reservedSlots   =   [
+                     "right_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForAstropath"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Finisher2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_minor_astroparh_unarmed_2"
+                  reservedSlots   =   [
+                     "right_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForAstropathMinor2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Finisher3   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_minor_astroparh_unarmed_3"
+                  reservedSlots   =   [
+                     "right_hand"
+                  ]
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForAstropathMinor3"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+         TyranidPrime   =   {
+            finisherDescs   =   {
+               Finisher1   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyranid_prime_1"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidPrime1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               Finisher2   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "primaris_vs_tyranid_prime_2"
+                  combatExecutorAnim   =   {
+                     link   =   "Primaris.Finisher.ExecutorForTyranidPrime2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+      }
+      __type   =   "PairCombatExecutorInfo"
+   }
+   Hormagaunt   =   {
+      targetsInfo   =   {
+         CadianTrooper   =   {
+            finisherDescs   =   {
+               finisher1   =   {
+                  cinematicDescLink   =   "hormagaunt_vs_cadian_finisher_1"
+                  requiredMeleeUids   =   [
+                     "HormagauntClawDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Hormagaunt.Finisher.ExecutorForCadian1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+               finisher2   =   {
+                  cinematicDescLink   =   "hormagaunt_vs_cadian_finisher_2"
+                  requiredMeleeUids   =   [
+                     "HormagauntClawDesc"
+                  ]
+                  combatExecutorAnim   =   {
+                     link   =   "Hormagaunt.Finisher.ExecutorForCadian2"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+      }
+      __type   =   "PairCombatExecutorInfo"
+   }
+   CadianTrooper   =   {
+      targetsInfo   =   {
+         Hormagaunt   =   {
+            finisherDescs   =   {
+               finisher1   =   {
+                  cinematicDescLink   =   "cadian_vs_hormagaunt_finisher_1"
+                  isDefaultSlotsReserved   =   False
+                  combatExecutorAnim   =   {
+                     link   =   "CadianTrooper.Finisher.ExecutorForHormagaunt1"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+      }
+      __type   =   "PairCombatExecutorInfo"
+   }
+   TyranidWarriorMelee   =   {
+      targetsInfo   =   {
+         Primaris   =   {
+            finisherDescs   =   {
+               story_intro_vs_marine   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "story_intro_tyr_war_melee_vs_marine_event"
+                  combatExecutorAnim   =   {
+                     link   =   "TyranidWarriorMelee.Story_Intro_TW_VS_Marine.StartEvent"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+      }
+      __type   =   "PairCombatExecutorInfo"
+   }
+   Dreadnought   =   {
+      targetsInfo   =   {
+         Helbrute   =   {
+            finisherDescs   =   {
+               last_stand_vs_helbrute   =   {
+                  isSafe   =   True
+                  cinematicDescLink   =   "story_last_stand_dreadnought_intro"
+                  combatExecutorAnim   =   {
+                     link   =   "Dreadnought.StoryLastStandApproach.ApproachIntroBreakWall"
+                     __type   =   "AnimTableLink"
+                  }
+                  __type   =   "PairCombatDesc"
+               }
+            }
+            __type   =   "PairCombatTargetInfo"
+         }
+      }
+      __type   =   "PairCombatExecutorInfo"
+   }
+}
+__type   =   "object"

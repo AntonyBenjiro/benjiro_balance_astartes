@@ -124,6 +124,17 @@ skillsCategories   =   {
             icon   =   "perk_tank_24"
             __type   =   "UiEnemyPresenceSkillData"
          }
+		 PveTerminatorRestoreAbilityPercentOnParryOrBlock   =   {
+            nameUid   =   "UI_MASTERY_PERK_TERMINATOR_ABILITYRESTOREONPERFECTPARRYORBLOCK_NAME"
+            descUid   =   "UI_MASTERY_PERK_TERMINATOR_ABILITYRESTOREONPERFECTPARRYORBLOCK_DESC"
+            parameters   =   [
+               {
+                  text   =   "25%"
+               }
+            ]
+            icon   =   "perk_tank_04"
+            __type   =   "UiEnemyPresenceSkillData"
+         }
          PveTerminatorAdamantGrip   =   {
             nameUid   =   "UI_MASTERY_PERK_TERMINATOR_IRON_GRIP_NAME"
             descUid   =   "UI_MASTERY_PERK_TERMINATOR_IRON_GRIP_DESC"
@@ -167,6 +178,9 @@ skillsCategories   =   {
                },
                {
                   text   =   "120"
+               },
+               {
+                  text   =   "10"
                }
             ]
             icon   =   "perk_support_command_5"
@@ -1062,7 +1076,7 @@ skillsCategories   =   {
             descUid   =   "UI_MASTERY_PERK_APOTHECARY_DAMAGEBOOSTAFTERMEDKIT_DESC"
             parameters   =   [
                {
-                  text   =   "25%"
+                  text   =   "15%"
                },
                {
                   text   =   "10"
@@ -1143,7 +1157,7 @@ skillsCategories   =   {
             parameters   =   [
                {
                   text   =   "300%"
-               }
+               },
                {
                   text   =   "10"
                }
@@ -3684,6 +3698,10 @@ skillsCategories   =   {
                }
             ]
             icon   =   "perk_engineer_13"
+			affectedPresences   =   [
+               "MAJORIS",
+			   "EXTREMIS"
+            ]
             __type   =   "UiEnemyPresenceSkillData"
          }
          PveEngineerTeamExtraEquipment   =   {

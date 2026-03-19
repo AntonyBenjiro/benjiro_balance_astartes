@@ -1,0 +1,161 @@
+weapons   =   {
+   arifle_bolt_rifle   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "arifle_bolt_rifle _heroic_1"
+            type   =   "PerkHeroicCombiMelta"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   hgun_bolt_pistol   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "arifle_bolt_pistol_heroic_1"
+            type   =   "PerkHeroicBoltPistol"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   hwpn_support_plasma_incinerator   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "arifle_heavy_plasma _heroic_1"
+            type   =   "PerkHeroicHeavyPlasma"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   melee_chainsword   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "Melee_Chainsword_Heroic"
+            type   =   "PvEMeleeChainswordHeroicHeavyCombo"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   melee_combat_knife   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "Melee_Combat_Knife_Heroic"
+            type   =   "PvEMeleeCombatKnifeDamageAfterPerfectDodge"
+            __type   =   "WeaponHeroicPerk"
+         }
+         "05_a"   =   {
+            perkUid   =   "Melee_Combat_Knife_Heroic_2"
+            type   =   "PvEMeleeCombatKnifeDamageAfterRiposte"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   melee_power_sword   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "Melee_Power_Sword_Heroic"
+            type   =   "PvEMeleePowerSwordRakeWiderDamager"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   brifle_instigator_bolt_carbine   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "instigator_bolt_rifle _heroic_1"
+            type   =   "PerkHeroicInstigatorBolt"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   hgun_heavy_bolt_pistol   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "PerkHeroicHeavyBoltPistol"
+            type   =   "PerkHeroicHeavyBoltPistol"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   brifle_bolt_sniper_rifle   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "sniper_bolt_rifle _heroic_1"
+            type   =   "FirearmonlyHeadReturnAmmo"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   hwpn_support_heavy_bolter   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "heavy_bolter_heroic_1"
+            type   =   "PerkHeroicHeavyBolter"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   melee_thunder_hammer   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "Melee_ThunderHummer_Heroic"
+            type   =   "PvEMeleeThunderHammerShockZoneAfterChargeStrike"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   melee_power_fist   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "Melee_Power_Fist_Heroic"
+            type   =   "PvEMeleePowerFistGunstrikeAfterKill"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   arifle_heavy_bolt_rifle   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "HeavyBoltRifleAUX"
+            type   =   "HeavyBoltRifleAUX"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   hgun_plasma_pistol   =   {
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   melee_power_halberd   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "Melee_Halberd_Heroic"
+            type   =   "PvEMeleeHalberdLungeCharge"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+   melee_mod_1   =   {
+      perks   =   {
+         "05"   =   {
+            perkUid   =   "Melee_ThunderHummer_Heroic"
+            type   =   "PvEMeleeThunderHammerShockZoneAfterChargeStrike"
+            __type   =   "WeaponHeroicPerk"
+         }
+      }
+      __type   =   "WeaponHeroicPerkInfo"
+   }
+}
+__type   =   "object"

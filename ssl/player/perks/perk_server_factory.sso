@@ -3498,7 +3498,92 @@ categories   =   {
          PveSpawnWoPrimary   =   {
             type   =   {
                activationTrigger   =   {
-                  __type   =   "PerkTriggerPassive"
+                  condition   =   {
+                     condition   =   {
+                        conditions   =   {
+                           HasPerkSpawnWithBolter   =   {
+                              perkId   =   "SpawnWithBolter"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithDeathwatchBoltRifle   =   {
+                              perkId   =   "SpawnWithDeathwatchBoltRifle"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithLascannon   =   {
+                              perkId   =   "SpawnWithLascannon"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithHeavyBolter   =   {
+                              perkId   =   "SpawnWithHeavyBolter"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithFlamer   =   {
+                              perkId   =   "SpawnWithFlamer"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithHeavyPlasma   =   {
+                              perkId   =   "SpawnWithHeavyPlasma"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithMeltaGun   =   {
+                              perkId   =   "SpawnWithMeltaGun"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithStalkerBolter   =   {
+                              perkId   =   "SpawnWithStalkerBolter"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithBoltCarbine   =   {
+                              perkId   =   "SpawnWithBoltCarbine"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithBoltCarbineMarksman   =   {
+                              perkId   =   "SpawnWithBoltCarbineMarksman"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithInstigatorBoltCarbine   =   {
+                              perkId   =   "SpawnWithInstigatorBoltCarbine"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithAutoBoltRifle   =   {
+                              perkId   =   "SpawnWithAutoBoltRifle"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithHeavyBoltRifle   =   {
+                              perkId   =   "SpawnWithHeavyBoltRifle"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithOcculusBoltCarbine   =   {
+                              perkId   =   "SpawnWithOcculusBoltCarbine"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithHeavyMelta   =   {
+                              perkId   =   "SpawnWithHeavyMelta"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithBoltSniperRifle   =   {
+                              perkId   =   "SpawnWithBoltSniperRifle"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithPlasmaExterminator   =   {
+                              perkId   =   "SpawnWithPlasmaExterminator"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithPyroBlaster   =   {
+                              perkId   =   "SpawnWithPyroBlaster"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithPyrecannon   =   {
+                              perkId   =   "SpawnWithPyrecannon"
+                              __type   =   "ConditionHasPerk"
+                           }
+                        }
+                        logicOperator   =   "OR"
+                        __type   =   "ConditionGroup"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
                }
                application   =   {
                   applications   =   {
@@ -3590,6 +3675,25 @@ categories   =   {
                   perkLink   =   "PveSpawnWoPrimary"
                   shouldWaitUntilFrameEndToFinishAttachedPerkApplication   =   True
                   __type   =   "PerkApplicationAttachPerk"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         SpawnWithMeleeOmnissiaAxeFixed   =   {
+            type   =   {
+               activationTrigger   =   {
+                  __type   =   "PerkTriggerPassive"
+               }
+               application   =   {
+                  ability   =   {
+                     abilityDesc   =   {
+                        abilityUid   =   "melee_mod_1"
+                        __type   =   "AbilityDescriptionLink"
+                     }
+                     __type   =   "AbilityUserSlotDescription"
+                  }
+                  __type   =   "PerkApplicationSetAbility"
                }
                __type   =   "PerkServer"
             }
@@ -6867,6 +6971,34 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
+         PveTerminatorRestoreAbilityPercentOnParryOrBlock   =   {
+            type   =   {
+               activationTrigger   =   {
+                  triggers   =   {
+                     PerkTriggerParry   =   {
+                        shouldTriggerByRiposte   =   True
+                        shouldTriggerByPerfectBlock   =   True
+                     }
+                  }
+                  __type   =   "PerkTriggerComposite"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0.1
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  abilitySlot   =   "ULTIMATE"
+                  shouldRestoreCharges   =   False
+                  chargesToRestore   =   1
+                  restorePercents   =   25
+                  canRestoreWhenAbilityActive   =   False
+                  shouldCalculatePercentByCharge   =   True
+                  __type   =   "PerkApplicationRestoreAbilityEnergy"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
          PveTerminatorAdamantGrip   =   {
             type   =   {
                activationTrigger   =   {
@@ -6919,6 +7051,61 @@ categories   =   {
                   restorePercents   =   30
                   canRestoreWhenAbilityActive   =   True
                   __type   =   "PerkApplicationRestoreAbilityEnergy"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveTerminatorMeleeMight   =   {
+            type   =   {
+               activationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        conditions   =   {
+                           AbilityAttached   =   {
+                              abilityProvider   =   {
+                                 shouldCheckSlot   =   True
+                                 abilitySlot   =   "MELEE"
+                                 shouldCheckUid   =   True
+                                 countOfUidsToCheck   =   "SINGLE"
+                                 abilityUid   =   "melee_power_axe"
+                                 __type   =   "AbilityProvider"
+                              }
+                              __type   =   "ConditionAbilityAttached"
+                           }
+                           AbilityAttached_1   =   {
+                              abilityProvider   =   {
+                                 shouldCheckSlot   =   True
+                                 abilitySlot   =   "MELEE"
+                                 shouldCheckUid   =   True
+                                 countOfUidsToCheck   =   "SINGLE"
+                                 abilityUid   =   "melee_power_sword"
+                                 __type   =   "AbilityProvider"
+                              }
+                              __type   =   "ConditionAbilityAttached"
+                           }
+                        }
+                        logicOperator   =   "OR"
+                        __type   =   "ConditionGroup"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "MELEE_COMBO_SLOWDOWN"
+                        bonus   =   20
+                        applyType   =   "PERCENT_SUM"
+                     },
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   20
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
                }
                __type   =   "PerkServer"
             }
@@ -9116,6 +9303,51 @@ categories   =   {
                                           ]
                                           __type   =   "BlueprintLibraryPipe"
                                        }
+                                       SpawnNpcByArchetype_G3dauP1N   =   {
+                                          viewData   =   {
+                                             x   =   450
+                                             y   =   -350
+                                          }
+                                          OnSpawned   =   [
+                                             "RepeatCOROUTINE_G3dauP1N1/ContinueIterate"
+                                          ]
+                                          OnFailed   =   [
+                                             "RepeatCOROUTINE_G3dauP1N1/ContinueIterate"
+                                          ]
+                                          typeRef   =   {
+                                             def   =   "ImpGuardsman"
+                                             __type   =   "AiArchetypeRefParam"
+                                          }
+                                          tagRef   =   {
+                                             def   =   "perk_summoned"
+                                             __type   =   "StringRefParam"
+                                          }
+                                          __type   =   "BlueprintNodeSpawnActorByArchetype"
+                                       }
+                                       RepeatCOROUTINE_G3dauP1N1   =   {
+                                          viewData   =   {
+                                             x   =   -200
+                                             y   =   -200
+                                          }
+                                          repeatAmountRef   =   {
+                                             def   =   10
+                                             __type   =   "IntRefParam"
+                                          }
+                                          OnIteration   =   [
+                                             "Pipe_G3dauP1N2/Input"
+                                          ]
+                                          __type   =   "BlueprintNodeRepeatCoroutine"
+                                       }
+                                       Pipe_G3dauP1N2   =   {
+                                          viewData   =   {
+                                             x   =   100
+                                             y   =   -350
+                                          }
+                                          Output   =   [
+                                             "SpawnNpcByArchetype_G3dauP1N/Spawn"
+                                          ]
+                                          __type   =   "BlueprintLibraryPipe"
+                                       }
                                     }
                                     __type   =   "BlueprintServer"
                                  }
@@ -10266,12 +10498,12 @@ categories   =   {
                   permanentModifiers   =   [
                      {
                         type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
-                        bonus   =   25
+                        bonus   =   15
                         applyType   =   "PERCENT_SUM"
                      },
                      {
-                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_FIREARM"
-                        bonus   =   25
+                        type   =   "MELEE_COMBO_SLOWDOWN"
+                        bonus   =   -15
                         applyType   =   "PERCENT_SUM"
                      }
                   ]
@@ -18947,6 +19179,7 @@ categories   =   {
                }
                application   =   {
                   abilitySlot   =   "ULTIMATE"
+                  restorePercents   =   100
                   canRestoreWhenAbilityActive   =   True
                   shouldCalculatePercentByCharge   =   True
                   __type   =   "PerkApplicationRestoreAbilityEnergy"
@@ -29865,7 +30098,12 @@ categories   =   {
                   shouldTriggerOnStarted   =   True
                   strikeUids   =   [
                      "PerkThunderHammerLightPrepared",
-                     "ThunderHammerLightPrepared"
+                     "ThunderHammerLightPrepared",
+                     "ThunderHammerLight4",
+                     "ThunderHammerLight4Mirror",
+                     "PerkThunderHammerLight4",
+                     "PerkThunderHammerLight4Mirror",
+                     "FallingAttack"
                   ]
                   __type   =   "PerkTriggerMeleeStrike"
                }
@@ -29873,7 +30111,10 @@ categories   =   {
                   shouldTriggerOnStopped   =   True
                   strikeUids   =   [
                      "PerkThunderHammerLightPrepared",
-                     "ThunderHammerLightPrepared"
+                     "ThunderHammerLightPrepared",
+                     "ThunderHammerLight4Mirror",
+                     "PerkThunderHammerLight4Mirror",
+                     "FallingAttack"
                   ]
                   __type   =   "PerkTriggerMeleeStrike"
                }

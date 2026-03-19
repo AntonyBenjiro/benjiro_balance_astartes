@@ -1,0 +1,1156 @@
+versions   =   {
+   melee_firearm   =   {
+      __value   =   [
+         {
+            skinUid   =   "01"
+            modifierUid   =   "combat_knife_01"
+         },
+         {
+            versionUid   =   "02"
+            skinUid   =   "01"
+            modifierUid   =   "combat_knife_02"
+         },
+         {
+            versionUid   =   "02_a"
+            skinUid   =   "01"
+            modifierUid   =   "combat_knife_02_a"
+         },
+         {
+            versionUid   =   "03"
+            skinUid   =   "01"
+            modifierUid   =   "combat_knife_03"
+         },
+         {
+            versionUid   =   "03_a"
+            skinUid   =   "01"
+            modifierUid   =   "combat_knife_03_a"
+         },
+         {
+            versionUid   =   "03_b"
+            skinUid   =   "01"
+            modifierUid   =   "combat_knife_03_b"
+         },
+         {
+            versionUid   =   "03_c"
+            skinUid   =   "01"
+            modifierUid   =   "combat_knife_03_c"
+         },
+         {
+            versionUid   =   "04"
+            skinUid   =   "01"
+            modifierUid   =   "combat_knife_04"
+         },
+         {
+            versionUid   =   "04_a"
+            skinUid   =   "01"
+            modifierUid   =   "combat_knife_04_a"
+         },
+         {
+            versionUid   =   "04_b"
+            skinUid   =   "01"
+            modifierUid   =   "combat_knife_04_b"
+         },
+         {
+            versionUid   =   "04_c"
+            skinUid   =   "01"
+            modifierUid   =   "combat_knife_04_c"
+         },
+         {
+            versionUid   =   "01_ch"
+            skinUid   =   "01"
+         }
+      ]
+   }
+   melee_chainsword   =   {
+      __value   =   [
+         {
+            skinUid   =   "01"
+            modifierUid   =   "chainsword_01"
+         },
+         {
+            versionUid   =   "01_a"
+            skinUid   =   "deathwatch_sword"
+         },
+         {
+            versionUid   =   "01_preorder"
+            skinUid   =   "preorder"
+         },
+         {
+            versionUid   =   "02"
+            skinUid   =   "02"
+            modifierUid   =   "chainsword_02"
+         },
+         {
+            versionUid   =   "02_a"
+            skinUid   =   "02"
+            modifierUid   =   "chainsword_02_a"
+         },
+         {
+            versionUid   =   "03"
+            skinUid   =   "03"
+            modifierUid   =   "chainsword_03"
+         },
+         {
+            versionUid   =   "03_a"
+            skinUid   =   "03_a"
+            modifierUid   =   "chainsword_03_a"
+         },
+         {
+            versionUid   =   "03_b"
+            skinUid   =   "03_b"
+            modifierUid   =   "chainsword_03_b"
+         },
+         {
+            versionUid   =   "03_c"
+            skinUid   =   "03_a"
+            modifierUid   =   "chainsword_03_c"
+         },
+         {
+            versionUid   =   "04"
+            skinUid   =   "04"
+            modifierUid   =   "chainsword_04"
+         },
+         {
+            versionUid   =   "04_a"
+            skinUid   =   "04_a"
+            modifierUid   =   "chainsword_04_a"
+         },
+         {
+            versionUid   =   "04_b"
+            skinUid   =   "04_b"
+            modifierUid   =   "chainsword_04_b"
+         },
+         {
+            versionUid   =   "04_c"
+            skinUid   =   "04_a"
+            modifierUid   =   "chainsword_04_c"
+         },
+         {
+            versionUid   =   "05"
+            skinUid   =   "05"
+            modifierUid   =   "chainsword_05"
+            perkUids   =   [
+               "PvEMeleeChainswordHeroicHeavyCombo"
+            ]
+         },
+         {
+            versionUid   =   "05_a"
+            skinUid   =   "05"
+            modifierUid   =   "chainsword_05_a"
+            perkUids   =   [
+               "PvEMeleeChainswordHeroicHeavyCombo"
+            ]
+         },
+         {
+            versionUid   =   "01_ch"
+            skinUid   =   "01_ch"
+         },
+         {
+            versionUid   =   "01_ch_pa"
+            skinUid   =   "01_ch_pa"
+         },
+         {
+            versionUid   =   "01_ch_pa_iron_warriors"
+            skinUid   =   "01_ch_pa_iron_warriors"
+         },
+         {
+            versionUid   =   "01_twitch"
+            skinUid   =   "01_twitch"
+         },
+         {
+            versionUid   =   "01_deathwatch"
+            skinUid   =   "deathwatch_sword"
+         },
+         {
+            versionUid   =   "01_sw"
+            skinUid   =   "01_sw"
+         },
+         {
+            versionUid   =   "01_white"
+            skinUid   =   "01_white"
+         },
+         {
+            versionUid   =   "01_blue"
+            skinUid   =   "01_blue"
+         },
+         {
+            versionUid   =   "01_red"
+            skinUid   =   "01_red"
+         },
+         {
+            versionUid   =   "01_blood_angels_01"
+            skinUid   =   "01_blood_angels_01"
+         },
+         {
+            versionUid   =   "chainaxe"
+            skinUid   =   "chainaxe"
+         },
+         {
+            versionUid   =   "tzaangor_sword_2"
+            skinUid   =   "tzaangor_sword_2"
+         },
+         {
+            versionUid   =   "iron_hands"
+            skinUid   =   "iron_hands"
+         },
+         {
+            versionUid   =   "deathwatch"
+            skinUid   =   "deathwatch"
+         },
+         {
+            versionUid   =   "imperial_fists"
+            skinUid   =   "imperial_fists"
+         },
+         {
+            versionUid   =   "space_wolves"
+            skinUid   =   "space_wolves"
+         }
+      ]
+   }
+   melee_power_fist   =   {
+      __value   =   [
+         {
+            skinUid   =   "01"
+            modifierUid   =   "power_fist_01"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "02"
+            skinUid   =   "02"
+            modifierUid   =   "power_fist_02"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "02_a"
+            skinUid   =   "02"
+            modifierUid   =   "power_fist_02_a"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "03"
+            skinUid   =   "03"
+            modifierUid   =   "power_fist_03"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "03_a"
+            skinUid   =   "03"
+            modifierUid   =   "power_fist_03_a"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "03_b"
+            skinUid   =   "03"
+            modifierUid   =   "power_fist_03_b"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "03_c"
+            skinUid   =   "03"
+            modifierUid   =   "power_fist_03_c"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "04"
+            skinUid   =   "04"
+            modifierUid   =   "power_fist_04"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "04_a"
+            skinUid   =   "04"
+            modifierUid   =   "power_fist_04_a"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "04_b"
+            skinUid   =   "04"
+            modifierUid   =   "power_fist_04_b"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "04_c"
+            skinUid   =   "04"
+            modifierUid   =   "power_fist_04_c"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "05"
+            skinUid   =   "05"
+            modifierUid   =   "power_fist_05"
+            perkUids   =   [
+               "PvEMeleePowerFistGunstrikeAfterKill",
+               "PvEMeleePowerFistHoldAttackDamageReduction",
+               "PvEMeleePowerFistLightAttacksDamageIncreased",
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "05_a"
+            skinUid   =   "05"
+            modifierUid   =   "power_fist_05_a"
+            perkUids   =   [
+               "PvEMeleePowerFistGunstrikeAfterKill",
+               "PvEMeleePowerFistHoldAttackDamageReduction",
+               "PvEMeleePowerFistLightAttacksDamageIncreased",
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "01_twitch"
+            skinUid   =   "twitch"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "01_twitch_alt"
+            skinUid   =   "01_twitch_alt"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "01_claws"
+            skinUid   =   "01_claws"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "01_press"
+            skinUid   =   "01_press"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "01_saw"
+            skinUid   =   "01_saw"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "01_ch"
+            skinUid   =   "01_ch"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         },
+         {
+            versionUid   =   "01_ch_iron_warriors"
+            skinUid   =   "01_ch_iron_warriors"
+            perkUids   =   [
+               "SpawnWithoutPrimaryForPowerFist"
+            ]
+         }
+      ]
+   }
+   melee_combat_knife   =   {
+      __value   =   [
+         {
+            skinUid   =   "01"
+            modifierUid   =   "combat_knife_01"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "02"
+            skinUid   =   "02"
+            modifierUid   =   "combat_knife_02"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "02_a"
+            skinUid   =   "02"
+            modifierUid   =   "combat_knife_02_a"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "03"
+            skinUid   =   "03"
+            modifierUid   =   "combat_knife_03"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "03_a"
+            skinUid   =   "03_a"
+            modifierUid   =   "combat_knife_03_a"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "03_b"
+            skinUid   =   "03"
+            modifierUid   =   "combat_knife_03_b"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "03_c"
+            skinUid   =   "03_a"
+            modifierUid   =   "combat_knife_03_c"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "04"
+            skinUid   =   "04"
+            modifierUid   =   "combat_knife_04"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "04_a"
+            skinUid   =   "04_a"
+            modifierUid   =   "combat_knife_04_a"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "04_b"
+            skinUid   =   "04"
+            modifierUid   =   "combat_knife_04_b"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "04_c"
+            skinUid   =   "04_a"
+            modifierUid   =   "combat_knife_04_c"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "01_ch"
+            skinUid   =   "01_ch"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "6_difficulty_reward"
+            skinUid   =   "6_difficulty_reward"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "01_white"
+            skinUid   =   "01_white"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "01_blue"
+            skinUid   =   "01_blue"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "01_red"
+            skinUid   =   "01_red"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "01_white_scars"
+            skinUid   =   "01_white_scars"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "05"
+            skinUid   =   "05"
+            modifierUid   =   "combat_knife_05"
+            perkUids   =   [
+               "PvEMeleeCombatKnifeDamageAfterPerfectDodge",
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "05_a"
+            skinUid   =   "05_a"
+            modifierUid   =   "combat_knife_05_a"
+            perkUids   =   [
+               "PvEMeleeCombatKnifeDamageAfterRiposte",
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "khopesh"
+            skinUid   =   "khopesh"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "tzaangor_sword_1"
+            skinUid   =   "tzaangor_sword_1"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "tzaangor_sword_3"
+            skinUid   =   "tzaangor_sword_3"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "titus_chainsword_CK"
+            skinUid   =   "titus_chainsword_CK"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         },
+         {
+            versionUid   =   "iron_hands"
+            skinUid   =   "iron_hands"
+            perkUids   =   [
+               "PerkMeleeCombatKnifeIncreasedDodgeWindow"
+            ]
+         }
+      ]
+   }
+   melee_power_sword   =   {
+      __value   =   [
+         {
+            skinUid   =   "01"
+            modifierUid   =   "power_sword_01"
+         },
+         {
+            versionUid   =   "02"
+            skinUid   =   "02"
+            modifierUid   =   "power_sword_02"
+         },
+         {
+            versionUid   =   "02_a"
+            skinUid   =   "02"
+            modifierUid   =   "power_sword_02_a"
+         },
+         {
+            versionUid   =   "02_b"
+            skinUid   =   "02"
+            modifierUid   =   "power_sword_02_b"
+         },
+         {
+            versionUid   =   "03"
+            skinUid   =   "03"
+            modifierUid   =   "power_sword_03"
+         },
+         {
+            versionUid   =   "03_a"
+            skinUid   =   "03_a"
+            modifierUid   =   "power_sword_03_a"
+         },
+         {
+            versionUid   =   "03_b"
+            skinUid   =   "03_b"
+            modifierUid   =   "power_sword_03_b"
+         },
+         {
+            versionUid   =   "03_c"
+            skinUid   =   "03_a"
+            modifierUid   =   "power_sword_03_c"
+         },
+         {
+            versionUid   =   "04"
+            skinUid   =   "04"
+            modifierUid   =   "power_sword_04"
+         },
+         {
+            versionUid   =   "04_a"
+            skinUid   =   "04_a"
+            modifierUid   =   "power_sword_04_a"
+         },
+         {
+            versionUid   =   "04_b"
+            skinUid   =   "04_b"
+            modifierUid   =   "power_sword_04_b"
+         },
+         {
+            versionUid   =   "04_c"
+            skinUid   =   "04_a"
+            modifierUid   =   "power_sword_04_c"
+         },
+         {
+            versionUid   =   "05"
+            skinUid   =   "05"
+            modifierUid   =   "power_sword_05"
+            perkUids   =   [
+               "PvEMeleePowerSwordRakeWiderDamager"
+            ]
+         },
+         {
+            versionUid   =   "05_a"
+            skinUid   =   "05"
+            modifierUid   =   "power_sword_05_a"
+            perkUids   =   [
+               "PvEMeleePowerSwordRakeWiderDamager"
+            ]
+         },
+         {
+            versionUid   =   "01_ch"
+            skinUid   =   "01_ch"
+         },
+         {
+            versionUid   =   "01_darkangels"
+            skinUid   =   "dark_angels"
+         },
+         {
+            versionUid   =   "5_difficulty_reward"
+            skinUid   =   "5_difficulty_reward"
+         },
+         {
+            versionUid   =   "01_white"
+            skinUid   =   "01_white"
+         },
+         {
+            versionUid   =   "01_blue"
+            skinUid   =   "01_blue"
+         },
+         {
+            versionUid   =   "01_red"
+            skinUid   =   "01_red"
+         },
+         {
+            versionUid   =   "01_bt"
+            skinUid   =   "01_bt"
+         },
+         {
+            versionUid   =   "black_sword_01"
+            skinUid   =   "black_sword_01"
+         },
+         {
+            versionUid   =   "power_axe_light_ps"
+            skinUid   =   "power_axe_light_ps"
+         },
+         {
+            versionUid   =   "heresy_axe_01_ps"
+            skinUid   =   "heresy_axe_01_ps"
+         },
+         {
+            versionUid   =   "heresy_axe_02_ps"
+            skinUid   =   "heresy_axe_02_ps"
+         },
+         {
+            versionUid   =   "bloodangels_sword"
+            skinUid   =   "bloodangels_sword"
+         },
+         {
+            versionUid   =   "fealty_sword"
+            skinUid   =   "fealty_sword"
+         },
+         {
+            versionUid   =   "iron_hands"
+            skinUid   =   "iron_hands"
+         },
+         {
+            versionUid   =   "space_wolves"
+            skinUid   =   "space_wolves"
+         }
+      ]
+   }
+   melee_thunder_hammer   =   {
+      __value   =   [
+         {
+            skinUid   =   "01"
+            modifierUid   =   "thunder_hammer_01"
+         },
+         {
+            versionUid   =   "02"
+            skinUid   =   "02"
+            modifierUid   =   "thunder_hammer_02"
+         },
+         {
+            versionUid   =   "02_a"
+            skinUid   =   "02"
+            modifierUid   =   "thunder_hammer_02_a"
+         },
+         {
+            versionUid   =   "02_b"
+            skinUid   =   "02"
+            modifierUid   =   "thunder_hammer_02_b"
+         },
+         {
+            versionUid   =   "03"
+            skinUid   =   "03"
+            modifierUid   =   "thunder_hammer_03"
+         },
+         {
+            versionUid   =   "03_a"
+            skinUid   =   "03"
+            modifierUid   =   "thunder_hammer_03_a"
+         },
+         {
+            versionUid   =   "03_b"
+            skinUid   =   "03"
+            modifierUid   =   "thunder_hammer_03_b"
+         },
+         {
+            versionUid   =   "03_c"
+            skinUid   =   "03"
+            modifierUid   =   "thunder_hammer_03_c"
+         },
+         {
+            versionUid   =   "04"
+            skinUid   =   "04"
+            modifierUid   =   "thunder_hammer_04"
+         },
+         {
+            versionUid   =   "04_a"
+            skinUid   =   "04"
+            modifierUid   =   "thunder_hammer_04_a"
+         },
+         {
+            versionUid   =   "04_b"
+            skinUid   =   "04"
+            modifierUid   =   "thunder_hammer_04_b"
+         },
+         {
+            versionUid   =   "04_c"
+            skinUid   =   "04"
+            modifierUid   =   "thunder_hammer_04_c"
+         },
+         {
+            versionUid   =   "05"
+            skinUid   =   "05"
+            modifierUid   =   "thunder_hammer_05"
+            perkUids   =   [
+               "PvEMeleeThunderHammerShockZoneAfterChargeStrike",
+               "PvEMeleeThunderHammerShockZoneAfterChargeStrikeDouble",
+               "PvEMeleeThunderHammerShockZoneAfterGroundPound"
+            ]
+         },
+         {
+            versionUid   =   "05_a"
+            skinUid   =   "05"
+            modifierUid   =   "thunder_hammer_05_a"
+            perkUids   =   [
+               "PvEMeleeThunderHammerShockZoneAfterChargeStrike",
+               "PvEMeleeThunderHammerShockZoneAfterChargeStrikeDouble",
+               "PvEMeleeThunderHammerShockZoneAfterGroundPound"
+            ]
+         },
+         {
+            versionUid   =   "01_ch"
+            skinUid   =   "01_ch"
+         },
+         {
+            versionUid   =   "01_librarium"
+            skinUid   =   "04_librarium"
+         },
+         {
+            versionUid   =   "01_sw"
+            skinUid   =   "01_sw"
+         },
+         {
+            versionUid   =   "01_white"
+            skinUid   =   "01_white"
+         },
+         {
+            versionUid   =   "01_blue"
+            skinUid   =   "01_blue"
+         },
+         {
+            versionUid   =   "01_red"
+            skinUid   =   "01_red"
+         },
+         {
+            versionUid   =   "force_stave_lesser"
+            skinUid   =   "force_stave_lesser"
+         },
+         {
+            versionUid   =   "tzaangor_spear"
+            skinUid   =   "tzaangor_spear"
+         },
+         {
+            versionUid   =   "power_axe_heavy"
+            skinUid   =   "power_axe_heavy"
+         },
+         {
+            versionUid   =   "heresy_mace_01"
+            skinUid   =   "heresy_mace_01"
+         },
+         {
+            versionUid   =   "hate_mace"
+            skinUid   =   "hate_mace"
+         },
+         {
+            versionUid   =   "crozius"
+            skinUid   =   "crozius"
+         },
+         {
+            versionUid   =   "chaplain_crozius_01"
+            skinUid   =   "crozius"
+            modifierUid   =   "thunder_hammer_01"
+         },
+         {
+            versionUid   =   "chaplain_crozius_02"
+            skinUid   =   "crozius"
+            modifierUid   =   "thunder_hammer_02"
+         },
+         {
+            versionUid   =   "chaplain_crozius_03"
+            skinUid   =   "crozius"
+            modifierUid   =   "thunder_hammer_03"
+         },
+         {
+            versionUid   =   "chaplain_crozius_04"
+            skinUid   =   "crozius"
+            modifierUid   =   "thunder_hammer_04"
+         },
+         {
+            versionUid   =   "power_glaive"
+            skinUid   =   "power_glaive"
+         },
+         {
+            versionUid   =   "iron_hands"
+            skinUid   =   "iron_hands"
+         }
+      ]
+   }
+   melee_pc_helbrute_hammer   =   {
+      __value   =   [
+         {
+         }
+      ]
+   }
+   melee_power_axe   =   {
+      __value   =   [
+         {
+            skinUid   =   "01"
+            modifierUid   =   "power_axe_01"
+         },
+         {
+            versionUid   =   "02"
+            skinUid   =   "02"
+            modifierUid   =   "power_axe_02"
+         },
+         {
+            versionUid   =   "02_a"
+            skinUid   =   "02_a"
+            modifierUid   =   "power_axe_02_a"
+         },
+         {
+            versionUid   =   "02_b"
+            skinUid   =   "02_a"
+            modifierUid   =   "power_axe_02_b"
+         },
+         {
+            versionUid   =   "03"
+            skinUid   =   "03"
+            modifierUid   =   "power_axe_03"
+         },
+         {
+            versionUid   =   "03_a"
+            skinUid   =   "03_a"
+            modifierUid   =   "power_axe_03_a"
+         },
+         {
+            versionUid   =   "03_b"
+            skinUid   =   "03_b"
+            modifierUid   =   "power_axe_03_b"
+         },
+         {
+            versionUid   =   "03_c"
+            skinUid   =   "03_b"
+            modifierUid   =   "power_axe_03_c"
+         },
+         {
+            versionUid   =   "04"
+            skinUid   =   "04"
+            modifierUid   =   "power_axe_04"
+         },
+         {
+            versionUid   =   "04_a"
+            skinUid   =   "04_a"
+            modifierUid   =   "power_axe_04_a"
+         },
+         {
+            versionUid   =   "04_b"
+            skinUid   =   "04_b"
+            modifierUid   =   "power_axe_04_b"
+         },
+         {
+            versionUid   =   "04_c"
+            skinUid   =   "04_b"
+            modifierUid   =   "power_axe_04_c"
+         },
+         {
+            versionUid   =   "05"
+            skinUid   =   "05"
+            modifierUid   =   "power_axe_05"
+            perkUids   =   [
+               "PvEMeleePowerAxeBlockingWalkingStance",
+               "PvEMeleePowerAxeBlockingWalkingStanceHelper",
+               "PvEMeleePowerAxeBlockingWalkingStanceUI"
+            ]
+         },
+         {
+            versionUid   =   "01_ch"
+            skinUid   =   "01_ch"
+         },
+         {
+            versionUid   =   "twitch"
+            skinUid   =   "twitch"
+         },
+         {
+            versionUid   =   "01_ch_iron_warriors"
+            skinUid   =   "01_ch_iron_warriors"
+         },
+         {
+            versionUid   =   "power_axe_light"
+            skinUid   =   "power_axe_light"
+         },
+         {
+            versionUid   =   "heresy_axe_01"
+            skinUid   =   "heresy_axe_01"
+         },
+         {
+            versionUid   =   "heresy_axe_02"
+            skinUid   =   "heresy_axe_02"
+         },
+         {
+            versionUid   =   "power_axe_gear"
+            skinUid   =   "power_axe_gear"
+         },
+         {
+            versionUid   =   "chainaxe_pa"
+            skinUid   =   "chainaxe_pa"
+         },
+         {
+            versionUid   =   "space_wolves"
+            skinUid   =   "space_wolves"
+         }
+      ]
+   }
+   melee_power_halberd   =   {
+      __value   =   [
+         {
+            skinUid   =   "01"
+            modifierUid   =   "power_halberd_01"
+         },
+         {
+            versionUid   =   "02"
+            skinUid   =   "02"
+            modifierUid   =   "power_halberd_02"
+         },
+         {
+            versionUid   =   "02_a"
+            skinUid   =   "02"
+            modifierUid   =   "power_halberd_02_a"
+         },
+         {
+            versionUid   =   "03"
+            skinUid   =   "03"
+            modifierUid   =   "power_halberd_03"
+         },
+         {
+            versionUid   =   "03_a"
+            skinUid   =   "03_a"
+            modifierUid   =   "power_halberd_03_a"
+         },
+         {
+            versionUid   =   "03_b"
+            skinUid   =   "03"
+            modifierUid   =   "power_halberd_03_b"
+         },
+         {
+            versionUid   =   "03_c"
+            skinUid   =   "03_a"
+            modifierUid   =   "power_halberd_03_c"
+         },
+         {
+            versionUid   =   "04"
+            skinUid   =   "04"
+            modifierUid   =   "power_halberd_04"
+         },
+         {
+            versionUid   =   "04_a"
+            skinUid   =   "04_a"
+            modifierUid   =   "power_halberd_04_a"
+         },
+         {
+            versionUid   =   "04_b"
+            skinUid   =   "04_b"
+            modifierUid   =   "power_halberd_04_b"
+         },
+         {
+            versionUid   =   "04_c"
+            skinUid   =   "04_a"
+            modifierUid   =   "power_halberd_04_c"
+         },
+         {
+            versionUid   =   "05"
+            skinUid   =   "05"
+            modifierUid   =   "power_halberd_05"
+            perkUids   =   [
+               "PvEMeleeHalberdLungeCharge"
+            ]
+         },
+         {
+            versionUid   =   "05_a"
+            skinUid   =   "05"
+            modifierUid   =   "power_halberd_05_a"
+            perkUids   =   [
+               "PvEMeleeHalberdLungeCharge"
+            ]
+         },
+         {
+            versionUid   =   "01_ch"
+            skinUid   =   "01_ch"
+         },
+         {
+            versionUid   =   "01_white"
+            skinUid   =   "01_white"
+         },
+         {
+            versionUid   =   "01_blue"
+            skinUid   =   "01_blue"
+         },
+         {
+            versionUid   =   "01_red"
+            skinUid   =   "01_red"
+         }
+      ]
+   }
+   melee_mod_1   =   {
+      __value   =   [
+         {
+            skinUid   =   "01"
+            modifierUid   =   "power_halberd_01"
+         },
+         {
+            versionUid   =   "02"
+            skinUid   =   "02"
+            modifierUid   =   "power_halberd_02"
+         },
+         {
+            versionUid   =   "02_a"
+            skinUid   =   "02"
+            modifierUid   =   "power_halberd_02_a"
+         },
+         {
+            versionUid   =   "03"
+            skinUid   =   "03"
+            modifierUid   =   "power_halberd_03"
+         },
+         {
+            versionUid   =   "03_a"
+            skinUid   =   "03_a"
+            modifierUid   =   "power_halberd_03_a"
+         },
+         {
+            versionUid   =   "03_b"
+            skinUid   =   "03"
+            modifierUid   =   "power_halberd_03_b"
+         },
+         {
+            versionUid   =   "03_c"
+            skinUid   =   "03_a"
+            modifierUid   =   "power_halberd_03_c"
+         },
+         {
+            versionUid   =   "04"
+            skinUid   =   "04"
+            modifierUid   =   "power_halberd_04"
+         },
+         {
+            versionUid   =   "04_a"
+            skinUid   =   "04_a"
+            modifierUid   =   "power_halberd_04_a"
+         },
+         {
+            versionUid   =   "04_b"
+            skinUid   =   "04_b"
+            modifierUid   =   "power_halberd_04_b"
+         },
+         {
+            versionUid   =   "04_c"
+            skinUid   =   "04_a"
+            modifierUid   =   "power_halberd_04_c"
+         },
+         {
+            versionUid   =   "05"
+            skinUid   =   "05"
+            modifierUid   =   "power_halberd_05"
+            perkUids   =   [
+               "PvEMeleeThunderHammerShockZoneAfterChargeStrike",
+               "PvEMeleeThunderHammerShockZoneAfterChargeStrikeDouble",
+               "PvEMeleeThunderHammerShockZoneAfterGroundPound"
+            ]
+         },
+         {
+            versionUid   =   "05_a"
+            skinUid   =   "05"
+            modifierUid   =   "power_halberd_05_a"
+            perkUids   =   [
+               "PvEMeleeThunderHammerShockZoneAfterChargeStrike",
+               "PvEMeleeThunderHammerShockZoneAfterChargeStrikeDouble",
+               "PvEMeleeThunderHammerShockZoneAfterGroundPound"
+            ]
+         },
+         {
+            versionUid   =   "01_ch"
+            skinUid   =   "01_ch"
+         },
+         {
+            versionUid   =   "01_white"
+            skinUid   =   "01_white"
+         },
+         {
+            versionUid   =   "01_blue"
+            skinUid   =   "01_blue"
+         },
+         {
+            versionUid   =   "01_red"
+            skinUid   =   "01_red"
+         }
+      ]
+   }
+}
+__type   =   "object"

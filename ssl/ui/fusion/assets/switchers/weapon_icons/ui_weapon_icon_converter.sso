@@ -1,0 +1,285 @@
+rangedWeaponIconKeysBinding   =   {
+   none   =   {
+      __value   =   "no_weapon"
+   }
+   arifle_auto_bolt_rifle   =   {
+      __value   =   "auto_bolt_rifle"
+   }
+   arifle_bolt_rifle   =   {
+      __value   =   "bolt_rifle"
+   }
+   arifle_heavy_bolt_rifle   =   {
+      __value   =   "heavy_bolt_rifle"
+   }
+   brifle_stalker_bolt_rifle   =   {
+      __value   =   "stalker_bolt_rifle"
+   }
+   brifle_marksman_bolt_carbine   =   {
+      __value   =   "marksman_bolt_carbine"
+   }
+   brifle_instigator_bolt_carbine   =   {
+      __value   =   "instigator_bolt_carbine"
+   }
+   brifle_bolt_sniper_rifle   =   {
+      __value   =   "bolt_sniper_rifle"
+   }
+   smg_bolt_carbine   =   {
+      __value   =   "bolt_carbine"
+   }
+   smg_occulus_bolt_carbine   =   {
+      __value   =   "occulus_bolt_carbine"
+   }
+   pwpn_plasma_exterminator   =   {
+      __value   =   "plasma_exterminator"
+   }
+   shotgun_meltagun   =   {
+      __value   =   "meltagun"
+   }
+   hgun_bolt_pistol   =   {
+      __value   =   "bolt_pistol"
+   }
+   hgun_bolt_pistol_last_stand   =   {
+      __value   =   "bolt_pistol"
+   }
+   hgun_heavy_bolt_pistol   =   {
+      __value   =   "heavy_bolt_pistol"
+   }
+   hgun_plasma_pistol   =   {
+      __value   =   "plasma_pistol"
+   }
+   hgun_assault_bolter   =   {
+      __value   =   "assault_bolter"
+   }
+   hwpn_story_heavy_bolter   =   {
+      __value   =   "heavy_bolter"
+   }
+   hwpn_support_heavy_bolter   =   {
+      __value   =   "heavy_bolter"
+   }
+   hwpn_story_plasma_incinerator   =   {
+      __value   =   "plasma_incinerator"
+   }
+   hwpn_support_plasma_incinerator   =   {
+      __value   =   "plasma_incinerator"
+   }
+   hwpn_las_fusil   =   {
+      __value   =   "las_fusil"
+   }
+   hwpn_story_heavy_meltagun   =   {
+      __value   =   "heavy_meltagun"
+   }
+   hwpn_support_heavy_meltagun   =   {
+      __value   =   "heavy_meltagun"
+   }
+   hgun_death_watch_bolt_pistol   =   {
+      __value   =   "bolt_pistol_chaos"
+   }
+   arifle_death_watch_bolt_rifle   =   {
+      __value   =   "bolt_rifle_chaos"
+   }
+   hwpn_heavy_flamer   =   {
+      __value   =   "pyreblaster"
+   }
+   aux_grenade_launcher   =   {
+      __value   =   "bolt_rifle_with_grenade_launcher"
+   }
+   laser_turret   =   {
+      __value   =   "laser_turret"
+   }
+   hgun_volkite_pistol   =   {
+      __value   =   "volkite_pistol"
+   }
+   pc_helbrute_plasma_cannon   =   {
+      __value   =   "plasma_incinerator_chaos"
+   }
+   hgun_inferno_pistol   =   {
+      __value   =   "inferno_pistol"
+   }
+   hwpn_pyroblaster   =   {
+      __value   =   "pyreblaster"
+   }
+   hwpn_pyrecannon   =   {
+      __value   =   "pyrecannon"
+   }
+   mounted_plasma   =   {
+      __value   =   "techmarine_servo_gun"
+   }
+   mod_secondary_firearm_5   =   {
+      __value   =   "no_weapon"
+   }
+}
+meleeWeaponIconKeysBinding   =   {
+   none   =   {
+      __value   =   "no_weapon"
+   }
+   melee_chainsword   =   {
+      __value   =   "chainsword"
+   }
+   melee_thunder_hammer   =   {
+      __value   =   "thunder_hammer"
+   }
+   melee_power_fist   =   {
+      __value   =   "power_fist"
+   }
+   melee_combat_knife   =   {
+      __value   =   "combat_knife"
+   }
+   melee_power_sword   =   {
+      __value   =   "power_sword"
+   }
+   melee_firearm   =   {
+      __value   =   "melee_log"
+   }
+   ability_grappling_hook   =   {
+      __value   =   "grapnel_launcher"
+   }
+   melee_pc_helbrute_hammer   =   {
+      __value   =   "helbrute"
+   }
+   melee_power_axe   =   {
+      __value   =   "power_axe"
+   }
+   melee_power_halberd   =   {
+      __value   =   "power_halberd"
+   }
+   melee_mod_1   =   {
+      __value   =   "power_halberd"
+   }
+}
+rangedChaosWeaponIconKeysBinding   =   {
+   none   =   {
+      __value   =   "no_weapon"
+   }
+   arifle_auto_bolt_rifle   =   {
+      __value   =   "auto_bolt_rifle_chaos"
+   }
+   arifle_bolt_rifle   =   {
+      __value   =   "bolt_rifle_chaos"
+   }
+   arifle_heavy_bolt_rifle   =   {
+      __value   =   "heavy_bolt_rifle_chaos"
+   }
+   brifle_stalker_bolt_rifle   =   {
+      __value   =   "stalker_bolt_rifle_chaos"
+   }
+   brifle_marksman_bolt_carbine   =   {
+      __value   =   "marksman_bolt_carbine_chaos"
+   }
+   brifle_instigator_bolt_carbine   =   {
+      __value   =   "instigator_bolt_carbine_chaos"
+   }
+   brifle_bolt_sniper_rifle   =   {
+      __value   =   "bolt_sniper_rifle_chaos"
+   }
+   smg_bolt_carbine   =   {
+      __value   =   "bolt_carbine_chaos"
+   }
+   smg_occulus_bolt_carbine   =   {
+      __value   =   "occulus_bolt_carbine_chaos"
+   }
+   pwpn_plasma_exterminator   =   {
+      __value   =   "plasma_exterminator_chaos"
+   }
+   shotgun_meltagun   =   {
+      __value   =   "meltagun_chaos"
+   }
+   hgun_bolt_pistol   =   {
+      __value   =   "bolt_pistol_chaos"
+   }
+   hgun_heavy_bolt_pistol   =   {
+      __value   =   "heavy_bolt_pistol_chaos"
+   }
+   hgun_plasma_pistol   =   {
+      __value   =   "plasma_pistol_chaos"
+   }
+   hgun_assault_bolter   =   {
+      __value   =   "assault_bolter"
+   }
+   hwpn_story_heavy_bolter   =   {
+      __value   =   "heavy_bolter"
+   }
+   hwpn_support_heavy_bolter   =   {
+      __value   =   "heavy_bolter_chaos"
+   }
+   hwpn_story_plasma_incinerator   =   {
+      __value   =   "plasma_incinerator"
+   }
+   hwpn_support_plasma_incinerator   =   {
+      __value   =   "plasma_incinerator_chaos"
+   }
+   hwpn_las_fusil   =   {
+      __value   =   "las_fusil_chaos"
+   }
+   hwpn_story_heavy_meltagun   =   {
+      __value   =   "heavy_meltagun"
+   }
+   hwpn_support_heavy_meltagun   =   {
+      __value   =   "heavy_meltagun_chaos"
+   }
+   hgun_death_watch_bolt_pistol   =   {
+      __value   =   "bolt_pistol_chaos"
+   }
+   arifle_death_watch_bolt_rifle   =   {
+      __value   =   "bolt_rifle_chaos"
+   }
+   hwpn_heavy_flamer   =   {
+      __value   =   "pyreblaster"
+   }
+   aux_grenade_launcher   =   {
+      __value   =   "bolt_rifle_with_grenade_launcher"
+   }
+   hgun_volkite_pistol   =   {
+      __value   =   "volkite_pistol"
+   }
+   pc_helbrute_plasma_cannon   =   {
+      __value   =   "helbrute_plasma_log"
+   }
+   hgun_inferno_pistol   =   {
+      __value   =   "inferno_pistol"
+   }
+   hwpn_pyroblaster   =   {
+      __value   =   "pyreblaster"
+   }
+   mounted_plasma   =   {
+      __value   =   "techmarine_servo_gun"
+   }
+}
+meleeChaosWeaponIconKeysBinding   =   {
+   none   =   {
+      __value   =   "no_weapon"
+   }
+   melee_chainsword   =   {
+      __value   =   "chainsword_chaos"
+   }
+   melee_thunder_hammer   =   {
+      __value   =   "thunder_hammer_chaos"
+   }
+   melee_power_fist   =   {
+      __value   =   "power_fist_chaos"
+   }
+   melee_combat_knife   =   {
+      __value   =   "combat_knife_chaos"
+   }
+   melee_power_sword   =   {
+      __value   =   "power_sword_chaos"
+   }
+   melee_firearm   =   {
+      __value   =   "melee_log"
+   }
+   ability_grappling_hook   =   {
+      __value   =   "grapnel_launcher"
+   }
+   melee_power_axe   =   {
+      __value   =   "power_axe"
+   }
+   melee_pc_helbrute_hammer   =   {
+      __value   =   "helbrute"
+   }
+   melee_power_halberd   =   {
+      __value   =   "power_halberd_chaos"
+   }
+   melee_mod_1   =   {
+      __value   =   "power_halberd_chaos"
+   }
+}
+__type   =   "object"
