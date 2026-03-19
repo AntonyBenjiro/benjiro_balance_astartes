@@ -1,2 +1,6 @@
 /.idea/
 *.resource
+*.sslbin
+*.prop
+*.sdc
+shader_cache/
