@@ -283,7 +283,8 @@ skills   =   {
          perks   =   [
             "SpawnWithTerminatorTeleport",
             "SpawnWithHealingInjector",
-            "PveTerminatorAbilityBoost"
+            "PveTerminatorAbilityBoost",
+			"PveTerminatorMeleeMight"
          ]
          __type   =   "MasterySkill"
       }

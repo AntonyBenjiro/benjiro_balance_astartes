@@ -3498,7 +3498,92 @@ categories   =   {
          PveSpawnWoPrimary   =   {
             type   =   {
                activationTrigger   =   {
-                  __type   =   "PerkTriggerPassive"
+                  condition   =   {
+                     condition   =   {
+                        conditions   =   {
+                           HasPerkSpawnWithBolter   =   {
+                              perkId   =   "SpawnWithBolter"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithDeathwatchBoltRifle   =   {
+                              perkId   =   "SpawnWithDeathwatchBoltRifle"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithLascannon   =   {
+                              perkId   =   "SpawnWithLascannon"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithHeavyBolter   =   {
+                              perkId   =   "SpawnWithHeavyBolter"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithFlamer   =   {
+                              perkId   =   "SpawnWithFlamer"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithHeavyPlasma   =   {
+                              perkId   =   "SpawnWithHeavyPlasma"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithMeltaGun   =   {
+                              perkId   =   "SpawnWithMeltaGun"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithStalkerBolter   =   {
+                              perkId   =   "SpawnWithStalkerBolter"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithBoltCarbine   =   {
+                              perkId   =   "SpawnWithBoltCarbine"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithBoltCarbineMarksman   =   {
+                              perkId   =   "SpawnWithBoltCarbineMarksman"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithInstigatorBoltCarbine   =   {
+                              perkId   =   "SpawnWithInstigatorBoltCarbine"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithAutoBoltRifle   =   {
+                              perkId   =   "SpawnWithAutoBoltRifle"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithHeavyBoltRifle   =   {
+                              perkId   =   "SpawnWithHeavyBoltRifle"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithOcculusBoltCarbine   =   {
+                              perkId   =   "SpawnWithOcculusBoltCarbine"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithHeavyMelta   =   {
+                              perkId   =   "SpawnWithHeavyMelta"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithBoltSniperRifle   =   {
+                              perkId   =   "SpawnWithBoltSniperRifle"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithPlasmaExterminator   =   {
+                              perkId   =   "SpawnWithPlasmaExterminator"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithPyroBlaster   =   {
+                              perkId   =   "SpawnWithPyroBlaster"
+                              __type   =   "ConditionHasPerk"
+                           }
+                           HasPerkSpawnWithPyrecannon   =   {
+                              perkId   =   "SpawnWithPyrecannon"
+                              __type   =   "ConditionHasPerk"
+                           }
+                        }
+                        logicOperator   =   "OR"
+                        __type   =   "ConditionGroup"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
                }
                application   =   {
                   applications   =   {
@@ -6924,6 +7009,61 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
+         PveTerminatorMeleeMight   =   {
+            type   =   {
+               activationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        conditions   =   {
+                           AbilityAttached   =   {
+                              abilityProvider   =   {
+                                 shouldCheckSlot   =   True
+                                 abilitySlot   =   "MELEE"
+                                 shouldCheckUid   =   True
+                                 countOfUidsToCheck   =   "SINGLE"
+                                 abilityUid   =   "melee_power_axe"
+                                 __type   =   "AbilityProvider"
+                              }
+                              __type   =   "ConditionAbilityAttached"
+                           }
+                           AbilityAttached_1   =   {
+                              abilityProvider   =   {
+                                 shouldCheckSlot   =   True
+                                 abilitySlot   =   "MELEE"
+                                 shouldCheckUid   =   True
+                                 countOfUidsToCheck   =   "SINGLE"
+                                 abilityUid   =   "melee_power_sword"
+                                 __type   =   "AbilityProvider"
+                              }
+                              __type   =   "ConditionAbilityAttached"
+                           }
+                        }
+                        logicOperator   =   "OR"
+                        __type   =   "ConditionGroup"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "MELEE_COMBO_SLOWDOWN"
+                        bonus   =   20
+                        applyType   =   "PERCENT_SUM"
+                     },
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   20
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
       }
       __type   =   "PerkCategoryCommon"
    }
@@ -10266,12 +10406,12 @@ categories   =   {
                   permanentModifiers   =   [
                      {
                         type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
-                        bonus   =   25
+                        bonus   =   15
                         applyType   =   "PERCENT_SUM"
                      },
                      {
-                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_FIREARM"
-                        bonus   =   25
+                        type   =   "MELEE_COMBO_SLOWDOWN"
+                        bonus   =   -15
                         applyType   =   "PERCENT_SUM"
                      }
                   ]
@@ -29865,7 +30005,12 @@ categories   =   {
                   shouldTriggerOnStarted   =   True
                   strikeUids   =   [
                      "PerkThunderHammerLightPrepared",
-                     "ThunderHammerLightPrepared"
+                     "ThunderHammerLightPrepared",
+                     "ThunderHammerLight4",
+                     "ThunderHammerLight4Mirror",
+                     "PerkThunderHammerLight4",
+                     "PerkThunderHammerLight4Mirror",
+                     "FallingAttack"
                   ]
                   __type   =   "PerkTriggerMeleeStrike"
                }
@@ -29873,7 +30018,10 @@ categories   =   {
                   shouldTriggerOnStopped   =   True
                   strikeUids   =   [
                      "PerkThunderHammerLightPrepared",
-                     "ThunderHammerLightPrepared"
+                     "ThunderHammerLightPrepared",
+                     "ThunderHammerLight4Mirror",
+                     "PerkThunderHammerLight4Mirror",
+                     "FallingAttack"
                   ]
                   __type   =   "PerkTriggerMeleeStrike"
                }
