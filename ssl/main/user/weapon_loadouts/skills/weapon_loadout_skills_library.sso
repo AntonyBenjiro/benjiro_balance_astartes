@@ -233,6 +233,13 @@ meleeAbilities   =   {
       ]
       __type   =   "WeaponLoadoutSkill"
    }
+   melee_mod_1   =   {
+      perksList   =   [
+         "SpawnWithMeleeOmnissiaAxeFixed",
+         "PveSpawnWoPrimary"
+      ]
+      __type   =   "WeaponLoadoutSkill"
+   }
 }
 equipmentAbilities   =   {
    equipment_frag_grenade   =   {
@@ -690,6 +697,9 @@ weaponSkillPacks   =   {
             __type   =   "WeaponSkillLocks"
          }
          melee_power_sword   =   {
+            __type   =   "WeaponSkillLocks"
+         }
+         melee_mod_1   =   {
             __type   =   "WeaponSkillLocks"
          }
       }

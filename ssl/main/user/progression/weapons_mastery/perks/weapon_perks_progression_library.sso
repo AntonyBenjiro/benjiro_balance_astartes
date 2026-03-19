@@ -5731,6 +5731,243 @@ weapons   =   {
       }
       __type   =   "WeaponPerkInfo"
    }
+   melee_mod_1   =   {
+      tiers   =   {
+         COMMON   =   {
+            perkLayers   =   [
+               [
+                  {
+                     perkUid   =   "melee_thunder_hammer_common_1"
+                     type   =   "PveMeleeGenericPowerIncreaseOnFullArmour"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_common_2"
+                     ]
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_mastercrafted_1_1"
+                     ]
+                  },
+                  {
+                     perkUid   =   "melee_thunder_hammer_common_2"
+                     type   =   "PveMeleeGenericPowerIncrease"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_common_1"
+                     ]
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_mastercrafted_2_1"
+                     ]
+                  }
+               ]
+            ]
+            __type   =   "WeaponPerkTier"
+         }
+         MASTERCRAFTED   =   {
+            perkLayers   =   [
+               [
+                  {
+                     perkUid   =   "melee_thunder_hammer_mastercrafted_1_1"
+                     type   =   "PveMeleeThunderHammerIncomingRangedDamageReduced"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_mastercrafted_2_1"
+                     ]
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_mastercrafted_1_2"
+                     ]
+                  },
+                  {
+                     perkUid   =   "melee_thunder_hammer_mastercrafted_2_1"
+                     type   =   "PveMeleeThunderHammerHeavyHoldPreparationReduced"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_mastercrafted_1_1"
+                     ]
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_mastercrafted_2_2"
+                     ]
+                  }
+               ],
+               [
+                  {
+                     perkUid   =   "melee_thunder_hammer_mastercrafted_1_2"
+                     type   =   "PveMeleeGenericPowerIncrease"
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_mastercrafted_1_3",
+                        "melee_thunder_hammer_mastercrafted_2_2"
+                     ]
+                  },
+                  {
+                     perkUid   =   "melee_thunder_hammer_mastercrafted_2_2"
+                     type   =   "PveMeleeGenericPowerIncrease"
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_mastercrafted_2_3",
+                        "melee_thunder_hammer_mastercrafted_1_2"
+                     ]
+                  }
+               ],
+               [
+                  {
+                     perkUid   =   "melee_thunder_hammer_mastercrafted_1_3"
+                     type   =   "PveMeleeGenericPowerIncreaseVsSpecial"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_mastercrafted_2_3"
+                     ]
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_artificer_1_1"
+                     ]
+                  },
+                  {
+                     perkUid   =   "melee_thunder_hammer_mastercrafted_2_3"
+                     type   =   "PveMeleeThunderHammerGroundSlamRadiusIncreased"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_mastercrafted_1_3"
+                     ]
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_artificer_2_1"
+                     ]
+                  }
+               ]
+            ]
+            __type   =   "WeaponPerkTier"
+         }
+         ARTIFICER   =   {
+            perkLayers   =   [
+               [
+                  {
+                     perkUid   =   "melee_thunder_hammer_artificer_1_1"
+                     type   =   "PveMeleeThunderHammerContestedByHoldStrikes"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_artificer_2_1"
+                     ]
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_artificer_1_2"
+                     ]
+                  },
+                  {
+                     perkUid   =   "melee_thunder_hammer_artificer_2_1"
+                     type   =   "PveMeleeThunderHammerAdditionalGroundSlam"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_artificer_1_1"
+                     ]
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_artificer_2_2"
+                     ]
+                  }
+               ],
+               [
+                  {
+                     perkUid   =   "melee_thunder_hammer_artificer_1_3_sub"
+                     type   =   "PveMeleeThunderHammerUnstoppablePrepareAftershock"
+                  },
+                  {
+                     perkUid   =   "melee_thunder_hammer_artificer_1_2"
+                     type   =   "PveMeleeGenericPowerIncreaseWhenArmourDepleted"
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_artificer_1_3_sub",
+                        "melee_thunder_hammer_artificer_1_4",
+                        "melee_thunder_hammer_artificer_2_2"
+                     ]
+                  },
+                  {
+                     perkUid   =   "melee_thunder_hammer_artificer_2_2"
+                     type   =   "PveMeleeGenericPowerIncrease"
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_artificer_2_3_sub",
+                        "melee_thunder_hammer_artificer_2_4",
+                        "melee_thunder_hammer_artificer_1_2"
+                     ]
+                  },
+                  {
+                     perkUid   =   "melee_thunder_hammer_artificer_2_3_sub"
+                     type   =   "PveMeleeThunderHammerDamageIncreaseWhneHitAftershock"
+                  }
+               ],
+               [
+                  {
+                     perkUid   =   "melee_thunder_hammer_artificer_1_4"
+                     type   =   "PveMeleeGenericIncomingRangedDamageReduced"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_artificer_2_4"
+                     ]
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_relic_1_1"
+                     ]
+                  },
+                  {
+                     perkUid   =   "melee_thunder_hammer_artificer_2_4"
+                     type   =   "PveMeleeGenericUnstoppableByRapidKills"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_artificer_1_4"
+                     ]
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_relic_2_1"
+                     ]
+                  }
+               ]
+            ]
+            __type   =   "WeaponPerkTier"
+         }
+         RELIC   =   {
+            perkLayers   =   [
+               [
+                  {
+                     perkUid   =   "melee_thunder_hammer_relic_1_1"
+                     type   =   "PveMeleeThunderHammerHeavyHoldRestoresArmour"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_relic_2_1"
+                     ]
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_relic_1_2"
+                     ]
+                  },
+                  {
+                     perkUid   =   "melee_thunder_hammer_relic_2_1"
+                     type   =   "PveMeleeThunderHammerHeavyHoldNewStrike"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_relic_1_1"
+                     ]
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_relic_2_2"
+                     ]
+                  }
+               ],
+               [
+                  {
+                     perkUid   =   "melee_thunder_hammer_relic_1_2"
+                     type   =   "PveMeleeGenericPowerIncreaseVsElite"
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_relic_1_3",
+                        "melee_thunder_hammer_relic_2_2"
+                     ]
+                  },
+                  {
+                     perkUid   =   "melee_thunder_hammer_relic_2_2"
+                     type   =   "PveMeleeGenericPowerIncreaseVsCannonFodder"
+                     unlocksPerks   =   [
+                        "melee_thunder_hammer_relic_2_3",
+                        "melee_thunder_hammer_relic_1_2"
+                     ]
+                  }
+               ],
+               [
+                  {
+                     perkUid   =   "melee_thunder_hammer_relic_1_3"
+                     type   =   "PveMeleeThunderHammerFoeDamageReducedByPommelSmash"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_relic_2_3"
+                     ]
+                  },
+                  {
+                     perkUid   =   "melee_thunder_hammer_relic_2_3"
+                     type   =   "PveMeleeThunderHammerPommelSmashDamageIncreased"
+                     blockedByPerks   =   [
+                        "melee_thunder_hammer_relic_1_3"
+                     ]
+                  }
+               ]
+            ]
+            __type   =   "WeaponPerkTier"
+         }
+      }
+      __type   =   "WeaponPerkInfo"
+   }
    hgun_volkite_pistol   =   {
       tiers   =   {
          COMMON   =   {

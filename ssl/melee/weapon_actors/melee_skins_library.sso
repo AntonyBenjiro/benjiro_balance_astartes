@@ -1,0 +1,1714 @@
+meleeActors   =   {
+   combat_knife   =   {
+      defaultMeleeActor   =   "combat_knife"
+      skins   =   {
+         "01"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch"   =   {
+            meleeActorOverride   =   "combat_knife_chaos"
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            material   =   "mastercrafted"
+            __type   =   "MeleeSkinDescription"
+         }
+         "02_a"   =   {
+            material   =   "mastercrafted"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            meleeActorOverride   =   "combat_knife_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_a"   =   {
+            meleeActorOverride   =   "combat_knife_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04"   =   {
+            meleeActorOverride   =   "combat_knife_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_a"   =   {
+            meleeActorOverride   =   "combat_knife_01_relic_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "05"   =   {
+            meleeActorOverride   =   "combat_knife_challenge"
+            __type   =   "MeleeSkinDescription"
+         }
+         "05_a"   =   {
+            meleeActorOverride   =   "combat_knife_challenge_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "6_difficulty_reward"   =   {
+            meleeActorOverride   =   "combat_knife_01_reward_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_white"   =   {
+            material   =   "white"
+            meleeActorOverride   =   "combat_knife_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_blue"   =   {
+            material   =   "blue"
+            meleeActorOverride   =   "combat_knife_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_red"   =   {
+            material   =   "red"
+            meleeActorOverride   =   "combat_knife_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_white_scars"   =   {
+            meleeActorOverride   =   "combat_knife_white_scars"
+            __type   =   "MeleeSkinDescription"
+         }
+         khopesh   =   {
+            meleeActorOverride   =   "khopesh_CK"
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_1   =   {
+            geomCustomizerRegions   =   [
+               "sword_1"
+            ]
+            meleeActorOverride   =   "tzaangor_sword_CK_1"
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_3   =   {
+            geomCustomizerRegions   =   [
+               "sword_3"
+            ]
+            meleeActorOverride   =   "tzaangor_sword_CK_3"
+            __type   =   "MeleeSkinDescription"
+         }
+         titus_chainsword_CK   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "titus_chainsword_CK"
+            __type   =   "MeleeSkinDescription"
+         }
+         iron_hands   =   {
+            material   =   "iron_hands"
+            hackShouldAvoidGeomFiltration   =   True
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+   chainsword   =   {
+      defaultMeleeActor   =   "chainsword"
+      excludeObjectsToApplyMaterial   =   [
+         "pCube1",
+         "pSphere2",
+         "pTorus1",
+         "bright_sphere2",
+         "sfx_blood_area",
+         "sfx_trail",
+         "bright_sphere",
+         "sfx_source_area",
+         "exaust_source",
+         "sfx_chainsword_attack_01",
+         "sfx_chainsword_attack_02",
+         "sfx_chainsword_attack_03",
+         "sfx_chainsword_attack_04"
+      ]
+      skins   =   {
+         default   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_1   =   {
+            geomCustomizerRegions   =   [
+               "sword_1"
+            ]
+            meleeActorOverride   =   "tzaangor_sword_CS_1"
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_2   =   {
+            geomCustomizerRegions   =   [
+               "sword_2"
+            ]
+            meleeActorOverride   =   "tzaangor_sword_CS_2"
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_3   =   {
+            geomCustomizerRegions   =   [
+               "sword_3"
+            ]
+            meleeActorOverride   =   "tzaangor_sword_CS_3"
+            __type   =   "MeleeSkinDescription"
+         }
+         deathwatch_sword   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "deathwatch_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         preorder   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_preorder"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_chaos"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            material   =   "mastercrafted"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            hackShouldAvoidGeomFiltration   =   True
+            __type   =   "MeleeSkinDescription"
+         }
+         "02_a"   =   {
+            material   =   "mastercrafted"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_a"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_b"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_a"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_b"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "05"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_challenge"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_twitch"   =   {
+            material   =   "twitch"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_sw"   =   {
+            meleeActorOverride   =   "chainsword_space_wolves"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_white"   =   {
+            material   =   "white"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_blue"   =   {
+            material   =   "blue"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_red"   =   {
+            material   =   "red"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_blood_angels_01"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_blood_angels_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch_pa"   =   {
+            meleeActorOverride   =   "power_axe_chaos_CS"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch_pa_iron_warriors"   =   {
+            material   =   "IRON_WARRIOR"
+            meleeActorOverride   =   "power_axe_chaos_CS"
+            hackShouldAvoidGeomFiltration   =   True
+            __type   =   "MeleeSkinDescription"
+         }
+         chainaxe   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainaxe"
+            __type   =   "MeleeSkinDescription"
+         }
+         iron_hands   =   {
+            material   =   "iron_hands"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            hackShouldAvoidGeomFiltration   =   True
+            __type   =   "MeleeSkinDescription"
+         }
+         deathwatch   =   {
+            material   =   "deathwatch"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         imperial_fists   =   {
+            material   =   "imperial_fists"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            hackShouldAvoidGeomFiltration   =   True
+            __type   =   "MeleeSkinDescription"
+         }
+         space_wolves   =   {
+            material   =   "space_wolves"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+   thunder_hammer   =   {
+      defaultMeleeActor   =   "thunder_hammer"
+      excludeObjectsToApplyMaterial   =   [
+         "glow3",
+         "inc",
+         "pCube1",
+         "pSphere2",
+         "pSphere1"
+      ]
+      skins   =   {
+         "01"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            material   =   "mastercrafted"
+            hackShouldAvoidGeomFiltration   =   True
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            meleeActorOverride   =   "thunder_hammer_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04"   =   {
+            meleeActorOverride   =   "thunder_hammer_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "05"   =   {
+            meleeActorOverride   =   "thunder_hammer_challenge"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_librarium"   =   {
+            meleeActorOverride   =   "thunder_hammer_librarium_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch"   =   {
+            meleeActorOverride   =   "thunder_hammer_chaos"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_sw"   =   {
+            meleeActorOverride   =   "thunder_hammer_space_wolves"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_white"   =   {
+            material   =   "white"
+            meleeActorOverride   =   "thunder_hammer_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_blue"   =   {
+            material   =   "blue"
+            meleeActorOverride   =   "thunder_hammer_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_red"   =   {
+            material   =   "red"
+            meleeActorOverride   =   "thunder_hammer_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         crozius   =   {
+            meleeActorOverride   =   "thunder_hammer_01_crozius"
+            __type   =   "MeleeSkinDescription"
+         }
+         hate_mace   =   {
+            meleeActorOverride   =   "hate_mace"
+            __type   =   "MeleeSkinDescription"
+         }
+         power_axe_heavy   =   {
+            meleeActorOverride   =   "power_axe_heavy"
+            __type   =   "MeleeSkinDescription"
+         }
+         heresy_mace_01   =   {
+            meleeActorOverride   =   "heresy_mace_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         force_stave_lesser   =   {
+            meleeActorOverride   =   "force_stave_lesser"
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_spear   =   {
+            meleeActorOverride   =   "tzaangor_spear_TH"
+            __type   =   "MeleeSkinDescription"
+         }
+         power_glaive   =   {
+            meleeActorOverride   =   "thunder_hammer_power_glaive"
+            __type   =   "MeleeSkinDescription"
+         }
+         iron_hands   =   {
+            material   =   "iron_hands"
+            hackShouldAvoidGeomFiltration   =   True
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+   force_stave   =   {
+      defaultMeleeActor   =   "force_stave"
+      __type   =   "MeleeActorDescription"
+   }
+   power_sword   =   {
+      defaultMeleeActor   =   "power_sword"
+      excludeObjectsToApplyMaterial   =   [
+         "sword_geom1",
+         "sword_geom2",
+         "sword_geom3",
+         "sword_geom4",
+         "sword_geom5",
+         "pPlane1",
+         "pPlane2",
+         "pPlane3",
+         "body"
+      ]
+      skins   =   {
+         "01"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            material   =   "mastercrafted"
+            hackShouldAvoidGeomFiltration   =   True
+            __type   =   "MeleeSkinDescription"
+         }
+         "02_a"   =   {
+            material   =   "mastercrafted"
+            hackShouldAvoidGeomFiltration   =   True
+            __type   =   "MeleeSkinDescription"
+         }
+         "02_b"   =   {
+            material   =   "mastercrafted"
+            hackShouldAvoidGeomFiltration   =   True
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            meleeActorOverride   =   "power_sword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_a"   =   {
+            meleeActorOverride   =   "power_sword_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_b"   =   {
+            meleeActorOverride   =   "power_sword_01_artificer_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04"   =   {
+            meleeActorOverride   =   "power_sword_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_a"   =   {
+            meleeActorOverride   =   "power_sword_01_relic_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_b"   =   {
+            meleeActorOverride   =   "power_sword_01_relic_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "05"   =   {
+            meleeActorOverride   =   "power_sword_challenge"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch"   =   {
+            meleeActorOverride   =   "power_sword_chaos"
+            __type   =   "MeleeSkinDescription"
+         }
+         dark_angels   =   {
+            meleeActorOverride   =   "power_sword_chaos_darkangels"
+            __type   =   "MeleeSkinDescription"
+         }
+         "5_difficulty_reward"   =   {
+            meleeActorOverride   =   "power_sword_02_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_white"   =   {
+            material   =   "white"
+            meleeActorOverride   =   "power_sword_01_artificer_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_blue"   =   {
+            material   =   "blue"
+            meleeActorOverride   =   "power_sword_01_artificer_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_red"   =   {
+            material   =   "red"
+            meleeActorOverride   =   "power_sword_01_artificer_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_bt"   =   {
+            meleeActorOverride   =   "power_sword_bt"
+            __type   =   "MeleeSkinDescription"
+         }
+         black_sword_01   =   {
+            meleeActorOverride   =   "black_sword_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         power_axe_light_ps   =   {
+            meleeActorOverride   =   "power_axe_light_PS"
+            __type   =   "MeleeSkinDescription"
+         }
+         heresy_axe_01_ps   =   {
+            meleeActorOverride   =   "heresy_axe_01_PS"
+            __type   =   "MeleeSkinDescription"
+         }
+         heresy_axe_02_ps   =   {
+            meleeActorOverride   =   "heresy_axe_02_PS"
+            __type   =   "MeleeSkinDescription"
+         }
+         bloodangels_sword   =   {
+            meleeActorOverride   =   "bloodangels_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         fealty_sword   =   {
+            meleeActorOverride   =   "fealty_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         iron_hands   =   {
+            material   =   "iron_hands"
+            hackShouldAvoidGeomFiltration   =   True
+            __type   =   "MeleeSkinDescription"
+         }
+         space_wolves   =   {
+            material   =   "space_wolves"
+            meleeActorOverride   =   "power_sword_01_relic_03"
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+   power_axe   =   {
+      defaultMeleeActor   =   "power_axe"
+      excludeObjectsToApplyMaterial   =   [
+         "blade_frame_idle",
+         "blade_power_idle",
+         "blade_glow_idle",
+         "base_power_idle",
+         "blade_frame_charge",
+         "blade_glow_charge",
+         "body"
+      ]
+      skins   =   {
+         "01"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            material   =   "mastercrafted"
+            __type   =   "MeleeSkinDescription"
+         }
+         "02_a"   =   {
+            material   =   "mastercrafted"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            meleeActorOverride   =   "power_axe_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_a"   =   {
+            meleeActorOverride   =   "power_axe_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_b"   =   {
+            meleeActorOverride   =   "power_axe_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04"   =   {
+            meleeActorOverride   =   "power_axe_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_a"   =   {
+            meleeActorOverride   =   "power_axe_01_relic_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_b"   =   {
+            meleeActorOverride   =   "power_axe_01_relic_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch"   =   {
+            meleeActorOverride   =   "power_axe_chaos"
+            __type   =   "MeleeSkinDescription"
+         }
+         twitch   =   {
+            meleeActorOverride   =   "power_axe_01_relic_01_twitch"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_white"   =   {
+            material   =   "white"
+            meleeActorOverride   =   "power_axe_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_blue"   =   {
+            material   =   "blue"
+            meleeActorOverride   =   "power_axe_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_red"   =   {
+            material   =   "red"
+            meleeActorOverride   =   "power_axe_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch_iron_warriors"   =   {
+            material   =   "IRON_WARRIOR"
+            meleeActorOverride   =   "power_axe_chaos"
+            hackShouldAvoidGeomFiltration   =   True
+            __type   =   "MeleeSkinDescription"
+         }
+         chainaxe_pa   =   {
+            meleeActorOverride   =   "chainaxe_PA"
+            __type   =   "MeleeSkinDescription"
+         }
+         power_axe_light   =   {
+            meleeActorOverride   =   "power_axe_light"
+            __type   =   "MeleeSkinDescription"
+         }
+         heresy_axe_01   =   {
+            meleeActorOverride   =   "heresy_axe_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         heresy_axe_02   =   {
+            meleeActorOverride   =   "heresy_axe_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         power_axe_gear   =   {
+            meleeActorOverride   =   "power_axe_gear"
+            __type   =   "MeleeSkinDescription"
+         }
+         space_wolves   =   {
+            material   =   "space_wolves"
+            meleeActorOverride   =   "power_axe_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+   power_halberd   =   {
+      defaultMeleeActor   =   "power_halberd"
+      excludeObjectsToApplyMaterial   =   [
+         "blade_power_idle",
+         "blade_glow_idle",
+         "blade_glow_charge",
+         "base_power_idle",
+         "body"
+      ]
+      skins   =   {
+         "01"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            material   =   "mastercrafted"
+            __type   =   "MeleeSkinDescription"
+         }
+         "02_a"   =   {
+            material   =   "mastercrafted"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            meleeActorOverride   =   "power_halberd_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_a"   =   {
+            meleeActorOverride   =   "power_halberd_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_b"   =   {
+            meleeActorOverride   =   "power_halberd_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04"   =   {
+            meleeActorOverride   =   "power_halberd_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_a"   =   {
+            meleeActorOverride   =   "power_halberd_relic_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_b"   =   {
+            meleeActorOverride   =   "power_halberd_relic_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "05"   =   {
+            meleeActorOverride   =   "power_halberd_challenge"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch"   =   {
+            meleeActorOverride   =   "power_halberd_chaos"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_white"   =   {
+            material   =   "white"
+            meleeActorOverride   =   "power_halberd_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_blue"   =   {
+            material   =   "blue"
+            meleeActorOverride   =   "power_halberd_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_red"   =   {
+            material   =   "red"
+            meleeActorOverride   =   "power_halberd_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+   firearm_fake   =   {
+      defaultMeleeActor   =   "firearm_fake"
+      skins   =   {
+         "01"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "02_a"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_a"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_b"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_c"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "04"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_a"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_b"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_c"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+   power_fist_fake   =   {
+      defaultMeleeActor   =   "power_fist_fake"
+      asSecondaryMeleeActor   =   "power_fist_fake_as_secondary"
+      skins   =   {
+         "01"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_1"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_2"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "02_a"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_2"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_3"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_a"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_3"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_b"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_3"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_c"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_3"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_4"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_a"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_4"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_b"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_4"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_c"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_4"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "05"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_challenge_01"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "05_a"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_challenge_01"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         twitch   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_5"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_twitch_alt"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_6"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_ch"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch_iron_warriors"   =   {
+            material   =   "IRON_WARRIOR"
+            geomCustomizerRegions   =   [
+               "powerfist_ch"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_saw"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_7"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_press"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_8"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_claws"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_9"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_challenge"   =   {
+            geomCustomizerRegions   =   [
+               "powerfist_challenge_01"
+            ]
+            meleeActorOverride   =   "power_fist_fake"
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+   chalice_fake   =   {
+      defaultMeleeActor   =   "chalice_fake"
+      __type   =   "MeleeActorDescription"
+   }
+   khopesh   =   {
+      defaultMeleeActor   =   "khopesh"
+      __type   =   "MeleeActorDescription"
+   }
+   tzaangor_sword   =   {
+      shouldUseRandomSkin   =   True
+      defaultMeleeActor   =   "tzaangor_sword"
+      skins   =   {
+         "01"   =   {
+            geomCustomizerRegions   =   [
+               "sword_1"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            geomCustomizerRegions   =   [
+               "sword_2"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            geomCustomizerRegions   =   [
+               "sword_3"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+   force_stave_lesser   =   {
+      defaultMeleeActor   =   "force_stave_lesser"
+      __type   =   "MeleeActorDescription"
+   }
+   khopesh_cinematc   =   {
+      defaultMeleeActor   =   "khopesh"
+      __type   =   "MeleeActorDescription"
+   }
+   tzaangor_spear   =   {
+      defaultMeleeActor   =   "tzaangor_spear"
+      __type   =   "MeleeActorDescription"
+   }
+   tzaangor_torch   =   {
+      defaultMeleeActor   =   "tzaangor_torch"
+      __type   =   "MeleeActorDescription"
+   }
+   melee_mod_1   =   {
+      defaultMeleeActor   =   "melee_mod_1"
+      excludeObjectsToApplyMaterial   =   [
+         "blade_power_idle",
+         "blade_glow_idle",
+         "blade_glow_charge",
+         "base_power_idle",
+         "body"
+      ]
+      skins   =   {
+         "01"   =   {
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            material   =   "mastercrafted"
+            __type   =   "MeleeSkinDescription"
+         }
+         "02_a"   =   {
+            material   =   "mastercrafted"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            meleeActorOverride   =   "melee_mod_1_artificer1"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_a"   =   {
+            meleeActorOverride   =   "melee_mod_1_artificer2"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_b"   =   {
+            meleeActorOverride   =   "melee_mod_1_artificer2"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04"   =   {
+            meleeActorOverride   =   "melee_mod_1_relic1"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_a"   =   {
+            meleeActorOverride   =   "melee_mod_1_relic2"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_b"   =   {
+            meleeActorOverride   =   "melee_mod_1_relic3"
+            __type   =   "MeleeSkinDescription"
+         }
+         "05"   =   {
+            meleeActorOverride   =   "melee_mod_1_heroic4"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch"   =   {
+            meleeActorOverride   =   "melee_mod_1_chaos1"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_white"   =   {
+            material   =   "white"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_blue"   =   {
+            material   =   "blue"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_red"   =   {
+            material   =   "red"
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+   melee_mod_2   =   {
+      defaultMeleeActor   =   "melee_mod_2"
+      excludeObjectsToApplyMaterial   =   [
+         "pCube1",
+         "pSphere2",
+         "pTorus1",
+         "bright_sphere2",
+         "sfx_blood_area",
+         "sfx_trail",
+         "bright_sphere",
+         "sfx_source_area",
+         "exaust_source",
+         "sfx_chainsword_attack_01",
+         "sfx_chainsword_attack_02",
+         "sfx_chainsword_attack_03",
+         "sfx_chainsword_attack_04"
+      ]
+      skins   =   {
+         default   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_1   =   {
+            geomCustomizerRegions   =   [
+               "sword_1"
+            ]
+            meleeActorOverride   =   "tzaangor_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_2   =   {
+            geomCustomizerRegions   =   [
+               "sword_2"
+            ]
+            meleeActorOverride   =   "tzaangor_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_3   =   {
+            geomCustomizerRegions   =   [
+               "sword_3"
+            ]
+            meleeActorOverride   =   "tzaangor_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         deathwatch_sword   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "deathwatch_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         preorder   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_preorder"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_chaos"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            material   =   "mastercrafted"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "02_a"   =   {
+            material   =   "mastercrafted"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_a"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_b"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_a"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_b"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_twitch"   =   {
+            material   =   "twitch"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_sw"   =   {
+            meleeActorOverride   =   "chainsword_space_wolves"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_white"   =   {
+            material   =   "white"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_blue"   =   {
+            material   =   "blue"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_red"   =   {
+            material   =   "red"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+   melee_mod_3   =   {
+      defaultMeleeActor   =   "melee_mod_3"
+      excludeObjectsToApplyMaterial   =   [
+         "pCube1",
+         "pSphere2",
+         "pTorus1",
+         "bright_sphere2",
+         "sfx_blood_area",
+         "sfx_trail",
+         "bright_sphere",
+         "sfx_source_area",
+         "exaust_source",
+         "sfx_chainsword_attack_01",
+         "sfx_chainsword_attack_02",
+         "sfx_chainsword_attack_03",
+         "sfx_chainsword_attack_04"
+      ]
+      skins   =   {
+         default   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_1   =   {
+            geomCustomizerRegions   =   [
+               "sword_1"
+            ]
+            meleeActorOverride   =   "tzaangor_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_2   =   {
+            geomCustomizerRegions   =   [
+               "sword_2"
+            ]
+            meleeActorOverride   =   "tzaangor_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_3   =   {
+            geomCustomizerRegions   =   [
+               "sword_3"
+            ]
+            meleeActorOverride   =   "tzaangor_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         deathwatch_sword   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "deathwatch_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         preorder   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_preorder"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_chaos"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            material   =   "mastercrafted"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "02_a"   =   {
+            material   =   "mastercrafted"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_a"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_b"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_a"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_b"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_twitch"   =   {
+            material   =   "twitch"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_sw"   =   {
+            meleeActorOverride   =   "chainsword_space_wolves"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_white"   =   {
+            material   =   "white"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_blue"   =   {
+            material   =   "blue"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_red"   =   {
+            material   =   "red"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+   melee_mod_4   =   {
+      defaultMeleeActor   =   "melee_mod_4"
+      excludeObjectsToApplyMaterial   =   [
+         "pCube1",
+         "pSphere2",
+         "pTorus1",
+         "bright_sphere2",
+         "sfx_blood_area",
+         "sfx_trail",
+         "bright_sphere",
+         "sfx_source_area",
+         "exaust_source",
+         "sfx_chainsword_attack_01",
+         "sfx_chainsword_attack_02",
+         "sfx_chainsword_attack_03",
+         "sfx_chainsword_attack_04"
+      ]
+      skins   =   {
+         default   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_1   =   {
+            geomCustomizerRegions   =   [
+               "sword_1"
+            ]
+            meleeActorOverride   =   "tzaangor_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_2   =   {
+            geomCustomizerRegions   =   [
+               "sword_2"
+            ]
+            meleeActorOverride   =   "tzaangor_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_3   =   {
+            geomCustomizerRegions   =   [
+               "sword_3"
+            ]
+            meleeActorOverride   =   "tzaangor_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         deathwatch_sword   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "deathwatch_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         preorder   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_preorder"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_chaos"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            material   =   "mastercrafted"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "02_a"   =   {
+            material   =   "mastercrafted"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_a"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_b"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_a"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_b"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_twitch"   =   {
+            material   =   "twitch"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_sw"   =   {
+            meleeActorOverride   =   "chainsword_space_wolves"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_white"   =   {
+            material   =   "white"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_blue"   =   {
+            material   =   "blue"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_red"   =   {
+            material   =   "red"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+   melee_mod_5   =   {
+      defaultMeleeActor   =   "melee_mod_5"
+      excludeObjectsToApplyMaterial   =   [
+         "pCube1",
+         "pSphere2",
+         "pTorus1",
+         "bright_sphere2",
+         "sfx_blood_area",
+         "sfx_trail",
+         "bright_sphere",
+         "sfx_source_area",
+         "exaust_source",
+         "sfx_chainsword_attack_01",
+         "sfx_chainsword_attack_02",
+         "sfx_chainsword_attack_03",
+         "sfx_chainsword_attack_04"
+      ]
+      skins   =   {
+         default   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_1   =   {
+            geomCustomizerRegions   =   [
+               "sword_1"
+            ]
+            meleeActorOverride   =   "tzaangor_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_2   =   {
+            geomCustomizerRegions   =   [
+               "sword_2"
+            ]
+            meleeActorOverride   =   "tzaangor_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         tzaangor_sword_3   =   {
+            geomCustomizerRegions   =   [
+               "sword_3"
+            ]
+            meleeActorOverride   =   "tzaangor_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         deathwatch_sword   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "deathwatch_sword"
+            __type   =   "MeleeSkinDescription"
+         }
+         preorder   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_preorder"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_ch"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_chaos"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "02"   =   {
+            material   =   "mastercrafted"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "02_a"   =   {
+            material   =   "mastercrafted"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            __type   =   "MeleeSkinDescription"
+         }
+         "03"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_a"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "03_b"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_a"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_02"
+            __type   =   "MeleeSkinDescription"
+         }
+         "04_b"   =   {
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_03"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_twitch"   =   {
+            material   =   "twitch"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_sw"   =   {
+            meleeActorOverride   =   "chainsword_space_wolves"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_white"   =   {
+            material   =   "white"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_blue"   =   {
+            material   =   "blue"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+         "01_red"   =   {
+            material   =   "red"
+            geomCustomizerRegions   =   [
+               "chainsword"
+            ]
+            meleeActorOverride   =   "chainsword_01_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+      }
+      __type   =   "MeleeActorDescription"
+   }
+}
+__type   =   "object"

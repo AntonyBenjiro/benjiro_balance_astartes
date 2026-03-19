@@ -1,0 +1,1594 @@
+defaultPreset   =   {
+   positionShift   =   {
+      x   =   -0.22
+      y   =   1.04
+      z   =   3.1
+      __type   =   "Vector3d"
+   }
+   startupRotationXY   =   {
+      x   =   0
+      y   =   55
+      z   =   0
+      __type   =   "Vector3d"
+   }
+   fovMin   =   80
+   fovMax   =   80
+   fovByDefault   =   80
+   presetVariants   =   {
+      Preview   =   {
+         positionShift   =   {
+            y   =   1.25
+            z   =   4
+            __type   =   "Vector3d"
+         }
+         rotationCenterShift   =   {
+            x   =   0
+            y   =   0
+            z   =   -0.25
+            __type   =   "Vector3d"
+         }
+         startupRotationXY   =   {
+            y   =   55
+            z   =   0
+            __type   =   "Vector3d"
+         }
+         fovMin   =   75
+         fovMax   =   100
+         fovByDefault   =   83
+         __type   =   "ActorRotatorTargetPresetParams"
+      }
+   }
+   __type   =   "ActorRotatorTargetPreset"
+}
+rangedWeapons   =   {
+   hgun_bolt_pistol   =   {
+      positionShift   =   {
+         x   =   -0.08
+         y   =   1.1
+         z   =   3.4
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.25
+               z   =   4
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.04
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   65
+            fovMax   =   100
+            fovByDefault   =   80
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hgun_death_watch_bolt_pistol   =   {
+      positionShift   =   {
+         x   =   -0.08
+         y   =   1.1
+         z   =   3.4
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.25
+               z   =   4
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.04
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   65
+            fovMax   =   100
+            fovByDefault   =   80
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   brifle_bolt_sniper_rifle   =   {
+      positionShift   =   {
+         x   =   -0.35
+         y   =   0.86
+         z   =   2.5
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   70
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.1
+               z   =   3.5
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.55
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   62
+            fovMax   =   110
+            fovByDefault   =   85
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hwpn_support_heavy_bolter   =   {
+      positionShift   =   {
+         x   =   -0.33
+         y   =   1.1
+         z   =   3
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.2
+               z   =   3.6
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.46
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   60
+            fovMax   =   100
+            fovByDefault   =   80
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hgun_plasma_pistol   =   {
+      positionShift   =   {
+         x   =   -0.08
+         y   =   1.1
+         z   =   3.4
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.27
+               z   =   4
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.04
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   60
+            fovMax   =   100
+            fovByDefault   =   83
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hgun_heavy_bolt_pistol   =   {
+      positionShift   =   {
+         x   =   -0.08
+         y   =   1.1
+         z   =   3.4
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.3
+               z   =   4
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.1
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   65
+            fovMax   =   105
+            fovByDefault   =   80
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hwpn_las_fusil   =   {
+      positionShift   =   {
+         x   =   -0.35
+         y   =   0.86
+         z   =   2.5
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   70
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.1
+               z   =   3.5
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.55
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   62
+            fovMax   =   105
+            fovByDefault   =   85
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hwpn_support_heavy_meltagun   =   {
+      positionShift   =   {
+         x   =   -0.45
+         y   =   1.14
+         z   =   2.8
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.25
+               z   =   3.6
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.55
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   63
+            fovMax   =   105
+            fovByDefault   =   83
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   smg_bolt_carbine   =   {
+      positionShift   =   {
+         x   =   -0.08
+         y   =   1.1
+         z   =   3.2
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.25
+               z   =   3.8
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.15
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   65
+            fovMax   =   100
+            fovByDefault   =   83
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   pwpn_plasma_exterminator   =   {
+      positionShift   =   {
+         x   =   -0.2
+         y   =   1.05
+         z   =   3.1
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.15
+               z   =   3.6
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.26
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   55
+            fovMax   =   95
+            fovByDefault   =   80
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   shotgun_meltagun   =   {
+      positionShift   =   {
+         x   =   -0.3
+         y   =   1.05
+         z   =   3.05
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.125
+               z   =   3.6
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.46
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   60
+            fovMax   =   97
+            fovByDefault   =   80
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hwpn_support_plasma_incinerator   =   {
+      positionShift   =   {
+         x   =   -0.3
+         y   =   1.05
+         z   =   3.05
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.15
+               z   =   3.6
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.25
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   57
+            fovMax   =   100
+            fovByDefault   =   80
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   arifle_heavy_bolt_rifle   =   {
+      positionShift   =   {
+         x   =   -0.22
+         y   =   1.04
+         z   =   3.1
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.25
+               z   =   3.8
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.33
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   72
+            fovMax   =   100
+            fovByDefault   =   83
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hwpn_pyrecannon   =   {
+      positionShift   =   {
+         x   =   -0.4
+         y   =   0.95
+         z   =   2.7
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.125
+               z   =   3.6
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.46
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   60
+            fovMax   =   97
+            fovByDefault   =   80
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hwpn_pyroblaster   =   {
+      positionShift   =   {
+         x   =   -0.3
+         y   =   1
+         z   =   2.9
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   55
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   60
+      fovMax   =   140
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.125
+               z   =   3.6
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.46
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   55
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   60
+            fovMax   =   97
+            fovByDefault   =   80
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+}
+meleeWeapons   =   {
+   melee_chainsword   =   {
+      positionShift   =   {
+         x   =   -0.8
+         y   =   1.2
+         z   =   3
+         __type   =   "Vector3d"
+      }
+      rotationCenterShift   =   {
+         x   =   0
+         y   =   0
+         z   =   0.3
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   45
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   80
+      fovMax   =   80
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               x   =   0
+               y   =   1.2
+               z   =   3.7
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.6
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   45
+               __type   =   "Vector3d"
+            }
+            fovMin   =   62
+            fovMax   =   105
+            fovByDefault   =   80
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_thunder_hammer   =   {
+      positionShift   =   {
+         x   =   -0.4
+         y   =   1
+         z   =   2
+         __type   =   "Vector3d"
+      }
+      rotationCenterShift   =   {
+         x   =   0
+         z   =   0.3
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   45
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   80
+      fovMax   =   80
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               x   =   0
+               y   =   1
+               z   =   3
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               z   =   -0.1
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               x   =   0
+               y   =   45
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   68
+            fovMax   =   105
+            fovByDefault   =   82
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_firearm   =   {
+      positionShift   =   {
+         x   =   -0.4
+         y   =   1
+         z   =   2
+         __type   =   "Vector3d"
+      }
+      rotationCenterShift   =   {
+         x   =   0
+         z   =   0.3
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   45
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   80
+      fovMax   =   80
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               x   =   0
+               y   =   1
+               z   =   3
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               z   =   -0.1
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               x   =   0
+               y   =   45
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   68
+            fovMax   =   105
+            fovByDefault   =   82
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_combat_knife   =   {
+      positionShift   =   {
+         x   =   -0.1
+         y   =   1.1
+         z   =   3.5
+         __type   =   "Vector3d"
+      }
+      rotationCenterShift   =   {
+         x   =   0
+         z   =   0.3
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   -125
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   80
+      fovMax   =   80
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               y   =   1.25
+               z   =   4
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   0.4
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   -125
+               __type   =   "Vector3d"
+            }
+            fovMin   =   62
+            fovMax   =   105
+            fovByDefault   =   85
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_power_fist   =   {
+      positionShift   =   {
+         x   =   0
+         y   =   1.05
+         z   =   3.4
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   300
+         y   =   130
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   80
+      fovMax   =   80
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               x   =   0
+               y   =   1.05
+               z   =   3.4
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               x   =   300
+               y   =   130
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   55
+            fovMax   =   100
+            fovByDefault   =   80
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_power_sword   =   {
+      positionShift   =   {
+         x   =   -0.8
+         y   =   1.2
+         z   =   3
+         __type   =   "Vector3d"
+      }
+      rotationCenterShift   =   {
+         x   =   0
+         z   =   0.3
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   45
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   80
+      fovMax   =   80
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               x   =   0
+               y   =   1.2
+               z   =   3.7
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.6
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   45
+               __type   =   "Vector3d"
+            }
+            fovMin   =   62
+            fovMax   =   110
+            fovByDefault   =   85
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_power_axe   =   {
+      positionShift   =   {
+         x   =   -0.6
+         y   =   1
+         z   =   2.55
+         __type   =   "Vector3d"
+      }
+      rotationCenterShift   =   {
+         x   =   0
+         y   =   0
+         z   =   0.3
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   50
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   80
+      fovMax   =   80
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               x   =   0
+               y   =   1.2
+               z   =   3.7
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               y   =   0
+               z   =   -0.6
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               y   =   45
+               __type   =   "Vector3d"
+            }
+            fovMin   =   62
+            fovMax   =   105
+            fovByDefault   =   80
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_power_halberd   =   {
+      positionShift   =   {
+         x   =   -0.4
+         y   =   1
+         z   =   2
+         __type   =   "Vector3d"
+      }
+      rotationCenterShift   =   {
+         x   =   0
+         z   =   0.3
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   45
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   80
+      fovMax   =   80
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               x   =   -0.1
+               y   =   0.95
+               z   =   3
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               x   =   0
+               y   =   70
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   68
+            fovMax   =   105
+            fovByDefault   =   90
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_mod_1   =   {
+      positionShift   =   {
+         x   =   -0.4
+         y   =   1
+         z   =   2
+         __type   =   "Vector3d"
+      }
+      rotationCenterShift   =   {
+         x   =   0
+         z   =   0.3
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   45
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovMin   =   80
+      fovMax   =   80
+      fovByDefault   =   80
+      presetVariants   =   {
+         Preview   =   {
+            positionShift   =   {
+               x   =   -0.1
+               y   =   0.95
+               z   =   3
+               __type   =   "Vector3d"
+            }
+            rotationCenterShift   =   {
+               x   =   0
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            startupRotationXY   =   {
+               x   =   0
+               y   =   70
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            fovMin   =   68
+            fovMax   =   105
+            fovByDefault   =   90
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+}
+equipment   =   {
+   equipment_frag_grenade   =   {
+      positionShift   =   {
+         x   =   0
+         y   =   0
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   0
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      presetVariants   =   {
+         Preview   =   {
+            fovMin   =   12
+            fovMax   =   35
+            fovByDefault   =   20
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   equipment_krak_grenade   =   {
+      positionShift   =   {
+         x   =   0
+         y   =   0
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   0
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      presetVariants   =   {
+         Preview   =   {
+            fovMin   =   12
+            fovMax   =   35
+            fovByDefault   =   20
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   equipment_shock_grenade   =   {
+      positionShift   =   {
+         x   =   0
+         y   =   0
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   0
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      presetVariants   =   {
+         Preview   =   {
+            fovMin   =   12
+            fovMax   =   35
+            fovByDefault   =   20
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   equipment_melta_charge   =   {
+      positionShift   =   {
+         x   =   0
+         y   =   0
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   0
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      presetVariants   =   {
+         Preview   =   {
+            fovMin   =   16
+            fovMax   =   35
+            fovByDefault   =   25
+            __type   =   "ActorRotatorTargetPresetParams"
+         }
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+}
+rangedWeaponsPipPresets   =   {
+   smg_bolt_carbine   =   {
+      positionShift   =   {
+         x   =   0.15
+         y   =   0.05
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   shotgun_meltagun   =   {
+      positionShift   =   {
+         x   =   0.35
+         y   =   0.05
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   45
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hgun_bolt_pistol   =   {
+      positionShift   =   {
+         x   =   0
+         y   =   0.05
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   30
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hgun_heavy_bolt_pistol   =   {
+      positionShift   =   {
+         x   =   0.1
+         y   =   0.05
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   30
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hgun_plasma_pistol   =   {
+      positionShift   =   {
+         x   =   0.1
+         y   =   0
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   30
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hwpn_las_fusil   =   {
+      positionShift   =   {
+         x   =   0.55
+         y   =   -0.05
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   45
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   brifle_bolt_sniper_rifle   =   {
+      positionShift   =   {
+         x   =   0.55
+         y   =   -0.05
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   45
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hwpn_support_heavy_meltagun   =   {
+      positionShift   =   {
+         x   =   0.45
+         y   =   0.05
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   45
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hwpn_support_heavy_bolter   =   {
+      positionShift   =   {
+         x   =   0.4
+         y   =   0.05
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   45
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   smg_occulus_bolt_carbine   =   {
+      positionShift   =   {
+         x   =   0.15
+         y   =   0.02
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   43
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hgun_volkite_pistol   =   {
+      positionShift   =   {
+         x   =   0.15
+         y   =   0.02
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   30
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hwpn_pyrecannon   =   {
+      positionShift   =   {
+         x   =   0.35
+         y   =   0.05
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   45
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   hwpn_pyroblaster   =   {
+      positionShift   =   {
+         x   =   0.35
+         y   =   0.05
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   45
+      __type   =   "ActorRotatorTargetPreset"
+   }
+}
+meleeWeaponsPipPresets   =   {
+   melee_chainsword   =   {
+      positionShift   =   {
+         x   =   0.6
+         y   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   38
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_thunder_hammer   =   {
+      positionShift   =   {
+         x   =   0.6
+         y   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   38
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_power_fist   =   {
+      positionShift   =   {
+         x   =   0
+         y   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   -90
+         z   =   -90
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   38
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_power_sword   =   {
+      positionShift   =   {
+         x   =   0.6
+         y   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   -20
+         y   =   -90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   38
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_combat_knife   =   {
+      positionShift   =   {
+         x   =   0.4
+         y   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   20
+         y   =   90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   28
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_mod_1   =   {
+      positionShift   =   {
+         x   =   0.4
+         y   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   20
+         y   =   90
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   28
+      __type   =   "ActorRotatorTargetPreset"
+   }
+}
+defaultPipPreset   =   {
+   positionShift   =   {
+      x   =   0.24
+      y   =   0
+      z   =   0
+      __type   =   "Vector3d"
+   }
+   startupRotationXY   =   {
+      x   =   -20
+      y   =   -90
+      __type   =   "Vector3d"
+   }
+   fovByDefault   =   45
+   __type   =   "ActorRotatorTargetPreset"
+}
+rangedWeaponsCustomizationBundlePipPresets   =   {
+   arifle_bolt_rifle   =   {
+      positionShift   =   {
+         x   =   -0.15
+         y   =   0.3
+         z   =   -1.1
+         __type   =   "Vector3d"
+      }
+      rotationCenterShift   =   {
+         x   =   0
+         y   =   0
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   90
+         z   =   -60
+         __type   =   "Vector3d"
+      }
+      __type   =   "ActorRotatorTargetPreset"
+   }
+}
+meleeWeaponsCustomizationBundlePipPresets   =   {
+   melee_chainsword   =   {
+      positionShift   =   {
+         x   =   -0.35
+         y   =   -0.7
+         z   =   0.1
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   90
+         z   =   -60
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   23
+      __type   =   "ActorRotatorTargetPreset"
+   }
+   melee_thunder_hammer   =   {
+      positionShift   =   {
+         x   =   0.38
+         y   =   -0.54
+         z   =   -0.5
+         __type   =   "Vector3d"
+      }
+      startupRotationXY   =   {
+         x   =   0
+         y   =   90
+         z   =   -110
+         __type   =   "Vector3d"
+      }
+      fovByDefault   =   23
+      __type   =   "ActorRotatorTargetPreset"
+   }
+}
+defaultCustomizationBundlePipPreset   =   {
+   positionShift   =   {
+      x   =   0.1
+      y   =   -0.25
+      z   =   0
+      __type   =   "Vector3d"
+   }
+   startupRotationXY   =   {
+      x   =   0
+      y   =   -100
+      z   =   -70
+      __type   =   "Vector3d"
+   }
+   fovMin   =   10
+   fovByDefault   =   20
+   __type   =   "ActorRotatorTargetPreset"
+}
+modelShifts   =   {
+   pveCustomization   =   {
+      y   =   0.88
+      __type   =   "Vector3d"
+   }
+   simpleCustomization   =   {
+      y   =   0.75
+      __type   =   "Vector3d"
+   }
+   screenCenter   =   {
+      y   =   0.7
+      __type   =   "Vector3d"
+   }
+}
+__type   =   "object"

@@ -1,0 +1,3695 @@
+firearmProgression   =   {
+   arifle_bolt_rifle   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   25
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   25
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   45
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   75
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionFirearm   =   {
+            blueprintDataToMaster   =   0
+            moneyCost   =   0
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicCombiBolter"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hwpn_support_heavy_bolter   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionFirearm   =   {
+            blueprintDataToMaster   =   0
+            moneyCost   =   0
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicHeavyBolter"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   brifle_stalker_bolt_rifle   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   40
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   40
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   60
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   60
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   90
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   90
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   90
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   arifle_auto_bolt_rifle   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   25
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   25
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   45
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   75
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   arifle_death_watch_bolt_rifle   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               blueprintDataToMaster   =   0
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   1800
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   2600
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   2900
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   arifle_heavy_bolt_rifle   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   25
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   25
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   45
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   75
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionFirearm   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicHeavyBoltRifleAux"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   brifle_marksman_bolt_carbine   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               blueprintDataToMaster   =   0
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   1800
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   2600
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   2900
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   brifle_instigator_bolt_carbine   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionFirearm   =   {
+            blueprintDataToMaster   =   0
+            moneyCost   =   0
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicInstigatorBolt"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   brifle_bolt_sniper_rifle   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionFirearm   =   {
+            blueprintDataToMaster   =   0
+            moneyCost   =   0
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicBoltSniper"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   smg_bolt_carbine   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   40
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   40
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   60
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   60
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   60
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   60
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   90
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   90
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   90
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   90
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   smg_occulus_bolt_carbine   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   pwpn_plasma_exterminator   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   25
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   25
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   45
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   75
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   shotgun_meltagun   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   40
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   40
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   60
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   60
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   90
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   90
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   90
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hgun_bolt_pistol   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   15
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   15
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   35
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   35
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   65
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   65
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   65
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionFirearm   =   {
+            blueprintDataToMaster   =   0
+            moneyCost   =   0
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicBoltPistol"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hgun_death_watch_bolt_pistol   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               blueprintDataToMaster   =   0
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   1800
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   2600
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   2900
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hgun_heavy_bolt_pistol   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   75
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   75
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   75
+                  version   =   "02_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   95
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   95
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   95
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   125
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   125
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   125
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionFirearm   =   {
+            blueprintDataToMaster   =   0
+            moneyCost   =   0
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicHeavyBoltPistol"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hgun_plasma_pistol   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   40
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   40
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   60
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   60
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   90
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   90
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   90
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hgun_assault_bolter   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               blueprintDataToMaster   =   0
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   1800
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   2600
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   2900
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hwpn_las_fusil   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hwpn_story_heavy_bolter   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02_a"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   1800
+                  version   =   "02_d"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03_a"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04_a"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_d"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hwpn_story_plasma_incinerator   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hwpn_support_plasma_incinerator   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionFirearm   =   {
+            blueprintDataToMaster   =   0
+            moneyCost   =   0
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicPlasma"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hwpn_heavy_flamer   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               blueprintDataToMaster   =   0
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   1800
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   1800
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "02_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   2
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   2600
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   3
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   2900
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hwpn_story_heavy_meltagun   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hwpn_support_heavy_meltagun   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hgun_volkite_pistol   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   25
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   25
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   45
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   75
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   pc_helbrute_plasma_cannon   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hgun_inferno_pistol   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   25
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   25
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   45
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   75
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hwpn_pyroblaster   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   25
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   25
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   45
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   75
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   hwpn_pyrecannon   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               moneyCost   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionFirearm"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   25
+               version   =   "02"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   25
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   45
+               version   =   "03"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   75
+               version   =   "04"
+               __type   =   "WeaponVersionFirearm"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionFirearm"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+}
+meleeProgression   =   {
+   melee_firearm   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               blueprintDataToMaster   =   0
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   1800
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "02"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   2600
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "03"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   0
+            requiredBlueprintData   =   0
+            baseVersion   =   {
+               maxExperience   =   2900
+               blueprintDataToMaster   =   0
+               moneyCost   =   1
+               version   =   "04"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   melee_chainsword   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   25
+               version   =   "02"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   25
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   45
+               version   =   "03"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   45
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   75
+               version   =   "04"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   75
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionMelee   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicChainsword"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+         WeaponVersionMelee_a   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicChainsword"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05_a"
+            __type   =   "WeaponVersionMelee"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   melee_power_fist   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   40
+               version   =   "02"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   40
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   60
+               version   =   "03"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   60
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   60
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   90
+               version   =   "04"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   90
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   90
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionMelee   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicPowerFistGunStrikeMark"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+         WeaponVersionMelee_a   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicPowerFistGunStrikeMark"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05_a"
+            __type   =   "WeaponVersionMelee"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   melee_combat_knife   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   40
+               version   =   "02"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   40
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   60
+               version   =   "03"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   60
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   90
+               version   =   "04"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   90
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   90
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionMelee_1   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicCombatKnife_a"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05_a"
+            __type   =   "WeaponVersionMelee"
+         }
+         WeaponVersionMelee   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicCombatKnife"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   melee_power_sword   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionMelee   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicPowerSword"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+         WeaponVersionMelee_a   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicPowerSword"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05_a"
+            __type   =   "WeaponVersionMelee"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   melee_thunder_hammer   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   75
+               version   =   "02"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   75
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   75
+                  version   =   "02_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   95
+               version   =   "03"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   95
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   95
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   95
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   125
+               version   =   "04"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   125
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   125
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionMelee   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicThunderHammerShockZone"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+         WeaponVersionMelee_a   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicThunderHammerShockZone"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05_a"
+            __type   =   "WeaponVersionMelee"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   equipment_frag_grenade   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   equipment_krak_grenade   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   equipment_shock_grenade   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   equipment_melta_charge   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   melee_pc_helbrute_hammer   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   melee_power_axe   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   melee_power_halberd   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionMelee   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicHalberd"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+         WeaponVersionMelee_a   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicHalberd"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05_a"
+            __type   =   "WeaponVersionMelee"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+   melee_mod_1   =   {
+      tiers   =   {
+         COMMON   =   {
+            baseVersion   =   {
+               maxExperience   =   1300
+               version   =   "01"
+               __type   =   "WeaponVersionMelee"
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         MASTERCRAFTED   =   {
+            requiredExperience   =   1500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   1800
+               moneyCost   =   60
+               version   =   "02"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   1800
+                  moneyCost   =   60
+                  version   =   "02_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         ARTIFICER   =   {
+            requiredExperience   =   7500
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2600
+               moneyCost   =   80
+               version   =   "03"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2600
+                  moneyCost   =   80
+                  version   =   "03_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2600
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "03_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+         RELIC   =   {
+            requiredExperience   =   17000
+            requiredBlueprintData   =   1
+            baseVersion   =   {
+               maxExperience   =   2900
+               moneyCost   =   110
+               version   =   "04"
+               __type   =   "WeaponVersionMelee"
+            }
+            subVersions   =   {
+               sub_version_1   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_a"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_2   =   {
+                  maxExperience   =   2900
+                  moneyCost   =   110
+                  version   =   "04_b"
+                  __type   =   "WeaponVersionMelee"
+               }
+               sub_version_3   =   {
+                  maxExperience   =   2900
+                  blueprintDataToMaster   =   0
+                  moneyCost   =   1
+                  version   =   "04_c"
+                  __type   =   "WeaponVersionMelee"
+               }
+            }
+            __type   =   "WeaponMasteryTier"
+         }
+      }
+      heroicVersions   =   {
+         WeaponVersionMelee   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicThunderHammerShockZone"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05"
+         }
+         WeaponVersionMelee_a   =   {
+            honorShopLock   =   {
+               requiredItemUid   =   "HeroicThunderHammerShockZone"
+               __type   =   "HonorShopLockReason"
+            }
+            version   =   "05_a"
+            __type   =   "WeaponVersionMelee"
+         }
+      }
+      __type   =   "WeaponMasteryInfo"
+   }
+}
+__type   =   "object"

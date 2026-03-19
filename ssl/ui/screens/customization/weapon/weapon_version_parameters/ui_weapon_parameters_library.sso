@@ -1,0 +1,219 @@
+parameters   =   {
+   accuracy   =   {
+      __type   =   "UiWeaponVersionParameterAccuracy"
+   }
+   fireRate   =   {
+      __type   =   "UiWeaponVersionParameterFireRate"
+   }
+   firepower   =   {
+      __type   =   "UiWeaponVersionParameterFirepower"
+   }
+   magazine   =   {
+      __type   =   "UiWeaponVersionParameterMagazine"
+   }
+   piercing   =   {
+      __type   =   "UiWeaponVersionParameterPiercing"
+   }
+   reloadSpeed   =   {
+      __type   =   "UiWeaponVersionParameterReloadingSpeed"
+   }
+   defence   =   {
+      __type   =   "UiWeaponVersionParameterDefense"
+   }
+   strikePower   =   {
+      __type   =   "UiWeaponVersionParameterStrikePower"
+   }
+   strikeSpeed   =   {
+      __type   =   "UiWeaponVersionParameterStrikeSpeed"
+   }
+   control   =   {
+      __type   =   "UiWeaponVersionParameterControl"
+   }
+   cooling   =   {
+      __type   =   "UiWeaponVersionParameterCooling"
+   }
+   equip_area   =   {
+      __type   =   "UiWeaponVersionParameterEquipArea"
+   }
+   equip_power   =   {
+      __type   =   "UiWeaponVersionParameterEquipPower"
+   }
+   range   =   {
+      __type   =   "UiWeaponVersionParameterRange"
+   }
+   reserve   =   {
+      __type   =   "UiWeaponVersionParameterReserve"
+   }
+   charging_speed   =   {
+      __type   =   "UiWeaponVersionParameterChargingSpeed"
+   }
+   headshot_multiplier   =   {
+      __type   =   "UiWeaponVersionParameterHeadshotMultiplier"
+   }
+}
+firearmParametersLists   =   {
+   bolter   =   {
+      parametersOrder   =   [
+         "headshot_multiplier",
+         "firepower",
+         "accuracy",
+         "fireRate",
+         "reloadSpeed",
+         "piercing",
+         "range",
+         "magazine",
+         "reserve"
+      ]
+      matchedFirearms   =   [
+         "arifle_auto_bolt_rifle",
+         "arifle_bolt_rifle",
+         "arifle_death_watch_bolt_rifle",
+         "arifle_heavy_bolt_rifle",
+         "brifle_stalker_bolt_rifle",
+         "brifle_marksman_bolt_carbine",
+         "brifle_instigator_bolt_carbine",
+         "brifle_bolt_sniper_rifle",
+         "smg_bolt_carbine",
+         "smg_occulus_bolt_carbine",
+         "hgun_bolt_pistol",
+         "hgun_death_watch_bolt_pistol",
+         "hgun_heavy_bolt_pistol",
+         "hgun_assault_bolter",
+         "hgun_volkite_pistol"
+      ]
+      __type   =   "WeaponParametersList"
+   }
+   plasma   =   {
+      parametersOrder   =   [
+         "firepower",
+         "accuracy",
+         "fireRate",
+         "cooling",
+         "range",
+         "charging_speed",
+         "magazine"
+      ]
+      matchedFirearms   =   [
+         "pwpn_plasma_exterminator",
+         "hgun_plasma_pistol",
+         "hwpn_story_plasma_incinerator",
+         "hwpn_support_plasma_incinerator"
+      ]
+      __type   =   "WeaponParametersList"
+   }
+   heavy_bolter   =   {
+      parametersOrder   =   [
+         "headshot_multiplier",
+         "firepower",
+         "accuracy",
+         "fireRate",
+         "cooling",
+         "piercing",
+         "range",
+         "magazine"
+      ]
+      matchedFirearms   =   [
+         "hwpn_story_heavy_bolter",
+         "hwpn_support_heavy_bolter"
+      ]
+      __type   =   "WeaponParametersList"
+   }
+   melta   =   {
+      parametersOrder   =   [
+         "firepower",
+         "fireRate",
+         "reloadSpeed",
+         "piercing",
+         "range",
+         "magazine",
+         "reserve"
+      ]
+      matchedFirearms   =   [
+         "shotgun_meltagun",
+         "hgun_inferno_pistol"
+      ]
+      __type   =   "WeaponParametersList"
+   }
+   heavy_melta   =   {
+      parametersOrder   =   [
+         "firepower",
+         "fireRate",
+         "cooling",
+         "piercing",
+         "range",
+         "magazine"
+      ]
+      matchedFirearms   =   [
+         "hwpn_support_heavy_meltagun",
+         "hwpn_story_heavy_meltagun"
+      ]
+      __type   =   "WeaponParametersList"
+   }
+   las_fusil   =   {
+      parametersOrder   =   [
+         "headshot_multiplier",
+         "firepower",
+         "accuracy",
+         "charging_speed",
+         "piercing",
+         "range",
+         "magazine"
+      ]
+      matchedFirearms   =   [
+         "hwpn_las_fusil"
+      ]
+      __type   =   "WeaponParametersList"
+   }
+   pyro   =   {
+      parametersOrder   =   [
+         "firepower",
+         "fireRate",
+         "cooling",
+         "range",
+         "magazine"
+      ]
+      matchedFirearms   =   [
+         "hwpn_pyroblaster",
+         "hwpn_pyrecannon"
+      ]
+      __type   =   "WeaponParametersList"
+   }
+}
+abilityParametersLists   =   {
+   melee   =   {
+      parametersOrder   =   [
+         "strikePower",
+         "strikeSpeed",
+         "control",
+         "defence"
+      ]
+      isAbilityUids   =   True
+      matchedAbilities   =   [
+         "melee_combat_knife",
+         "melee_chainsword",
+         "melee_thunder_hammer",
+         "melee_power_fist",
+         "melee_power_sword",
+         "melee_power_axe",
+         "melee_power_halberd",
+         "melee_firearm",
+         "melee_mod_1"
+      ]
+      __type   =   "WeaponParametersList"
+   }
+   equipment   =   {
+      parametersOrder   =   [
+         "equip_power",
+         "equip_area"
+      ]
+      isAbilityUids   =   True
+      matchedAbilities   =   [
+         "equipment_frag_grenade",
+         "equipment_shock_grenade",
+         "equipment_krak_grenade",
+         "equipment_melta_charge"
+      ]
+      __type   =   "WeaponParametersList"
+   }
+}
+__type   =   "object"

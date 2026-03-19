@@ -1,0 +1,890 @@
+errorData   =   {
+   showBalanceIndicator   =   False
+   balancePercentage   =   50
+   description   =   "TECH_ERROR"
+   __type   =   "UiComboMovesMelee"
+}
+shield   =   {
+   showBalanceIndicator   =   False
+   description   =   "UI_COMBO_MOVE_COMBAT_SHIELD_DESC"
+   baseCombos   =   {
+      UiComboMoveSequence   =   {
+         comboName   =   "UI_COMBO_MOVE_COMBAT_SHIELD_1"
+         moves   =   [
+            {
+               icon   =   "NONE"
+               holdNeeded   =   True
+               textNeeded   =   True
+               text   =   "UI_COMBO_MOVE_COMBAT_SHIELD_1_DESC_1"
+               overrideDefaultMeleeInput   =   True
+               input   =   {
+                  inputLink   =   "Game.MeleeParry"
+                  __type   =   "InputLinkHold"
+               }
+            },
+            {
+               icon   =   "GUARD_BREAK"
+            }
+         ]
+      }
+      UiComboMoveSequence_1   =   {
+         comboName   =   "UI_COMBO_MOVE_COMBAT_SHIELD_3"
+         moves   =   [
+            {
+               icon   =   "NONE"
+               holdNeeded   =   True
+               textNeeded   =   True
+               text   =   "UI_COMBO_MOVE_COMBAT_SHIELD_3_DESC_1"
+               overrideDefaultMeleeInput   =   True
+               input   =   {
+                  inputLink   =   "Game.MeleeParry"
+                  __type   =   "InputLinkHold"
+               }
+            },
+            {
+               icon   =   "GUARD_BREAK"
+               holdNeeded   =   True
+            }
+         ]
+         __type   =   "UiComboMoveSequence"
+      }
+   }
+   shieldName   =   "UI_COMBO_MOVE_COMBAT_SHIELD_NAME"
+   __type   =   "UiComboMovesShield"
+}
+meleeWeapons   =   {
+   melee_chainsword   =   {
+      showBalanceIndicator   =   True
+      balancePercentage   =   40
+      description   =   "UI_COMBO_MOVE_CHAINSWORD_DESC"
+      baseCombos   =   {
+         UiComboMoveSequence   =   {
+            comboName   =   "UI_COMBO_MOVE_CHAINSWORD_1"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+               },
+               {
+               }
+            ]
+         }
+         UiComboMoveSequence_1   =   {
+            comboName   =   "UI_COMBO_MOVE_CHAINSWORD_2"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_2   =   {
+            comboName   =   "UI_COMBO_MOVE_CHAINSWORD_3"
+            moves   =   [
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_3   =   {
+            comboName   =   "UI_COMBO_MOVE_CHAINSWORD_4"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_4   =   {
+            comboName   =   "UI_COMBO_MOVE_CHAINSWORD_5"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_5   =   {
+            comboName   =   "UI_COMBO_MOVE_CHAINSWORD_6"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   False
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_COMMON_EVADING"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      __type   =   "UiComboMovesMelee"
+   }
+   melee_power_sword   =   {
+      description   =   "UI_COMBO_MOVE_POWER_SWORD_DESC"
+      baseCombos   =   {
+         UiComboMoveSequence   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_SWORD_1"
+            moves   =   [
+               {
+                  icon   =   "NONE"
+                  holdNeeded   =   True
+               }
+            ]
+         }
+         UiComboMoveSequence_1   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_SWORD_2"
+            moves   =   [
+               {
+                  icon   =   "NONE"
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_POWER_SWORD_2_DESC_1"
+                  overrideDefaultMeleeInput   =   True
+                  input   =   {
+                     __type   =   "null"
+                  }
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_2   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_SWORD_3"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+               },
+               {
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_3   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_SWORD_4"
+            moves   =   [
+               {
+                  icon   =   "NONE"
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_POWER_SWORD_4_DESC_1"
+                  overrideDefaultMeleeInput   =   True
+                  input   =   {
+                     __type   =   "null"
+                  }
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_4   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_SWORD_5"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_5   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_SWORD_6"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   False
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_COMMON_EVADING"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_6   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_SWORD_7"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_COMMON_MIDDLE_COMBO"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      uniqueAbilities   =   {
+         UiComboMoveSequence   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_SWORD_8"
+            moves   =   [
+               {
+               },
+               {
+                  icon   =   "NONE"
+                  holdNeeded   =   False
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_POWER_SWORD_7_DESC_1"
+                  overrideDefaultMeleeInput   =   True
+                  input   =   {
+                     __type   =   "null"
+                  }
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+               }
+            ]
+         }
+      }
+      __type   =   "UiComboMovesMelee"
+   }
+   melee_combat_knife   =   {
+      balancePercentage   =   20
+      description   =   "UI_COMBO_MOVE_COMBAT_KNIFE_DESC"
+      baseCombos   =   {
+         UiComboMoveSequence   =   {
+            comboName   =   "UI_COMBO_MOVE_COMBAT_KNIFE_1"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+               },
+               {
+               }
+            ]
+         }
+         UiComboMoveSequence_1   =   {
+            comboName   =   "UI_COMBO_MOVE_COMBAT_KNIFE_2"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               },
+               {
+               },
+               {
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_2   =   {
+            comboName   =   "UI_COMBO_MOVE_COMBAT_KNIFE_3"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_3   =   {
+            comboName   =   "UI_COMBO_MOVE_COMBAT_KNIFE_4"
+            moves   =   [
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_4   =   {
+            comboName   =   "UI_COMBO_MOVE_COMBAT_KNIFE_5"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_5   =   {
+            comboName   =   "UI_COMBO_MOVE_COMBAT_KNIFE_6"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_6   =   {
+            comboName   =   "UI_COMBO_MOVE_COMBAT_KNIFE_7"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   False
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_COMMON_EVADING"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      uniqueAbilities   =   {
+         UiComboMoveSequence   =   {
+            comboName   =   "UI_COMBO_MOVE_COMBAT_KNIFE_8"
+            moves   =   [
+               {
+                  icon   =   "NONE"
+                  holdNeeded   =   True
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_COMBAT_KNIFE_8_DESC_1"
+               }
+            ]
+         }
+      }
+      __type   =   "UiComboMovesMelee"
+   }
+   melee_firearm   =   {
+      balancePercentage   =   80
+      description   =   "UI_COMBO_MOVE_UNARMED_DESC"
+      baseCombos   =   {
+         UiComboMoveSequence   =   {
+            comboName   =   "UI_COMBO_MOVE_UNARMED_1"
+            moves   =   [
+               {
+               },
+               {
+               }
+            ]
+         }
+         UiComboMoveSequence_1   =   {
+            comboName   =   "UI_COMBO_MOVE_UNARMED_2"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_2   =   {
+            comboName   =   "UI_COMBO_MOVE_UNARMED_3"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_3   =   {
+            comboName   =   "UI_COMBO_MOVE_UNARMED_4"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   False
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_COMMON_EVADING"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      __type   =   "UiComboMovesMelee"
+   }
+   melee_thunder_hammer   =   {
+      balancePercentage   =   70
+      description   =   "UI_COMBO_MOVE_THUNDER_HAMMER_DESC"
+      baseCombos   =   {
+         UiComboMoveSequence   =   {
+            comboName   =   "UI_COMBO_MOVE_THUNDER_HAMMER_1"
+            moves   =   [
+               {
+               },
+               {
+               }
+            ]
+         }
+         UiComboMoveSequence_1   =   {
+            comboName   =   "UI_COMBO_MOVE_THUNDER_HAMMER_2"
+            moves   =   [
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_2   =   {
+            comboName   =   "UI_COMBO_MOVE_THUNDER_HAMMER_3"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   False
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_COMMON_EVADING"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      uniqueAbilities   =   {
+         UiComboMoveSequence   =   {
+            comboName   =   "UI_COMBO_MOVE_THUNDER_HAMMER_4"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+         }
+         UiComboMoveSequence_1   =   {
+            comboName   =   "UI_COMBO_MOVE_THUNDER_HAMMER_5"
+            moves   =   [
+               {
+                  icon   =   "NONE"
+                  holdNeeded   =   True
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_THUNDER_HAMMER_5_DESC_1"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      __type   =   "UiComboMovesMelee"
+   }
+   melee_power_fist   =   {
+      balancePercentage   =   60
+      description   =   "UI_COMBO_MOVE_POWER_FIST_DESC"
+      baseCombos   =   {
+         UiComboMoveSequence   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_FIST_1"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+               },
+               {
+               }
+            ]
+         }
+         UiComboMoveSequence_1   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_FIST_2"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_2   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_FIST_3"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_3   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_FIST_4"
+            moves   =   [
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_4   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_FIST_5"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_5   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_FIST_6"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_6   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_FIST_7"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+               },
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_7   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_FIST_8"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   False
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_COMMON_EVADING"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      uniqueAbilities   =   {
+         UiComboMoveSequence   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_FIST_9"
+            moves   =   [
+               {
+                  icon   =   "NONE"
+                  holdNeeded   =   True
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_POWER_FIST_9_DESC_1"
+               }
+            ]
+         }
+      }
+      __type   =   "UiComboMovesMelee"
+   }
+   none   =   {
+      showBalanceIndicator   =   False
+      __type   =   "UiComboMovesMelee"
+   }
+   melee_pc_helbrute_hammer   =   {
+      showBalanceIndicator   =   False
+      balancePercentage   =   100
+      description   =   "UI_COMBO_MOVE_HELBRUTE_DESC"
+      baseCombos   =   {
+         UiComboMoveSequence   =   {
+            comboName   =   "UI_COMBO_MOVE_HELBRUTE_1"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+               }
+            ]
+         }
+         UiComboMoveSequence_1   =   {
+            comboName   =   "UI_COMBO_MOVE_HELBRUTE_2"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      __type   =   "UiComboMovesMelee"
+   }
+   melee_power_axe   =   {
+      balancePercentage   =   37
+      description   =   "UI_COMBO_MOVE_POWERAXE_DESC"
+      baseCombos   =   {
+         BasicCombo   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_AXE_1"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+               },
+               {
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         Whirlwind   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_AXE_2"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_POWER_AXE_2_DESC"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         ChainedWhirlwind   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_AXE_3"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_POWER_AXE_2_DESC"
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         Overhead   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_AXE_4"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_COMMON_EVADING"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      uniqueAbilities   =   {
+         Stance   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_AXE_5"
+            moves   =   [
+               {
+                  icon   =   "NONE"
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_POWER_AXE_5_DESC"
+                  overrideDefaultMeleeInput   =   True
+                  input   =   {
+                     __type   =   "null"
+                  }
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         Backstep   =   {
+            comboName   =   "UI_COMBO_MOVE_POWER_AXE_6"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_POWER_AXE_6_DESC"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      __type   =   "UiComboMovesMelee"
+   }
+   melee_power_halberd   =   {
+      description   =   "UI_COMBO_MOVE_HALBERD_DESC"
+      baseCombos   =   {
+         BasicCombo   =   {
+            comboName   =   "UI_COMBO_MOVE_HALBERD_1"
+            moves   =   [
+               {
+               },
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         PowerBlast   =   {
+            comboName   =   "UI_COMBO_MOVE_HALBERD_2"
+            moves   =   [
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_HALBERD_2_DESC"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         Whirl_Sweep   =   {
+            comboName   =   "UI_COMBO_MOVE_HALBERD_3"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_COMMON_EVADING"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      uniqueAbilities   =   {
+         LungeRush   =   {
+            comboName   =   "UI_COMBO_MOVE_HALBERD_4"
+            moves   =   [
+               {
+                  holdNeeded   =   True
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_HALBERD_4_DESC"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         LungeStrike   =   {
+            comboName   =   "UI_COMBO_MOVE_HALBERD_5"
+            moves   =   [
+               {
+                  holdNeeded   =   True
+               },
+               {
+                  holdNeeded   =   False
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_HALBERD_5_DESC"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         Impaling   =   {
+            comboName   =   "UI_COMBO_MOVE_HALBERD_6"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_HALBERD_6_DESC"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      __type   =   "UiComboMovesMelee"
+   }
+   melee_mod_1   =   {
+      balancePercentage   =   70
+      description   =   "UI_COMBO_MOVE_THUNDER_HAMMER_DESC"
+      baseCombos   =   {
+         UiComboMoveSequence   =   {
+            comboName   =   "UI_COMBO_MOVE_THUNDER_HAMMER_1"
+            moves   =   [
+               {
+               },
+               {
+               }
+            ]
+         }
+         UiComboMoveSequence_1   =   {
+            comboName   =   "UI_COMBO_MOVE_THUNDER_HAMMER_2"
+            moves   =   [
+               {
+               },
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+         UiComboMoveSequence_2   =   {
+            comboName   =   "UI_COMBO_MOVE_THUNDER_HAMMER_3"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   False
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_COMMON_EVADING"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      uniqueAbilities   =   {
+         UiComboMoveSequence   =   {
+            comboName   =   "UI_COMBO_MOVE_THUNDER_HAMMER_4"
+            moves   =   [
+               {
+                  icon   =   "GUARD_BREAK"
+                  holdNeeded   =   True
+               }
+            ]
+         }
+         UiComboMoveSequence_1   =   {
+            comboName   =   "UI_COMBO_MOVE_THUNDER_HAMMER_5"
+            moves   =   [
+               {
+                  icon   =   "NONE"
+                  holdNeeded   =   True
+                  textNeeded   =   True
+                  text   =   "UI_COMBO_MOVE_THUNDER_HAMMER_5_DESC_1"
+               }
+            ]
+            __type   =   "UiComboMoveSequence"
+         }
+      }
+      __type   =   "UiComboMovesMelee"
+   }
+}
+__type   =   "object"

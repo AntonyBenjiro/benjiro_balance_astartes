@@ -1,6 +1,5 @@
-/.idea/
 *.resource
 *.sslbin
 *.sdc
-*.tpl
 shader_cache/
+*.tpl

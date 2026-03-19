@@ -1429,7 +1429,7 @@ abilities   =   {
             activationThreshold   =   15
             regenerationRules   =   {
                TimerRegen   =   {
-                  recoverSpeed   =   1.4
+                  recoverSpeed   =   2.8
                   ticksPerSec   =   20
                   __type   =   "EnergyTimerRegen"
                }
@@ -1466,7 +1466,7 @@ abilities   =   {
             activationThreshold   =   15
             regenerationRules   =   {
                TimerRegen   =   {
-                  recoverSpeed   =   1.2
+                  recoverSpeed   =   2.4
                   ticksPerSec   =   20
                   __type   =   "EnergyTimerRegen"
                }
@@ -1503,15 +1503,15 @@ abilities   =   {
             __type   =   "AbilityResourceEnergy"
          }
          energySettings   =   {
-			settingsType   =   "PERCENT"
-			maxCharges   =   1
+            settingsType   =   "PERCENT"
+            maxCharges   =   1
             startingCharges   =   1
             activationCost   =   15
-			deactivationCost   =   0
+            deactivationCost   =   0
             activationThreshold   =   15
             regenerationRules   =   {
                TimerRegen   =   {
-                  recoverSpeed   =   1.2
+                  recoverSpeed   =   2.4
                   ticksPerSec   =   20
                   __type   =   "EnergyTimerRegen"
                }
@@ -1690,7 +1690,7 @@ abilities   =   {
             activationThreshold   =   15
             regenerationRules   =   {
                TimerRegen   =   {
-                  recoverSpeed   =   1.4
+                  recoverSpeed   =   2.8
                   ticksPerSec   =   20
                   __type   =   "EnergyTimerRegen"
                }
@@ -1727,7 +1727,7 @@ abilities   =   {
             activationThreshold   =   15
             regenerationRules   =   {
                TimerRegen   =   {
-                  recoverSpeed   =   1.2
+                  recoverSpeed   =   2.4
                   ticksPerSec   =   20
                   __type   =   "EnergyTimerRegen"
                }
@@ -1764,7 +1764,7 @@ abilities   =   {
             activationThreshold   =   15
             regenerationRules   =   {
                TimerRegen   =   {
-                  recoverSpeed   =   1.2
+                  recoverSpeed   =   2.4
                   ticksPerSec   =   20
                   __type   =   "EnergyTimerRegen"
                }
@@ -2462,7 +2462,6 @@ abilities   =   {
                               10,
                               2
                            ]
-                           includeMaterials   =   [  ]
                            __type   =   "NavMaterialFilterInfo"
                         }
                         __type   =   "NavMaterialFilterInfoRefParam"
@@ -2527,6 +2526,14 @@ abilities   =   {
          __type   =   "AbilityControllerDescGear"
       }
       __type   =   "AbilityDescDefault"
+   }
+   melee_mod_1   =   {
+      slot   =   "MELEE"
+      controllerDesc   =   {
+         meleeDescLink   =   "MeleeModDesc1"
+         __type   =   "AbilityControllerDescMelee"
+      }
+      __type   =   "AbilityMeleeDesc"
    }
 }
 __type   =   "object"
