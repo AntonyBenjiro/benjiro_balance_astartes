@@ -507,6 +507,32 @@ weapons   =   {
                      }
                   }
                   cost   =   0
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_ch_pa"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_ch_pa"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "01_ch_pa"
+                     }
+                  }
+                  cost   =   0
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_ch_pa_iron_warriors"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_ch_pa_iron_warriors"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "01_ch_pa_iron_warriors"
+                     }
+                  }
+                  cost   =   0
                }
             ]
             __type   =   "WeaponAppearanceTier"
@@ -1918,7 +1944,8 @@ weapons   =   {
                      "04",
                      "04_a",
                      "04_b",
-                     "04_c"
+                     "04_c",
+                     "05"
                   ]
                },
                {
@@ -5817,6 +5844,17 @@ weapons   =   {
                      NPC_LOYALIST   =   {
                      }
                   }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "small_hammer_01"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "small_hammer_01"   
+                     }	
+                  }
+                  type   =   "DLC"
+                  cost   =   0
                }
             ]
             __type   =   "WeaponAppearanceTier"
@@ -5833,6 +5871,17 @@ weapons   =   {
                      NPC_LOYALIST   =   {
                      }
                   }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "small_hammer_mastercrafted_01"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "small_hammer_mastercrafted_01"
+                     }					 
+                  }
+                  type   =   "DLC"
+                  cost   =   0
                }
             ]
             __type   =   "WeaponAppearanceTier"
@@ -5858,6 +5907,17 @@ weapons   =   {
                         __value   =   "03_a"
                      }
                   }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "small_hammer_artificer_01"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "small_hammer_artificer_01"
+                     }					 
+                  }
+                  type   =   "DLC"
+                  cost   =   0
                }
             ]
             __type   =   "WeaponAppearanceTier"
@@ -5961,6 +6021,62 @@ weapons   =   {
                   }
                   type   =   "DLC"
                   cost   =   0
+               },
+			   {
+                  lib   =   "MELEE"
+                  packUid   =   "small_hammer_relic_01"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "small_hammer_relic_01"
+                     }					 
+                  }
+                  type   =   "DLC"
+                  cost   =   0
+               },						 
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "small_hammer_01_challenge_01"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "small_hammer_01_challenge_01"
+                     }
+                  }
+                  honorShopLock   =   {
+                     requiredItemUid   =   "HeroicThunderHammerShockZone"
+                     __type   =   "HonorShopLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "small_hammer_librarium_01"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "small_hammer_librarium_01"
+                     }
+                  }
+                  researchCenterRewardLock   =   {
+                     category   =   "THOUSAND_SONS"
+                     rewardUid   =   "item_sons"
+                     __type   =   "ResearchCenterRewardLockReason"
+                  }
+                  cost   =   0
+                  currency   =   "COMMON_CREDITS"
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "small_hammer_space_wolves_01"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "small_hammer_space_wolves_01"
+                     }
+                     NPC_LOYALIST   =   {   
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "SEASON_5_SPACE_WOLVES"
+                     __type   =   "DlcLockReason"
+                  }
                }
             ]
             __type   =   "WeaponAppearanceTier"

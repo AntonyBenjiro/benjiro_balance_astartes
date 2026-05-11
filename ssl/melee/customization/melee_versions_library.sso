@@ -965,6 +965,34 @@ versions   =   {
          {
             versionUid   =   "space_wolves"
             skinUid   =   "space_wolves"
+         },
+         {
+            versionUid   =   "small_hammer_01"
+            skinUid   =   "small_hammer_01"
+         },
+         {
+            versionUid   =   "small_hammer_mastercrafted_01"
+            skinUid   =   "small_hammer_mastercrafted_01"
+         },
+         {
+            versionUid   =   "small_hammer_artificer_01"
+            skinUid   =   "small_hammer_artificer_01"
+         },
+         {
+            versionUid   =   "small_hammer_relic_01"
+            skinUid   =   "small_hammer_relic_01"
+         },
+         {
+            versionUid   =   "small_hammer_librarium_01"
+            skinUid   =   "small_hammer_librarium_01"
+         },
+         {
+            versionUid   =   "small_hammer_01_challenge_01"
+            skinUid   =   "small_hammer_01_challenge_01"
+         },
+         {
+            versionUid   =   "small_hammer_space_wolves_01"
+            skinUid   =   "small_hammer_space_wolves_01"
          }
       ]
    }

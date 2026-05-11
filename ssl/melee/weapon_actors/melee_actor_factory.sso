@@ -6881,6 +6881,157 @@ actorDescs   =   {
       }
       __type   =   "WpnMeleeActorDesc"
    }
+   small_hammer_01   =   {
+      type   =   {
+         properties   =   {
+            geom   =   {
+               nameTpl   =   "wpn_small_hammer_01"
+            }
+         }
+         __type   =   "wpn_melee_power_axe"
+      }
+      __type   =   "WpnMeleeActorDesc"
+   }
+   small_hammer_mastercrafted_01   =   {
+      type   =   {
+         properties   =   {
+            geom   =   {
+               nameTpl   =   "wpn_small_hammer_01"
+            }
+         }
+         __type   =   "wpn_melee_power_axe"
+      }
+      __type   =   "WpnMeleeActorDesc"
+   }
+   small_hammer_artificer_01   =   {
+      type   =   {
+         properties   =   {
+            geom   =   {
+               nameTpl   =   "wpn_small_hammer_artificer_01"
+            }
+         }
+         __type   =   "wpn_melee_power_axe"
+      }
+      __type   =   "WpnMeleeActorDesc"
+   }
+   small_hammer_relic_01   =   {
+      type   =   {
+         properties   =   {
+            geom   =   {
+               nameTpl   =   "wpn_small_hammer_relic_01"
+            }
+         }
+         __type   =   "wpn_melee_power_axe"
+      }
+      __type   =   "WpnMeleeActorDesc"
+   }
+   small_hammer_librarium_01   =   {
+      type   =   {
+         properties   =   {
+            geom   =   {
+               nameTpl   =   "wpn_small_hammer_librarium_01"
+            }
+            prop_phys_jiggle   =   {
+               physJiggle   =   {
+                  objectsSettings   =   {
+                     trinket   =   {
+                        __value   =   [
+                           {
+                              name   =   "trinket_01"
+                              stiffness   =   25
+                              mass   =   1
+                              damping   =   10
+                              gravity   =   -3.5
+                              offsetDirection   =   {
+                                 x   =   0
+                                 y   =   -0.2
+                                 z   =   0
+                                 __type   =   "Vector3d"
+                              }
+                              offsetDistance   =   0.05
+                              constraintMin   =   {
+                                 x   =   -2
+                                 y   =   -3
+                                 z   =   -0.7
+                                 __type   =   "Vector3d"
+                              }
+                              constraintMax   =   {
+                                 x   =   1.5
+                                 y   =   0.5
+                                 z   =   1.5
+                                 __type   =   "Vector3d"
+                              }
+                           }
+                        ]
+                     }
+                  }
+                  __type   =   "PhysJiggle"
+               }
+            }
+         }
+         __type   =   "wpn_melee_power_axe"
+      }
+      __type   =   "WpnMeleeActorDesc"
+   }
+   small_hammer_space_wolves_01   =   {
+      type   =   {
+         properties   =   {
+            geom   =   {
+               nameTpl   =   "wpn_small_hammer_space_wolves_01"
+            }
+            prop_phys_jiggle   =   {
+               physJiggle   =   {
+                  objectsSettings   =   {
+                     trinket   =   {
+                        __value   =   [
+                           {
+                              name   =   "trinket_01"
+                              stiffness   =   25
+                              mass   =   1
+                              damping   =   10
+                              gravity   =   -3.5
+                              offsetDirection   =   {
+                                 x   =   0
+                                 y   =   -0.2
+                                 z   =   0
+                                 __type   =   "Vector3d"
+                              }
+                              offsetDistance   =   0.05
+                              constraintMin   =   {
+                                 x   =   -2
+                                 y   =   -3
+                                 z   =   -0.7
+                                 __type   =   "Vector3d"
+                              }
+                              constraintMax   =   {
+                                 x   =   1.5
+                                 y   =   0.5
+                                 z   =   1.5
+                                 __type   =   "Vector3d"
+                              }
+                           }
+                        ]
+                     }
+                  }
+                  __type   =   "PhysJiggle"
+               }
+            }
+         }
+         __type   =   "wpn_melee_power_axe"
+      }
+      __type   =   "WpnMeleeActorDesc"
+   }
+   small_hammer_01_challenge_01   =   {
+      type   =   {
+         properties   =   {
+            geom   =   {
+               nameTpl   =   "wpn_small_hammer_01_challenge_01"
+            }
+         }
+         __type   =   "wpn_melee_power_axe"
+      }
+      __type   =   "WpnMeleeActorDesc"
+   }   
    power_halberd   =   {
       type   =   {
          __type   =   "wpn_melee_power_halberd"

@@ -18169,6 +18169,18 @@ categories   =   {
                         abilityDescriptionUid   =   "ability_shoulder_gun_bolter"
                         __type   =   "PerkTriggerUseAbility"
                      }
+                     PerkTriggerUseAbility_3   =   {
+                        abilityDescriptionUid   =   "ability_shoulder_gun_bolter_zone_aiming"
+                        __type   =   "PerkTriggerUseAbility"
+                     }
+                     PerkTriggerUseAbility_4   =   {
+                        abilityDescriptionUid   =   "ability_shoulder_gun_plasma_zone_aiming"
+                        __type   =   "PerkTriggerUseAbility"
+                     }
+                     PerkTriggerUseAbility_5   =   {
+                        abilityDescriptionUid   =   "ability_shoulder_gun_sniper_zone_aiming"
+                        __type   =   "PerkTriggerUseAbility"
+                     }
                   }
                   __type   =   "PerkTriggerComposite"
                }
@@ -18247,8 +18259,15 @@ categories   =   {
                      }
                      __type   =   "PerkTriggerComposite"
                   }
-                  delayTime   =   0.1
+                  delayTime   =   1
                   __type   =   "PerkTriggerDelay"
+               }
+               activationController   =   {
+                  cooldown   =   {
+                     cooldownTime   =   90
+                     __type   =   "PerkCooldown"
+                  }
+                  __type   =   "PerkActivationControllerBinary"
                }
                application   =   {
                   perkLink   =   "PveEngineerRestoreEnergyAtEndOfAbility"
@@ -19143,43 +19162,62 @@ categories   =   {
          PveEngineerRestoreEnergyAtEndOfAbility   =   {
             type   =   {
                activationTrigger   =   {
-                  triggers   =   {
-                     PerkTriggerAbilityTagBolter   =   {
-                        shouldTriggerOnTagRemoved   =   True
-                        abilityUid   =   "ability_shoulder_gun_bolter"
-                        __type   =   "PerkTriggerAbilityTags"
+                  perkTrigger   =   {
+                     triggers   =   {
+                        PerkTriggerAbilityTagBolter   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_bolter"
+                           __type   =   "PerkTriggerAbilityTags"
+                        }
+                        PerkTriggerAbilityTagPlasma   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_plasma"
+                           __type   =   "PerkTriggerAbilityTags"
+                        }
+                        PerkTriggerAbilityTagSniper   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_sniper"
+                           __type   =   "PerkTriggerAbilityTags"
+                        }
+                        PerkTriggerAbilityTagBolterZoneAiming   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_bolter_zone_aiming"
+                           __type   =   "PerkTriggerAbilityTags"
+                        }
+                        PerkTriggerAbilityTagPlasmaZoneAiming   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_plasma_zone_aiming"
+                           __type   =   "PerkTriggerAbilityTags"
+                        }
+                        PerkTriggerAbilityTagSniperZoneAiming   =   {
+                           shouldTriggerOnTagRemoved   =   True
+                           abilityUid   =   "ability_shoulder_gun_sniper_zone_aiming"
+                           __type   =   "PerkTriggerAbilityTags"
+                        }
+                        PerkTriggerCondition   =   {
+                           condition   =   {
+                              condition   =   {
+                                 abilityProvider   =   {
+                                    shouldCheckSlot   =   True
+                                    abilitySlot   =   "ULTIMATE"
+                                    __type   =   "AbilityProvider"
+                                 }
+                                 compareType   =   "SMALLER"
+                                 energyPercent   =   1
+                                 needCheckOnAttach   =   True
+                                 __type   =   "ConditionAbilityState"
+                              }
+                              __type   =   "ConditionTriggerHolder"
+                           }
+                        }
                      }
-                     PerkTriggerAbilityTagPlasma   =   {
-                        shouldTriggerOnTagRemoved   =   True
-                        abilityUid   =   "ability_shoulder_gun_plasma"
-                        __type   =   "PerkTriggerAbilityTags"
-                     }
-                     PerkTriggerAbilityTagSniper   =   {
-                        shouldTriggerOnTagRemoved   =   True
-                        abilityUid   =   "ability_shoulder_gun_sniper"
-                        __type   =   "PerkTriggerAbilityTags"
-                     }
-                     PerkTriggerAbilityTagBolterZoneAiming   =   {
-                        shouldTriggerOnTagRemoved   =   True
-                        abilityUid   =   "ability_shoulder_gun_bolter_zone_aiming"
-                        __type   =   "PerkTriggerAbilityTags"
-                     }
-                     PerkTriggerAbilityTagPlasmaZoneAiming   =   {
-                        shouldTriggerOnTagRemoved   =   True
-                        abilityUid   =   "ability_shoulder_gun_plasma_zone_aiming"
-                        __type   =   "PerkTriggerAbilityTags"
-                     }
-                     PerkTriggerAbilityTagSniperZoneAiming   =   {
-                        shouldTriggerOnTagRemoved   =   True
-                        abilityUid   =   "ability_shoulder_gun_sniper_zone_aiming"
-                        __type   =   "PerkTriggerAbilityTags"
-                     }
+                     __type   =   "PerkTriggerComposite"
                   }
-                  __type   =   "PerkTriggerComposite"
+                  delayTime   =   0.1
+                  __type   =   "PerkTriggerDelay"
                }
                application   =   {
                   abilitySlot   =   "ULTIMATE"
-                  restorePercents   =   100
                   canRestoreWhenAbilityActive   =   True
                   shouldCalculatePercentByCharge   =   True
                   __type   =   "PerkApplicationRestoreAbilityEnergy"
@@ -22385,27 +22423,41 @@ categories   =   {
          PveMeleePowerHalberdLungeRushDamageStack   =   {
             type   =   {
                activationTrigger   =   {
-                  hitConditionPropDiagramRootX   =   181
-                  hitConditionPropDiagramRootY   =   -39
+                  hitConditionPropDiagramRootX   =   335.1053
+                  hitConditionPropDiagramRootY   =   -108.3158
                   hitCondition   =   {
-                     strikeUids   =   [
-                        "ThrustLunge",
-                        "ImpalingStrike_Stacks0",
-                        "ImpalingStrike_Stacks1",
-                        "ImpalingStrike_Stacks2",
-                        "ImpalingStrike_Stacks3"
-                     ]
-                     __type   =   "HitConditionMeleeStrike"
+                     pdNodePosX   =   167
+                     pdNodePosY   =   -76
+                     conditions   =   {
+                        hitCondition_1   =   {
+                           pdNodePosX   =   -55
+                           pdNodePosY   =   -129
+                           damageTypes   =   [
+                              "dmg_type_melee"
+                           ]
+                           __type   =   "HitConditionDmgTypes"
+                        }
+                        hitCondition   =   {
+                           pdNodePosX   =   -58
+                           pdNodePosY   =   33
+                           strikeUids   =   [
+                              "ThrustLunge",
+                              "ImpalingStrike_Stacks0",
+                              "ImpalingStrike_Stacks1",
+                              "ImpalingStrike_Stacks2",
+                              "ImpalingStrike_Stacks3"
+                           ]
+                           __type   =   "HitConditionMeleeStrike"
+                        }
+                     }
+                     __type   =   "HitConditionCompositeAnd"
                   }
-                  shouldTriggerAfterDealDamage   =   True
+                  shouldTriggerAfterDealDamage   =   False
                   __type   =   "PerkTriggerHitActor"
                }
                activationController   =   {
-                  cooldown   =   {
-                     cooldownTime   =   0.1
-                     __type   =   "PerkCooldown"
-                  }
                   delayedResetSec   =   4
+                  shouldIgnoreActivationTriggerIfActive   =   False
                   __type   =   "PerkActivationControllerBinary"
                }
                application   =   {
@@ -22414,11 +22466,11 @@ categories   =   {
                         type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
                         bonus   =   10
                         applyType   =   "PERCENT_SUM"
-                        isExclusive   =   True
+                        isExclusive   =   False
                      }
                   ]
                   maxMultiplier   =   10
-                  isResetMultiplierAfterDelay   =   True
+                  isResetMultiplierAfterDelay   =   False
                   resetMultiplierDelay   =   4
                   shouldCheckCurrentStrike   =   True
                   strikes   =   [
@@ -22428,6 +22480,7 @@ categories   =   {
                      "ImpalingStrike_Stacks2",
                      "ImpalingStrike_Stacks3"
                   ]
+                  shouldTriggerOncePerStrike   =   False
                   __type   =   "PerkApplicationAccumulateModifersByMeleeStrike"
                }
                perkVisualizationType   =   "MELEE_BOOST"
@@ -28223,6 +28276,34 @@ categories   =   {
                         abilityDescriptionUid   =   "ability_threatening_battle_cry"
                         __type   =   "PerkTriggerUseAbility"
                      }
+                     PerkTriggerUseAbility_9   =   {
+                        abilityDescriptionUid   =   "ability_shoulder_gun_bolter"
+                        __type   =   "PerkTriggerUseAbility"
+                     }
+                     PerkTriggerUseAbility_10   =   {
+                        abilityDescriptionUid   =   "ability_shoulder_gun_plasma"
+                        __type   =   "PerkTriggerUseAbility"
+                     }
+                     PerkTriggerUseAbility_11   =   {
+                        abilityDescriptionUid   =   "ability_shoulder_gun_sniper"
+                        __type   =   "PerkTriggerUseAbility"
+                     }
+                     PerkTriggerUseAbility_12   =   {
+                        abilityDescriptionUid   =   "ability_shoulder_gun_bolter_zone_aiming"
+                        __type   =   "PerkTriggerUseAbility"
+                     }
+                     PerkTriggerUseAbility_13   =   {
+                        abilityDescriptionUid   =   "ability_shoulder_gun_plasma_zone_aiming"
+                        __type   =   "PerkTriggerUseAbility"
+                     }
+                     PerkTriggerUseAbility_14   =   {
+                        abilityDescriptionUid   =   "ability_shoulder_gun_sniper_zone_aiming"
+                        __type   =   "PerkTriggerUseAbility"
+                     }
+                     PerkTriggerUseAbility_15   =   {
+                        abilityDescriptionUid   =   "ultimate_mod_1"
+                        __type   =   "PerkTriggerUseAbility"
+                     }
                   }
                   __type   =   "PerkTriggerComposite"
                }
@@ -29723,7 +29804,9 @@ categories   =   {
                application   =   {
                   permanentModifiers   =   [
                      {
-                        type   =   "SCALE_MELEE_DAMAGE_TO_CHAOS"
+                        type   =   "SCALE_GUN_STRIKE_DAMAGE"
+                        bonus   =   13
+                        applyType   =   "PERCENT_SUM"
                      }
                   ]
                   __type   =   "PerkApplicationModifiers"
@@ -34596,7 +34679,7 @@ categories   =   {
                   ]
                   __type   =   "PerkApplicationModifiers"
                }
-               perkVisualizationType   =   "WPN_DMG_BOOST"
+               perkVisualizationType   =   "MELEE_BOOST"
                __type   =   "PerkServer"
             }
             __type   =   "PerkDesc"
@@ -34843,37 +34926,6 @@ categories   =   {
             }
             __type   =   "PerkDesc"
          }
-         PveMutatorDropCursedRelicOnIncap   =   {
-            type   =   {
-               activationTrigger   =   {
-                  inventoryItemUid   =   "mutator_cursed_relic"
-                  __type   =   "PerkTriggerLostInventoryItem"
-               }
-               activationController   =   {
-                  delayedResetSec   =   0.1
-                  __type   =   "PerkActivationControllerBinary"
-               }
-               application   =   {
-                  actorDesc   =   {
-                     type   =   {
-                        __type   =   "pickup_collectible_mutator_cursed_relic_server"
-                     }
-                     __type   =   "LootableObjectServerDesc"
-                  }
-                  spawnOffset   =   {
-                     z   =   1
-                     __type   =   "Vector3d"
-                  }
-                  damageAmountModifierStack   =   {
-                     ownerModifierTypes   =   [  ]
-                     __type   =   "ModifiersStack"
-                  }
-                  __type   =   "PerkApplicationSpawnActor"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
          PveMutatorCursedRelicDebuff   =   {
             type   =   {
                activationTrigger   =   {
@@ -34945,37 +34997,6 @@ categories   =   {
                      __type   =   "InventoryItemUnit"
                   }
                   __type   =   "PerkApplicationAddInventoryItem"
-               }
-               __type   =   "PerkServer"
-            }
-            __type   =   "PerkDesc"
-         }
-         PveMutatorDropHallowedRelic   =   {
-            type   =   {
-               activationTrigger   =   {
-                  inventoryItemUid   =   "mutator_hallowed_relic"
-                  __type   =   "PerkTriggerLostInventoryItem"
-               }
-               activationController   =   {
-                  delayedResetSec   =   0.1
-                  __type   =   "PerkActivationControllerBinary"
-               }
-               application   =   {
-                  actorDesc   =   {
-                     type   =   {
-                        __type   =   "pickup_collectible_mutator_hallowed_relic_server"
-                     }
-                     __type   =   "LootableObjectServerDesc"
-                  }
-                  spawnOffset   =   {
-                     z   =   1
-                     __type   =   "Vector3d"
-                  }
-                  damageAmountModifierStack   =   {
-                     ownerModifierTypes   =   [  ]
-                     __type   =   "ModifiersStack"
-                  }
-                  __type   =   "PerkApplicationSpawnActor"
                }
                __type   =   "PerkServer"
             }

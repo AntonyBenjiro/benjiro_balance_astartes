@@ -276,14 +276,14 @@ meleeActors   =   {
             meleeActorOverride   =   "chainsword_blood_angels_01"
             __type   =   "MeleeSkinDescription"
          }
-         "01_ch_pa"   =   {
+		 "01_ch_pa"   =   {
             meleeActorOverride   =   "power_axe_chaos_CS"
             __type   =   "MeleeSkinDescription"
          }
          "01_ch_pa_iron_warriors"   =   {
-            material   =   "IRON_WARRIOR"
+         	material   =   "IRON_WARRIOR"
             meleeActorOverride   =   "power_axe_chaos_CS"
-            hackShouldAvoidGeomFiltration   =   True
+			hackShouldAvoidGeomFiltration   =   True
             __type   =   "MeleeSkinDescription"
          }
          chainaxe   =   {
@@ -318,7 +318,7 @@ meleeActors   =   {
             __type   =   "MeleeSkinDescription"
          }
          space_wolves   =   {
-            material   =   "space_wolves"
+			material   =   "space_wolves"
             geomCustomizerRegions   =   [
                "chainsword"
             ]
@@ -652,6 +652,36 @@ meleeActors   =   {
          space_wolves   =   {
             material   =   "space_wolves"
             meleeActorOverride   =   "power_axe_01_artificer_02"
+            __type   =   "MeleeSkinDescription"
+         }
+		 small_hammer_01   =   {
+            meleeActorOverride   =   "small_hammer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+		 small_hammer_mastercrafted_01   =   {
+            material   =   "mastercrafted"
+            meleeActorOverride   =   "small_hammer_01"
+            hackShouldAvoidGeomFiltration   =   True
+            __type   =   "MeleeSkinDescription"
+         }
+		 small_hammer_artificer_01   =   {
+            meleeActorOverride   =   "small_hammer_artificer_01"
+            __type   =   "MeleeSkinDescription"
+         }
+		 small_hammer_relic_01   =   {
+            meleeActorOverride   =   "small_hammer_relic_01"
+            __type   =   "MeleeSkinDescription"
+         }
+		 small_hammer_librarium_01   =   {
+            meleeActorOverride   =   "small_hammer_librarium_01"
+            __type   =   "MeleeSkinDescription"
+         }
+		 small_hammer_01_challenge_01   =   {
+            meleeActorOverride   =   "small_hammer_01_challenge_01"
+            __type   =   "MeleeSkinDescription"
+         }
+		 small_hammer_space_wolves_01   =   {
+            meleeActorOverride   =   "small_hammer_space_wolves_01"
             __type   =   "MeleeSkinDescription"
          }
       }

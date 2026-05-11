@@ -2026,6 +2026,41 @@ meleeData   =   {
             descUid   =   "UI_WEAPON_SKIN_SPACE_WOLVES_DESC"
             __type   =   "MeleeUiSkinData"
          }
+		 small_hammer_01   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_01_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_01_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+		 small_hammer_mastercrafted_01   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_01_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_01_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+		 small_hammer_artificer_01   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_03_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_03_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+		 small_hammer_relic_01   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_04_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_04_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+		 small_hammer_librarium_01   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_LIBRARIUM_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_LIBRARIUM_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
+		 small_hammer_01_challenge_01   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_05_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_05_NAME"
+            __type   =   "MeleeUiSkinData"
+         }		 
+		 small_hammer_space_wolves_01   =   {
+            nameUid   =   "UI_ABILITY_THUNDER_HAMMER_SPACE_WOLVES_NAME"
+            descUid   =   "UI_ABILITY_THUNDER_HAMMER_SPACE_WOLVES_DESC"
+            __type   =   "MeleeUiSkinData"
+         }
       }
       __type   =   "MeleeUiData"
    }

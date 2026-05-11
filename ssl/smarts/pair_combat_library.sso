@@ -1010,24 +1010,7 @@ executorsInfo   =   {
                      __type   =   "AnimTableLink"
                   }
                   __type   =   "PairCombatDesc"
-               }
-               ChainswordSafe1   =   {
-                  isSafe   =   True
-                  cinematicDescLink   =   "primaris_vs_tyr_war_ranged_chainsword_safe_1"
-                  requiredMeleeUids   =   [
-                     "MeleeChainswordDesc",
-                     "MeleeBotChainswordDesc"
-                  ]
-                  reservedSlots   =   [
-                     "left_hand"
-                  ]
-                  isDefaultSlotsReserved   =   False
-                  combatExecutorAnim   =   {
-                     link   =   "Primaris.Finisher.ExecutorForTWRangedChainswordSafe1"
-                     __type   =   "AnimTableLink"
-                  }
-                  __type   =   "PairCombatDesc"
-               }
+               }               
                ChainswordSafe2   =   {
                   isSafe   =   True
                   cinematicDescLink   =   "primaris_vs_tyr_war_ranged_chainsword_safe_2"
@@ -2006,39 +1989,7 @@ executorsInfo   =   {
                      __type   =   "AnimTableLink"
                   }
                   __type   =   "PairCombatDesc"
-               }
-               ChainSword1   =   {
-                  isSafe   =   True
-                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_chainsword_1"
-                  requiredMeleeUids   =   [
-                     "MeleeChainswordDesc"
-                  ]
-                  reservedSlots   =   [
-                     "left_hand"
-                  ]
-                  isDefaultSlotsReserved   =   False
-                  combatExecutorAnim   =   {
-                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanChainswordSafe1"
-                     __type   =   "AnimTableLink"
-                  }
-                  __type   =   "PairCombatDesc"
-               }
-               ChainSword2   =   {
-                  isSafe   =   True
-                  cinematicDescLink   =   "primaris_vs_tzaangor_spearman_chainsword_2"
-                  requiredMeleeUids   =   [
-                     "MeleeChainswordDesc"
-                  ]
-                  reservedSlots   =   [
-                     "left_hand"
-                  ]
-                  isDefaultSlotsReserved   =   False
-                  combatExecutorAnim   =   {
-                     link   =   "Primaris.Finisher.ExecutorForTzaangorSpearmanChainswordSafe2"
-                     __type   =   "AnimTableLink"
-                  }
-                  __type   =   "PairCombatDesc"
-               }
+               }                            
                PowerSword1   =   {
                   isSafe   =   True
                   cinematicDescLink   =   "primaris_vs_tzaangor_spearman_powersword_1"
